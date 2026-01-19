@@ -1,0 +1,1393 @@
+{
+    "Introduction to Machine Learning": {
+      "questions": [
+        {
+          "question": "What is the primary goal of machine learning?",
+          "options": [
+            "To explicitly program computers to perform tasks",
+            "To enable computers to learn from data and improve over time",
+            "To build databases of knowledge manually",
+            "To encrypt data for security purposes"
+          ],
+          "answer": "To enable computers to learn from data and improve over time"
+        },
+        {
+          "question": "Which of the following is a common type of machine learning?",
+          "options": [
+            "Supervised learning",
+            "Automated learning",
+            "Networked learning",
+            "Cloud learning"
+          ],
+          "answer": "Supervised learning"
+        },
+        {
+          "question": "In machine learning, what do we call the data used to train the model?",
+          "options": [
+            "Validation data",
+            "Training data",
+            "Production data",
+            "Algorithmic data"
+          ],
+          "answer": "Training data"
+        },
+        {
+          "question": "Machine learning is a subset of which broader field?",
+          "options": [
+            "Data visualization",
+            "Artificial intelligence",
+            "Software engineering",
+            "Human-computer interaction"
+          ],
+          "answer": "Artificial intelligence"
+        },
+        {
+          "question": "Which statement best describes machine learning?",
+          "options": [
+            "A set of rules programmed explicitly for a task",
+            "A field of AI focused on enabling computers to learn from examples",
+            "A hardware mechanism for faster computing",
+            "The process of cleaning and storing data"
+          ],
+          "answer": "A field of AI focused on enabling computers to learn from examples"
+        }
+      ]
+    },
+    "Data Understanding": {
+      "questions": [
+        {
+          "question": "What is an outlier in a dataset?",
+          "options": [
+            "A missing value in the data",
+            "A data point that significantly deviates from other observations",
+            "The most frequent value in the dataset",
+            "A variable with a high correlation"
+          ],
+          "answer": "A data point that significantly deviates from other observations"
+        },
+        {
+          "question": "Which statistic is a measure of central tendency?",
+          "options": [
+            "Mean",
+            "Variance",
+            "Standard deviation",
+            "Correlation coefficient"
+          ],
+          "answer": "Mean"
+        },
+        {
+          "question": "If a dataset's mean is much larger than its median, what might that indicate?",
+          "options": [
+            "The data is symmetric",
+            "There are outliers pulling the mean up",
+            "There are no variations in the data",
+            "The data is categorical"
+          ],
+          "answer": "There are outliers pulling the mean up"
+        },
+        {
+          "question": "What is the purpose of exploratory data analysis (EDA)?",
+          "options": [
+            "To make predictions on new data",
+            "To summarize the main characteristics of the data and detect patterns",
+            "To split data into training and testing sets",
+            "To optimize machine learning model parameters"
+          ],
+          "answer": "To summarize the main characteristics of the data and detect patterns"
+        },
+        {
+          "question": "Which plot is most useful for understanding the distribution of a single continuous variable?",
+          "options": [
+            "Scatter plot",
+            "Histogram",
+            "Line chart",
+            "Pie chart"
+          ],
+          "answer": "Histogram"
+        }
+      ]
+    },
+    "Data Preprocessing": {
+      "questions": [
+        {
+          "question": "What is the main goal of data preprocessing?",
+          "options": [
+            "To collect more data",
+            "To transform raw data into a clean and usable format",
+            "To visualize the data",
+            "To train a complex model"
+          ],
+          "answer": "To transform raw data into a clean and usable format"
+        },
+        {
+          "question": "Which of the following is a common technique to handle missing values in a dataset?",
+          "options": [
+            "Discretization",
+            "Imputation (filling in values)",
+            "One-hot encoding",
+            "Feature scaling"
+          ],
+          "answer": "Imputation (filling in values)"
+        },
+        {
+          "question": "Scaling features to have a mean of 0 and standard deviation of 1 is known as:",
+          "options": [
+            "Normalization (min-max scaling)",
+            "Standardization (z-score scaling)",
+            "Regularization",
+            "One-hot encoding"
+          ],
+          "answer": "Standardization (z-score scaling)"
+        },
+        {
+          "question": "What is one reason to encode categorical variables (like converting categories to numbers)?",
+          "options": [
+            "Most machine learning models require numerical input",
+            "To increase the number of features",
+            "To remove outliers",
+            "To speed up data collection"
+          ],
+          "answer": "Most machine learning models require numerical input"
+        },
+        {
+          "question": "Which of these is NOT a data preprocessing step?",
+          "options": [
+            "Removing duplicates",
+            "Shuffling and splitting data into train/test sets",
+            "Handling missing data",
+            "Feature scaling"
+          ],
+          "answer": "Shuffling and splitting data into train/test sets"
+        }
+      ]
+    },
+    "Data Visualization": {
+      "questions": [
+        {
+          "question": "Which type of plot is best for showing the relationship between two continuous variables?",
+          "options": [
+            "Scatter plot",
+            "Histogram",
+            "Pie chart",
+            "Bar chart"
+          ],
+          "answer": "Scatter plot"
+        },
+        {
+          "question": "What does a box plot primarily show about a dataset?",
+          "options": [
+            "Frequency of each value",
+            "The distribution (median, quartiles) and potential outliers",
+            "The correlation between two variables",
+            "Changes over time"
+          ],
+          "answer": "The distribution (median, quartiles) and potential outliers"
+        },
+        {
+          "question": "Which visual would you use to show the proportion of categories in a whole?",
+          "options": [
+            "Line chart",
+            "Pie chart",
+            "Scatter plot",
+            "Histogram"
+          ],
+          "answer": "Pie chart"
+        },
+        {
+          "question": "How can you visualize the distribution of a single numeric variable?",
+          "options": [
+            "Using a histogram or box plot",
+            "Using a scatter plot",
+            "Using a line chart with time on the x-axis",
+            "Using a confusion matrix"
+          ],
+          "answer": "Using a histogram or box plot"
+        },
+        {
+          "question": "What does a scatter plot with points forming an upward trend indicate?",
+          "options": [
+            "A positive correlation between the two variables",
+            "A negative correlation between the two variables",
+            "No relationship between the variables",
+            "That both variables are categorical"
+          ],
+          "answer": "A positive correlation between the two variables"
+        }
+      ]
+    },
+    "Feature Engineering": {
+      "questions": [
+        {
+          "question": "What is feature engineering?",
+          "options": [
+            "The process of training a machine learning model",
+            "The process of creating or transforming variables to improve model performance",
+            "The technique of reducing the number of features in a dataset",
+            "The step of evaluating model performance on test data"
+          ],
+          "answer": "The process of creating or transforming variables to improve model performance"
+        },
+        {
+          "question": "Which of the following is an example of feature engineering?",
+          "options": [
+            "Normalizing data to 0-1 range",
+            "Filling missing values with the mean",
+            "Combining existing features to create a new feature",
+            "Splitting data into training and test sets"
+          ],
+          "answer": "Combining existing features to create a new feature"
+        },
+        {
+          "question": "Adding polynomial terms (e.g., adding x^2 for feature x) to a linear model is a form of:",
+          "options": [
+            "Feature selection",
+            "Feature engineering",
+            "Regularization",
+            "Model evaluation"
+          ],
+          "answer": "Feature engineering"
+        },
+        {
+          "question": "Taking the logarithm of a highly skewed feature is done to:",
+          "options": [
+            "Decrease the number of data points",
+            "Make the feature distribution more normalized (less skewed)",
+            "Remove outliers completely",
+            "Encode a categorical variable"
+          ],
+          "answer": "Make the feature distribution more normalized (less skewed)"
+        },
+        {
+          "question": "Which scenario is NOT an example of feature engineering?",
+          "options": [
+            "Combining year, month, day into a single date feature",
+            "Using a pre-trained model to extract image features",
+            "Removing a feature because it has many missing values",
+            "Creating a new feature as a ratio of two existing features"
+          ],
+          "answer": "Removing a feature because it has many missing values"
+        }
+      ]
+    },
+    "Feature Selection": {
+      "questions": [
+        {
+          "question": "What is the goal of feature selection?",
+          "options": [
+            "To create new features from existing ones",
+            "To identify and keep only the most important features for the model",
+            "To reduce overfitting by simplifying the model",
+            "Both the second and third options"
+          ],
+          "answer": "Both the second and third options"
+        },
+        {
+          "question": "Which method is a common technique for feature selection?",
+          "options": [
+            "Principal Component Analysis (PCA)",
+            "Using correlation to remove highly correlated features",
+            "Gradient Descent",
+            "Data augmentation"
+          ],
+          "answer": "Using correlation to remove highly correlated features"
+        },
+        {
+          "question": "What is one benefit of feature selection?",
+          "options": [
+            "It always improves training accuracy",
+            "It can reduce model complexity and improve generalization",
+            "It increases the number of features to make the model more flexible",
+            "It eliminates the need for data preprocessing"
+          ],
+          "answer": "It can reduce model complexity and improve generalization"
+        },
+        {
+          "question": "Which of the following algorithms inherently performs feature selection by setting some coefficients to zero?",
+          "options": [
+            "Lasso regression (L1 regularization)",
+            "Ridge regression (L2 regularization)",
+            "K-Means clustering",
+            "Principal Component Analysis"
+          ],
+          "answer": "Lasso regression (L1 regularization)"
+        },
+        {
+          "question": "Removing features that have little variance or have many missing values is part of:",
+          "options": [
+            "Feature selection",
+            "Ensemble learning",
+            "Hyperparameter tuning",
+            "Model deployment"
+          ],
+          "answer": "Feature selection"
+        }
+      ]
+    },
+    "Regression": {
+      "questions": [
+        {
+          "question": "What is regression analysis typically used for?",
+          "options": [
+            "Grouping data into clusters",
+            "Predicting a continuous numerical outcome",
+            "Classifying data into categories",
+            "Reducing the number of features"
+          ],
+          "answer": "Predicting a continuous numerical outcome"
+        },
+        {
+          "question": "Which of the following is an example of a regression task?",
+          "options": [
+            "Predicting if an email is spam or not",
+            "Predicting the price of a house based on its features",
+            "Grouping customers into segments based on purchasing behavior",
+            "Detecting anomalies in network traffic"
+          ],
+          "answer": "Predicting the price of a house based on its features"
+        },
+        {
+          "question": "In a simple linear regression model y = mx + b, what do m and b represent?",
+          "options": [
+            "m is the error term, b is the slope",
+            "m is the slope (coefficient), b is the intercept",
+            "m is the predicted output, b is the input variable",
+            "m and b are both constant error terms"
+          ],
+          "answer": "m is the slope (coefficient), b is the intercept"
+        },
+        {
+          "question": "Which metric is commonly used to evaluate the performance of a regression model?",
+          "options": [
+            "Accuracy",
+            "Mean Squared Error (MSE)",
+            "Precision",
+            "Silhouette score"
+          ],
+          "answer": "Mean Squared Error (MSE)"
+        },
+        {
+          "question": "If a linear regression model predicts y = 5x + 2, what is the predicted value of y when x = 3?",
+          "options": [
+            "15",
+            "17",
+            "18",
+            "5"
+          ],
+          "answer": "17"
+        }
+      ]
+    },
+    "Classification": {
+      "questions": [
+        {
+          "question": "What is the goal of classification in machine learning?",
+          "options": [
+            "To predict a continuous number",
+            "To assign data points to one of several discrete categories or classes",
+            "To reduce the dimensionality of data",
+            "To group data without predefined labels"
+          ],
+          "answer": "To assign data points to one of several discrete categories or classes"
+        },
+        {
+          "question": "Which of the following is a classification problem?",
+          "options": [
+            "Predicting tomorrow's temperature",
+            "Determining if a given email is spam or not",
+            "Estimating the selling price of a car",
+            "Clustering news articles by topic"
+          ],
+          "answer": "Determining if a given email is spam or not"
+        },
+        {
+          "question": "Which algorithm is NOT typically used for classification?",
+          "options": [
+            "Logistic Regression",
+            "Decision Tree",
+            "Linear Regression",
+            "Naive Bayes"
+          ],
+          "answer": "Linear Regression"
+        },
+        {
+          "question": "What is a confusion matrix used for in classification?",
+          "options": [
+            "Visualizing the correlation between features",
+            "Summarizing the performance of a classification model by showing true vs predicted classes",
+            "Reducing overfitting in a classification model",
+            "Performing feature scaling"
+          ],
+          "answer": "Summarizing the performance of a classification model by showing true vs predicted classes"
+        },
+        {
+          "question": "Which metric is appropriate for evaluating a classification model's performance?",
+          "options": [
+            "Accuracy or F1-Score",
+            "Mean Squared Error",
+            "Variance",
+            "Silhouette Coefficient"
+          ],
+          "answer": "Accuracy or F1-Score"
+        },
+        {
+          "question": "In binary classification, if a model predicts a positive when the actual is negative, this is a:",
+          "options": [
+            "True positive",
+            "True negative",
+            "False positive",
+            "False negative"
+          ],
+          "answer": "False positive"
+        }
+      ]
+    },
+    "Logistic Regression": {
+      "questions": [
+        {
+          "question": "How is logistic regression different from linear regression?",
+          "options": [
+            "Logistic regression is used for classification problems, outputting probabilities, whereas linear regression predicts continuous outcomes",
+            "Logistic regression is unsupervised, linear regression is supervised",
+            "Logistic regression does not use any independent variables",
+            "Linear regression outputs values between 0 and 1, logistic can output any real number"
+          ],
+          "answer": "Logistic regression is used for classification problems, outputting probabilities, whereas linear regression predicts continuous outcomes"
+        },
+        {
+          "question": "What does the logistic (sigmoid) function output for any input?",
+          "options": [
+            "A value between 0 and 1",
+            "Any real number from -∞ to +∞",
+            "Only 0 or 1 exactly",
+            "A value that can only be positive"
+          ],
+          "answer": "A value between 0 and 1"
+        },
+        {
+          "question": "In logistic regression, what is typically used as the decision boundary to classify two classes?",
+          "options": [
+            "A probability of 0.5",
+            "A residual sum of squares of 0",
+            "A specific number of trees in the model",
+            "The number of features in the model"
+          ],
+          "answer": "A probability of 0.5"
+        },
+        {
+          "question": "Logistic regression can be used to:",
+          "options": [
+            "Predict continuous values like price",
+            "Classify instances into categories (e.g., spam vs not spam)",
+            "Perform clustering of unlabeled data",
+            "Reduce the number of features"
+          ],
+          "answer": "Classify instances into categories (e.g., spam vs not spam)"
+        },
+        {
+          "question": "Which loss function is commonly used to train a logistic regression model?",
+          "options": [
+            "Mean Squared Error",
+            "Cross-entropy (logistic loss)",
+            "Hinge loss",
+            "Mean Absolute Error"
+          ],
+          "answer": "Cross-entropy (logistic loss)"
+        },
+        {
+          "question": "What is the output of a logistic regression model before applying the sigmoid function?",
+          "options": [
+            "A linear combination of the inputs (which can range from -∞ to +∞)",
+            "A probability between 0 and 1",
+            "A label like \"Yes\" or \"No\" directly",
+            "A distance from the support vectors"
+          ],
+          "answer": "A linear combination of the inputs (which can range from -∞ to +∞)"
+        }
+      ]
+    },
+    "Decision Trees": {
+      "questions": [
+        {
+          "question": "What do the leaves of a decision tree represent?",
+          "options": [
+            "Input features",
+            "Decision points where the tree splits",
+            "The final outcome or class labels",
+            "The depth of the tree"
+          ],
+          "answer": "The final outcome or class labels"
+        },
+        {
+          "question": "Which of the following is a common criterion used to split nodes in a decision tree?",
+          "options": [
+            "Mean Squared Error for classification",
+            "Gini impurity or Information Gain for classification",
+            "Confusion matrix",
+            "Pearson correlation"
+          ],
+          "answer": "Gini impurity or Information Gain for classification"
+        },
+        {
+          "question": "What is a potential disadvantage of decision trees?",
+          "options": [
+            "They cannot handle categorical variables",
+            "They tend to overfit the training data if not pruned",
+            "They require data to be normalized",
+            "They are not interpretable"
+          ],
+          "answer": "They tend to overfit the training data if not pruned"
+        },
+        {
+          "question": "Which of the following is true about decision trees?",
+          "options": [
+            "They can only perform classification, not regression",
+            "They can perform both classification and regression tasks",
+            "They require a neural network to work",
+            "They always achieve 100% accuracy on training data"
+          ],
+          "answer": "They can perform both classification and regression tasks"
+        },
+        {
+          "question": "Pruning a decision tree is used to:",
+          "options": [
+            "Increase the depth of the tree",
+            "Improve generalization by reducing overfitting",
+            "Add more features to the model",
+            "Combine multiple trees into a forest"
+          ],
+          "answer": "Improve generalization by reducing overfitting"
+        }
+      ]
+    },
+    "Ensemble Methods": {
+      "questions": [
+        {
+          "question": "What is the main idea behind ensemble methods in machine learning?",
+          "options": [
+            "Using a single model for simplicity",
+            "Combining multiple models to improve performance",
+            "Selecting one best feature for a model",
+            "Using only deep learning models"
+          ],
+          "answer": "Combining multiple models to improve performance"
+        },
+        {
+          "question": "Which of the following is an example of an ensemble method?",
+          "options": [
+            "Decision Tree",
+            "Random Forest",
+            "Support Vector Machine",
+            "K-Nearest Neighbors"
+          ],
+          "answer": "Random Forest"
+        },
+        {
+          "question": "How does a Random Forest classifier work?",
+          "options": [
+            "It uses a single decision tree with random decisions",
+            "It creates many decision trees on random subsets of data and features, then averages their predictions",
+            "It selects the best single decision tree from a random subset",
+            "It randomly changes the data labels and retrains a model"
+          ],
+          "answer": "It creates many decision trees on random subsets of data and features, then averages their predictions"
+        },
+        {
+          "question": "What is the difference between bagging and boosting in ensemble methods?",
+          "options": [
+            "Bagging builds models in parallel and combines them, while boosting builds models sequentially, each correcting the previous",
+            "Bagging uses neural networks, boosting uses decision trees",
+            "Boosting is for regression, bagging is for classification",
+            "There is no difference; they are the same"
+          ],
+          "answer": "Bagging builds models in parallel and combines them, while boosting builds models sequentially, each correcting the previous"
+        },
+        {
+          "question": "Which ensemble method involves training on re-weighted or re-sampled data to focus on mistakes of previous models?",
+          "options": [
+            "Bagging",
+            "Boosting",
+            "Principal Component Analysis",
+            "Stacking"
+          ],
+          "answer": "Boosting"
+        },
+        {
+          "question": "Ensemble methods tend to improve model performance by:",
+          "options": [
+            "Reducing overfitting by averaging out errors of individual models",
+            "Always giving higher bias",
+            "Using one strong model instead of many weak models",
+            "Eliminating the need for cross-validation"
+          ],
+          "answer": "Reducing overfitting by averaging out errors of individual models"
+        }
+      ]
+    },
+    "Support Vector Machines": {
+      "questions": [
+        {
+          "question": "What is the goal of a Support Vector Machine (SVM) in classification?",
+          "options": [
+            "To find a decision boundary that maximizes the margin between classes",
+            "To cluster data into k groups",
+            "To construct a deep neural network",
+            "To generate decision trees"
+          ],
+          "answer": "To find a decision boundary that maximizes the margin between classes"
+        },
+        {
+          "question": "In SVM, what are support vectors?",
+          "options": [
+            "The data points closest to the decision boundary",
+            "The vectors that give support to the hyperplane by pointing to the correct direction",
+            "The parameters learned by the model",
+            "The misclassified points in the dataset"
+          ],
+          "answer": "The data points closest to the decision boundary"
+        },
+        {
+          "question": "What is the 'kernel trick' in SVMs?",
+          "options": [
+            "A method to perform classification without any training data",
+            "A technique to transform data into a higher-dimensional space to make it linearly separable",
+            "A way of pruning decision trees",
+            "An ensemble method combining multiple SVMs"
+          ],
+          "answer": "A technique to transform data into a higher-dimensional space to make it linearly separable"
+        },
+        {
+          "question": "Which of the following is true about SVMs?",
+          "options": [
+            "They can only perform binary classification",
+            "They can use different kernel functions (linear, polynomial, RBF, etc.) for flexibility",
+            "They are a form of unsupervised learning",
+            "They are very prone to overfitting in high-dimensional spaces without regularization"
+          ],
+          "answer": "They can use different kernel functions (linear, polynomial, RBF, etc.) for flexibility"
+        },
+        {
+          "question": "In SVM, a hyperplane refers to:",
+          "options": [
+            "A linear decision boundary that separates classes",
+            "A type of activation function",
+            "A misclassification in the model",
+            "A type of ensemble method"
+          ],
+          "answer": "A linear decision boundary that separates classes"
+        }
+      ]
+    },
+    "K-Nearest Neighbors": {
+      "questions": [
+        {
+          "question": "How does the K-Nearest Neighbors (KNN) algorithm make a prediction for classification?",
+          "options": [
+            "By finding the k closest data points in the training set and having them vote on the class",
+            "By fitting a line through the data",
+            "By constructing decision boundaries using support vectors",
+            "By reducing the number of features to k"
+          ],
+          "answer": "By finding the k closest data points in the training set and having them vote on the class"
+        },
+        {
+          "question": "What happens if you choose k = 1 in a KNN classifier?",
+          "options": [
+            "The prediction will be the same as the nearest training data point's class",
+            "The algorithm will not be able to make a prediction",
+            "It will take the average of all labels in the dataset",
+            "It requires at least k=3 to function"
+          ],
+          "answer": "The prediction will be the same as the nearest training data point's class"
+        },
+        {
+          "question": "Which of the following is a characteristic of KNN?",
+          "options": [
+            "It is a parametric algorithm with a fixed number of parameters to learn",
+            "It is a non-parametric, instance-based learning algorithm",
+            "It cannot be used for regression tasks",
+            "It performs an explicit training phase to build a model"
+          ],
+          "answer": "It is a non-parametric, instance-based learning algorithm"
+        },
+        {
+          "question": "KNN can be used for:",
+          "options": [
+            "Classification tasks only",
+            "Regression tasks only",
+            "Both classification and regression tasks",
+            "Clustering tasks"
+          ],
+          "answer": "Both classification and regression tasks"
+        },
+        {
+          "question": "One disadvantage of KNN is that:",
+          "options": [
+            "It makes a lot of assumptions about the data distribution",
+            "It can be slow at prediction time because it stores all training data",
+            "It cannot handle numeric features",
+            "It requires extensive training time to adjust weights"
+          ],
+          "answer": "It can be slow at prediction time because it stores all training data"
+        }
+      ]
+    },
+    "Naive Bayes": {
+      "questions": [
+        {
+          "question": "What is the \"naive\" assumption in the Naive Bayes classifier?",
+          "options": [
+            "That the data has no noise",
+            "That features are independent of each other given the class",
+            "That the classes are balanced in the dataset",
+            "That there are only two classes"
+          ],
+          "answer": "That features are independent of each other given the class"
+        },
+        {
+          "question": "Naive Bayes is particularly known to perform well on which type of data?",
+          "options": [
+            "Structured numeric data",
+            "Text data (such as for spam detection or document classification)",
+            "Image data for object recognition",
+            "Time series data"
+          ],
+          "answer": "Text data (such as for spam detection or document classification)"
+        },
+        {
+          "question": "Which formula is central to the Naive Bayes classifier?",
+          "options": [
+            "Bayes' Theorem",
+            "Pythagorean Theorem",
+            "Gradient Descent update rule",
+            "Euler's formula"
+          ],
+          "answer": "Bayes' Theorem"
+        },
+        {
+          "question": "Naive Bayes calculates the probability of each class given the data. The class with which property is chosen as the prediction?",
+          "options": [
+            "The smallest index",
+            "The highest posterior probability",
+            "The most features",
+            "The lowest variance"
+          ],
+          "answer": "The highest posterior probability"
+        },
+        {
+          "question": "A key advantage of Naive Bayes is that:",
+          "options": [
+            "It can handle continuous data without any preprocessing",
+            "It requires a large amount of training data",
+            "It is simple, fast, and works well even with a relatively small amount of data",
+            "It always outperforms more complex models like Random Forests"
+          ],
+          "answer": "It is simple, fast, and works well even with a relatively small amount of data"
+        }
+      ]
+    },
+    "Clustering": {
+      "questions": [
+        {
+          "question": "What is the goal of clustering in machine learning?",
+          "options": [
+            "To label data points with predefined categories",
+            "To group similar data points together without predefined labels",
+            "To reduce the number of features in the dataset",
+            "To improve the accuracy of a supervised model"
+          ],
+          "answer": "To group similar data points together without predefined labels"
+        },
+        {
+          "question": "Which of the following is a clustering algorithm?",
+          "options": [
+            "K-Means",
+            "Linear Regression",
+            "Logistic Regression",
+            "Decision Tree"
+          ],
+          "answer": "K-Means"
+        },
+        {
+          "question": "In k-means clustering, what does the \"k\" represent?",
+          "options": [
+            "The number of clusters to form",
+            "The number of nearest neighbors to consider",
+            "The number of features in the dataset",
+            "The number of iterations the algorithm will run"
+          ],
+          "answer": "The number of clusters to form"
+        },
+        {
+          "question": "Which statement is true about hierarchical clustering?",
+          "options": [
+            "It requires specifying the number of clusters in advance like k-means",
+            "It builds a hierarchy of clusters either from top-down or bottom-up",
+            "It cannot be visualized",
+            "It is a supervised learning technique"
+          ],
+          "answer": "It builds a hierarchy of clusters either from top-down or bottom-up"
+        },
+        {
+          "question": "What is a common way to determine the appropriate number of clusters (k) in k-means?",
+          "options": [
+            "Using a confusion matrix",
+            "The elbow method to find a point where increasing k no longer significantly reduces within-cluster variance",
+            "Always choose k = 3 for safety",
+            "Using cross-validation"
+          ],
+          "answer": "The elbow method to find a point where increasing k no longer significantly reduces within-cluster variance"
+        },
+        {
+          "question": "Which clustering algorithm is density-based and can find clusters of arbitrary shape while identifying outliers?",
+          "options": [
+            "K-Means",
+            "DBSCAN",
+            "Linear Regression",
+            "Agglomerative Hierarchical Clustering"
+          ],
+          "answer": "DBSCAN"
+        }
+      ]
+    },
+    "Dimensionality Reduction": {
+      "questions": [
+        {
+          "question": "What is the main goal of dimensionality reduction?",
+          "options": [
+            "To increase the number of features for a model",
+            "To reduce the number of input features while retaining as much information as possible",
+            "To cluster data into high-dimensional groups",
+            "To convert continuous data into categorical data"
+          ],
+          "answer": "To reduce the number of input features while retaining as much information as possible"
+        },
+        {
+          "question": "Which of the following is a common technique for dimensionality reduction?",
+          "options": [
+            "Principal Component Analysis (PCA)",
+            "Linear Regression",
+            "Gradient Boosting",
+            "Cross-validation"
+          ],
+          "answer": "Principal Component Analysis (PCA)"
+        },
+        {
+          "question": "Principal Component Analysis (PCA) works by:",
+          "options": [
+            "Finding a subset of original features that are most important",
+            "Finding new orthogonal features (principal components) that capture the most variance in the data",
+            "Clustering data into principal groups",
+            "Normalizing all features to the same scale"
+          ],
+          "answer": "Finding new orthogonal features (principal components) that capture the most variance in the data"
+        },
+        {
+          "question": "What is one benefit of applying dimensionality reduction before modeling?",
+          "options": [
+            "It can help reduce overfitting by removing noise and redundant features",
+            "It always improves accuracy on the test set",
+            "It ensures the model has high bias",
+            "It increases the computational cost of modeling"
+          ],
+          "answer": "It can help reduce overfitting by removing noise and redundant features"
+        },
+        {
+          "question": "After applying PCA to reduce dimensions, the new features (principal components) are:",
+          "options": [
+            "Linear combinations of the original features",
+            "Individual original features selected by importance",
+            "Non-linear functions of original features only",
+            "Completely unrelated to the original data"
+          ],
+          "answer": "Linear combinations of the original features"
+        }
+      ]
+    },
+    "Model Evaluation & Validation": {
+      "questions": [
+        {
+          "question": "What is the purpose of splitting data into training and test sets?",
+          "options": [
+            "To use less data for training intentionally",
+            "To evaluate model performance on unseen data and prevent overfitting",
+            "To speed up the training process",
+            "To reduce the number of features needed"
+          ],
+          "answer": "To evaluate model performance on unseen data and prevent overfitting"
+        },
+        {
+          "question": "What does k-fold cross-validation involve?",
+          "options": [
+            "Training k different models and averaging their predictions",
+            "Splitting data into k parts, using each part as a test set in turn while training on the rest",
+            "Using k trees in a random forest",
+            "Using a neural network with k layers"
+          ],
+          "answer": "Splitting data into k parts, using each part as a test set in turn while training on the rest"
+        },
+        {
+          "question": "Which metric would you use to evaluate a binary classification model on an imbalanced dataset (e.g., very few positives)?",
+          "options": [
+            "Accuracy only",
+            "Precision and Recall (or F1-Score)",
+            "Mean Squared Error",
+            "Silhouette score"
+          ],
+          "answer": "Precision and Recall (or F1-Score)"
+        },
+        {
+          "question": "What does the area under the ROC curve (AUC-ROC) represent?",
+          "options": [
+            "The proportion of variance explained by a principal component",
+            "The trade-off between true positive rate and false positive rate across thresholds",
+            "The error rate of a regression model",
+            "The optimal learning rate for training a model"
+          ],
+          "answer": "The trade-off between true positive rate and false positive rate across thresholds"
+        },
+        {
+          "question": "If a model performs very well on training data but poorly on test data, this likely indicates:",
+          "options": [
+            "Good generalization",
+            "Overfitting",
+            "Underfitting",
+            "A well-regularized model"
+          ],
+          "answer": "Overfitting"
+        }
+      ]
+    },
+    "Overfitting vs Underfitting": {
+      "questions": [
+        {
+          "question": "What is overfitting in the context of machine learning models?",
+          "options": [
+            "When a model is too simple to capture the underlying pattern of the data",
+            "When a model performs well on training data but fails to generalize to new data",
+            "When a model performs poorly on both training and testing data",
+            "When a model has too few parameters"
+          ],
+          "answer": "When a model performs well on training data but fails to generalize to new data"
+        },
+        {
+          "question": "Which of the following is a sign of underfitting?",
+          "options": [
+            "High training accuracy, low test accuracy",
+            "Low training accuracy, low test accuracy",
+            "High training accuracy, high test accuracy",
+            "Low training accuracy, high test accuracy"
+          ],
+          "answer": "Low training accuracy, low test accuracy"
+        },
+        {
+          "question": "What is the bias-variance tradeoff?",
+          "options": [
+            "The balance between the learning rate and number of training epochs",
+            "The compromise between a model's simplicity (bias) and its flexibility (variance)",
+            "A technique for data preprocessing",
+            "A method of ensemble learning"
+          ],
+          "answer": "The compromise between a model's simplicity (bias) and its flexibility (variance)"
+        },
+        {
+          "question": "Which action can help reduce overfitting?",
+          "options": [
+            "Using a more complex model with more parameters",
+            "Collecting more training data",
+            "Reducing the size of the training set",
+            "Removing regularization"
+          ],
+          "answer": "Collecting more training data"
+        },
+        {
+          "question": "If a model is underfitting, what is a potential solution?",
+          "options": [
+            "Increase model complexity (e.g., more features or a more complex algorithm)",
+            "Decrease the size of the dataset",
+            "Add stronger regularization",
+            "Use early stopping"
+          ],
+          "answer": "Increase model complexity (e.g., more features or a more complex algorithm)"
+        }
+      ]
+    },
+    "Regularization": {
+      "questions": [
+        {
+          "question": "What is the purpose of regularization in machine learning?",
+          "options": [
+            "To improve model training speed",
+            "To add a penalty to the loss function to discourage complex models and reduce overfitting",
+            "To increase the number of features in the model",
+            "To ensure the model perfectly fits the training data"
+          ],
+          "answer": "To add a penalty to the loss function to discourage complex models and reduce overfitting"
+        },
+        {
+          "question": "Which of these is an example of an L2 regularization technique?",
+          "options": [
+            "Lasso regression (L1)",
+            "Ridge regression (L2)",
+            "Decision Tree pruning",
+            "Dropout in neural networks"
+          ],
+          "answer": "Ridge regression (L2)"
+        },
+        {
+          "question": "How does L1 regularization (lasso) help in feature selection?",
+          "options": [
+            "By squaring large weights",
+            "By driving some feature coefficients to exactly zero, effectively removing them",
+            "By reducing all weights equally but never to zero",
+            "By adding more features to the model"
+          ],
+          "answer": "By driving some feature coefficients to exactly zero, effectively removing them"
+        },
+        {
+          "question": "What does dropout do in the context of neural networks?",
+          "options": [
+            "Temporarily removes (sets to zero) a random subset of neurons during training to prevent co-adaptation",
+            "Removes irrelevant features from the dataset",
+            "Stops training early when performance is good",
+            "Reduces the learning rate gradually"
+          ],
+          "answer": "Temporarily removes (sets to zero) a random subset of neurons during training to prevent co-adaptation"
+        },
+        {
+          "question": "Which of the following is a consequence of too strong regularization?",
+          "options": [
+            "The model may underfit, failing to capture important patterns",
+            "The model may overfit more easily",
+            "The model will always improve in accuracy",
+            "The model complexity increases"
+          ],
+          "answer": "The model may underfit, failing to capture important patterns"
+        }
+      ]
+    },
+    "Optimization Algorithms": {
+      "questions": [
+        {
+          "question": "What is gradient descent?",
+          "options": [
+            "An algorithm to cluster data points",
+            "An optimization algorithm used to minimize the loss function of a model",
+            "A technique for data normalization",
+            "A method to split data into train and test sets"
+          ],
+          "answer": "An optimization algorithm used to minimize the loss function of a model"
+        },
+        {
+          "question": "In the context of gradient descent, what is a \"learning rate\"?",
+          "options": [
+            "A hyperparameter that determines the size of the steps taken during optimization",
+            "The rate at which the model learns new data after deployment",
+            "The percentage of data used for training",
+            "The speed at which data is fed into the model"
+          ],
+          "answer": "A hyperparameter that determines the size of the steps taken during optimization"
+        },
+        {
+          "question": "Which variant of gradient descent uses the entire training dataset to compute each update step?",
+          "options": [
+            "Stochastic Gradient Descent (SGD)",
+            "Batch Gradient Descent",
+            "Mini-batch Gradient Descent",
+            "Momentum-based Gradient Descent"
+          ],
+          "answer": "Batch Gradient Descent"
+        },
+        {
+          "question": "What problem can occur if the learning rate in gradient descent is set too high?",
+          "options": [
+            "The model might converge too quickly to the minimum",
+            "The optimization may diverge or overshoot the minimum, failing to converge",
+            "The model will train too slowly",
+            "The model will perfectly fit the training data"
+          ],
+          "answer": "The optimization may diverge or overshoot the minimum, failing to converge"
+        },
+        {
+          "question": "Which of these is an optimization algorithm that can be used instead of basic gradient descent?",
+          "options": [
+            "Adam optimizer",
+            "Decision Tree",
+            "Linear regression",
+            "Principal Component Analysis"
+          ],
+          "answer": "Adam optimizer"
+        }
+      ]
+    },
+    "Neural Networks": {
+      "questions": [
+        {
+          "question": "What is an artificial neural network (ANN) inspired by?",
+          "options": [
+            "The human brain's network of neurons",
+            "The tree-like structure of decisions",
+            "The nearest neighbors in a dataset",
+            "The clustering of data points"
+          ],
+          "answer": "The human brain's network of neurons"
+        },
+        {
+          "question": "In a neural network, what happens at a single \"neuron\" or node?",
+          "options": [
+            "It outputs a fixed value",
+            "It takes inputs, applies weights and bias, passes the result through an activation function",
+            "It stores the entire training dataset",
+            "It selects the best features"
+          ],
+          "answer": "It takes inputs, applies weights and bias, passes the result through an activation function"
+        },
+        {
+          "question": "Which of these is a common activation function in neural networks?",
+          "options": [
+            "ReLU (Rectified Linear Unit)",
+            "Sigmoid",
+            "Tanh",
+            "All of the above"
+          ],
+          "answer": "All of the above"
+        },
+        {
+          "question": "What is backpropagation in the context of neural networks?",
+          "options": [
+            "A technique for initializing the network weights",
+            "A method to efficiently compute the gradient of the loss function with respect to all weights (used to update them)",
+            "A data augmentation method for images",
+            "A way of dropping neurons to prevent overfitting"
+          ],
+          "answer": "A method to efficiently compute the gradient of the loss function with respect to all weights (used to update them)"
+        },
+        {
+          "question": "One advantage of neural networks is that they:",
+          "options": [
+            "Can automatically learn complex non-linear patterns in data",
+            "Require only a small amount of data to train effectively on any problem",
+            "Are guaranteed to be interpretable and easy to understand",
+            "Never overfit due to their complexity"
+          ],
+          "answer": "Can automatically learn complex non-linear patterns in data"
+        }
+      ]
+    },
+    "Deep Learning": {
+      "questions": [
+        {
+          "question": "What makes a neural network \"deep\"?",
+          "options": [
+            "It has a very large number of output neurons",
+            "It has multiple layers of neurons between the input and output (multiple hidden layers)",
+            "It uses very large input data",
+            "It has high precision weights"
+          ],
+          "answer": "It has multiple layers of neurons between the input and output (multiple hidden layers)"
+        },
+        {
+          "question": "Which of these is a popular deep learning architecture for image recognition?",
+          "options": [
+            "Convolutional Neural Network (CNN)",
+            "Linear Regression",
+            "K-Nearest Neighbor",
+            "Support Vector Machine"
+          ],
+          "answer": "Convolutional Neural Network (CNN)"
+        },
+        {
+          "question": "Deep learning models often require:",
+          "options": [
+            "Very large amounts of data and computational power for training",
+            "No data preprocessing at all",
+            "Only a few data points to reach high accuracy",
+            "Manual feature engineering for every input"
+          ],
+          "answer": "Very large amounts of data and computational power for training"
+        },
+        {
+          "question": "Which framework is commonly used for building deep learning models?",
+          "options": [
+            "TensorFlow or PyTorch",
+            "Scikit-learn (only)",
+            "SQL",
+            "Excel"
+          ],
+          "answer": "TensorFlow or PyTorch"
+        },
+        {
+          "question": "What is an epoch in the context of training deep learning models?",
+          "options": [
+            "One forward pass through the neural network",
+            "One complete pass through the entire training dataset during training",
+            "One batch of data processed by the model",
+            "The time taken to train the model"
+          ],
+          "answer": "One complete pass through the entire training dataset during training"
+        }
+      ]
+    },
+    "Reinforcement Learning": {
+      "questions": [
+        {
+          "question": "What is the key idea in reinforcement learning?",
+          "options": [
+            "Learning from a teacher who provides correct labels for each example",
+            "Learning by trial and error, with an agent receiving rewards or penalties",
+            "Clustering data into different groups without labels",
+            "Learning directly from big data without any feedback"
+          ],
+          "answer": "Learning by trial and error, with an agent receiving rewards or penalties"
+        },
+        {
+          "question": "In reinforcement learning, the program that is being trained to make decisions is often called the:",
+          "options": [
+            "Teacher",
+            "Agent",
+            "Classifier",
+            "Environment"
+          ],
+          "answer": "Agent"
+        },
+        {
+          "question": "Which of the following is a typical application of reinforcement learning?",
+          "options": [
+            "Image classification",
+            "Board games (like Chess or Go) where an AI learns to play by playing many games",
+            "Linear regression on a dataset",
+            "Sorting a list of numbers"
+          ],
+          "answer": "Board games (like Chess or Go) where an AI learns to play by playing many games"
+        },
+        {
+          "question": "What are the primary components of a reinforcement learning system?",
+          "options": [
+            "Data, Model, Evaluation metric",
+            "Agent, Environment, Reward signal",
+            "Training set, Validation set, Test set",
+            "Features, Labels, Predictions"
+          ],
+          "answer": "Agent, Environment, Reward signal"
+        },
+        {
+          "question": "How does reinforcement learning differ from supervised learning?",
+          "options": [
+            "There is no difference; both use labeled input-output pairs",
+            "Reinforcement learning does not use labeled outputs, it learns via reward signals through interaction with an environment",
+            "Reinforcement learning only works for clustering tasks",
+            "Supervised learning learns via trial and error, reinforcement uses direct examples"
+          ],
+          "answer": "Reinforcement learning does not use labeled outputs, it learns via reward signals through interaction with an environment"
+        }
+      ]
+    },
+    "Natural Language Processing": {
+      "questions": [
+        {
+          "question": "What is Natural Language Processing (NLP)?",
+          "options": [
+            "A field of AI focused on enabling computers to understand and generate human language",
+            "A database query language",
+            "A type of hardware for accelerating AI computations",
+            "A method for visualizing data"
+          ],
+          "answer": "A field of AI focused on enabling computers to understand and generate human language"
+        },
+        {
+          "question": "Which of the following is a typical task in NLP?",
+          "options": [
+            "Image classification",
+            "Sentiment analysis of text data",
+            "Clustering of numerical data",
+            "Solving systems of linear equations"
+          ],
+          "answer": "Sentiment analysis of text data"
+        },
+        {
+          "question": "What is \"tokenization\" in NLP?",
+          "options": [
+            "Breaking text into smaller units like words or subwords",
+            "Translating text from one language to another",
+            "Removing all punctuation from text",
+            "Encrypting text data"
+          ],
+          "answer": "Breaking text into smaller units like words or subwords"
+        },
+        {
+          "question": "Which NLP technique can be used to represent the importance of words in a document relative to a corpus?",
+          "options": [
+            "TF-IDF (Term Frequency-Inverse Document Frequency)",
+            "Convolutional neural networks",
+            "K-Means clustering",
+            "Gradient descent"
+          ],
+          "answer": "TF-IDF (Term Frequency-Inverse Document Frequency)"
+        },
+        {
+          "question": "An example of an NLP application is:",
+          "options": [
+            "Spam email detection using text content",
+            "Predicting stock prices",
+            "Identifying clusters of customer demographics",
+            "Optimizing delivery routes"
+          ],
+          "answer": "Spam email detection using text content"
+        }
+      ]
+    },
+    "Time Series Analysis": {
+      "questions": [
+        {
+          "question": "What is a distinguishing feature of time series data?",
+          "options": [
+            "Each data point is independent of others",
+            "Each data point is a random sample from an unknown distribution",
+            "Observations are collected in sequence over time, and order matters",
+            "Data points are all categorical"
+          ],
+          "answer": "Observations are collected in sequence over time, and order matters"
+        },
+        {
+          "question": "Which component is NOT typically part of time series decomposition?",
+          "options": [
+            "Trend",
+            "Seasonality",
+            "Random (residual)",
+            "Clustering"
+          ],
+          "answer": "Clustering"
+        },
+        {
+          "question": "What is the goal of time series forecasting?",
+          "options": [
+            "To classify time series into categories",
+            "To predict future values of the series based on historical patterns",
+            "To reduce dimensionality of time-based features",
+            "To cluster time series data"
+          ],
+          "answer": "To predict future values of the series based on historical patterns"
+        },
+        {
+          "question": "Which model is commonly used for time series forecasting?",
+          "options": [
+            "ARIMA (Autoregressive Integrated Moving Average)",
+            "K-Means",
+            "Logistic Regression",
+            "Decision Tree"
+          ],
+          "answer": "ARIMA (Autoregressive Integrated Moving Average)"
+        },
+        {
+          "question": "In time series, what is seasonality?",
+          "options": [
+            "Long-term upward or downward movement in data",
+            "Recurring patterns or cycles observed at regular time intervals",
+            "Random noise in the data",
+            "A method of model evaluation"
+          ],
+          "answer": "Recurring patterns or cycles observed at regular time intervals"
+        }
+      ]
+    }
+  }
+  
