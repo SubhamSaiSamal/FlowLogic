@@ -4,8 +4,8 @@ import { Sun, Moon, Search, Bell } from 'lucide-react';
 
 interface AppLayoutProps {
   children: ReactNode;
-  currentPage: 'dashboard' | 'visualize' | 'learn' | 'quiz' | 'sandbox' | 'history' | 'data' | 'visualize-3d' | 'settings';
-  onNavigate: (page: 'landing' | 'dashboard' | 'visualize' | 'learn' | 'quiz' | 'sandbox' | 'history' | 'data' | 'visualize-3d' | 'settings') => void;
+  currentPage: 'landing' | 'dashboard' | 'visualize' | 'learn' | 'quiz' | 'sandbox' | 'history' | 'data' | 'visualize-3d' | 'settings' | 'labs/overfitting';
+  onNavigate: (page: 'landing' | 'dashboard' | 'visualize' | 'learn' | 'quiz' | 'sandbox' | 'history' | 'data' | 'visualize-3d' | 'settings' | 'labs/overfitting') => void;
   darkMode: boolean;
   onToggleDarkMode: () => void;
 }

@@ -11,10 +11,12 @@ import { LandingPage } from './components/LandingPage';
 import { History } from './components/History';
 import { SettingsPage } from './components/SettingsPage';
 import { ProtectedRoute } from './components/ProtectedRoute';
+import { OverfittingDemo } from './components/experiments/OverfittingDemo';
 
 // Lazy load heavy 3D components
 const LossLandscape3D = React.lazy(() => import('./components/visualizations/LossLandscape3D').then(module => ({ default: module.LossLandscape3D })));
 const AppDemo = React.lazy(() => import('./AppDemo').then(module => ({ default: module.AppDemo })));
+const MLStudio = React.lazy(() => import('./components/MLStudio/MLStudio').then(module => ({ default: module.MLStudio })));
 
 // Loading component
 const PageLoader = () => (
@@ -64,9 +66,11 @@ export const router = createBrowserRouter([
         path: '/visualize-3d',
         element: (
             <ProtectedRoute>
-                <Suspense fallback={<PageLoader />}>
-                    <LossLandscape3D />
-                </Suspense>
+                <LayoutWrapper page="visualize-3d">
+                    <Suspense fallback={<PageLoader />}>
+                        <MLStudio />
+                    </Suspense>
+                </LayoutWrapper>
             </ProtectedRoute>
         ),
     },
@@ -93,6 +97,10 @@ export const router = createBrowserRouter([
     {
         path: '/settings',
         element: <ProtectedRoute><LayoutWrapper page="settings"><SettingsPage /></LayoutWrapper></ProtectedRoute>,
+    },
+    {
+        path: '/labs/overfitting',
+        element: <ProtectedRoute><LayoutWrapper page="labs"><OverfittingDemo /></LayoutWrapper></ProtectedRoute>,
     },
     {
         path: '*',

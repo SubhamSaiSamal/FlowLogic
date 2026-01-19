@@ -7,11 +7,13 @@ import {
   History,
   Settings,
   LogOut,
-  Database
+  Database,
+  FlaskConical,
+  BookOpen
 } from 'lucide-react';
-import { motion } from 'motion/react';
 
-type Page = 'landing' | 'dashboard' | 'visualize' | 'learn' | 'quiz' | 'sandbox' | 'history' | 'data' | 'visualize-3d' | 'settings';
+
+type Page = 'landing' | 'dashboard' | 'visualize' | 'learn' | 'quiz' | 'sandbox' | 'history' | 'data' | 'visualize-3d' | 'settings' | 'labs/overfitting';
 
 interface SidebarProps {
   activePage: Page;
@@ -27,6 +29,10 @@ export function Sidebar({ activePage, onNavigate }: SidebarProps) {
     { id: 'quiz', label: 'Quiz', icon: LineChart },
     { id: 'sandbox', label: 'Sandbox', icon: Beaker },
     { id: 'history', label: 'History', icon: History },
+  ];
+
+  const labItems = [
+    { id: 'labs/overfitting', label: 'Overfitting Sim', icon: FlaskConical },
   ];
 
   return (
@@ -57,10 +63,8 @@ export function Sidebar({ activePage, onNavigate }: SidebarProps) {
                 }`}
             >
               {isActive && (
-                <motion.div
-                  layoutId="activeTab"
+                <div
                   className="absolute inset-0 bg-gradient-to-r from-blue-600/20 to-purple-600/10 border border-blue-500/20 rounded-xl"
-                  transition={{ type: "spring", stiffness: 400, damping: 30 }}
                 />
               )}
               <item.icon className={`w-5 h-5 relative z-10 transition-transform duration-300 ${isActive ? 'scale-110 text-blue-400' : 'group-hover:scale-110'}`} />
@@ -71,6 +75,35 @@ export function Sidebar({ activePage, onNavigate }: SidebarProps) {
             </button>
           );
         })}
+
+
+        <div className="pt-4 pb-2">
+          <h3 className="px-4 text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">Experiments</h3>
+          {labItems.map((item) => {
+            const isActive = activePage === item.id;
+            return (
+              <button
+                key={item.id}
+                onClick={() => onNavigate(item.id as Page)}
+                className={`w-full flex items-center gap-3 px-4 py-3 rounded-xl transition-all duration-300 group relative overflow-hidden ${isActive
+                  ? 'text-white shadow-lg shadow-blue-900/20'
+                  : 'text-slate-400 hover:text-white hover:bg-white/5'
+                  }`}
+              >
+                {isActive && (
+                  <div
+                    className="absolute inset-0 bg-gradient-to-r from-blue-600/20 to-purple-600/10 border border-blue-500/20 rounded-xl"
+                  />
+                )}
+                <item.icon className={`w-5 h-5 relative z-10 transition-transform duration-300 ${isActive ? 'scale-110 text-blue-400' : 'group-hover:scale-110'}`} />
+                <span className="font-medium relative z-10">{item.label}</span>
+                {isActive && (
+                  <div className="absolute right-3 w-1.5 h-1.5 rounded-full bg-blue-400 shadow-[0_0_8px_rgba(59,130,246,0.5)]" />
+                )}
+              </button>
+            );
+          })}
+        </div>
       </nav>
 
       <div className="mt-auto pt-6 border-t border-white/5 space-y-2">
