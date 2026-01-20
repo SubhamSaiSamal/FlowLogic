@@ -6,7 +6,7 @@
 import { LearningContent, Topic, Question } from '../types/learningContent';
 import { STUDY_MATERIAL_CONTENT } from './studyMaterial';
 // @ts-ignore - JSON import
-import quizQuestionsRaw from '../../../quizquestionsraw.json';
+import quizQuestionsRaw from '../../quizquestions.json';
 
 /**
  * Parse study material text into topic content map
@@ -45,14 +45,14 @@ function parseStudyMaterial(): Record<string, string> {
   // For now, we'll create a simple splitter
   const studyMaterialText = getStudyMaterialText();
   const topics: Record<string, string> = {};
-  
+
   // Split text by topic names
   let remainingText = studyMaterialText;
-  
+
   for (let i = 0; i < topicNames.length; i++) {
     const topicName = topicNames[i];
     const nextTopicName = topicNames[i + 1];
-    
+
     // Find the start of this topic
     const startIdx = remainingText.indexOf(topicName);
     if (startIdx === -1) {
@@ -60,7 +60,7 @@ function parseStudyMaterial(): Record<string, string> {
       const altName = topicName.replace(/\([^)]*\)/g, '').trim();
       const altStart = remainingText.indexOf(altName);
       if (altStart !== -1) {
-        const endIdx = nextTopicName 
+        const endIdx = nextTopicName
           ? remainingText.indexOf(nextTopicName, altStart + altName.length)
           : remainingText.length;
         topics[topicName] = remainingText
@@ -72,21 +72,21 @@ function parseStudyMaterial(): Record<string, string> {
       }
       continue;
     }
-    
+
     // Find the end (start of next topic or end of text)
-    const endIdx = nextTopicName 
+    const endIdx = nextTopicName
       ? remainingText.indexOf(nextTopicName, startIdx + topicName.length)
       : remainingText.length;
-    
+
     // Extract content (skip the topic name line itself)
     const content = remainingText
       .substring(startIdx + topicName.length, endIdx)
       .replace(/^\s*\n+/, '') // Remove leading blank lines
       .trim();
-    
+
     topics[topicName] = content || `Learn about ${topicName}.`;
   }
-  
+
   return topics;
 }
 
@@ -106,7 +106,7 @@ function getStudyMaterialText(): string {
 function convertQuestions(rawData: any): Question[] {
   const questions: Question[] = [];
   let questionId = 1;
-  
+
   for (const [topicName, topicData] of Object.entries(rawData)) {
     if (topicData && typeof topicData === 'object' && 'questions' in topicData) {
       const topicQuestions = (topicData as any).questions;
@@ -119,17 +119,17 @@ function convertQuestions(rawData: any): Question[] {
             correctAnswerIndex = q.options.findIndex((opt: string) => opt === answerText);
             if (correctAnswerIndex === -1) correctAnswerIndex = 0;
           }
-          
+
           // Ensure we have exactly 4 options
-          const options = q.options && q.options.length === 4 
+          const options = q.options && q.options.length === 4
             ? q.options as [string, string, string, string]
             : [
-                'Option 1',
-                'Option 2',
-                'Option 3',
-                'Option 4',
-              ] as [string, string, string, string];
-          
+              'Option 1',
+              'Option 2',
+              'Option 3',
+              'Option 4',
+            ] as [string, string, string, string];
+
           questions.push({
             id: `q${questionId++}`,
             question: q.question || 'Question text missing',
@@ -142,7 +142,7 @@ function convertQuestions(rawData: any): Question[] {
       }
     }
   }
-  
+
   return questions;
 }
 
@@ -152,13 +152,13 @@ function convertQuestions(rawData: any): Question[] {
 function createTopics(studyMaterialMap: Record<string, string>): Topic[] {
   const topicNames = Object.keys(quizQuestionsRaw);
   const topics: Topic[] = [];
-  
+
   topicNames.forEach((name, index) => {
     const content = studyMaterialMap[name] || `Learn about ${name}. This topic covers key concepts and fundamentals.`;
-    
+
     // Extract a summary (first sentence or first 150 chars)
     const summary = content.split('.')[0] || `Learn about ${name}`;
-    
+
     topics.push({
       id: name.toLowerCase().replace(/\s+/g, '-').replace(/[&]/g, 'and'),
       title: name,
@@ -169,7 +169,7 @@ function createTopics(studyMaterialMap: Record<string, string>): Topic[] {
       estimatedTime: 5, // 5 minutes per topic
     });
   });
-  
+
   return topics;
 }
 
@@ -179,15 +179,15 @@ function createTopics(studyMaterialMap: Record<string, string>): Topic[] {
 function getCategory(topicName: string): string {
   const lower = topicName.toLowerCase();
   if (lower.includes('data') || lower.includes('feature') || lower.includes('visualization')) return 'data';
-  if (lower.includes('regression') || lower.includes('classification') || 
-      lower.includes('logistic') || lower.includes('tree') ||
-      lower.includes('neighbor') || lower.includes('bayes') ||
-      lower.includes('svm') || lower.includes('ensemble')) return 'algorithms';
-  if (lower.includes('evaluation') || lower.includes('validation') || 
-      lower.includes('overfitting') || lower.includes('regularization')) return 'evaluation';
-  if (lower.includes('neural') || lower.includes('deep') || 
-      lower.includes('reinforcement') || lower.includes('nlp') || 
-      lower.includes('time series') || lower.includes('optimization')) return 'advanced';
+  if (lower.includes('regression') || lower.includes('classification') ||
+    lower.includes('logistic') || lower.includes('tree') ||
+    lower.includes('neighbor') || lower.includes('bayes') ||
+    lower.includes('svm') || lower.includes('ensemble')) return 'algorithms';
+  if (lower.includes('evaluation') || lower.includes('validation') ||
+    lower.includes('overfitting') || lower.includes('regularization')) return 'evaluation';
+  if (lower.includes('neural') || lower.includes('deep') ||
+    lower.includes('reinforcement') || lower.includes('nlp') ||
+    lower.includes('time series') || lower.includes('optimization')) return 'advanced';
   return 'fundamentals';
 }
 
@@ -216,7 +216,7 @@ export function loadLearningContent(): LearningContent {
   // Use embedded study material content
   const topics = createTopics(STUDY_MATERIAL_CONTENT);
   const questions = convertQuestions(quizQuestionsRaw);
-  
+
   return {
     topics,
     questions,
@@ -235,28 +235,28 @@ export function loadLearningContent(): LearningContent {
 export function parseStudyMaterialText(text: string): Record<string, string> {
   const topicNames = Object.keys(quizQuestionsRaw);
   const topics: Record<string, string> = {};
-  
+
   let remainingText = text.replace(/^Study Materials\s*\n?/i, '').trim();
-  
+
   for (let i = 0; i < topicNames.length; i++) {
     const topicName = topicNames[i];
     const nextTopicName = topicNames[i + 1];
-    
+
     // Find topic start - try exact match first
     let startIdx = remainingText.indexOf(topicName);
-    
+
     // If not found, try without parentheses
     if (startIdx === -1) {
       const cleanName = topicName.replace(/\([^)]*\)/g, '').trim();
       startIdx = remainingText.indexOf(cleanName);
     }
-    
+
     if (startIdx === -1) {
       // Still not found, create placeholder
       topics[topicName] = `Content for ${topicName}. Learn the key concepts and fundamentals.`;
       continue;
     }
-    
+
     // Find end of this topic's content
     let endIdx = remainingText.length;
     if (nextTopicName) {
@@ -271,19 +271,19 @@ export function parseStudyMaterialText(text: string): Record<string, string> {
         endIdx = nextStart;
       }
     }
-    
+
     // Extract content
     const contentStart = startIdx + topicName.length;
     const content = remainingText
       .substring(contentStart, endIdx)
       .replace(/^\s*\n+/g, '')
       .trim();
-    
+
     topics[topicName] = content || `Content for ${topicName}.`;
-    
+
     // Move remaining text forward
     remainingText = remainingText.substring(endIdx);
   }
-  
+
   return topics;
 }

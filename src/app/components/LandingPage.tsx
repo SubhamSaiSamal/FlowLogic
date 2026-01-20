@@ -62,9 +62,7 @@ export function LandingPage({ onNavigateToApp }: LandingPageProps) {
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center gap-3">
-            <div className="w-9 h-9 rounded-lg bg-blue-500 flex items-center justify-center">
-              <Zap className="w-5 h-5 text-white" strokeWidth={2.5} />
-            </div>
+            <img src="/logo.png" alt="FlowLogic Logo" className="w-9 h-9 rounded-lg" />
             <div>
               <div className="font-semibold text-lg">FlowLogic</div>
               <div className={`text-xs ${darkMode ? 'text-slate-500' : 'text-slate-500'}`}>Visualize how algorithms learn.</div>
@@ -119,7 +117,7 @@ export function LandingPage({ onNavigateToApp }: LandingPageProps) {
                 </motion.button>
               </>
             )}
-            
+
             <button
               onClick={toggleTheme}
               className={`w-9 h-9 rounded-lg flex items-center justify-center transition-colors ${darkMode ? 'bg-slate-800 hover:bg-slate-700 text-yellow-400' : 'bg-slate-200 hover:bg-slate-300 text-slate-700'}`}
@@ -169,7 +167,7 @@ export function LandingPage({ onNavigateToApp }: LandingPageProps) {
               <p className={`text-lg lg:text-xl mb-6 leading-relaxed max-w-xl ${darkMode ? 'text-slate-400' : 'text-slate-600'}`}>
                 Meet the system for modern ML education. Visualize how Machine Learning and optimization algorithms work mathematically in real-time.
               </p>
-              
+
               {/* Stats */}
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
@@ -560,9 +558,7 @@ export function LandingPage({ onNavigateToApp }: LandingPageProps) {
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
-              <div className="w-8 h-8 rounded-lg bg-blue-500 flex items-center justify-center">
-                <Zap className="w-4 h-4 text-white" strokeWidth={2.5} />
-              </div>
+              <img src="/logo.png" alt="FlowLogic Logo" className="w-8 h-8 rounded-lg" />
               <div>
                 <div className="font-semibold">FlowLogic</div>
                 <div className={`text-xs ${darkMode ? 'text-slate-500' : 'text-slate-500'}`}>STEM Expo 2026</div>
@@ -578,8 +574,8 @@ export function LandingPage({ onNavigateToApp }: LandingPageProps) {
       {/* Modals */}
       <DemoVideoModal isOpen={showDemoModal} onClose={() => setShowDemoModal(false)} />
       <AccessibilityPanel isOpen={showAccessibilityPanel} onClose={() => setShowAccessibilityPanel(false)} />
-      <AuthModal 
-        isOpen={showAuthModal} 
+      <AuthModal
+        isOpen={showAuthModal}
         onClose={() => setShowAuthModal(false)}
         initialMode={authMode}
       />

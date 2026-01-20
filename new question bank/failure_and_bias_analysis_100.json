@@ -1,0 +1,1006 @@
+{
+  "Failure & Bias Analysis": {
+    "questions": [
+      {
+        "question": "What best describes dataset bias? (based on the plot, v1)",
+        "options": [
+          "Bias is fixed by more epochs always",
+          "Bias means convex loss",
+          "Bias means more features",
+          "Dataset bias occurs when training data is not representative of real-world population"
+        ],
+        "answer": "Dataset bias occurs when training data is not representative of real-world population"
+      },
+      {
+        "question": "Which option is true about dataset bias? (from the animation, v2)",
+        "options": [
+          "Dataset bias occurs when training data is not representative of real-world population",
+          "Bias is fixed by more epochs always",
+          "Bias means convex loss",
+          "Bias means more features"
+        ],
+        "answer": "Dataset bias occurs when training data is not representative of real-world population"
+      },
+      {
+        "question": "In the visualization, which statement matches dataset bias? (after dragging a point, v3)",
+        "options": [
+          "Bias means convex loss",
+          "Bias is fixed by more epochs always",
+          "Bias means more features",
+          "Dataset bias occurs when training data is not representative of real-world population"
+        ],
+        "answer": "Dataset bias occurs when training data is not representative of real-world population"
+      },
+      {
+        "question": "After changing settings, which statement best explains dataset bias? (after adding noise, v4)",
+        "options": [
+          "Bias means convex loss",
+          "Bias is fixed by more epochs always",
+          "Bias means more features",
+          "Dataset bias occurs when training data is not representative of real-world population"
+        ],
+        "answer": "Dataset bias occurs when training data is not representative of real-world population"
+      },
+      {
+        "question": "Which choice most accurately defines dataset bias? (after changing the slider, v5)",
+        "options": [
+          "Bias means more features",
+          "Bias is fixed by more epochs always",
+          "Bias means convex loss",
+          "Dataset bias occurs when training data is not representative of real-world population"
+        ],
+        "answer": "Dataset bias occurs when training data is not representative of real-world population"
+      },
+      {
+        "question": "What best describes dataset bias? (after toggling a setting, v6)",
+        "options": [
+          "Bias means convex loss",
+          "Dataset bias occurs when training data is not representative of real-world population",
+          "Bias is fixed by more epochs always",
+          "Bias means more features"
+        ],
+        "answer": "Dataset bias occurs when training data is not representative of real-world population"
+      },
+      {
+        "question": "Which option is true about dataset bias? (using the shown curve, v7)",
+        "options": [
+          "Bias is fixed by more epochs always",
+          "Bias means more features",
+          "Bias means convex loss",
+          "Dataset bias occurs when training data is not representative of real-world population"
+        ],
+        "answer": "Dataset bias occurs when training data is not representative of real-world population"
+      },
+      {
+        "question": "In the visualization, which statement matches dataset bias? (from the scatter pattern, v8)",
+        "options": [
+          "Bias means more features",
+          "Bias is fixed by more epochs always",
+          "Bias means convex loss",
+          "Dataset bias occurs when training data is not representative of real-world population"
+        ],
+        "answer": "Dataset bias occurs when training data is not representative of real-world population"
+      },
+      {
+        "question": "After changing settings, which statement best explains dataset bias? (based on the plot, v9)",
+        "options": [
+          "Dataset bias occurs when training data is not representative of real-world population",
+          "Bias means more features",
+          "Bias means convex loss",
+          "Bias is fixed by more epochs always"
+        ],
+        "answer": "Dataset bias occurs when training data is not representative of real-world population"
+      },
+      {
+        "question": "Which choice most accurately defines dataset bias? (from the animation, v10)",
+        "options": [
+          "Bias means convex loss",
+          "Bias is fixed by more epochs always",
+          "Bias means more features",
+          "Dataset bias occurs when training data is not representative of real-world population"
+        ],
+        "answer": "Dataset bias occurs when training data is not representative of real-world population"
+      },
+      {
+        "question": "What best describes dataset bias? (after dragging a point, v11)",
+        "options": [
+          "Bias means convex loss",
+          "Bias is fixed by more epochs always",
+          "Dataset bias occurs when training data is not representative of real-world population",
+          "Bias means more features"
+        ],
+        "answer": "Dataset bias occurs when training data is not representative of real-world population"
+      },
+      {
+        "question": "Which option is true about dataset bias? (after adding noise, v12)",
+        "options": [
+          "Dataset bias occurs when training data is not representative of real-world population",
+          "Bias means more features",
+          "Bias is fixed by more epochs always",
+          "Bias means convex loss"
+        ],
+        "answer": "Dataset bias occurs when training data is not representative of real-world population"
+      },
+      {
+        "question": "In the visualization, which statement matches dataset bias? (after changing the slider, v13)",
+        "options": [
+          "Dataset bias occurs when training data is not representative of real-world population",
+          "Bias is fixed by more epochs always",
+          "Bias means more features",
+          "Bias means convex loss"
+        ],
+        "answer": "Dataset bias occurs when training data is not representative of real-world population"
+      },
+      {
+        "question": "After changing settings, which statement best explains dataset bias? (after toggling a setting, v14)",
+        "options": [
+          "Dataset bias occurs when training data is not representative of real-world population",
+          "Bias means more features",
+          "Bias is fixed by more epochs always",
+          "Bias means convex loss"
+        ],
+        "answer": "Dataset bias occurs when training data is not representative of real-world population"
+      },
+      {
+        "question": "Which choice most accurately defines dataset bias? (using the shown curve, v15)",
+        "options": [
+          "Dataset bias occurs when training data is not representative of real-world population",
+          "Bias means more features",
+          "Bias means convex loss",
+          "Bias is fixed by more epochs always"
+        ],
+        "answer": "Dataset bias occurs when training data is not representative of real-world population"
+      },
+      {
+        "question": "What best describes dataset bias? (from the scatter pattern, v16)",
+        "options": [
+          "Dataset bias occurs when training data is not representative of real-world population",
+          "Bias means convex loss",
+          "Bias is fixed by more epochs always",
+          "Bias means more features"
+        ],
+        "answer": "Dataset bias occurs when training data is not representative of real-world population"
+      },
+      {
+        "question": "Which option is true about dataset bias? (based on the plot, v17)",
+        "options": [
+          "Bias means convex loss",
+          "Bias is fixed by more epochs always",
+          "Bias means more features",
+          "Dataset bias occurs when training data is not representative of real-world population"
+        ],
+        "answer": "Dataset bias occurs when training data is not representative of real-world population"
+      },
+      {
+        "question": "In the visualization, which statement matches dataset bias? (from the animation, v18)",
+        "options": [
+          "Dataset bias occurs when training data is not representative of real-world population",
+          "Bias means convex loss",
+          "Bias means more features",
+          "Bias is fixed by more epochs always"
+        ],
+        "answer": "Dataset bias occurs when training data is not representative of real-world population"
+      },
+      {
+        "question": "After changing settings, which statement best explains dataset bias? (after dragging a point, v19)",
+        "options": [
+          "Bias means convex loss",
+          "Bias means more features",
+          "Bias is fixed by more epochs always",
+          "Dataset bias occurs when training data is not representative of real-world population"
+        ],
+        "answer": "Dataset bias occurs when training data is not representative of real-world population"
+      },
+      {
+        "question": "Which choice most accurately defines dataset bias? (after adding noise, v20)",
+        "options": [
+          "Bias means convex loss",
+          "Bias is fixed by more epochs always",
+          "Bias means more features",
+          "Dataset bias occurs when training data is not representative of real-world population"
+        ],
+        "answer": "Dataset bias occurs when training data is not representative of real-world population"
+      },
+      {
+        "question": "What best describes edge cases? (based on the plot, v1)",
+        "options": [
+          "Edge cases are labels",
+          "Edge cases are always outliers",
+          "Edge cases are rare/extreme scenarios where models often fail",
+          "Edge cases are the most common samples"
+        ],
+        "answer": "Edge cases are rare/extreme scenarios where models often fail"
+      },
+      {
+        "question": "Which option is true about edge cases? (from the animation, v2)",
+        "options": [
+          "Edge cases are labels",
+          "Edge cases are always outliers",
+          "Edge cases are the most common samples",
+          "Edge cases are rare/extreme scenarios where models often fail"
+        ],
+        "answer": "Edge cases are rare/extreme scenarios where models often fail"
+      },
+      {
+        "question": "In the visualization, which statement matches edge cases? (after dragging a point, v3)",
+        "options": [
+          "Edge cases are rare/extreme scenarios where models often fail",
+          "Edge cases are labels",
+          "Edge cases are the most common samples",
+          "Edge cases are always outliers"
+        ],
+        "answer": "Edge cases are rare/extreme scenarios where models often fail"
+      },
+      {
+        "question": "After changing settings, which statement best explains edge cases? (after adding noise, v4)",
+        "options": [
+          "Edge cases are rare/extreme scenarios where models often fail",
+          "Edge cases are the most common samples",
+          "Edge cases are always outliers",
+          "Edge cases are labels"
+        ],
+        "answer": "Edge cases are rare/extreme scenarios where models often fail"
+      },
+      {
+        "question": "Which choice most accurately defines edge cases? (after changing the slider, v5)",
+        "options": [
+          "Edge cases are the most common samples",
+          "Edge cases are labels",
+          "Edge cases are rare/extreme scenarios where models often fail",
+          "Edge cases are always outliers"
+        ],
+        "answer": "Edge cases are rare/extreme scenarios where models often fail"
+      },
+      {
+        "question": "What best describes edge cases? (after toggling a setting, v6)",
+        "options": [
+          "Edge cases are labels",
+          "Edge cases are the most common samples",
+          "Edge cases are rare/extreme scenarios where models often fail",
+          "Edge cases are always outliers"
+        ],
+        "answer": "Edge cases are rare/extreme scenarios where models often fail"
+      },
+      {
+        "question": "Which option is true about edge cases? (using the shown curve, v7)",
+        "options": [
+          "Edge cases are the most common samples",
+          "Edge cases are rare/extreme scenarios where models often fail",
+          "Edge cases are labels",
+          "Edge cases are always outliers"
+        ],
+        "answer": "Edge cases are rare/extreme scenarios where models often fail"
+      },
+      {
+        "question": "In the visualization, which statement matches edge cases? (from the scatter pattern, v8)",
+        "options": [
+          "Edge cases are rare/extreme scenarios where models often fail",
+          "Edge cases are labels",
+          "Edge cases are always outliers",
+          "Edge cases are the most common samples"
+        ],
+        "answer": "Edge cases are rare/extreme scenarios where models often fail"
+      },
+      {
+        "question": "After changing settings, which statement best explains edge cases? (based on the plot, v9)",
+        "options": [
+          "Edge cases are labels",
+          "Edge cases are the most common samples",
+          "Edge cases are rare/extreme scenarios where models often fail",
+          "Edge cases are always outliers"
+        ],
+        "answer": "Edge cases are rare/extreme scenarios where models often fail"
+      },
+      {
+        "question": "Which choice most accurately defines edge cases? (from the animation, v10)",
+        "options": [
+          "Edge cases are the most common samples",
+          "Edge cases are labels",
+          "Edge cases are rare/extreme scenarios where models often fail",
+          "Edge cases are always outliers"
+        ],
+        "answer": "Edge cases are rare/extreme scenarios where models often fail"
+      },
+      {
+        "question": "What best describes edge cases? (after dragging a point, v11)",
+        "options": [
+          "Edge cases are the most common samples",
+          "Edge cases are rare/extreme scenarios where models often fail",
+          "Edge cases are labels",
+          "Edge cases are always outliers"
+        ],
+        "answer": "Edge cases are rare/extreme scenarios where models often fail"
+      },
+      {
+        "question": "Which option is true about edge cases? (after adding noise, v12)",
+        "options": [
+          "Edge cases are the most common samples",
+          "Edge cases are labels",
+          "Edge cases are rare/extreme scenarios where models often fail",
+          "Edge cases are always outliers"
+        ],
+        "answer": "Edge cases are rare/extreme scenarios where models often fail"
+      },
+      {
+        "question": "In the visualization, which statement matches edge cases? (after changing the slider, v13)",
+        "options": [
+          "Edge cases are the most common samples",
+          "Edge cases are labels",
+          "Edge cases are always outliers",
+          "Edge cases are rare/extreme scenarios where models often fail"
+        ],
+        "answer": "Edge cases are rare/extreme scenarios where models often fail"
+      },
+      {
+        "question": "After changing settings, which statement best explains edge cases? (after toggling a setting, v14)",
+        "options": [
+          "Edge cases are rare/extreme scenarios where models often fail",
+          "Edge cases are labels",
+          "Edge cases are the most common samples",
+          "Edge cases are always outliers"
+        ],
+        "answer": "Edge cases are rare/extreme scenarios where models often fail"
+      },
+      {
+        "question": "Which choice most accurately defines edge cases? (using the shown curve, v15)",
+        "options": [
+          "Edge cases are the most common samples",
+          "Edge cases are rare/extreme scenarios where models often fail",
+          "Edge cases are labels",
+          "Edge cases are always outliers"
+        ],
+        "answer": "Edge cases are rare/extreme scenarios where models often fail"
+      },
+      {
+        "question": "What best describes edge cases? (from the scatter pattern, v16)",
+        "options": [
+          "Edge cases are labels",
+          "Edge cases are always outliers",
+          "Edge cases are rare/extreme scenarios where models often fail",
+          "Edge cases are the most common samples"
+        ],
+        "answer": "Edge cases are rare/extreme scenarios where models often fail"
+      },
+      {
+        "question": "Which option is true about edge cases? (based on the plot, v17)",
+        "options": [
+          "Edge cases are labels",
+          "Edge cases are always outliers",
+          "Edge cases are the most common samples",
+          "Edge cases are rare/extreme scenarios where models often fail"
+        ],
+        "answer": "Edge cases are rare/extreme scenarios where models often fail"
+      },
+      {
+        "question": "In the visualization, which statement matches edge cases? (from the animation, v18)",
+        "options": [
+          "Edge cases are labels",
+          "Edge cases are the most common samples",
+          "Edge cases are rare/extreme scenarios where models often fail",
+          "Edge cases are always outliers"
+        ],
+        "answer": "Edge cases are rare/extreme scenarios where models often fail"
+      },
+      {
+        "question": "After changing settings, which statement best explains edge cases? (after dragging a point, v19)",
+        "options": [
+          "Edge cases are labels",
+          "Edge cases are the most common samples",
+          "Edge cases are rare/extreme scenarios where models often fail",
+          "Edge cases are always outliers"
+        ],
+        "answer": "Edge cases are rare/extreme scenarios where models often fail"
+      },
+      {
+        "question": "Which choice most accurately defines edge cases? (after adding noise, v20)",
+        "options": [
+          "Edge cases are the most common samples",
+          "Edge cases are rare/extreme scenarios where models often fail",
+          "Edge cases are labels",
+          "Edge cases are always outliers"
+        ],
+        "answer": "Edge cases are rare/extreme scenarios where models often fail"
+      },
+      {
+        "question": "What best describes overconfidence? (based on the plot, v1)",
+        "options": [
+          "Overconfidence is good calibration",
+          "Overconfidence means no variance",
+          "Overconfidence is assigning high probability to wrong predictions",
+          "Overconfidence means low learning rate"
+        ],
+        "answer": "Overconfidence is assigning high probability to wrong predictions"
+      },
+      {
+        "question": "Which option is true about overconfidence? (from the animation, v2)",
+        "options": [
+          "Overconfidence is good calibration",
+          "Overconfidence means no variance",
+          "Overconfidence is assigning high probability to wrong predictions",
+          "Overconfidence means low learning rate"
+        ],
+        "answer": "Overconfidence is assigning high probability to wrong predictions"
+      },
+      {
+        "question": "In the visualization, which statement matches overconfidence? (after dragging a point, v3)",
+        "options": [
+          "Overconfidence means low learning rate",
+          "Overconfidence is assigning high probability to wrong predictions",
+          "Overconfidence is good calibration",
+          "Overconfidence means no variance"
+        ],
+        "answer": "Overconfidence is assigning high probability to wrong predictions"
+      },
+      {
+        "question": "After changing settings, which statement best explains overconfidence? (after adding noise, v4)",
+        "options": [
+          "Overconfidence means no variance",
+          "Overconfidence means low learning rate",
+          "Overconfidence is assigning high probability to wrong predictions",
+          "Overconfidence is good calibration"
+        ],
+        "answer": "Overconfidence is assigning high probability to wrong predictions"
+      },
+      {
+        "question": "Which choice most accurately defines overconfidence? (after changing the slider, v5)",
+        "options": [
+          "Overconfidence means low learning rate",
+          "Overconfidence is assigning high probability to wrong predictions",
+          "Overconfidence means no variance",
+          "Overconfidence is good calibration"
+        ],
+        "answer": "Overconfidence is assigning high probability to wrong predictions"
+      },
+      {
+        "question": "What best describes overconfidence? (after toggling a setting, v6)",
+        "options": [
+          "Overconfidence means no variance",
+          "Overconfidence is good calibration",
+          "Overconfidence is assigning high probability to wrong predictions",
+          "Overconfidence means low learning rate"
+        ],
+        "answer": "Overconfidence is assigning high probability to wrong predictions"
+      },
+      {
+        "question": "Which option is true about overconfidence? (using the shown curve, v7)",
+        "options": [
+          "Overconfidence means low learning rate",
+          "Overconfidence is assigning high probability to wrong predictions",
+          "Overconfidence means no variance",
+          "Overconfidence is good calibration"
+        ],
+        "answer": "Overconfidence is assigning high probability to wrong predictions"
+      },
+      {
+        "question": "In the visualization, which statement matches overconfidence? (from the scatter pattern, v8)",
+        "options": [
+          "Overconfidence means low learning rate",
+          "Overconfidence means no variance",
+          "Overconfidence is good calibration",
+          "Overconfidence is assigning high probability to wrong predictions"
+        ],
+        "answer": "Overconfidence is assigning high probability to wrong predictions"
+      },
+      {
+        "question": "After changing settings, which statement best explains overconfidence? (based on the plot, v9)",
+        "options": [
+          "Overconfidence means low learning rate",
+          "Overconfidence means no variance",
+          "Overconfidence is assigning high probability to wrong predictions",
+          "Overconfidence is good calibration"
+        ],
+        "answer": "Overconfidence is assigning high probability to wrong predictions"
+      },
+      {
+        "question": "Which choice most accurately defines overconfidence? (from the animation, v10)",
+        "options": [
+          "Overconfidence means no variance",
+          "Overconfidence is assigning high probability to wrong predictions",
+          "Overconfidence is good calibration",
+          "Overconfidence means low learning rate"
+        ],
+        "answer": "Overconfidence is assigning high probability to wrong predictions"
+      },
+      {
+        "question": "What best describes overconfidence? (after dragging a point, v11)",
+        "options": [
+          "Overconfidence is good calibration",
+          "Overconfidence is assigning high probability to wrong predictions",
+          "Overconfidence means low learning rate",
+          "Overconfidence means no variance"
+        ],
+        "answer": "Overconfidence is assigning high probability to wrong predictions"
+      },
+      {
+        "question": "Which option is true about overconfidence? (after adding noise, v12)",
+        "options": [
+          "Overconfidence is assigning high probability to wrong predictions",
+          "Overconfidence is good calibration",
+          "Overconfidence means no variance",
+          "Overconfidence means low learning rate"
+        ],
+        "answer": "Overconfidence is assigning high probability to wrong predictions"
+      },
+      {
+        "question": "In the visualization, which statement matches overconfidence? (after changing the slider, v13)",
+        "options": [
+          "Overconfidence is assigning high probability to wrong predictions",
+          "Overconfidence is good calibration",
+          "Overconfidence means low learning rate",
+          "Overconfidence means no variance"
+        ],
+        "answer": "Overconfidence is assigning high probability to wrong predictions"
+      },
+      {
+        "question": "After changing settings, which statement best explains overconfidence? (after toggling a setting, v14)",
+        "options": [
+          "Overconfidence means no variance",
+          "Overconfidence is assigning high probability to wrong predictions",
+          "Overconfidence means low learning rate",
+          "Overconfidence is good calibration"
+        ],
+        "answer": "Overconfidence is assigning high probability to wrong predictions"
+      },
+      {
+        "question": "Which choice most accurately defines overconfidence? (using the shown curve, v15)",
+        "options": [
+          "Overconfidence is good calibration",
+          "Overconfidence means no variance",
+          "Overconfidence is assigning high probability to wrong predictions",
+          "Overconfidence means low learning rate"
+        ],
+        "answer": "Overconfidence is assigning high probability to wrong predictions"
+      },
+      {
+        "question": "What best describes overconfidence? (from the scatter pattern, v16)",
+        "options": [
+          "Overconfidence is assigning high probability to wrong predictions",
+          "Overconfidence means no variance",
+          "Overconfidence is good calibration",
+          "Overconfidence means low learning rate"
+        ],
+        "answer": "Overconfidence is assigning high probability to wrong predictions"
+      },
+      {
+        "question": "Which option is true about overconfidence? (based on the plot, v17)",
+        "options": [
+          "Overconfidence means no variance",
+          "Overconfidence is assigning high probability to wrong predictions",
+          "Overconfidence is good calibration",
+          "Overconfidence means low learning rate"
+        ],
+        "answer": "Overconfidence is assigning high probability to wrong predictions"
+      },
+      {
+        "question": "In the visualization, which statement matches overconfidence? (from the animation, v18)",
+        "options": [
+          "Overconfidence means low learning rate",
+          "Overconfidence is assigning high probability to wrong predictions",
+          "Overconfidence is good calibration",
+          "Overconfidence means no variance"
+        ],
+        "answer": "Overconfidence is assigning high probability to wrong predictions"
+      },
+      {
+        "question": "After changing settings, which statement best explains overconfidence? (after dragging a point, v19)",
+        "options": [
+          "Overconfidence means no variance",
+          "Overconfidence is assigning high probability to wrong predictions",
+          "Overconfidence is good calibration",
+          "Overconfidence means low learning rate"
+        ],
+        "answer": "Overconfidence is assigning high probability to wrong predictions"
+      },
+      {
+        "question": "Which choice most accurately defines overconfidence? (after adding noise, v20)",
+        "options": [
+          "Overconfidence means no variance",
+          "Overconfidence is good calibration",
+          "Overconfidence means low learning rate",
+          "Overconfidence is assigning high probability to wrong predictions"
+        ],
+        "answer": "Overconfidence is assigning high probability to wrong predictions"
+      },
+      {
+        "question": "What best describes misleading metrics? (based on the plot, v1)",
+        "options": [
+          "Metrics replace data quality",
+          "A metric can look good while hiding important failure modes (e.g., imbalance with accuracy)",
+          "All metrics are equally informative",
+          "Misleading metrics are impossible"
+        ],
+        "answer": "A metric can look good while hiding important failure modes (e.g., imbalance with accuracy)"
+      },
+      {
+        "question": "Which option is true about misleading metrics? (from the animation, v2)",
+        "options": [
+          "A metric can look good while hiding important failure modes (e.g., imbalance with accuracy)",
+          "All metrics are equally informative",
+          "Misleading metrics are impossible",
+          "Metrics replace data quality"
+        ],
+        "answer": "A metric can look good while hiding important failure modes (e.g., imbalance with accuracy)"
+      },
+      {
+        "question": "In the visualization, which statement matches misleading metrics? (after dragging a point, v3)",
+        "options": [
+          "A metric can look good while hiding important failure modes (e.g., imbalance with accuracy)",
+          "All metrics are equally informative",
+          "Misleading metrics are impossible",
+          "Metrics replace data quality"
+        ],
+        "answer": "A metric can look good while hiding important failure modes (e.g., imbalance with accuracy)"
+      },
+      {
+        "question": "After changing settings, which statement best explains misleading metrics? (after adding noise, v4)",
+        "options": [
+          "A metric can look good while hiding important failure modes (e.g., imbalance with accuracy)",
+          "Metrics replace data quality",
+          "Misleading metrics are impossible",
+          "All metrics are equally informative"
+        ],
+        "answer": "A metric can look good while hiding important failure modes (e.g., imbalance with accuracy)"
+      },
+      {
+        "question": "Which choice most accurately defines misleading metrics? (after changing the slider, v5)",
+        "options": [
+          "A metric can look good while hiding important failure modes (e.g., imbalance with accuracy)",
+          "All metrics are equally informative",
+          "Metrics replace data quality",
+          "Misleading metrics are impossible"
+        ],
+        "answer": "A metric can look good while hiding important failure modes (e.g., imbalance with accuracy)"
+      },
+      {
+        "question": "What best describes misleading metrics? (after toggling a setting, v6)",
+        "options": [
+          "All metrics are equally informative",
+          "Misleading metrics are impossible",
+          "Metrics replace data quality",
+          "A metric can look good while hiding important failure modes (e.g., imbalance with accuracy)"
+        ],
+        "answer": "A metric can look good while hiding important failure modes (e.g., imbalance with accuracy)"
+      },
+      {
+        "question": "Which option is true about misleading metrics? (using the shown curve, v7)",
+        "options": [
+          "A metric can look good while hiding important failure modes (e.g., imbalance with accuracy)",
+          "Metrics replace data quality",
+          "Misleading metrics are impossible",
+          "All metrics are equally informative"
+        ],
+        "answer": "A metric can look good while hiding important failure modes (e.g., imbalance with accuracy)"
+      },
+      {
+        "question": "In the visualization, which statement matches misleading metrics? (from the scatter pattern, v8)",
+        "options": [
+          "A metric can look good while hiding important failure modes (e.g., imbalance with accuracy)",
+          "Misleading metrics are impossible",
+          "All metrics are equally informative",
+          "Metrics replace data quality"
+        ],
+        "answer": "A metric can look good while hiding important failure modes (e.g., imbalance with accuracy)"
+      },
+      {
+        "question": "After changing settings, which statement best explains misleading metrics? (based on the plot, v9)",
+        "options": [
+          "All metrics are equally informative",
+          "Misleading metrics are impossible",
+          "A metric can look good while hiding important failure modes (e.g., imbalance with accuracy)",
+          "Metrics replace data quality"
+        ],
+        "answer": "A metric can look good while hiding important failure modes (e.g., imbalance with accuracy)"
+      },
+      {
+        "question": "Which choice most accurately defines misleading metrics? (from the animation, v10)",
+        "options": [
+          "Metrics replace data quality",
+          "All metrics are equally informative",
+          "Misleading metrics are impossible",
+          "A metric can look good while hiding important failure modes (e.g., imbalance with accuracy)"
+        ],
+        "answer": "A metric can look good while hiding important failure modes (e.g., imbalance with accuracy)"
+      },
+      {
+        "question": "What best describes misleading metrics? (after dragging a point, v11)",
+        "options": [
+          "Misleading metrics are impossible",
+          "All metrics are equally informative",
+          "A metric can look good while hiding important failure modes (e.g., imbalance with accuracy)",
+          "Metrics replace data quality"
+        ],
+        "answer": "A metric can look good while hiding important failure modes (e.g., imbalance with accuracy)"
+      },
+      {
+        "question": "Which option is true about misleading metrics? (after adding noise, v12)",
+        "options": [
+          "Metrics replace data quality",
+          "Misleading metrics are impossible",
+          "All metrics are equally informative",
+          "A metric can look good while hiding important failure modes (e.g., imbalance with accuracy)"
+        ],
+        "answer": "A metric can look good while hiding important failure modes (e.g., imbalance with accuracy)"
+      },
+      {
+        "question": "In the visualization, which statement matches misleading metrics? (after changing the slider, v13)",
+        "options": [
+          "Misleading metrics are impossible",
+          "Metrics replace data quality",
+          "All metrics are equally informative",
+          "A metric can look good while hiding important failure modes (e.g., imbalance with accuracy)"
+        ],
+        "answer": "A metric can look good while hiding important failure modes (e.g., imbalance with accuracy)"
+      },
+      {
+        "question": "After changing settings, which statement best explains misleading metrics? (after toggling a setting, v14)",
+        "options": [
+          "A metric can look good while hiding important failure modes (e.g., imbalance with accuracy)",
+          "All metrics are equally informative",
+          "Metrics replace data quality",
+          "Misleading metrics are impossible"
+        ],
+        "answer": "A metric can look good while hiding important failure modes (e.g., imbalance with accuracy)"
+      },
+      {
+        "question": "Which choice most accurately defines misleading metrics? (using the shown curve, v15)",
+        "options": [
+          "All metrics are equally informative",
+          "Metrics replace data quality",
+          "A metric can look good while hiding important failure modes (e.g., imbalance with accuracy)",
+          "Misleading metrics are impossible"
+        ],
+        "answer": "A metric can look good while hiding important failure modes (e.g., imbalance with accuracy)"
+      },
+      {
+        "question": "What best describes misleading metrics? (from the scatter pattern, v16)",
+        "options": [
+          "Metrics replace data quality",
+          "All metrics are equally informative",
+          "A metric can look good while hiding important failure modes (e.g., imbalance with accuracy)",
+          "Misleading metrics are impossible"
+        ],
+        "answer": "A metric can look good while hiding important failure modes (e.g., imbalance with accuracy)"
+      },
+      {
+        "question": "Which option is true about misleading metrics? (based on the plot, v17)",
+        "options": [
+          "All metrics are equally informative",
+          "Metrics replace data quality",
+          "A metric can look good while hiding important failure modes (e.g., imbalance with accuracy)",
+          "Misleading metrics are impossible"
+        ],
+        "answer": "A metric can look good while hiding important failure modes (e.g., imbalance with accuracy)"
+      },
+      {
+        "question": "In the visualization, which statement matches misleading metrics? (from the animation, v18)",
+        "options": [
+          "All metrics are equally informative",
+          "A metric can look good while hiding important failure modes (e.g., imbalance with accuracy)",
+          "Misleading metrics are impossible",
+          "Metrics replace data quality"
+        ],
+        "answer": "A metric can look good while hiding important failure modes (e.g., imbalance with accuracy)"
+      },
+      {
+        "question": "After changing settings, which statement best explains misleading metrics? (after dragging a point, v19)",
+        "options": [
+          "Metrics replace data quality",
+          "All metrics are equally informative",
+          "Misleading metrics are impossible",
+          "A metric can look good while hiding important failure modes (e.g., imbalance with accuracy)"
+        ],
+        "answer": "A metric can look good while hiding important failure modes (e.g., imbalance with accuracy)"
+      },
+      {
+        "question": "Which choice most accurately defines misleading metrics? (after adding noise, v20)",
+        "options": [
+          "All metrics are equally informative",
+          "Metrics replace data quality",
+          "A metric can look good while hiding important failure modes (e.g., imbalance with accuracy)",
+          "Misleading metrics are impossible"
+        ],
+        "answer": "A metric can look good while hiding important failure modes (e.g., imbalance with accuracy)"
+      },
+      {
+        "question": "What best describes recovery strategy? (based on the plot, v1)",
+        "options": [
+          "Stop monitoring validation",
+          "Increase learning rate randomly",
+          "Investigate failure examples, adjust data/model, and evaluate targeted fixes",
+          "Delete the test set"
+        ],
+        "answer": "Investigate failure examples, adjust data/model, and evaluate targeted fixes"
+      },
+      {
+        "question": "Which option is true about recovery strategy? (from the animation, v2)",
+        "options": [
+          "Stop monitoring validation",
+          "Delete the test set",
+          "Increase learning rate randomly",
+          "Investigate failure examples, adjust data/model, and evaluate targeted fixes"
+        ],
+        "answer": "Investigate failure examples, adjust data/model, and evaluate targeted fixes"
+      },
+      {
+        "question": "In the visualization, which statement matches recovery strategy? (after dragging a point, v3)",
+        "options": [
+          "Investigate failure examples, adjust data/model, and evaluate targeted fixes",
+          "Stop monitoring validation",
+          "Delete the test set",
+          "Increase learning rate randomly"
+        ],
+        "answer": "Investigate failure examples, adjust data/model, and evaluate targeted fixes"
+      },
+      {
+        "question": "After changing settings, which statement best explains recovery strategy? (after adding noise, v4)",
+        "options": [
+          "Stop monitoring validation",
+          "Increase learning rate randomly",
+          "Delete the test set",
+          "Investigate failure examples, adjust data/model, and evaluate targeted fixes"
+        ],
+        "answer": "Investigate failure examples, adjust data/model, and evaluate targeted fixes"
+      },
+      {
+        "question": "Which choice most accurately defines recovery strategy? (after changing the slider, v5)",
+        "options": [
+          "Increase learning rate randomly",
+          "Stop monitoring validation",
+          "Investigate failure examples, adjust data/model, and evaluate targeted fixes",
+          "Delete the test set"
+        ],
+        "answer": "Investigate failure examples, adjust data/model, and evaluate targeted fixes"
+      },
+      {
+        "question": "What best describes recovery strategy? (after toggling a setting, v6)",
+        "options": [
+          "Increase learning rate randomly",
+          "Stop monitoring validation",
+          "Delete the test set",
+          "Investigate failure examples, adjust data/model, and evaluate targeted fixes"
+        ],
+        "answer": "Investigate failure examples, adjust data/model, and evaluate targeted fixes"
+      },
+      {
+        "question": "Which option is true about recovery strategy? (using the shown curve, v7)",
+        "options": [
+          "Investigate failure examples, adjust data/model, and evaluate targeted fixes",
+          "Delete the test set",
+          "Stop monitoring validation",
+          "Increase learning rate randomly"
+        ],
+        "answer": "Investigate failure examples, adjust data/model, and evaluate targeted fixes"
+      },
+      {
+        "question": "In the visualization, which statement matches recovery strategy? (from the scatter pattern, v8)",
+        "options": [
+          "Investigate failure examples, adjust data/model, and evaluate targeted fixes",
+          "Stop monitoring validation",
+          "Increase learning rate randomly",
+          "Delete the test set"
+        ],
+        "answer": "Investigate failure examples, adjust data/model, and evaluate targeted fixes"
+      },
+      {
+        "question": "After changing settings, which statement best explains recovery strategy? (based on the plot, v9)",
+        "options": [
+          "Stop monitoring validation",
+          "Investigate failure examples, adjust data/model, and evaluate targeted fixes",
+          "Delete the test set",
+          "Increase learning rate randomly"
+        ],
+        "answer": "Investigate failure examples, adjust data/model, and evaluate targeted fixes"
+      },
+      {
+        "question": "Which choice most accurately defines recovery strategy? (from the animation, v10)",
+        "options": [
+          "Stop monitoring validation",
+          "Increase learning rate randomly",
+          "Delete the test set",
+          "Investigate failure examples, adjust data/model, and evaluate targeted fixes"
+        ],
+        "answer": "Investigate failure examples, adjust data/model, and evaluate targeted fixes"
+      },
+      {
+        "question": "What best describes recovery strategy? (after dragging a point, v11)",
+        "options": [
+          "Investigate failure examples, adjust data/model, and evaluate targeted fixes",
+          "Increase learning rate randomly",
+          "Stop monitoring validation",
+          "Delete the test set"
+        ],
+        "answer": "Investigate failure examples, adjust data/model, and evaluate targeted fixes"
+      },
+      {
+        "question": "Which option is true about recovery strategy? (after adding noise, v12)",
+        "options": [
+          "Investigate failure examples, adjust data/model, and evaluate targeted fixes",
+          "Stop monitoring validation",
+          "Increase learning rate randomly",
+          "Delete the test set"
+        ],
+        "answer": "Investigate failure examples, adjust data/model, and evaluate targeted fixes"
+      },
+      {
+        "question": "In the visualization, which statement matches recovery strategy? (after changing the slider, v13)",
+        "options": [
+          "Increase learning rate randomly",
+          "Stop monitoring validation",
+          "Investigate failure examples, adjust data/model, and evaluate targeted fixes",
+          "Delete the test set"
+        ],
+        "answer": "Investigate failure examples, adjust data/model, and evaluate targeted fixes"
+      },
+      {
+        "question": "After changing settings, which statement best explains recovery strategy? (after toggling a setting, v14)",
+        "options": [
+          "Investigate failure examples, adjust data/model, and evaluate targeted fixes",
+          "Increase learning rate randomly",
+          "Delete the test set",
+          "Stop monitoring validation"
+        ],
+        "answer": "Investigate failure examples, adjust data/model, and evaluate targeted fixes"
+      },
+      {
+        "question": "Which choice most accurately defines recovery strategy? (using the shown curve, v15)",
+        "options": [
+          "Stop monitoring validation",
+          "Delete the test set",
+          "Investigate failure examples, adjust data/model, and evaluate targeted fixes",
+          "Increase learning rate randomly"
+        ],
+        "answer": "Investigate failure examples, adjust data/model, and evaluate targeted fixes"
+      },
+      {
+        "question": "What best describes recovery strategy? (from the scatter pattern, v16)",
+        "options": [
+          "Investigate failure examples, adjust data/model, and evaluate targeted fixes",
+          "Increase learning rate randomly",
+          "Stop monitoring validation",
+          "Delete the test set"
+        ],
+        "answer": "Investigate failure examples, adjust data/model, and evaluate targeted fixes"
+      },
+      {
+        "question": "Which option is true about recovery strategy? (based on the plot, v17)",
+        "options": [
+          "Investigate failure examples, adjust data/model, and evaluate targeted fixes",
+          "Stop monitoring validation",
+          "Delete the test set",
+          "Increase learning rate randomly"
+        ],
+        "answer": "Investigate failure examples, adjust data/model, and evaluate targeted fixes"
+      },
+      {
+        "question": "In the visualization, which statement matches recovery strategy? (from the animation, v18)",
+        "options": [
+          "Delete the test set",
+          "Investigate failure examples, adjust data/model, and evaluate targeted fixes",
+          "Increase learning rate randomly",
+          "Stop monitoring validation"
+        ],
+        "answer": "Investigate failure examples, adjust data/model, and evaluate targeted fixes"
+      },
+      {
+        "question": "After changing settings, which statement best explains recovery strategy? (after dragging a point, v19)",
+        "options": [
+          "Delete the test set",
+          "Investigate failure examples, adjust data/model, and evaluate targeted fixes",
+          "Increase learning rate randomly",
+          "Stop monitoring validation"
+        ],
+        "answer": "Investigate failure examples, adjust data/model, and evaluate targeted fixes"
+      },
+      {
+        "question": "Which choice most accurately defines recovery strategy? (after adding noise, v20)",
+        "options": [
+          "Delete the test set",
+          "Stop monitoring validation",
+          "Increase learning rate randomly",
+          "Investigate failure examples, adjust data/model, and evaluate targeted fixes"
+        ],
+        "answer": "Investigate failure examples, adjust data/model, and evaluate targeted fixes"
+      }
+    ]
+  }
+}

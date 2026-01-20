@@ -1,0 +1,1006 @@
+{
+  "Regression Analysis": {
+    "questions": [
+      {
+        "question": "What best describes best fit? (based on the plot, v1)",
+        "options": [
+          "A best-fit line/model minimizes a loss (e.g., squared error) over training data",
+          "Best fit is chosen randomly",
+          "Best fit ignores the target variable",
+          "Best fit means zero error always"
+        ],
+        "answer": "A best-fit line/model minimizes a loss (e.g., squared error) over training data"
+      },
+      {
+        "question": "Which option is true about best fit? (from the animation, v2)",
+        "options": [
+          "A best-fit line/model minimizes a loss (e.g., squared error) over training data",
+          "Best fit is chosen randomly",
+          "Best fit ignores the target variable",
+          "Best fit means zero error always"
+        ],
+        "answer": "A best-fit line/model minimizes a loss (e.g., squared error) over training data"
+      },
+      {
+        "question": "In the visualization, which statement matches best fit? (after dragging a point, v3)",
+        "options": [
+          "Best fit ignores the target variable",
+          "A best-fit line/model minimizes a loss (e.g., squared error) over training data",
+          "Best fit means zero error always",
+          "Best fit is chosen randomly"
+        ],
+        "answer": "A best-fit line/model minimizes a loss (e.g., squared error) over training data"
+      },
+      {
+        "question": "After changing settings, which statement best explains best fit? (after adding noise, v4)",
+        "options": [
+          "Best fit ignores the target variable",
+          "A best-fit line/model minimizes a loss (e.g., squared error) over training data",
+          "Best fit means zero error always",
+          "Best fit is chosen randomly"
+        ],
+        "answer": "A best-fit line/model minimizes a loss (e.g., squared error) over training data"
+      },
+      {
+        "question": "Which choice most accurately defines best fit? (after changing the slider, v5)",
+        "options": [
+          "Best fit ignores the target variable",
+          "Best fit is chosen randomly",
+          "A best-fit line/model minimizes a loss (e.g., squared error) over training data",
+          "Best fit means zero error always"
+        ],
+        "answer": "A best-fit line/model minimizes a loss (e.g., squared error) over training data"
+      },
+      {
+        "question": "What best describes best fit? (after toggling a setting, v6)",
+        "options": [
+          "Best fit is chosen randomly",
+          "A best-fit line/model minimizes a loss (e.g., squared error) over training data",
+          "Best fit means zero error always",
+          "Best fit ignores the target variable"
+        ],
+        "answer": "A best-fit line/model minimizes a loss (e.g., squared error) over training data"
+      },
+      {
+        "question": "Which option is true about best fit? (using the shown curve, v7)",
+        "options": [
+          "Best fit is chosen randomly",
+          "Best fit means zero error always",
+          "Best fit ignores the target variable",
+          "A best-fit line/model minimizes a loss (e.g., squared error) over training data"
+        ],
+        "answer": "A best-fit line/model minimizes a loss (e.g., squared error) over training data"
+      },
+      {
+        "question": "In the visualization, which statement matches best fit? (from the scatter pattern, v8)",
+        "options": [
+          "Best fit ignores the target variable",
+          "Best fit is chosen randomly",
+          "A best-fit line/model minimizes a loss (e.g., squared error) over training data",
+          "Best fit means zero error always"
+        ],
+        "answer": "A best-fit line/model minimizes a loss (e.g., squared error) over training data"
+      },
+      {
+        "question": "After changing settings, which statement best explains best fit? (based on the plot, v9)",
+        "options": [
+          "Best fit is chosen randomly",
+          "Best fit ignores the target variable",
+          "Best fit means zero error always",
+          "A best-fit line/model minimizes a loss (e.g., squared error) over training data"
+        ],
+        "answer": "A best-fit line/model minimizes a loss (e.g., squared error) over training data"
+      },
+      {
+        "question": "Which choice most accurately defines best fit? (from the animation, v10)",
+        "options": [
+          "Best fit is chosen randomly",
+          "A best-fit line/model minimizes a loss (e.g., squared error) over training data",
+          "Best fit ignores the target variable",
+          "Best fit means zero error always"
+        ],
+        "answer": "A best-fit line/model minimizes a loss (e.g., squared error) over training data"
+      },
+      {
+        "question": "What best describes best fit? (after dragging a point, v11)",
+        "options": [
+          "A best-fit line/model minimizes a loss (e.g., squared error) over training data",
+          "Best fit means zero error always",
+          "Best fit is chosen randomly",
+          "Best fit ignores the target variable"
+        ],
+        "answer": "A best-fit line/model minimizes a loss (e.g., squared error) over training data"
+      },
+      {
+        "question": "Which option is true about best fit? (after adding noise, v12)",
+        "options": [
+          "Best fit means zero error always",
+          "A best-fit line/model minimizes a loss (e.g., squared error) over training data",
+          "Best fit ignores the target variable",
+          "Best fit is chosen randomly"
+        ],
+        "answer": "A best-fit line/model minimizes a loss (e.g., squared error) over training data"
+      },
+      {
+        "question": "In the visualization, which statement matches best fit? (after changing the slider, v13)",
+        "options": [
+          "Best fit means zero error always",
+          "Best fit ignores the target variable",
+          "Best fit is chosen randomly",
+          "A best-fit line/model minimizes a loss (e.g., squared error) over training data"
+        ],
+        "answer": "A best-fit line/model minimizes a loss (e.g., squared error) over training data"
+      },
+      {
+        "question": "After changing settings, which statement best explains best fit? (after toggling a setting, v14)",
+        "options": [
+          "Best fit means zero error always",
+          "Best fit ignores the target variable",
+          "A best-fit line/model minimizes a loss (e.g., squared error) over training data",
+          "Best fit is chosen randomly"
+        ],
+        "answer": "A best-fit line/model minimizes a loss (e.g., squared error) over training data"
+      },
+      {
+        "question": "Which choice most accurately defines best fit? (using the shown curve, v15)",
+        "options": [
+          "Best fit is chosen randomly",
+          "A best-fit line/model minimizes a loss (e.g., squared error) over training data",
+          "Best fit ignores the target variable",
+          "Best fit means zero error always"
+        ],
+        "answer": "A best-fit line/model minimizes a loss (e.g., squared error) over training data"
+      },
+      {
+        "question": "What best describes best fit? (from the scatter pattern, v16)",
+        "options": [
+          "Best fit means zero error always",
+          "Best fit ignores the target variable",
+          "Best fit is chosen randomly",
+          "A best-fit line/model minimizes a loss (e.g., squared error) over training data"
+        ],
+        "answer": "A best-fit line/model minimizes a loss (e.g., squared error) over training data"
+      },
+      {
+        "question": "Which option is true about best fit? (based on the plot, v17)",
+        "options": [
+          "A best-fit line/model minimizes a loss (e.g., squared error) over training data",
+          "Best fit is chosen randomly",
+          "Best fit means zero error always",
+          "Best fit ignores the target variable"
+        ],
+        "answer": "A best-fit line/model minimizes a loss (e.g., squared error) over training data"
+      },
+      {
+        "question": "In the visualization, which statement matches best fit? (from the animation, v18)",
+        "options": [
+          "Best fit ignores the target variable",
+          "A best-fit line/model minimizes a loss (e.g., squared error) over training data",
+          "Best fit means zero error always",
+          "Best fit is chosen randomly"
+        ],
+        "answer": "A best-fit line/model minimizes a loss (e.g., squared error) over training data"
+      },
+      {
+        "question": "After changing settings, which statement best explains best fit? (after dragging a point, v19)",
+        "options": [
+          "Best fit ignores the target variable",
+          "Best fit means zero error always",
+          "A best-fit line/model minimizes a loss (e.g., squared error) over training data",
+          "Best fit is chosen randomly"
+        ],
+        "answer": "A best-fit line/model minimizes a loss (e.g., squared error) over training data"
+      },
+      {
+        "question": "Which choice most accurately defines best fit? (after adding noise, v20)",
+        "options": [
+          "Best fit is chosen randomly",
+          "Best fit ignores the target variable",
+          "A best-fit line/model minimizes a loss (e.g., squared error) over training data",
+          "Best fit means zero error always"
+        ],
+        "answer": "A best-fit line/model minimizes a loss (e.g., squared error) over training data"
+      },
+      {
+        "question": "What best describes residuals? (based on the plot, v1)",
+        "options": [
+          "Residuals are errors: actual minus predicted values",
+          "Residuals are always zero",
+          "Residuals are input features",
+          "Residuals are model weights"
+        ],
+        "answer": "Residuals are errors: actual minus predicted values"
+      },
+      {
+        "question": "Which option is true about residuals? (from the animation, v2)",
+        "options": [
+          "Residuals are model weights",
+          "Residuals are always zero",
+          "Residuals are input features",
+          "Residuals are errors: actual minus predicted values"
+        ],
+        "answer": "Residuals are errors: actual minus predicted values"
+      },
+      {
+        "question": "In the visualization, which statement matches residuals? (after dragging a point, v3)",
+        "options": [
+          "Residuals are input features",
+          "Residuals are model weights",
+          "Residuals are always zero",
+          "Residuals are errors: actual minus predicted values"
+        ],
+        "answer": "Residuals are errors: actual minus predicted values"
+      },
+      {
+        "question": "After changing settings, which statement best explains residuals? (after adding noise, v4)",
+        "options": [
+          "Residuals are always zero",
+          "Residuals are errors: actual minus predicted values",
+          "Residuals are input features",
+          "Residuals are model weights"
+        ],
+        "answer": "Residuals are errors: actual minus predicted values"
+      },
+      {
+        "question": "Which choice most accurately defines residuals? (after changing the slider, v5)",
+        "options": [
+          "Residuals are model weights",
+          "Residuals are always zero",
+          "Residuals are input features",
+          "Residuals are errors: actual minus predicted values"
+        ],
+        "answer": "Residuals are errors: actual minus predicted values"
+      },
+      {
+        "question": "What best describes residuals? (after toggling a setting, v6)",
+        "options": [
+          "Residuals are errors: actual minus predicted values",
+          "Residuals are always zero",
+          "Residuals are input features",
+          "Residuals are model weights"
+        ],
+        "answer": "Residuals are errors: actual minus predicted values"
+      },
+      {
+        "question": "Which option is true about residuals? (using the shown curve, v7)",
+        "options": [
+          "Residuals are errors: actual minus predicted values",
+          "Residuals are always zero",
+          "Residuals are model weights",
+          "Residuals are input features"
+        ],
+        "answer": "Residuals are errors: actual minus predicted values"
+      },
+      {
+        "question": "In the visualization, which statement matches residuals? (from the scatter pattern, v8)",
+        "options": [
+          "Residuals are model weights",
+          "Residuals are errors: actual minus predicted values",
+          "Residuals are always zero",
+          "Residuals are input features"
+        ],
+        "answer": "Residuals are errors: actual minus predicted values"
+      },
+      {
+        "question": "After changing settings, which statement best explains residuals? (based on the plot, v9)",
+        "options": [
+          "Residuals are errors: actual minus predicted values",
+          "Residuals are model weights",
+          "Residuals are always zero",
+          "Residuals are input features"
+        ],
+        "answer": "Residuals are errors: actual minus predicted values"
+      },
+      {
+        "question": "Which choice most accurately defines residuals? (from the animation, v10)",
+        "options": [
+          "Residuals are input features",
+          "Residuals are model weights",
+          "Residuals are always zero",
+          "Residuals are errors: actual minus predicted values"
+        ],
+        "answer": "Residuals are errors: actual minus predicted values"
+      },
+      {
+        "question": "What best describes residuals? (after dragging a point, v11)",
+        "options": [
+          "Residuals are model weights",
+          "Residuals are input features",
+          "Residuals are always zero",
+          "Residuals are errors: actual minus predicted values"
+        ],
+        "answer": "Residuals are errors: actual minus predicted values"
+      },
+      {
+        "question": "Which option is true about residuals? (after adding noise, v12)",
+        "options": [
+          "Residuals are model weights",
+          "Residuals are errors: actual minus predicted values",
+          "Residuals are input features",
+          "Residuals are always zero"
+        ],
+        "answer": "Residuals are errors: actual minus predicted values"
+      },
+      {
+        "question": "In the visualization, which statement matches residuals? (after changing the slider, v13)",
+        "options": [
+          "Residuals are always zero",
+          "Residuals are model weights",
+          "Residuals are input features",
+          "Residuals are errors: actual minus predicted values"
+        ],
+        "answer": "Residuals are errors: actual minus predicted values"
+      },
+      {
+        "question": "After changing settings, which statement best explains residuals? (after toggling a setting, v14)",
+        "options": [
+          "Residuals are model weights",
+          "Residuals are errors: actual minus predicted values",
+          "Residuals are input features",
+          "Residuals are always zero"
+        ],
+        "answer": "Residuals are errors: actual minus predicted values"
+      },
+      {
+        "question": "Which choice most accurately defines residuals? (using the shown curve, v15)",
+        "options": [
+          "Residuals are errors: actual minus predicted values",
+          "Residuals are input features",
+          "Residuals are always zero",
+          "Residuals are model weights"
+        ],
+        "answer": "Residuals are errors: actual minus predicted values"
+      },
+      {
+        "question": "What best describes residuals? (from the scatter pattern, v16)",
+        "options": [
+          "Residuals are always zero",
+          "Residuals are errors: actual minus predicted values",
+          "Residuals are model weights",
+          "Residuals are input features"
+        ],
+        "answer": "Residuals are errors: actual minus predicted values"
+      },
+      {
+        "question": "Which option is true about residuals? (based on the plot, v17)",
+        "options": [
+          "Residuals are always zero",
+          "Residuals are input features",
+          "Residuals are errors: actual minus predicted values",
+          "Residuals are model weights"
+        ],
+        "answer": "Residuals are errors: actual minus predicted values"
+      },
+      {
+        "question": "In the visualization, which statement matches residuals? (from the animation, v18)",
+        "options": [
+          "Residuals are always zero",
+          "Residuals are errors: actual minus predicted values",
+          "Residuals are input features",
+          "Residuals are model weights"
+        ],
+        "answer": "Residuals are errors: actual minus predicted values"
+      },
+      {
+        "question": "After changing settings, which statement best explains residuals? (after dragging a point, v19)",
+        "options": [
+          "Residuals are always zero",
+          "Residuals are errors: actual minus predicted values",
+          "Residuals are input features",
+          "Residuals are model weights"
+        ],
+        "answer": "Residuals are errors: actual minus predicted values"
+      },
+      {
+        "question": "Which choice most accurately defines residuals? (after adding noise, v20)",
+        "options": [
+          "Residuals are model weights",
+          "Residuals are input features",
+          "Residuals are always zero",
+          "Residuals are errors: actual minus predicted values"
+        ],
+        "answer": "Residuals are errors: actual minus predicted values"
+      },
+      {
+        "question": "What best describes underfitting? (based on the plot, v1)",
+        "options": [
+          "Underfitting means perfect test score",
+          "Underfitting means memorizing noise",
+          "Underfitting happens when the model is too simple to capture the true pattern",
+          "Underfitting happens only with big models"
+        ],
+        "answer": "Underfitting happens when the model is too simple to capture the true pattern"
+      },
+      {
+        "question": "Which option is true about underfitting? (from the animation, v2)",
+        "options": [
+          "Underfitting means perfect test score",
+          "Underfitting happens when the model is too simple to capture the true pattern",
+          "Underfitting means memorizing noise",
+          "Underfitting happens only with big models"
+        ],
+        "answer": "Underfitting happens when the model is too simple to capture the true pattern"
+      },
+      {
+        "question": "In the visualization, which statement matches underfitting? (after dragging a point, v3)",
+        "options": [
+          "Underfitting happens only with big models",
+          "Underfitting means perfect test score",
+          "Underfitting means memorizing noise",
+          "Underfitting happens when the model is too simple to capture the true pattern"
+        ],
+        "answer": "Underfitting happens when the model is too simple to capture the true pattern"
+      },
+      {
+        "question": "After changing settings, which statement best explains underfitting? (after adding noise, v4)",
+        "options": [
+          "Underfitting happens only with big models",
+          "Underfitting means perfect test score",
+          "Underfitting means memorizing noise",
+          "Underfitting happens when the model is too simple to capture the true pattern"
+        ],
+        "answer": "Underfitting happens when the model is too simple to capture the true pattern"
+      },
+      {
+        "question": "Which choice most accurately defines underfitting? (after changing the slider, v5)",
+        "options": [
+          "Underfitting happens when the model is too simple to capture the true pattern",
+          "Underfitting means memorizing noise",
+          "Underfitting means perfect test score",
+          "Underfitting happens only with big models"
+        ],
+        "answer": "Underfitting happens when the model is too simple to capture the true pattern"
+      },
+      {
+        "question": "What best describes underfitting? (after toggling a setting, v6)",
+        "options": [
+          "Underfitting happens when the model is too simple to capture the true pattern",
+          "Underfitting means perfect test score",
+          "Underfitting means memorizing noise",
+          "Underfitting happens only with big models"
+        ],
+        "answer": "Underfitting happens when the model is too simple to capture the true pattern"
+      },
+      {
+        "question": "Which option is true about underfitting? (using the shown curve, v7)",
+        "options": [
+          "Underfitting means perfect test score",
+          "Underfitting happens only with big models",
+          "Underfitting happens when the model is too simple to capture the true pattern",
+          "Underfitting means memorizing noise"
+        ],
+        "answer": "Underfitting happens when the model is too simple to capture the true pattern"
+      },
+      {
+        "question": "In the visualization, which statement matches underfitting? (from the scatter pattern, v8)",
+        "options": [
+          "Underfitting means memorizing noise",
+          "Underfitting happens only with big models",
+          "Underfitting means perfect test score",
+          "Underfitting happens when the model is too simple to capture the true pattern"
+        ],
+        "answer": "Underfitting happens when the model is too simple to capture the true pattern"
+      },
+      {
+        "question": "After changing settings, which statement best explains underfitting? (based on the plot, v9)",
+        "options": [
+          "Underfitting means perfect test score",
+          "Underfitting happens only with big models",
+          "Underfitting means memorizing noise",
+          "Underfitting happens when the model is too simple to capture the true pattern"
+        ],
+        "answer": "Underfitting happens when the model is too simple to capture the true pattern"
+      },
+      {
+        "question": "Which choice most accurately defines underfitting? (from the animation, v10)",
+        "options": [
+          "Underfitting happens when the model is too simple to capture the true pattern",
+          "Underfitting means perfect test score",
+          "Underfitting means memorizing noise",
+          "Underfitting happens only with big models"
+        ],
+        "answer": "Underfitting happens when the model is too simple to capture the true pattern"
+      },
+      {
+        "question": "What best describes underfitting? (after dragging a point, v11)",
+        "options": [
+          "Underfitting means perfect test score",
+          "Underfitting means memorizing noise",
+          "Underfitting happens when the model is too simple to capture the true pattern",
+          "Underfitting happens only with big models"
+        ],
+        "answer": "Underfitting happens when the model is too simple to capture the true pattern"
+      },
+      {
+        "question": "Which option is true about underfitting? (after adding noise, v12)",
+        "options": [
+          "Underfitting means memorizing noise",
+          "Underfitting happens only with big models",
+          "Underfitting happens when the model is too simple to capture the true pattern",
+          "Underfitting means perfect test score"
+        ],
+        "answer": "Underfitting happens when the model is too simple to capture the true pattern"
+      },
+      {
+        "question": "In the visualization, which statement matches underfitting? (after changing the slider, v13)",
+        "options": [
+          "Underfitting means memorizing noise",
+          "Underfitting happens when the model is too simple to capture the true pattern",
+          "Underfitting means perfect test score",
+          "Underfitting happens only with big models"
+        ],
+        "answer": "Underfitting happens when the model is too simple to capture the true pattern"
+      },
+      {
+        "question": "After changing settings, which statement best explains underfitting? (after toggling a setting, v14)",
+        "options": [
+          "Underfitting happens only with big models",
+          "Underfitting means perfect test score",
+          "Underfitting happens when the model is too simple to capture the true pattern",
+          "Underfitting means memorizing noise"
+        ],
+        "answer": "Underfitting happens when the model is too simple to capture the true pattern"
+      },
+      {
+        "question": "Which choice most accurately defines underfitting? (using the shown curve, v15)",
+        "options": [
+          "Underfitting means memorizing noise",
+          "Underfitting means perfect test score",
+          "Underfitting happens when the model is too simple to capture the true pattern",
+          "Underfitting happens only with big models"
+        ],
+        "answer": "Underfitting happens when the model is too simple to capture the true pattern"
+      },
+      {
+        "question": "What best describes underfitting? (from the scatter pattern, v16)",
+        "options": [
+          "Underfitting means memorizing noise",
+          "Underfitting means perfect test score",
+          "Underfitting happens when the model is too simple to capture the true pattern",
+          "Underfitting happens only with big models"
+        ],
+        "answer": "Underfitting happens when the model is too simple to capture the true pattern"
+      },
+      {
+        "question": "Which option is true about underfitting? (based on the plot, v17)",
+        "options": [
+          "Underfitting happens only with big models",
+          "Underfitting means perfect test score",
+          "Underfitting means memorizing noise",
+          "Underfitting happens when the model is too simple to capture the true pattern"
+        ],
+        "answer": "Underfitting happens when the model is too simple to capture the true pattern"
+      },
+      {
+        "question": "In the visualization, which statement matches underfitting? (from the animation, v18)",
+        "options": [
+          "Underfitting means perfect test score",
+          "Underfitting happens only with big models",
+          "Underfitting happens when the model is too simple to capture the true pattern",
+          "Underfitting means memorizing noise"
+        ],
+        "answer": "Underfitting happens when the model is too simple to capture the true pattern"
+      },
+      {
+        "question": "After changing settings, which statement best explains underfitting? (after dragging a point, v19)",
+        "options": [
+          "Underfitting means perfect test score",
+          "Underfitting happens only with big models",
+          "Underfitting happens when the model is too simple to capture the true pattern",
+          "Underfitting means memorizing noise"
+        ],
+        "answer": "Underfitting happens when the model is too simple to capture the true pattern"
+      },
+      {
+        "question": "Which choice most accurately defines underfitting? (after adding noise, v20)",
+        "options": [
+          "Underfitting happens only with big models",
+          "Underfitting happens when the model is too simple to capture the true pattern",
+          "Underfitting means perfect test score",
+          "Underfitting means memorizing noise"
+        ],
+        "answer": "Underfitting happens when the model is too simple to capture the true pattern"
+      },
+      {
+        "question": "What best describes overfitting? (based on the plot, v1)",
+        "options": [
+          "Overfitting is fitting noise: low training error but poor test/validation performance",
+          "Overfitting means high training error",
+          "Overfitting is always good",
+          "Overfitting only happens with small data"
+        ],
+        "answer": "Overfitting is fitting noise: low training error but poor test/validation performance"
+      },
+      {
+        "question": "Which option is true about overfitting? (from the animation, v2)",
+        "options": [
+          "Overfitting only happens with small data",
+          "Overfitting is always good",
+          "Overfitting means high training error",
+          "Overfitting is fitting noise: low training error but poor test/validation performance"
+        ],
+        "answer": "Overfitting is fitting noise: low training error but poor test/validation performance"
+      },
+      {
+        "question": "In the visualization, which statement matches overfitting? (after dragging a point, v3)",
+        "options": [
+          "Overfitting only happens with small data",
+          "Overfitting is fitting noise: low training error but poor test/validation performance",
+          "Overfitting is always good",
+          "Overfitting means high training error"
+        ],
+        "answer": "Overfitting is fitting noise: low training error but poor test/validation performance"
+      },
+      {
+        "question": "After changing settings, which statement best explains overfitting? (after adding noise, v4)",
+        "options": [
+          "Overfitting only happens with small data",
+          "Overfitting is fitting noise: low training error but poor test/validation performance",
+          "Overfitting means high training error",
+          "Overfitting is always good"
+        ],
+        "answer": "Overfitting is fitting noise: low training error but poor test/validation performance"
+      },
+      {
+        "question": "Which choice most accurately defines overfitting? (after changing the slider, v5)",
+        "options": [
+          "Overfitting is always good",
+          "Overfitting is fitting noise: low training error but poor test/validation performance",
+          "Overfitting means high training error",
+          "Overfitting only happens with small data"
+        ],
+        "answer": "Overfitting is fitting noise: low training error but poor test/validation performance"
+      },
+      {
+        "question": "What best describes overfitting? (after toggling a setting, v6)",
+        "options": [
+          "Overfitting is fitting noise: low training error but poor test/validation performance",
+          "Overfitting only happens with small data",
+          "Overfitting means high training error",
+          "Overfitting is always good"
+        ],
+        "answer": "Overfitting is fitting noise: low training error but poor test/validation performance"
+      },
+      {
+        "question": "Which option is true about overfitting? (using the shown curve, v7)",
+        "options": [
+          "Overfitting is fitting noise: low training error but poor test/validation performance",
+          "Overfitting only happens with small data",
+          "Overfitting is always good",
+          "Overfitting means high training error"
+        ],
+        "answer": "Overfitting is fitting noise: low training error but poor test/validation performance"
+      },
+      {
+        "question": "In the visualization, which statement matches overfitting? (from the scatter pattern, v8)",
+        "options": [
+          "Overfitting means high training error",
+          "Overfitting is fitting noise: low training error but poor test/validation performance",
+          "Overfitting only happens with small data",
+          "Overfitting is always good"
+        ],
+        "answer": "Overfitting is fitting noise: low training error but poor test/validation performance"
+      },
+      {
+        "question": "After changing settings, which statement best explains overfitting? (based on the plot, v9)",
+        "options": [
+          "Overfitting means high training error",
+          "Overfitting is always good",
+          "Overfitting is fitting noise: low training error but poor test/validation performance",
+          "Overfitting only happens with small data"
+        ],
+        "answer": "Overfitting is fitting noise: low training error but poor test/validation performance"
+      },
+      {
+        "question": "Which choice most accurately defines overfitting? (from the animation, v10)",
+        "options": [
+          "Overfitting is always good",
+          "Overfitting means high training error",
+          "Overfitting is fitting noise: low training error but poor test/validation performance",
+          "Overfitting only happens with small data"
+        ],
+        "answer": "Overfitting is fitting noise: low training error but poor test/validation performance"
+      },
+      {
+        "question": "What best describes overfitting? (after dragging a point, v11)",
+        "options": [
+          "Overfitting is fitting noise: low training error but poor test/validation performance",
+          "Overfitting only happens with small data",
+          "Overfitting is always good",
+          "Overfitting means high training error"
+        ],
+        "answer": "Overfitting is fitting noise: low training error but poor test/validation performance"
+      },
+      {
+        "question": "Which option is true about overfitting? (after adding noise, v12)",
+        "options": [
+          "Overfitting means high training error",
+          "Overfitting is always good",
+          "Overfitting is fitting noise: low training error but poor test/validation performance",
+          "Overfitting only happens with small data"
+        ],
+        "answer": "Overfitting is fitting noise: low training error but poor test/validation performance"
+      },
+      {
+        "question": "In the visualization, which statement matches overfitting? (after changing the slider, v13)",
+        "options": [
+          "Overfitting is always good",
+          "Overfitting means high training error",
+          "Overfitting is fitting noise: low training error but poor test/validation performance",
+          "Overfitting only happens with small data"
+        ],
+        "answer": "Overfitting is fitting noise: low training error but poor test/validation performance"
+      },
+      {
+        "question": "After changing settings, which statement best explains overfitting? (after toggling a setting, v14)",
+        "options": [
+          "Overfitting is always good",
+          "Overfitting only happens with small data",
+          "Overfitting is fitting noise: low training error but poor test/validation performance",
+          "Overfitting means high training error"
+        ],
+        "answer": "Overfitting is fitting noise: low training error but poor test/validation performance"
+      },
+      {
+        "question": "Which choice most accurately defines overfitting? (using the shown curve, v15)",
+        "options": [
+          "Overfitting is fitting noise: low training error but poor test/validation performance",
+          "Overfitting only happens with small data",
+          "Overfitting means high training error",
+          "Overfitting is always good"
+        ],
+        "answer": "Overfitting is fitting noise: low training error but poor test/validation performance"
+      },
+      {
+        "question": "What best describes overfitting? (from the scatter pattern, v16)",
+        "options": [
+          "Overfitting is fitting noise: low training error but poor test/validation performance",
+          "Overfitting means high training error",
+          "Overfitting is always good",
+          "Overfitting only happens with small data"
+        ],
+        "answer": "Overfitting is fitting noise: low training error but poor test/validation performance"
+      },
+      {
+        "question": "Which option is true about overfitting? (based on the plot, v17)",
+        "options": [
+          "Overfitting is fitting noise: low training error but poor test/validation performance",
+          "Overfitting is always good",
+          "Overfitting only happens with small data",
+          "Overfitting means high training error"
+        ],
+        "answer": "Overfitting is fitting noise: low training error but poor test/validation performance"
+      },
+      {
+        "question": "In the visualization, which statement matches overfitting? (from the animation, v18)",
+        "options": [
+          "Overfitting is always good",
+          "Overfitting only happens with small data",
+          "Overfitting is fitting noise: low training error but poor test/validation performance",
+          "Overfitting means high training error"
+        ],
+        "answer": "Overfitting is fitting noise: low training error but poor test/validation performance"
+      },
+      {
+        "question": "After changing settings, which statement best explains overfitting? (after dragging a point, v19)",
+        "options": [
+          "Overfitting means high training error",
+          "Overfitting only happens with small data",
+          "Overfitting is always good",
+          "Overfitting is fitting noise: low training error but poor test/validation performance"
+        ],
+        "answer": "Overfitting is fitting noise: low training error but poor test/validation performance"
+      },
+      {
+        "question": "Which choice most accurately defines overfitting? (after adding noise, v20)",
+        "options": [
+          "Overfitting is fitting noise: low training error but poor test/validation performance",
+          "Overfitting is always good",
+          "Overfitting means high training error",
+          "Overfitting only happens with small data"
+        ],
+        "answer": "Overfitting is fitting noise: low training error but poor test/validation performance"
+      },
+      {
+        "question": "What best describes noise & outliers? (based on the plot, v1)",
+        "options": [
+          "Outliers never affect regression",
+          "Noise always improves accuracy",
+          "Noise/outliers can distort regression fits; robust losses can reduce sensitivity",
+          "Robust loss increases outlier impact"
+        ],
+        "answer": "Noise/outliers can distort regression fits; robust losses can reduce sensitivity"
+      },
+      {
+        "question": "Which option is true about noise & outliers? (from the animation, v2)",
+        "options": [
+          "Noise/outliers can distort regression fits; robust losses can reduce sensitivity",
+          "Noise always improves accuracy",
+          "Outliers never affect regression",
+          "Robust loss increases outlier impact"
+        ],
+        "answer": "Noise/outliers can distort regression fits; robust losses can reduce sensitivity"
+      },
+      {
+        "question": "In the visualization, which statement matches noise & outliers? (after dragging a point, v3)",
+        "options": [
+          "Robust loss increases outlier impact",
+          "Noise always improves accuracy",
+          "Noise/outliers can distort regression fits; robust losses can reduce sensitivity",
+          "Outliers never affect regression"
+        ],
+        "answer": "Noise/outliers can distort regression fits; robust losses can reduce sensitivity"
+      },
+      {
+        "question": "After changing settings, which statement best explains noise & outliers? (after adding noise, v4)",
+        "options": [
+          "Noise/outliers can distort regression fits; robust losses can reduce sensitivity",
+          "Outliers never affect regression",
+          "Noise always improves accuracy",
+          "Robust loss increases outlier impact"
+        ],
+        "answer": "Noise/outliers can distort regression fits; robust losses can reduce sensitivity"
+      },
+      {
+        "question": "Which choice most accurately defines noise & outliers? (after changing the slider, v5)",
+        "options": [
+          "Noise always improves accuracy",
+          "Robust loss increases outlier impact",
+          "Noise/outliers can distort regression fits; robust losses can reduce sensitivity",
+          "Outliers never affect regression"
+        ],
+        "answer": "Noise/outliers can distort regression fits; robust losses can reduce sensitivity"
+      },
+      {
+        "question": "What best describes noise & outliers? (after toggling a setting, v6)",
+        "options": [
+          "Noise/outliers can distort regression fits; robust losses can reduce sensitivity",
+          "Robust loss increases outlier impact",
+          "Noise always improves accuracy",
+          "Outliers never affect regression"
+        ],
+        "answer": "Noise/outliers can distort regression fits; robust losses can reduce sensitivity"
+      },
+      {
+        "question": "Which option is true about noise & outliers? (using the shown curve, v7)",
+        "options": [
+          "Outliers never affect regression",
+          "Noise/outliers can distort regression fits; robust losses can reduce sensitivity",
+          "Robust loss increases outlier impact",
+          "Noise always improves accuracy"
+        ],
+        "answer": "Noise/outliers can distort regression fits; robust losses can reduce sensitivity"
+      },
+      {
+        "question": "In the visualization, which statement matches noise & outliers? (from the scatter pattern, v8)",
+        "options": [
+          "Noise always improves accuracy",
+          "Noise/outliers can distort regression fits; robust losses can reduce sensitivity",
+          "Outliers never affect regression",
+          "Robust loss increases outlier impact"
+        ],
+        "answer": "Noise/outliers can distort regression fits; robust losses can reduce sensitivity"
+      },
+      {
+        "question": "After changing settings, which statement best explains noise & outliers? (based on the plot, v9)",
+        "options": [
+          "Noise/outliers can distort regression fits; robust losses can reduce sensitivity",
+          "Robust loss increases outlier impact",
+          "Noise always improves accuracy",
+          "Outliers never affect regression"
+        ],
+        "answer": "Noise/outliers can distort regression fits; robust losses can reduce sensitivity"
+      },
+      {
+        "question": "Which choice most accurately defines noise & outliers? (from the animation, v10)",
+        "options": [
+          "Noise/outliers can distort regression fits; robust losses can reduce sensitivity",
+          "Outliers never affect regression",
+          "Noise always improves accuracy",
+          "Robust loss increases outlier impact"
+        ],
+        "answer": "Noise/outliers can distort regression fits; robust losses can reduce sensitivity"
+      },
+      {
+        "question": "What best describes noise & outliers? (after dragging a point, v11)",
+        "options": [
+          "Noise/outliers can distort regression fits; robust losses can reduce sensitivity",
+          "Outliers never affect regression",
+          "Robust loss increases outlier impact",
+          "Noise always improves accuracy"
+        ],
+        "answer": "Noise/outliers can distort regression fits; robust losses can reduce sensitivity"
+      },
+      {
+        "question": "Which option is true about noise & outliers? (after adding noise, v12)",
+        "options": [
+          "Noise always improves accuracy",
+          "Noise/outliers can distort regression fits; robust losses can reduce sensitivity",
+          "Robust loss increases outlier impact",
+          "Outliers never affect regression"
+        ],
+        "answer": "Noise/outliers can distort regression fits; robust losses can reduce sensitivity"
+      },
+      {
+        "question": "In the visualization, which statement matches noise & outliers? (after changing the slider, v13)",
+        "options": [
+          "Outliers never affect regression",
+          "Robust loss increases outlier impact",
+          "Noise/outliers can distort regression fits; robust losses can reduce sensitivity",
+          "Noise always improves accuracy"
+        ],
+        "answer": "Noise/outliers can distort regression fits; robust losses can reduce sensitivity"
+      },
+      {
+        "question": "After changing settings, which statement best explains noise & outliers? (after toggling a setting, v14)",
+        "options": [
+          "Noise always improves accuracy",
+          "Outliers never affect regression",
+          "Noise/outliers can distort regression fits; robust losses can reduce sensitivity",
+          "Robust loss increases outlier impact"
+        ],
+        "answer": "Noise/outliers can distort regression fits; robust losses can reduce sensitivity"
+      },
+      {
+        "question": "Which choice most accurately defines noise & outliers? (using the shown curve, v15)",
+        "options": [
+          "Noise always improves accuracy",
+          "Robust loss increases outlier impact",
+          "Outliers never affect regression",
+          "Noise/outliers can distort regression fits; robust losses can reduce sensitivity"
+        ],
+        "answer": "Noise/outliers can distort regression fits; robust losses can reduce sensitivity"
+      },
+      {
+        "question": "What best describes noise & outliers? (from the scatter pattern, v16)",
+        "options": [
+          "Noise/outliers can distort regression fits; robust losses can reduce sensitivity",
+          "Noise always improves accuracy",
+          "Robust loss increases outlier impact",
+          "Outliers never affect regression"
+        ],
+        "answer": "Noise/outliers can distort regression fits; robust losses can reduce sensitivity"
+      },
+      {
+        "question": "Which option is true about noise & outliers? (based on the plot, v17)",
+        "options": [
+          "Noise/outliers can distort regression fits; robust losses can reduce sensitivity",
+          "Robust loss increases outlier impact",
+          "Outliers never affect regression",
+          "Noise always improves accuracy"
+        ],
+        "answer": "Noise/outliers can distort regression fits; robust losses can reduce sensitivity"
+      },
+      {
+        "question": "In the visualization, which statement matches noise & outliers? (from the animation, v18)",
+        "options": [
+          "Noise/outliers can distort regression fits; robust losses can reduce sensitivity",
+          "Noise always improves accuracy",
+          "Outliers never affect regression",
+          "Robust loss increases outlier impact"
+        ],
+        "answer": "Noise/outliers can distort regression fits; robust losses can reduce sensitivity"
+      },
+      {
+        "question": "After changing settings, which statement best explains noise & outliers? (after dragging a point, v19)",
+        "options": [
+          "Robust loss increases outlier impact",
+          "Noise/outliers can distort regression fits; robust losses can reduce sensitivity",
+          "Noise always improves accuracy",
+          "Outliers never affect regression"
+        ],
+        "answer": "Noise/outliers can distort regression fits; robust losses can reduce sensitivity"
+      },
+      {
+        "question": "Which choice most accurately defines noise & outliers? (after adding noise, v20)",
+        "options": [
+          "Noise/outliers can distort regression fits; robust losses can reduce sensitivity",
+          "Outliers never affect regression",
+          "Noise always improves accuracy",
+          "Robust loss increases outlier impact"
+        ],
+        "answer": "Noise/outliers can distort regression fits; robust losses can reduce sensitivity"
+      }
+    ]
+  }
+}

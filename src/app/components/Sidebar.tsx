@@ -39,10 +39,8 @@ export function Sidebar({ activePage, onNavigate }: SidebarProps) {
     <div className="w-64 h-full bg-slate-950/50 backdrop-blur-xl border-r border-white/10 flex flex-col pt-8 pb-4 px-4 sticky top-0">
       {/* Logo */}
       <div className="flex items-center gap-2 mb-10 px-2 cursor-pointer" onClick={() => onNavigate('landing')}>
-        <div className="w-8 h-8 rounded-lg bg-gradient-to-tr from-blue-500 to-purple-500 flex items-center justify-center shadow-lg shadow-blue-500/20">
-          <svg viewBox="0 0 24 24" fill="none" className="w-5 h-5 text-white" strokeWidth="2.5" stroke="currentColor">
-            <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" strokeLinecap="round" strokeLinejoin="round" />
-          </svg>
+        <div className="w-8 h-8 rounded-lg bg-gradient-to-tr from-blue-500 to-purple-500 flex items-center justify-center shadow-lg shadow-blue-500/20 overflow-hidden">
+          <img src="/logo.png" alt="FlowLogic Logo" className="w-full h-full object-cover" />
         </div>
         <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white to-slate-400">
           FlowLogic

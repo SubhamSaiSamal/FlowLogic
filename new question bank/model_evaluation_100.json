@@ -1,0 +1,1006 @@
+{
+  "Model Evaluation": {
+    "questions": [
+      {
+        "question": "What best describes train/val/test? (based on the plot, v1)",
+        "options": [
+          "Validation for training weights",
+          "Train for fitting, validation for tuning, test for final evaluation",
+          "Train only for plotting",
+          "Test for tuning hyperparameters"
+        ],
+        "answer": "Train for fitting, validation for tuning, test for final evaluation"
+      },
+      {
+        "question": "Which option is true about train/val/test? (from the animation, v2)",
+        "options": [
+          "Train only for plotting",
+          "Validation for training weights",
+          "Train for fitting, validation for tuning, test for final evaluation",
+          "Test for tuning hyperparameters"
+        ],
+        "answer": "Train for fitting, validation for tuning, test for final evaluation"
+      },
+      {
+        "question": "In the visualization, which statement matches train/val/test? (after dragging a point, v3)",
+        "options": [
+          "Validation for training weights",
+          "Train for fitting, validation for tuning, test for final evaluation",
+          "Test for tuning hyperparameters",
+          "Train only for plotting"
+        ],
+        "answer": "Train for fitting, validation for tuning, test for final evaluation"
+      },
+      {
+        "question": "After changing settings, which statement best explains train/val/test? (after adding noise, v4)",
+        "options": [
+          "Test for tuning hyperparameters",
+          "Validation for training weights",
+          "Train for fitting, validation for tuning, test for final evaluation",
+          "Train only for plotting"
+        ],
+        "answer": "Train for fitting, validation for tuning, test for final evaluation"
+      },
+      {
+        "question": "Which choice most accurately defines train/val/test? (after changing the slider, v5)",
+        "options": [
+          "Train only for plotting",
+          "Validation for training weights",
+          "Test for tuning hyperparameters",
+          "Train for fitting, validation for tuning, test for final evaluation"
+        ],
+        "answer": "Train for fitting, validation for tuning, test for final evaluation"
+      },
+      {
+        "question": "What best describes train/val/test? (after toggling a setting, v6)",
+        "options": [
+          "Train for fitting, validation for tuning, test for final evaluation",
+          "Test for tuning hyperparameters",
+          "Train only for plotting",
+          "Validation for training weights"
+        ],
+        "answer": "Train for fitting, validation for tuning, test for final evaluation"
+      },
+      {
+        "question": "Which option is true about train/val/test? (using the shown curve, v7)",
+        "options": [
+          "Validation for training weights",
+          "Train only for plotting",
+          "Test for tuning hyperparameters",
+          "Train for fitting, validation for tuning, test for final evaluation"
+        ],
+        "answer": "Train for fitting, validation for tuning, test for final evaluation"
+      },
+      {
+        "question": "In the visualization, which statement matches train/val/test? (from the scatter pattern, v8)",
+        "options": [
+          "Train only for plotting",
+          "Train for fitting, validation for tuning, test for final evaluation",
+          "Test for tuning hyperparameters",
+          "Validation for training weights"
+        ],
+        "answer": "Train for fitting, validation for tuning, test for final evaluation"
+      },
+      {
+        "question": "After changing settings, which statement best explains train/val/test? (based on the plot, v9)",
+        "options": [
+          "Train only for plotting",
+          "Train for fitting, validation for tuning, test for final evaluation",
+          "Validation for training weights",
+          "Test for tuning hyperparameters"
+        ],
+        "answer": "Train for fitting, validation for tuning, test for final evaluation"
+      },
+      {
+        "question": "Which choice most accurately defines train/val/test? (from the animation, v10)",
+        "options": [
+          "Validation for training weights",
+          "Test for tuning hyperparameters",
+          "Train for fitting, validation for tuning, test for final evaluation",
+          "Train only for plotting"
+        ],
+        "answer": "Train for fitting, validation for tuning, test for final evaluation"
+      },
+      {
+        "question": "What best describes train/val/test? (after dragging a point, v11)",
+        "options": [
+          "Validation for training weights",
+          "Train for fitting, validation for tuning, test for final evaluation",
+          "Test for tuning hyperparameters",
+          "Train only for plotting"
+        ],
+        "answer": "Train for fitting, validation for tuning, test for final evaluation"
+      },
+      {
+        "question": "Which option is true about train/val/test? (after adding noise, v12)",
+        "options": [
+          "Test for tuning hyperparameters",
+          "Train for fitting, validation for tuning, test for final evaluation",
+          "Validation for training weights",
+          "Train only for plotting"
+        ],
+        "answer": "Train for fitting, validation for tuning, test for final evaluation"
+      },
+      {
+        "question": "In the visualization, which statement matches train/val/test? (after changing the slider, v13)",
+        "options": [
+          "Validation for training weights",
+          "Train only for plotting",
+          "Train for fitting, validation for tuning, test for final evaluation",
+          "Test for tuning hyperparameters"
+        ],
+        "answer": "Train for fitting, validation for tuning, test for final evaluation"
+      },
+      {
+        "question": "After changing settings, which statement best explains train/val/test? (after toggling a setting, v14)",
+        "options": [
+          "Train for fitting, validation for tuning, test for final evaluation",
+          "Train only for plotting",
+          "Test for tuning hyperparameters",
+          "Validation for training weights"
+        ],
+        "answer": "Train for fitting, validation for tuning, test for final evaluation"
+      },
+      {
+        "question": "Which choice most accurately defines train/val/test? (using the shown curve, v15)",
+        "options": [
+          "Test for tuning hyperparameters",
+          "Train only for plotting",
+          "Train for fitting, validation for tuning, test for final evaluation",
+          "Validation for training weights"
+        ],
+        "answer": "Train for fitting, validation for tuning, test for final evaluation"
+      },
+      {
+        "question": "What best describes train/val/test? (from the scatter pattern, v16)",
+        "options": [
+          "Train only for plotting",
+          "Validation for training weights",
+          "Train for fitting, validation for tuning, test for final evaluation",
+          "Test for tuning hyperparameters"
+        ],
+        "answer": "Train for fitting, validation for tuning, test for final evaluation"
+      },
+      {
+        "question": "Which option is true about train/val/test? (based on the plot, v17)",
+        "options": [
+          "Test for tuning hyperparameters",
+          "Train for fitting, validation for tuning, test for final evaluation",
+          "Train only for plotting",
+          "Validation for training weights"
+        ],
+        "answer": "Train for fitting, validation for tuning, test for final evaluation"
+      },
+      {
+        "question": "In the visualization, which statement matches train/val/test? (from the animation, v18)",
+        "options": [
+          "Validation for training weights",
+          "Test for tuning hyperparameters",
+          "Train for fitting, validation for tuning, test for final evaluation",
+          "Train only for plotting"
+        ],
+        "answer": "Train for fitting, validation for tuning, test for final evaluation"
+      },
+      {
+        "question": "After changing settings, which statement best explains train/val/test? (after dragging a point, v19)",
+        "options": [
+          "Train only for plotting",
+          "Train for fitting, validation for tuning, test for final evaluation",
+          "Test for tuning hyperparameters",
+          "Validation for training weights"
+        ],
+        "answer": "Train for fitting, validation for tuning, test for final evaluation"
+      },
+      {
+        "question": "Which choice most accurately defines train/val/test? (after adding noise, v20)",
+        "options": [
+          "Train for fitting, validation for tuning, test for final evaluation",
+          "Test for tuning hyperparameters",
+          "Validation for training weights",
+          "Train only for plotting"
+        ],
+        "answer": "Train for fitting, validation for tuning, test for final evaluation"
+      },
+      {
+        "question": "What best describes cross-validation? (based on the plot, v1)",
+        "options": [
+          "Cross-validation uses multiple splits to estimate performance more reliably",
+          "Cross-validation removes overfitting",
+          "Cross-validation means one split only",
+          "Cross-validation replaces test set always"
+        ],
+        "answer": "Cross-validation uses multiple splits to estimate performance more reliably"
+      },
+      {
+        "question": "Which option is true about cross-validation? (from the animation, v2)",
+        "options": [
+          "Cross-validation uses multiple splits to estimate performance more reliably",
+          "Cross-validation replaces test set always",
+          "Cross-validation means one split only",
+          "Cross-validation removes overfitting"
+        ],
+        "answer": "Cross-validation uses multiple splits to estimate performance more reliably"
+      },
+      {
+        "question": "In the visualization, which statement matches cross-validation? (after dragging a point, v3)",
+        "options": [
+          "Cross-validation uses multiple splits to estimate performance more reliably",
+          "Cross-validation removes overfitting",
+          "Cross-validation means one split only",
+          "Cross-validation replaces test set always"
+        ],
+        "answer": "Cross-validation uses multiple splits to estimate performance more reliably"
+      },
+      {
+        "question": "After changing settings, which statement best explains cross-validation? (after adding noise, v4)",
+        "options": [
+          "Cross-validation means one split only",
+          "Cross-validation uses multiple splits to estimate performance more reliably",
+          "Cross-validation removes overfitting",
+          "Cross-validation replaces test set always"
+        ],
+        "answer": "Cross-validation uses multiple splits to estimate performance more reliably"
+      },
+      {
+        "question": "Which choice most accurately defines cross-validation? (after changing the slider, v5)",
+        "options": [
+          "Cross-validation uses multiple splits to estimate performance more reliably",
+          "Cross-validation removes overfitting",
+          "Cross-validation replaces test set always",
+          "Cross-validation means one split only"
+        ],
+        "answer": "Cross-validation uses multiple splits to estimate performance more reliably"
+      },
+      {
+        "question": "What best describes cross-validation? (after toggling a setting, v6)",
+        "options": [
+          "Cross-validation removes overfitting",
+          "Cross-validation uses multiple splits to estimate performance more reliably",
+          "Cross-validation means one split only",
+          "Cross-validation replaces test set always"
+        ],
+        "answer": "Cross-validation uses multiple splits to estimate performance more reliably"
+      },
+      {
+        "question": "Which option is true about cross-validation? (using the shown curve, v7)",
+        "options": [
+          "Cross-validation replaces test set always",
+          "Cross-validation uses multiple splits to estimate performance more reliably",
+          "Cross-validation removes overfitting",
+          "Cross-validation means one split only"
+        ],
+        "answer": "Cross-validation uses multiple splits to estimate performance more reliably"
+      },
+      {
+        "question": "In the visualization, which statement matches cross-validation? (from the scatter pattern, v8)",
+        "options": [
+          "Cross-validation uses multiple splits to estimate performance more reliably",
+          "Cross-validation means one split only",
+          "Cross-validation replaces test set always",
+          "Cross-validation removes overfitting"
+        ],
+        "answer": "Cross-validation uses multiple splits to estimate performance more reliably"
+      },
+      {
+        "question": "After changing settings, which statement best explains cross-validation? (based on the plot, v9)",
+        "options": [
+          "Cross-validation removes overfitting",
+          "Cross-validation uses multiple splits to estimate performance more reliably",
+          "Cross-validation means one split only",
+          "Cross-validation replaces test set always"
+        ],
+        "answer": "Cross-validation uses multiple splits to estimate performance more reliably"
+      },
+      {
+        "question": "Which choice most accurately defines cross-validation? (from the animation, v10)",
+        "options": [
+          "Cross-validation replaces test set always",
+          "Cross-validation means one split only",
+          "Cross-validation uses multiple splits to estimate performance more reliably",
+          "Cross-validation removes overfitting"
+        ],
+        "answer": "Cross-validation uses multiple splits to estimate performance more reliably"
+      },
+      {
+        "question": "What best describes cross-validation? (after dragging a point, v11)",
+        "options": [
+          "Cross-validation means one split only",
+          "Cross-validation uses multiple splits to estimate performance more reliably",
+          "Cross-validation removes overfitting",
+          "Cross-validation replaces test set always"
+        ],
+        "answer": "Cross-validation uses multiple splits to estimate performance more reliably"
+      },
+      {
+        "question": "Which option is true about cross-validation? (after adding noise, v12)",
+        "options": [
+          "Cross-validation means one split only",
+          "Cross-validation uses multiple splits to estimate performance more reliably",
+          "Cross-validation removes overfitting",
+          "Cross-validation replaces test set always"
+        ],
+        "answer": "Cross-validation uses multiple splits to estimate performance more reliably"
+      },
+      {
+        "question": "In the visualization, which statement matches cross-validation? (after changing the slider, v13)",
+        "options": [
+          "Cross-validation uses multiple splits to estimate performance more reliably",
+          "Cross-validation replaces test set always",
+          "Cross-validation means one split only",
+          "Cross-validation removes overfitting"
+        ],
+        "answer": "Cross-validation uses multiple splits to estimate performance more reliably"
+      },
+      {
+        "question": "After changing settings, which statement best explains cross-validation? (after toggling a setting, v14)",
+        "options": [
+          "Cross-validation removes overfitting",
+          "Cross-validation replaces test set always",
+          "Cross-validation means one split only",
+          "Cross-validation uses multiple splits to estimate performance more reliably"
+        ],
+        "answer": "Cross-validation uses multiple splits to estimate performance more reliably"
+      },
+      {
+        "question": "Which choice most accurately defines cross-validation? (using the shown curve, v15)",
+        "options": [
+          "Cross-validation replaces test set always",
+          "Cross-validation removes overfitting",
+          "Cross-validation uses multiple splits to estimate performance more reliably",
+          "Cross-validation means one split only"
+        ],
+        "answer": "Cross-validation uses multiple splits to estimate performance more reliably"
+      },
+      {
+        "question": "What best describes cross-validation? (from the scatter pattern, v16)",
+        "options": [
+          "Cross-validation means one split only",
+          "Cross-validation replaces test set always",
+          "Cross-validation removes overfitting",
+          "Cross-validation uses multiple splits to estimate performance more reliably"
+        ],
+        "answer": "Cross-validation uses multiple splits to estimate performance more reliably"
+      },
+      {
+        "question": "Which option is true about cross-validation? (based on the plot, v17)",
+        "options": [
+          "Cross-validation means one split only",
+          "Cross-validation replaces test set always",
+          "Cross-validation uses multiple splits to estimate performance more reliably",
+          "Cross-validation removes overfitting"
+        ],
+        "answer": "Cross-validation uses multiple splits to estimate performance more reliably"
+      },
+      {
+        "question": "In the visualization, which statement matches cross-validation? (from the animation, v18)",
+        "options": [
+          "Cross-validation replaces test set always",
+          "Cross-validation means one split only",
+          "Cross-validation uses multiple splits to estimate performance more reliably",
+          "Cross-validation removes overfitting"
+        ],
+        "answer": "Cross-validation uses multiple splits to estimate performance more reliably"
+      },
+      {
+        "question": "After changing settings, which statement best explains cross-validation? (after dragging a point, v19)",
+        "options": [
+          "Cross-validation means one split only",
+          "Cross-validation replaces test set always",
+          "Cross-validation uses multiple splits to estimate performance more reliably",
+          "Cross-validation removes overfitting"
+        ],
+        "answer": "Cross-validation uses multiple splits to estimate performance more reliably"
+      },
+      {
+        "question": "Which choice most accurately defines cross-validation? (after adding noise, v20)",
+        "options": [
+          "Cross-validation removes overfitting",
+          "Cross-validation replaces test set always",
+          "Cross-validation means one split only",
+          "Cross-validation uses multiple splits to estimate performance more reliably"
+        ],
+        "answer": "Cross-validation uses multiple splits to estimate performance more reliably"
+      },
+      {
+        "question": "What best describes metrics choice? (based on the plot, v1)",
+        "options": [
+          "Metrics never change conclusions",
+          "Different metrics capture different tradeoffs and failure modes",
+          "Metrics depend only on GPU",
+          "Only accuracy matters"
+        ],
+        "answer": "Different metrics capture different tradeoffs and failure modes"
+      },
+      {
+        "question": "Which option is true about metrics choice? (from the animation, v2)",
+        "options": [
+          "Only accuracy matters",
+          "Metrics depend only on GPU",
+          "Different metrics capture different tradeoffs and failure modes",
+          "Metrics never change conclusions"
+        ],
+        "answer": "Different metrics capture different tradeoffs and failure modes"
+      },
+      {
+        "question": "In the visualization, which statement matches metrics choice? (after dragging a point, v3)",
+        "options": [
+          "Only accuracy matters",
+          "Metrics depend only on GPU",
+          "Metrics never change conclusions",
+          "Different metrics capture different tradeoffs and failure modes"
+        ],
+        "answer": "Different metrics capture different tradeoffs and failure modes"
+      },
+      {
+        "question": "After changing settings, which statement best explains metrics choice? (after adding noise, v4)",
+        "options": [
+          "Only accuracy matters",
+          "Metrics depend only on GPU",
+          "Metrics never change conclusions",
+          "Different metrics capture different tradeoffs and failure modes"
+        ],
+        "answer": "Different metrics capture different tradeoffs and failure modes"
+      },
+      {
+        "question": "Which choice most accurately defines metrics choice? (after changing the slider, v5)",
+        "options": [
+          "Only accuracy matters",
+          "Metrics depend only on GPU",
+          "Metrics never change conclusions",
+          "Different metrics capture different tradeoffs and failure modes"
+        ],
+        "answer": "Different metrics capture different tradeoffs and failure modes"
+      },
+      {
+        "question": "What best describes metrics choice? (after toggling a setting, v6)",
+        "options": [
+          "Metrics depend only on GPU",
+          "Only accuracy matters",
+          "Metrics never change conclusions",
+          "Different metrics capture different tradeoffs and failure modes"
+        ],
+        "answer": "Different metrics capture different tradeoffs and failure modes"
+      },
+      {
+        "question": "Which option is true about metrics choice? (using the shown curve, v7)",
+        "options": [
+          "Metrics never change conclusions",
+          "Only accuracy matters",
+          "Different metrics capture different tradeoffs and failure modes",
+          "Metrics depend only on GPU"
+        ],
+        "answer": "Different metrics capture different tradeoffs and failure modes"
+      },
+      {
+        "question": "In the visualization, which statement matches metrics choice? (from the scatter pattern, v8)",
+        "options": [
+          "Only accuracy matters",
+          "Metrics depend only on GPU",
+          "Different metrics capture different tradeoffs and failure modes",
+          "Metrics never change conclusions"
+        ],
+        "answer": "Different metrics capture different tradeoffs and failure modes"
+      },
+      {
+        "question": "After changing settings, which statement best explains metrics choice? (based on the plot, v9)",
+        "options": [
+          "Only accuracy matters",
+          "Metrics depend only on GPU",
+          "Different metrics capture different tradeoffs and failure modes",
+          "Metrics never change conclusions"
+        ],
+        "answer": "Different metrics capture different tradeoffs and failure modes"
+      },
+      {
+        "question": "Which choice most accurately defines metrics choice? (from the animation, v10)",
+        "options": [
+          "Metrics depend only on GPU",
+          "Different metrics capture different tradeoffs and failure modes",
+          "Only accuracy matters",
+          "Metrics never change conclusions"
+        ],
+        "answer": "Different metrics capture different tradeoffs and failure modes"
+      },
+      {
+        "question": "What best describes metrics choice? (after dragging a point, v11)",
+        "options": [
+          "Metrics never change conclusions",
+          "Only accuracy matters",
+          "Metrics depend only on GPU",
+          "Different metrics capture different tradeoffs and failure modes"
+        ],
+        "answer": "Different metrics capture different tradeoffs and failure modes"
+      },
+      {
+        "question": "Which option is true about metrics choice? (after adding noise, v12)",
+        "options": [
+          "Metrics depend only on GPU",
+          "Metrics never change conclusions",
+          "Only accuracy matters",
+          "Different metrics capture different tradeoffs and failure modes"
+        ],
+        "answer": "Different metrics capture different tradeoffs and failure modes"
+      },
+      {
+        "question": "In the visualization, which statement matches metrics choice? (after changing the slider, v13)",
+        "options": [
+          "Metrics never change conclusions",
+          "Only accuracy matters",
+          "Different metrics capture different tradeoffs and failure modes",
+          "Metrics depend only on GPU"
+        ],
+        "answer": "Different metrics capture different tradeoffs and failure modes"
+      },
+      {
+        "question": "After changing settings, which statement best explains metrics choice? (after toggling a setting, v14)",
+        "options": [
+          "Different metrics capture different tradeoffs and failure modes",
+          "Metrics depend only on GPU",
+          "Only accuracy matters",
+          "Metrics never change conclusions"
+        ],
+        "answer": "Different metrics capture different tradeoffs and failure modes"
+      },
+      {
+        "question": "Which choice most accurately defines metrics choice? (using the shown curve, v15)",
+        "options": [
+          "Metrics depend only on GPU",
+          "Only accuracy matters",
+          "Metrics never change conclusions",
+          "Different metrics capture different tradeoffs and failure modes"
+        ],
+        "answer": "Different metrics capture different tradeoffs and failure modes"
+      },
+      {
+        "question": "What best describes metrics choice? (from the scatter pattern, v16)",
+        "options": [
+          "Only accuracy matters",
+          "Metrics depend only on GPU",
+          "Different metrics capture different tradeoffs and failure modes",
+          "Metrics never change conclusions"
+        ],
+        "answer": "Different metrics capture different tradeoffs and failure modes"
+      },
+      {
+        "question": "Which option is true about metrics choice? (based on the plot, v17)",
+        "options": [
+          "Metrics never change conclusions",
+          "Only accuracy matters",
+          "Metrics depend only on GPU",
+          "Different metrics capture different tradeoffs and failure modes"
+        ],
+        "answer": "Different metrics capture different tradeoffs and failure modes"
+      },
+      {
+        "question": "In the visualization, which statement matches metrics choice? (from the animation, v18)",
+        "options": [
+          "Different metrics capture different tradeoffs and failure modes",
+          "Metrics never change conclusions",
+          "Metrics depend only on GPU",
+          "Only accuracy matters"
+        ],
+        "answer": "Different metrics capture different tradeoffs and failure modes"
+      },
+      {
+        "question": "After changing settings, which statement best explains metrics choice? (after dragging a point, v19)",
+        "options": [
+          "Metrics never change conclusions",
+          "Different metrics capture different tradeoffs and failure modes",
+          "Only accuracy matters",
+          "Metrics depend only on GPU"
+        ],
+        "answer": "Different metrics capture different tradeoffs and failure modes"
+      },
+      {
+        "question": "Which choice most accurately defines metrics choice? (after adding noise, v20)",
+        "options": [
+          "Metrics never change conclusions",
+          "Metrics depend only on GPU",
+          "Different metrics capture different tradeoffs and failure modes",
+          "Only accuracy matters"
+        ],
+        "answer": "Different metrics capture different tradeoffs and failure modes"
+      },
+      {
+        "question": "What best describes generalization gap? (based on the plot, v1)",
+        "options": [
+          "Gap means no noise",
+          "Gap means underfitting always",
+          "Big gap between train and validation suggests overfitting",
+          "Big gap suggests perfect model"
+        ],
+        "answer": "Big gap between train and validation suggests overfitting"
+      },
+      {
+        "question": "Which option is true about generalization gap? (from the animation, v2)",
+        "options": [
+          "Gap means no noise",
+          "Big gap between train and validation suggests overfitting",
+          "Big gap suggests perfect model",
+          "Gap means underfitting always"
+        ],
+        "answer": "Big gap between train and validation suggests overfitting"
+      },
+      {
+        "question": "In the visualization, which statement matches generalization gap? (after dragging a point, v3)",
+        "options": [
+          "Gap means no noise",
+          "Big gap between train and validation suggests overfitting",
+          "Gap means underfitting always",
+          "Big gap suggests perfect model"
+        ],
+        "answer": "Big gap between train and validation suggests overfitting"
+      },
+      {
+        "question": "After changing settings, which statement best explains generalization gap? (after adding noise, v4)",
+        "options": [
+          "Gap means no noise",
+          "Big gap between train and validation suggests overfitting",
+          "Gap means underfitting always",
+          "Big gap suggests perfect model"
+        ],
+        "answer": "Big gap between train and validation suggests overfitting"
+      },
+      {
+        "question": "Which choice most accurately defines generalization gap? (after changing the slider, v5)",
+        "options": [
+          "Gap means no noise",
+          "Big gap suggests perfect model",
+          "Big gap between train and validation suggests overfitting",
+          "Gap means underfitting always"
+        ],
+        "answer": "Big gap between train and validation suggests overfitting"
+      },
+      {
+        "question": "What best describes generalization gap? (after toggling a setting, v6)",
+        "options": [
+          "Gap means underfitting always",
+          "Big gap suggests perfect model",
+          "Gap means no noise",
+          "Big gap between train and validation suggests overfitting"
+        ],
+        "answer": "Big gap between train and validation suggests overfitting"
+      },
+      {
+        "question": "Which option is true about generalization gap? (using the shown curve, v7)",
+        "options": [
+          "Gap means underfitting always",
+          "Gap means no noise",
+          "Big gap between train and validation suggests overfitting",
+          "Big gap suggests perfect model"
+        ],
+        "answer": "Big gap between train and validation suggests overfitting"
+      },
+      {
+        "question": "In the visualization, which statement matches generalization gap? (from the scatter pattern, v8)",
+        "options": [
+          "Big gap between train and validation suggests overfitting",
+          "Gap means no noise",
+          "Gap means underfitting always",
+          "Big gap suggests perfect model"
+        ],
+        "answer": "Big gap between train and validation suggests overfitting"
+      },
+      {
+        "question": "After changing settings, which statement best explains generalization gap? (based on the plot, v9)",
+        "options": [
+          "Gap means underfitting always",
+          "Big gap suggests perfect model",
+          "Gap means no noise",
+          "Big gap between train and validation suggests overfitting"
+        ],
+        "answer": "Big gap between train and validation suggests overfitting"
+      },
+      {
+        "question": "Which choice most accurately defines generalization gap? (from the animation, v10)",
+        "options": [
+          "Gap means no noise",
+          "Gap means underfitting always",
+          "Big gap between train and validation suggests overfitting",
+          "Big gap suggests perfect model"
+        ],
+        "answer": "Big gap between train and validation suggests overfitting"
+      },
+      {
+        "question": "What best describes generalization gap? (after dragging a point, v11)",
+        "options": [
+          "Big gap between train and validation suggests overfitting",
+          "Gap means underfitting always",
+          "Gap means no noise",
+          "Big gap suggests perfect model"
+        ],
+        "answer": "Big gap between train and validation suggests overfitting"
+      },
+      {
+        "question": "Which option is true about generalization gap? (after adding noise, v12)",
+        "options": [
+          "Gap means underfitting always",
+          "Gap means no noise",
+          "Big gap suggests perfect model",
+          "Big gap between train and validation suggests overfitting"
+        ],
+        "answer": "Big gap between train and validation suggests overfitting"
+      },
+      {
+        "question": "In the visualization, which statement matches generalization gap? (after changing the slider, v13)",
+        "options": [
+          "Gap means underfitting always",
+          "Gap means no noise",
+          "Big gap between train and validation suggests overfitting",
+          "Big gap suggests perfect model"
+        ],
+        "answer": "Big gap between train and validation suggests overfitting"
+      },
+      {
+        "question": "After changing settings, which statement best explains generalization gap? (after toggling a setting, v14)",
+        "options": [
+          "Gap means underfitting always",
+          "Big gap suggests perfect model",
+          "Gap means no noise",
+          "Big gap between train and validation suggests overfitting"
+        ],
+        "answer": "Big gap between train and validation suggests overfitting"
+      },
+      {
+        "question": "Which choice most accurately defines generalization gap? (using the shown curve, v15)",
+        "options": [
+          "Big gap between train and validation suggests overfitting",
+          "Gap means underfitting always",
+          "Gap means no noise",
+          "Big gap suggests perfect model"
+        ],
+        "answer": "Big gap between train and validation suggests overfitting"
+      },
+      {
+        "question": "What best describes generalization gap? (from the scatter pattern, v16)",
+        "options": [
+          "Gap means no noise",
+          "Big gap suggests perfect model",
+          "Gap means underfitting always",
+          "Big gap between train and validation suggests overfitting"
+        ],
+        "answer": "Big gap between train and validation suggests overfitting"
+      },
+      {
+        "question": "Which option is true about generalization gap? (based on the plot, v17)",
+        "options": [
+          "Gap means no noise",
+          "Big gap suggests perfect model",
+          "Big gap between train and validation suggests overfitting",
+          "Gap means underfitting always"
+        ],
+        "answer": "Big gap between train and validation suggests overfitting"
+      },
+      {
+        "question": "In the visualization, which statement matches generalization gap? (from the animation, v18)",
+        "options": [
+          "Gap means underfitting always",
+          "Big gap between train and validation suggests overfitting",
+          "Big gap suggests perfect model",
+          "Gap means no noise"
+        ],
+        "answer": "Big gap between train and validation suggests overfitting"
+      },
+      {
+        "question": "After changing settings, which statement best explains generalization gap? (after dragging a point, v19)",
+        "options": [
+          "Gap means underfitting always",
+          "Big gap between train and validation suggests overfitting",
+          "Big gap suggests perfect model",
+          "Gap means no noise"
+        ],
+        "answer": "Big gap between train and validation suggests overfitting"
+      },
+      {
+        "question": "Which choice most accurately defines generalization gap? (after adding noise, v20)",
+        "options": [
+          "Big gap suggests perfect model",
+          "Gap means no noise",
+          "Gap means underfitting always",
+          "Big gap between train and validation suggests overfitting"
+        ],
+        "answer": "Big gap between train and validation suggests overfitting"
+      },
+      {
+        "question": "What best describes calibration? (based on the plot, v1)",
+        "options": [
+          "Calibration is learning rate decay",
+          "Calibration means 100% accuracy",
+          "Calibration means predicted probabilities match observed frequencies",
+          "Calibration is clustering quality"
+        ],
+        "answer": "Calibration means predicted probabilities match observed frequencies"
+      },
+      {
+        "question": "Which option is true about calibration? (from the animation, v2)",
+        "options": [
+          "Calibration means 100% accuracy",
+          "Calibration means predicted probabilities match observed frequencies",
+          "Calibration is learning rate decay",
+          "Calibration is clustering quality"
+        ],
+        "answer": "Calibration means predicted probabilities match observed frequencies"
+      },
+      {
+        "question": "In the visualization, which statement matches calibration? (after dragging a point, v3)",
+        "options": [
+          "Calibration is clustering quality",
+          "Calibration means 100% accuracy",
+          "Calibration is learning rate decay",
+          "Calibration means predicted probabilities match observed frequencies"
+        ],
+        "answer": "Calibration means predicted probabilities match observed frequencies"
+      },
+      {
+        "question": "After changing settings, which statement best explains calibration? (after adding noise, v4)",
+        "options": [
+          "Calibration means predicted probabilities match observed frequencies",
+          "Calibration is clustering quality",
+          "Calibration means 100% accuracy",
+          "Calibration is learning rate decay"
+        ],
+        "answer": "Calibration means predicted probabilities match observed frequencies"
+      },
+      {
+        "question": "Which choice most accurately defines calibration? (after changing the slider, v5)",
+        "options": [
+          "Calibration is clustering quality",
+          "Calibration means 100% accuracy",
+          "Calibration is learning rate decay",
+          "Calibration means predicted probabilities match observed frequencies"
+        ],
+        "answer": "Calibration means predicted probabilities match observed frequencies"
+      },
+      {
+        "question": "What best describes calibration? (after toggling a setting, v6)",
+        "options": [
+          "Calibration is learning rate decay",
+          "Calibration means predicted probabilities match observed frequencies",
+          "Calibration means 100% accuracy",
+          "Calibration is clustering quality"
+        ],
+        "answer": "Calibration means predicted probabilities match observed frequencies"
+      },
+      {
+        "question": "Which option is true about calibration? (using the shown curve, v7)",
+        "options": [
+          "Calibration is clustering quality",
+          "Calibration means 100% accuracy",
+          "Calibration is learning rate decay",
+          "Calibration means predicted probabilities match observed frequencies"
+        ],
+        "answer": "Calibration means predicted probabilities match observed frequencies"
+      },
+      {
+        "question": "In the visualization, which statement matches calibration? (from the scatter pattern, v8)",
+        "options": [
+          "Calibration means predicted probabilities match observed frequencies",
+          "Calibration means 100% accuracy",
+          "Calibration is clustering quality",
+          "Calibration is learning rate decay"
+        ],
+        "answer": "Calibration means predicted probabilities match observed frequencies"
+      },
+      {
+        "question": "After changing settings, which statement best explains calibration? (based on the plot, v9)",
+        "options": [
+          "Calibration means 100% accuracy",
+          "Calibration means predicted probabilities match observed frequencies",
+          "Calibration is learning rate decay",
+          "Calibration is clustering quality"
+        ],
+        "answer": "Calibration means predicted probabilities match observed frequencies"
+      },
+      {
+        "question": "Which choice most accurately defines calibration? (from the animation, v10)",
+        "options": [
+          "Calibration means 100% accuracy",
+          "Calibration is clustering quality",
+          "Calibration is learning rate decay",
+          "Calibration means predicted probabilities match observed frequencies"
+        ],
+        "answer": "Calibration means predicted probabilities match observed frequencies"
+      },
+      {
+        "question": "What best describes calibration? (after dragging a point, v11)",
+        "options": [
+          "Calibration is learning rate decay",
+          "Calibration is clustering quality",
+          "Calibration means 100% accuracy",
+          "Calibration means predicted probabilities match observed frequencies"
+        ],
+        "answer": "Calibration means predicted probabilities match observed frequencies"
+      },
+      {
+        "question": "Which option is true about calibration? (after adding noise, v12)",
+        "options": [
+          "Calibration is clustering quality",
+          "Calibration is learning rate decay",
+          "Calibration means 100% accuracy",
+          "Calibration means predicted probabilities match observed frequencies"
+        ],
+        "answer": "Calibration means predicted probabilities match observed frequencies"
+      },
+      {
+        "question": "In the visualization, which statement matches calibration? (after changing the slider, v13)",
+        "options": [
+          "Calibration means predicted probabilities match observed frequencies",
+          "Calibration is clustering quality",
+          "Calibration means 100% accuracy",
+          "Calibration is learning rate decay"
+        ],
+        "answer": "Calibration means predicted probabilities match observed frequencies"
+      },
+      {
+        "question": "After changing settings, which statement best explains calibration? (after toggling a setting, v14)",
+        "options": [
+          "Calibration means 100% accuracy",
+          "Calibration is clustering quality",
+          "Calibration is learning rate decay",
+          "Calibration means predicted probabilities match observed frequencies"
+        ],
+        "answer": "Calibration means predicted probabilities match observed frequencies"
+      },
+      {
+        "question": "Which choice most accurately defines calibration? (using the shown curve, v15)",
+        "options": [
+          "Calibration means 100% accuracy",
+          "Calibration is clustering quality",
+          "Calibration is learning rate decay",
+          "Calibration means predicted probabilities match observed frequencies"
+        ],
+        "answer": "Calibration means predicted probabilities match observed frequencies"
+      },
+      {
+        "question": "What best describes calibration? (from the scatter pattern, v16)",
+        "options": [
+          "Calibration is learning rate decay",
+          "Calibration is clustering quality",
+          "Calibration means 100% accuracy",
+          "Calibration means predicted probabilities match observed frequencies"
+        ],
+        "answer": "Calibration means predicted probabilities match observed frequencies"
+      },
+      {
+        "question": "Which option is true about calibration? (based on the plot, v17)",
+        "options": [
+          "Calibration is clustering quality",
+          "Calibration means predicted probabilities match observed frequencies",
+          "Calibration is learning rate decay",
+          "Calibration means 100% accuracy"
+        ],
+        "answer": "Calibration means predicted probabilities match observed frequencies"
+      },
+      {
+        "question": "In the visualization, which statement matches calibration? (from the animation, v18)",
+        "options": [
+          "Calibration means 100% accuracy",
+          "Calibration is learning rate decay",
+          "Calibration means predicted probabilities match observed frequencies",
+          "Calibration is clustering quality"
+        ],
+        "answer": "Calibration means predicted probabilities match observed frequencies"
+      },
+      {
+        "question": "After changing settings, which statement best explains calibration? (after dragging a point, v19)",
+        "options": [
+          "Calibration is clustering quality",
+          "Calibration is learning rate decay",
+          "Calibration means predicted probabilities match observed frequencies",
+          "Calibration means 100% accuracy"
+        ],
+        "answer": "Calibration means predicted probabilities match observed frequencies"
+      },
+      {
+        "question": "Which choice most accurately defines calibration? (after adding noise, v20)",
+        "options": [
+          "Calibration means 100% accuracy",
+          "Calibration is clustering quality",
+          "Calibration is learning rate decay",
+          "Calibration means predicted probabilities match observed frequencies"
+        ],
+        "answer": "Calibration means predicted probabilities match observed frequencies"
+      }
+    ]
+  }
+}

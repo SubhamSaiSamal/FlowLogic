@@ -1,20 +1,23 @@
-import { useRef, useMemo } from 'react';
-import { Canvas } from '@react-three/fiber';
-import { OrbitControls, Grid, Text, Line } from '@react-three/drei';
+import { useRef, useMemo, useLayoutEffect, useEffect } from 'react';
+import { Canvas, useFrame } from '@react-three/fiber';
+import { OrbitControls, Grid, Text, Line, Instance, Instances } from '@react-three/drei';
 import * as THREE from 'three';
 import { DataPoint } from '../../data/datasets';
 
 interface DataVisualizer3DProps {
     data: DataPoint[];
-    weights: number[]; // [w1, w2, ...]
-    bias: number;
+    weights?: number[]; // [w1, w2, ...]
+    bias?: number;
     showPlane?: boolean;
+    centroids?: number[][];
+    assignments?: number[];
 }
 
 // Visual Space size: 0 to 10
 const VISUAL_SIZE = 10;
+const CLUSTER_COLORS = ['#ef4444', '#22c55e', '#eab308', '#ec4899', '#8b5cf6', '#06b6d4'];
 
-export function DataVisualizer3D({ data, weights, bias, showPlane = true }: DataVisualizer3DProps) {
+export function DataVisualizer3D({ data, weights, bias, showPlane = true, centroids, assignments }: DataVisualizer3DProps) {
     const numFeatures = data[0]?.features.length || 1;
     const is3D = numFeatures >= 2;
 
@@ -23,6 +26,8 @@ export function DataVisualizer3D({ data, weights, bias, showPlane = true }: Data
         let minX = Infinity, maxX = -Infinity;
         let minY = Infinity, maxY = -Infinity; // Label
         let minZ = Infinity, maxZ = -Infinity; // Feature 2
+
+        if (data.length === 0) return { minX: 0, maxX: 1, minY: 0, maxY: 1, minZ: 0, maxZ: 1 };
 
         data.forEach(p => {
             const x = p.features[0] || 0;
@@ -79,45 +84,97 @@ export function DataVisualizer3D({ data, weights, bias, showPlane = true }: Data
             {/* Smart Axes with Real Number Ticks */}
             <Axes3D bounds={bounds} is3D={is3D} />
 
-            {/* Data Points */}
-            <group>
-                {data.map((point, i) => {
-                    let x, y, z;
-                    const f1 = point.features[0] || 0;
-                    const label = point.label || 0;
+            {/* Data Points (Instanced for Performance) */}
+            <PointsInstanced
+                data={data}
+                bounds={bounds}
+                is3D={is3D}
+                assignments={assignments}
+                normalize={normalize}
+            />
 
-                    x = normalize(f1, bounds.minX, bounds.maxX);
-                    y = normalize(label, bounds.minY, bounds.maxY);
+            {/* Centroids */}
+            {centroids && centroids.map((c, i) => {
+                // Centroid usually [F1, (F2), Label] depending on clustering space
+                // If simple 1D X + Label: c length 2.
+                // If 2D X,Z + Label: c length 3.
+                // We will try to be safe.
 
-                    if (is3D) {
-                        const f2 = point.features[1] || 0;
-                        z = normalize(f2, bounds.minZ, bounds.maxZ);
-                    } else {
-                        z = 0; // On the "wall" or centered? Let's treat 2D as Feature1 vs Label on XY plane, Z=0 looks cleaner on a 3D grid context
-                        // Actually, for better visibility, let's put it on Z = VISUAL_SIZE / 2 or 0.
-                        z = VISUAL_SIZE / 2;
-                    }
+                let cx = 0, cy = 0, cz = 0;
+                if (c.length >= 2) {
+                    cx = normalize(c[0], bounds.minX, bounds.maxX);
+                    cy = normalize(c[c.length - 1], bounds.minY, bounds.maxY); // Label is last
+                }
+                if (is3D && c.length >= 3) {
+                    cz = normalize(c[1], bounds.minZ, bounds.maxZ);
+                } else {
+                    cz = VISUAL_SIZE / 2;
+                }
 
-                    return (
-                        <mesh key={i} position={[x, y, z]} castShadow>
-                            <sphereGeometry args={[0.25]} />
-                            <meshStandardMaterial color="#3b82f6" emissive="#3b82f6" emissiveIntensity={0.3} />
-                        </mesh>
-                    );
-                })}
-            </group>
+                return (
+                    <mesh key={`c-${i}`} position={[cx, cy, cz]}>
+                        <dodecahedronGeometry args={[0.5]} />
+                        <meshStandardMaterial color={CLUSTER_COLORS[i % CLUSTER_COLORS.length]} emissive="#ffffff" emissiveIntensity={0.8} />
+                        <pointLight distance={4} intensity={2} color={CLUSTER_COLORS[i % CLUSTER_COLORS.length]} />
+                    </mesh>
+                )
+            })}
 
-            {/* Regression Model */}
-            {showPlane && (
+            {/* Regression Model (Only if standard regression) */}
+            {showPlane && weights && (
                 <group>
                     {is3D ? (
-                        <RegressionPlane3D weights={weights} bias={bias} bounds={bounds} />
+                        <RegressionPlane3D weights={weights} bias={bias || 0} bounds={bounds} />
                     ) : (
-                        <RegressionLine2D weights={weights} bias={bias} bounds={bounds} />
+                        <RegressionLine2D weights={weights} bias={bias || 0} bounds={bounds} />
                     )}
                 </group>
             )}
         </Canvas>
+    );
+}
+
+function PointsInstanced({ data, bounds, is3D, assignments, normalize }: any) {
+    const meshRef = useRef<THREE.InstancedMesh>(null);
+    const tempObj = useMemo(() => new THREE.Object3D(), []);
+
+    useLayoutEffect(() => {
+        if (!meshRef.current) return;
+
+        // Update Instance Matrix
+        data.forEach((point: DataPoint, i: number) => {
+            const f1 = point.features[0] || 0;
+            const label = point.label || 0;
+
+            const x = normalize(f1, bounds.minX, bounds.maxX);
+            const y = normalize(label, bounds.minY, bounds.maxY);
+            let z = VISUAL_SIZE / 2;
+            if (is3D) {
+                const f2 = point.features[1] || 0;
+                z = normalize(f2, bounds.minZ, bounds.maxZ);
+            }
+
+            tempObj.position.set(x, y, z);
+            tempObj.updateMatrix();
+            meshRef.current!.setMatrixAt(i, tempObj.matrix);
+
+            // Update Color
+            const clusterIdx = assignments ? assignments[i] : 0;
+            // Default blue, or cluster color
+            const hex = assignments ? CLUSTER_COLORS[clusterIdx % CLUSTER_COLORS.length] : "#3b82f6";
+            meshRef.current!.setColorAt(i, new THREE.Color(hex));
+        });
+
+        meshRef.current.instanceMatrix.needsUpdate = true;
+        if (meshRef.current.instanceColor) meshRef.current.instanceColor.needsUpdate = true;
+
+    }, [data, bounds, is3D, assignments, normalize]);
+
+    return (
+        <instancedMesh ref={meshRef} args={[undefined, undefined, data.length]} castShadow receiveShadow>
+            <sphereGeometry args={[0.2, 16, 16]} />
+            <meshStandardMaterial roughness={0.5} metalness={0.5} />
+        </instancedMesh>
     );
 }
 
@@ -144,6 +201,7 @@ function Axes3D({ bounds, is3D }: { bounds: Bounds; is3D: boolean }) {
     const ticks = 6;
 
     const AxisTick = ({ axis, value, label }: { axis: 'x' | 'y' | 'z', value: number, label: string }) => {
+        // ... (Keep existing AxisTick logic, just compacted for diff stability)
         const pos: [number, number, number] =
             axis === 'x' ? [value, 0, VISUAL_SIZE + 0.5] :
                 axis === 'y' ? [0, value, VISUAL_SIZE + 0.5] : // Y Labels on front-left pillar
@@ -163,7 +221,7 @@ function Axes3D({ bounds, is3D }: { bounds: Bounds; is3D: boolean }) {
                 {axis === 'z' && <Line points={[[VISUAL_SIZE, 0, value], [VISUAL_SIZE + 0.2, 0, value]]} color="#94a3b8" />}
 
                 {/* Label */}
-                <Text position={textPos} fontSize={0.35} color="#cbd5e1" anchorX="center" anchorY="top" billboard>
+                <Text position={textPos} fontSize={0.35} color="#cbd5e1" anchorX="center" anchorY="top">
                     {label}
                 </Text>
             </group>
@@ -243,28 +301,23 @@ function RegressionLine2D({ weights, bias, bounds }: { weights: number[], bias: 
 }
 
 function RegressionPlane3D({ weights, bias, bounds }: { weights: number[], bias: number, bounds: Bounds }) {
-    const meshRef = useRef<THREE.Mesh>(null);
     const geometry = useMemo(() => new THREE.PlaneGeometry(VISUAL_SIZE, VISUAL_SIZE, 20, 20), []);
 
-    useMemo(() => {
+    // Explicitly use LayoutEffect to mutate geometry immediately after render
+    useLayoutEffect(() => {
         const pos = geometry.attributes.position;
         // Plane is initially centered at 0,0. Range -5 to 5.
         // We want it to span 0..10.
-        // We will manually move vertices to match our logic.
 
         for (let i = 0; i < pos.count; i++) {
-            // Get local vertex pos (standard plane is X-Y)
-            // But we will rotate it. Let's assume we map uv to our features.
-
+            // Get local vertex pos 
             // Standard PlaneGeometry creates X from -width/2 to width/2
-            // Let's redefine.
 
-            // We want to iterate x (Feature 1) and z (Feature 2) in visual space 0..10
+            // X-coord of buffer -> Used for Feature 1 (X)
+            // Y-coord of buffer -> Used for Feature 2 (Z)
 
-            // Re-read X and Y from geometry (which acts as our X and Z grid)
-            // It ranges -5 to 5 if size is 10.
             const localX = pos.getX(i); // -5 to 5
-            const localZ = pos.getY(i); // -5 to 5 (mapped to visual Z later)
+            const localZ = pos.getY(i); // -5 to 5
 
             // Convert Local (-5..5) to Visual (0..10)
             const visX = localX + VISUAL_SIZE / 2;
@@ -274,31 +327,13 @@ function RegressionPlane3D({ weights, bias, bounds }: { weights: number[], bias:
             const realX = bounds.minX + (visX / VISUAL_SIZE) * (bounds.maxX - bounds.minX);
             const realZ = bounds.minZ + (visZ / VISUAL_SIZE) * (bounds.maxZ - bounds.minZ);
 
-            // Predict Y
+            // Predict Y (Regression Model)
             const realY = weights[0] * realX + weights[1] * realZ + bias;
 
-            // Map RealY -> Visual Y
+            // Map RealY -> Visual Y (0..10)
             const visY = ((realY - bounds.minY) / (bounds.maxY - bounds.minY)) * VISUAL_SIZE;
 
-            // Set the vertex position directly in World Space (mostly)
-            // We will NOT rotate the mesh container (-PI/2), instead we do everything here perfectly.
-            // Wait, if we don't rotate container, PlaneGeometry is vertical.
-            // Let's stick to modifying Z attribute to be Height, and rotate container.
-
-            // Container Rotation: [-Pi/2, 0, 0]
-            // Local Coords:
-            // x_local -> World X
-            // y_local -> World -Z (depth)
-            // z_local -> World Y (height)
-
-            // We need world Z to match our visual Z (0..10).
-            // y_local (-5..5) maps to world Z.
-            // world Z = -y_local. Wait.
-
-            // Let's just set positions absolutely to avoid confusion.
-            // We will reset the mesh position to [0,0,0] and rotation to [0,0,0] in the return.
-            // And manually settings X, Y, Z here.
-
+            // Set position (visX, visY, visZ)
             pos.setXYZ(i, visX, visY, visZ);
         }
 
@@ -309,7 +344,7 @@ function RegressionPlane3D({ weights, bias, bounds }: { weights: number[], bias:
     return (
         <mesh geometry={geometry}>
             {/* DoubleSide so we see it from below/above. Transparent red. */}
-            <meshStandardMaterial color="#ef4444" transparent opacity={0.3} side={THREE.DoubleSide} />
+            <meshStandardMaterial color="#ef4444" transparent opacity={0.4} side={THREE.DoubleSide} depthWrite={false} />
         </mesh>
     );
 }

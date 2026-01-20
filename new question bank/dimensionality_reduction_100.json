@@ -1,0 +1,1006 @@
+{
+  "Dimensionality Reduction": {
+    "questions": [
+      {
+        "question": "What best describes PCA variance? (based on the plot, v1)",
+        "options": [
+          "PCA maximizes classification accuracy",
+          "PCA removes the need for scaling",
+          "PCA picks random axes",
+          "PCA components are chosen to capture maximum variance in projections"
+        ],
+        "answer": "PCA components are chosen to capture maximum variance in projections"
+      },
+      {
+        "question": "Which option is true about PCA variance? (from the animation, v2)",
+        "options": [
+          "PCA components are chosen to capture maximum variance in projections",
+          "PCA maximizes classification accuracy",
+          "PCA picks random axes",
+          "PCA removes the need for scaling"
+        ],
+        "answer": "PCA components are chosen to capture maximum variance in projections"
+      },
+      {
+        "question": "In the visualization, which statement matches PCA variance? (after dragging a point, v3)",
+        "options": [
+          "PCA removes the need for scaling",
+          "PCA components are chosen to capture maximum variance in projections",
+          "PCA maximizes classification accuracy",
+          "PCA picks random axes"
+        ],
+        "answer": "PCA components are chosen to capture maximum variance in projections"
+      },
+      {
+        "question": "After changing settings, which statement best explains PCA variance? (after adding noise, v4)",
+        "options": [
+          "PCA maximizes classification accuracy",
+          "PCA components are chosen to capture maximum variance in projections",
+          "PCA picks random axes",
+          "PCA removes the need for scaling"
+        ],
+        "answer": "PCA components are chosen to capture maximum variance in projections"
+      },
+      {
+        "question": "Which choice most accurately defines PCA variance? (after changing the slider, v5)",
+        "options": [
+          "PCA components are chosen to capture maximum variance in projections",
+          "PCA maximizes classification accuracy",
+          "PCA removes the need for scaling",
+          "PCA picks random axes"
+        ],
+        "answer": "PCA components are chosen to capture maximum variance in projections"
+      },
+      {
+        "question": "What best describes PCA variance? (after toggling a setting, v6)",
+        "options": [
+          "PCA components are chosen to capture maximum variance in projections",
+          "PCA removes the need for scaling",
+          "PCA maximizes classification accuracy",
+          "PCA picks random axes"
+        ],
+        "answer": "PCA components are chosen to capture maximum variance in projections"
+      },
+      {
+        "question": "Which option is true about PCA variance? (using the shown curve, v7)",
+        "options": [
+          "PCA removes the need for scaling",
+          "PCA components are chosen to capture maximum variance in projections",
+          "PCA maximizes classification accuracy",
+          "PCA picks random axes"
+        ],
+        "answer": "PCA components are chosen to capture maximum variance in projections"
+      },
+      {
+        "question": "In the visualization, which statement matches PCA variance? (from the scatter pattern, v8)",
+        "options": [
+          "PCA picks random axes",
+          "PCA removes the need for scaling",
+          "PCA maximizes classification accuracy",
+          "PCA components are chosen to capture maximum variance in projections"
+        ],
+        "answer": "PCA components are chosen to capture maximum variance in projections"
+      },
+      {
+        "question": "After changing settings, which statement best explains PCA variance? (based on the plot, v9)",
+        "options": [
+          "PCA components are chosen to capture maximum variance in projections",
+          "PCA removes the need for scaling",
+          "PCA maximizes classification accuracy",
+          "PCA picks random axes"
+        ],
+        "answer": "PCA components are chosen to capture maximum variance in projections"
+      },
+      {
+        "question": "Which choice most accurately defines PCA variance? (from the animation, v10)",
+        "options": [
+          "PCA removes the need for scaling",
+          "PCA picks random axes",
+          "PCA components are chosen to capture maximum variance in projections",
+          "PCA maximizes classification accuracy"
+        ],
+        "answer": "PCA components are chosen to capture maximum variance in projections"
+      },
+      {
+        "question": "What best describes PCA variance? (after dragging a point, v11)",
+        "options": [
+          "PCA maximizes classification accuracy",
+          "PCA removes the need for scaling",
+          "PCA picks random axes",
+          "PCA components are chosen to capture maximum variance in projections"
+        ],
+        "answer": "PCA components are chosen to capture maximum variance in projections"
+      },
+      {
+        "question": "Which option is true about PCA variance? (after adding noise, v12)",
+        "options": [
+          "PCA picks random axes",
+          "PCA removes the need for scaling",
+          "PCA maximizes classification accuracy",
+          "PCA components are chosen to capture maximum variance in projections"
+        ],
+        "answer": "PCA components are chosen to capture maximum variance in projections"
+      },
+      {
+        "question": "In the visualization, which statement matches PCA variance? (after changing the slider, v13)",
+        "options": [
+          "PCA removes the need for scaling",
+          "PCA components are chosen to capture maximum variance in projections",
+          "PCA maximizes classification accuracy",
+          "PCA picks random axes"
+        ],
+        "answer": "PCA components are chosen to capture maximum variance in projections"
+      },
+      {
+        "question": "After changing settings, which statement best explains PCA variance? (after toggling a setting, v14)",
+        "options": [
+          "PCA picks random axes",
+          "PCA removes the need for scaling",
+          "PCA maximizes classification accuracy",
+          "PCA components are chosen to capture maximum variance in projections"
+        ],
+        "answer": "PCA components are chosen to capture maximum variance in projections"
+      },
+      {
+        "question": "Which choice most accurately defines PCA variance? (using the shown curve, v15)",
+        "options": [
+          "PCA maximizes classification accuracy",
+          "PCA components are chosen to capture maximum variance in projections",
+          "PCA picks random axes",
+          "PCA removes the need for scaling"
+        ],
+        "answer": "PCA components are chosen to capture maximum variance in projections"
+      },
+      {
+        "question": "What best describes PCA variance? (from the scatter pattern, v16)",
+        "options": [
+          "PCA removes the need for scaling",
+          "PCA picks random axes",
+          "PCA maximizes classification accuracy",
+          "PCA components are chosen to capture maximum variance in projections"
+        ],
+        "answer": "PCA components are chosen to capture maximum variance in projections"
+      },
+      {
+        "question": "Which option is true about PCA variance? (based on the plot, v17)",
+        "options": [
+          "PCA components are chosen to capture maximum variance in projections",
+          "PCA picks random axes",
+          "PCA removes the need for scaling",
+          "PCA maximizes classification accuracy"
+        ],
+        "answer": "PCA components are chosen to capture maximum variance in projections"
+      },
+      {
+        "question": "In the visualization, which statement matches PCA variance? (from the animation, v18)",
+        "options": [
+          "PCA removes the need for scaling",
+          "PCA maximizes classification accuracy",
+          "PCA components are chosen to capture maximum variance in projections",
+          "PCA picks random axes"
+        ],
+        "answer": "PCA components are chosen to capture maximum variance in projections"
+      },
+      {
+        "question": "After changing settings, which statement best explains PCA variance? (after dragging a point, v19)",
+        "options": [
+          "PCA picks random axes",
+          "PCA removes the need for scaling",
+          "PCA components are chosen to capture maximum variance in projections",
+          "PCA maximizes classification accuracy"
+        ],
+        "answer": "PCA components are chosen to capture maximum variance in projections"
+      },
+      {
+        "question": "Which choice most accurately defines PCA variance? (after adding noise, v20)",
+        "options": [
+          "PCA removes the need for scaling",
+          "PCA components are chosen to capture maximum variance in projections",
+          "PCA picks random axes",
+          "PCA maximizes classification accuracy"
+        ],
+        "answer": "PCA components are chosen to capture maximum variance in projections"
+      },
+      {
+        "question": "What best describes projection? (based on the plot, v1)",
+        "options": [
+          "Projection maps data into fewer dimensions (e.g., onto a line/plane)",
+          "Projection adds new features",
+          "Projection means clustering",
+          "Projection means labeling"
+        ],
+        "answer": "Projection maps data into fewer dimensions (e.g., onto a line/plane)"
+      },
+      {
+        "question": "Which option is true about projection? (from the animation, v2)",
+        "options": [
+          "Projection maps data into fewer dimensions (e.g., onto a line/plane)",
+          "Projection adds new features",
+          "Projection means clustering",
+          "Projection means labeling"
+        ],
+        "answer": "Projection maps data into fewer dimensions (e.g., onto a line/plane)"
+      },
+      {
+        "question": "In the visualization, which statement matches projection? (after dragging a point, v3)",
+        "options": [
+          "Projection means labeling",
+          "Projection adds new features",
+          "Projection means clustering",
+          "Projection maps data into fewer dimensions (e.g., onto a line/plane)"
+        ],
+        "answer": "Projection maps data into fewer dimensions (e.g., onto a line/plane)"
+      },
+      {
+        "question": "After changing settings, which statement best explains projection? (after adding noise, v4)",
+        "options": [
+          "Projection maps data into fewer dimensions (e.g., onto a line/plane)",
+          "Projection means clustering",
+          "Projection adds new features",
+          "Projection means labeling"
+        ],
+        "answer": "Projection maps data into fewer dimensions (e.g., onto a line/plane)"
+      },
+      {
+        "question": "Which choice most accurately defines projection? (after changing the slider, v5)",
+        "options": [
+          "Projection means clustering",
+          "Projection maps data into fewer dimensions (e.g., onto a line/plane)",
+          "Projection adds new features",
+          "Projection means labeling"
+        ],
+        "answer": "Projection maps data into fewer dimensions (e.g., onto a line/plane)"
+      },
+      {
+        "question": "What best describes projection? (after toggling a setting, v6)",
+        "options": [
+          "Projection means clustering",
+          "Projection adds new features",
+          "Projection means labeling",
+          "Projection maps data into fewer dimensions (e.g., onto a line/plane)"
+        ],
+        "answer": "Projection maps data into fewer dimensions (e.g., onto a line/plane)"
+      },
+      {
+        "question": "Which option is true about projection? (using the shown curve, v7)",
+        "options": [
+          "Projection adds new features",
+          "Projection means clustering",
+          "Projection maps data into fewer dimensions (e.g., onto a line/plane)",
+          "Projection means labeling"
+        ],
+        "answer": "Projection maps data into fewer dimensions (e.g., onto a line/plane)"
+      },
+      {
+        "question": "In the visualization, which statement matches projection? (from the scatter pattern, v8)",
+        "options": [
+          "Projection means clustering",
+          "Projection maps data into fewer dimensions (e.g., onto a line/plane)",
+          "Projection means labeling",
+          "Projection adds new features"
+        ],
+        "answer": "Projection maps data into fewer dimensions (e.g., onto a line/plane)"
+      },
+      {
+        "question": "After changing settings, which statement best explains projection? (based on the plot, v9)",
+        "options": [
+          "Projection means clustering",
+          "Projection adds new features",
+          "Projection means labeling",
+          "Projection maps data into fewer dimensions (e.g., onto a line/plane)"
+        ],
+        "answer": "Projection maps data into fewer dimensions (e.g., onto a line/plane)"
+      },
+      {
+        "question": "Which choice most accurately defines projection? (from the animation, v10)",
+        "options": [
+          "Projection means labeling",
+          "Projection means clustering",
+          "Projection adds new features",
+          "Projection maps data into fewer dimensions (e.g., onto a line/plane)"
+        ],
+        "answer": "Projection maps data into fewer dimensions (e.g., onto a line/plane)"
+      },
+      {
+        "question": "What best describes projection? (after dragging a point, v11)",
+        "options": [
+          "Projection adds new features",
+          "Projection means labeling",
+          "Projection maps data into fewer dimensions (e.g., onto a line/plane)",
+          "Projection means clustering"
+        ],
+        "answer": "Projection maps data into fewer dimensions (e.g., onto a line/plane)"
+      },
+      {
+        "question": "Which option is true about projection? (after adding noise, v12)",
+        "options": [
+          "Projection means clustering",
+          "Projection means labeling",
+          "Projection maps data into fewer dimensions (e.g., onto a line/plane)",
+          "Projection adds new features"
+        ],
+        "answer": "Projection maps data into fewer dimensions (e.g., onto a line/plane)"
+      },
+      {
+        "question": "In the visualization, which statement matches projection? (after changing the slider, v13)",
+        "options": [
+          "Projection means clustering",
+          "Projection means labeling",
+          "Projection maps data into fewer dimensions (e.g., onto a line/plane)",
+          "Projection adds new features"
+        ],
+        "answer": "Projection maps data into fewer dimensions (e.g., onto a line/plane)"
+      },
+      {
+        "question": "After changing settings, which statement best explains projection? (after toggling a setting, v14)",
+        "options": [
+          "Projection means labeling",
+          "Projection maps data into fewer dimensions (e.g., onto a line/plane)",
+          "Projection means clustering",
+          "Projection adds new features"
+        ],
+        "answer": "Projection maps data into fewer dimensions (e.g., onto a line/plane)"
+      },
+      {
+        "question": "Which choice most accurately defines projection? (using the shown curve, v15)",
+        "options": [
+          "Projection maps data into fewer dimensions (e.g., onto a line/plane)",
+          "Projection means labeling",
+          "Projection means clustering",
+          "Projection adds new features"
+        ],
+        "answer": "Projection maps data into fewer dimensions (e.g., onto a line/plane)"
+      },
+      {
+        "question": "What best describes projection? (from the scatter pattern, v16)",
+        "options": [
+          "Projection means labeling",
+          "Projection adds new features",
+          "Projection maps data into fewer dimensions (e.g., onto a line/plane)",
+          "Projection means clustering"
+        ],
+        "answer": "Projection maps data into fewer dimensions (e.g., onto a line/plane)"
+      },
+      {
+        "question": "Which option is true about projection? (based on the plot, v17)",
+        "options": [
+          "Projection means labeling",
+          "Projection maps data into fewer dimensions (e.g., onto a line/plane)",
+          "Projection means clustering",
+          "Projection adds new features"
+        ],
+        "answer": "Projection maps data into fewer dimensions (e.g., onto a line/plane)"
+      },
+      {
+        "question": "In the visualization, which statement matches projection? (from the animation, v18)",
+        "options": [
+          "Projection means labeling",
+          "Projection means clustering",
+          "Projection maps data into fewer dimensions (e.g., onto a line/plane)",
+          "Projection adds new features"
+        ],
+        "answer": "Projection maps data into fewer dimensions (e.g., onto a line/plane)"
+      },
+      {
+        "question": "After changing settings, which statement best explains projection? (after dragging a point, v19)",
+        "options": [
+          "Projection adds new features",
+          "Projection means clustering",
+          "Projection means labeling",
+          "Projection maps data into fewer dimensions (e.g., onto a line/plane)"
+        ],
+        "answer": "Projection maps data into fewer dimensions (e.g., onto a line/plane)"
+      },
+      {
+        "question": "Which choice most accurately defines projection? (after adding noise, v20)",
+        "options": [
+          "Projection means labeling",
+          "Projection adds new features",
+          "Projection maps data into fewer dimensions (e.g., onto a line/plane)",
+          "Projection means clustering"
+        ],
+        "answer": "Projection maps data into fewer dimensions (e.g., onto a line/plane)"
+      },
+      {
+        "question": "What best describes information loss? (based on the plot, v1)",
+        "options": [
+          "Information loss never happens",
+          "Dimensionality reduction adds information",
+          "Loss is the same as training loss",
+          "Reducing dimensions can lose information not captured by kept components"
+        ],
+        "answer": "Reducing dimensions can lose information not captured by kept components"
+      },
+      {
+        "question": "Which option is true about information loss? (from the animation, v2)",
+        "options": [
+          "Loss is the same as training loss",
+          "Dimensionality reduction adds information",
+          "Information loss never happens",
+          "Reducing dimensions can lose information not captured by kept components"
+        ],
+        "answer": "Reducing dimensions can lose information not captured by kept components"
+      },
+      {
+        "question": "In the visualization, which statement matches information loss? (after dragging a point, v3)",
+        "options": [
+          "Information loss never happens",
+          "Dimensionality reduction adds information",
+          "Loss is the same as training loss",
+          "Reducing dimensions can lose information not captured by kept components"
+        ],
+        "answer": "Reducing dimensions can lose information not captured by kept components"
+      },
+      {
+        "question": "After changing settings, which statement best explains information loss? (after adding noise, v4)",
+        "options": [
+          "Reducing dimensions can lose information not captured by kept components",
+          "Loss is the same as training loss",
+          "Information loss never happens",
+          "Dimensionality reduction adds information"
+        ],
+        "answer": "Reducing dimensions can lose information not captured by kept components"
+      },
+      {
+        "question": "Which choice most accurately defines information loss? (after changing the slider, v5)",
+        "options": [
+          "Reducing dimensions can lose information not captured by kept components",
+          "Information loss never happens",
+          "Loss is the same as training loss",
+          "Dimensionality reduction adds information"
+        ],
+        "answer": "Reducing dimensions can lose information not captured by kept components"
+      },
+      {
+        "question": "What best describes information loss? (after toggling a setting, v6)",
+        "options": [
+          "Information loss never happens",
+          "Reducing dimensions can lose information not captured by kept components",
+          "Dimensionality reduction adds information",
+          "Loss is the same as training loss"
+        ],
+        "answer": "Reducing dimensions can lose information not captured by kept components"
+      },
+      {
+        "question": "Which option is true about information loss? (using the shown curve, v7)",
+        "options": [
+          "Loss is the same as training loss",
+          "Reducing dimensions can lose information not captured by kept components",
+          "Information loss never happens",
+          "Dimensionality reduction adds information"
+        ],
+        "answer": "Reducing dimensions can lose information not captured by kept components"
+      },
+      {
+        "question": "In the visualization, which statement matches information loss? (from the scatter pattern, v8)",
+        "options": [
+          "Loss is the same as training loss",
+          "Reducing dimensions can lose information not captured by kept components",
+          "Information loss never happens",
+          "Dimensionality reduction adds information"
+        ],
+        "answer": "Reducing dimensions can lose information not captured by kept components"
+      },
+      {
+        "question": "After changing settings, which statement best explains information loss? (based on the plot, v9)",
+        "options": [
+          "Loss is the same as training loss",
+          "Dimensionality reduction adds information",
+          "Reducing dimensions can lose information not captured by kept components",
+          "Information loss never happens"
+        ],
+        "answer": "Reducing dimensions can lose information not captured by kept components"
+      },
+      {
+        "question": "Which choice most accurately defines information loss? (from the animation, v10)",
+        "options": [
+          "Loss is the same as training loss",
+          "Reducing dimensions can lose information not captured by kept components",
+          "Dimensionality reduction adds information",
+          "Information loss never happens"
+        ],
+        "answer": "Reducing dimensions can lose information not captured by kept components"
+      },
+      {
+        "question": "What best describes information loss? (after dragging a point, v11)",
+        "options": [
+          "Reducing dimensions can lose information not captured by kept components",
+          "Loss is the same as training loss",
+          "Information loss never happens",
+          "Dimensionality reduction adds information"
+        ],
+        "answer": "Reducing dimensions can lose information not captured by kept components"
+      },
+      {
+        "question": "Which option is true about information loss? (after adding noise, v12)",
+        "options": [
+          "Dimensionality reduction adds information",
+          "Reducing dimensions can lose information not captured by kept components",
+          "Loss is the same as training loss",
+          "Information loss never happens"
+        ],
+        "answer": "Reducing dimensions can lose information not captured by kept components"
+      },
+      {
+        "question": "In the visualization, which statement matches information loss? (after changing the slider, v13)",
+        "options": [
+          "Loss is the same as training loss",
+          "Reducing dimensions can lose information not captured by kept components",
+          "Information loss never happens",
+          "Dimensionality reduction adds information"
+        ],
+        "answer": "Reducing dimensions can lose information not captured by kept components"
+      },
+      {
+        "question": "After changing settings, which statement best explains information loss? (after toggling a setting, v14)",
+        "options": [
+          "Reducing dimensions can lose information not captured by kept components",
+          "Information loss never happens",
+          "Loss is the same as training loss",
+          "Dimensionality reduction adds information"
+        ],
+        "answer": "Reducing dimensions can lose information not captured by kept components"
+      },
+      {
+        "question": "Which choice most accurately defines information loss? (using the shown curve, v15)",
+        "options": [
+          "Loss is the same as training loss",
+          "Dimensionality reduction adds information",
+          "Reducing dimensions can lose information not captured by kept components",
+          "Information loss never happens"
+        ],
+        "answer": "Reducing dimensions can lose information not captured by kept components"
+      },
+      {
+        "question": "What best describes information loss? (from the scatter pattern, v16)",
+        "options": [
+          "Loss is the same as training loss",
+          "Reducing dimensions can lose information not captured by kept components",
+          "Information loss never happens",
+          "Dimensionality reduction adds information"
+        ],
+        "answer": "Reducing dimensions can lose information not captured by kept components"
+      },
+      {
+        "question": "Which option is true about information loss? (based on the plot, v17)",
+        "options": [
+          "Dimensionality reduction adds information",
+          "Loss is the same as training loss",
+          "Reducing dimensions can lose information not captured by kept components",
+          "Information loss never happens"
+        ],
+        "answer": "Reducing dimensions can lose information not captured by kept components"
+      },
+      {
+        "question": "In the visualization, which statement matches information loss? (from the animation, v18)",
+        "options": [
+          "Information loss never happens",
+          "Reducing dimensions can lose information not captured by kept components",
+          "Dimensionality reduction adds information",
+          "Loss is the same as training loss"
+        ],
+        "answer": "Reducing dimensions can lose information not captured by kept components"
+      },
+      {
+        "question": "After changing settings, which statement best explains information loss? (after dragging a point, v19)",
+        "options": [
+          "Loss is the same as training loss",
+          "Reducing dimensions can lose information not captured by kept components",
+          "Information loss never happens",
+          "Dimensionality reduction adds information"
+        ],
+        "answer": "Reducing dimensions can lose information not captured by kept components"
+      },
+      {
+        "question": "Which choice most accurately defines information loss? (after adding noise, v20)",
+        "options": [
+          "Reducing dimensions can lose information not captured by kept components",
+          "Loss is the same as training loss",
+          "Information loss never happens",
+          "Dimensionality reduction adds information"
+        ],
+        "answer": "Reducing dimensions can lose information not captured by kept components"
+      },
+      {
+        "question": "What best describes noise filtering? (based on the plot, v1)",
+        "options": [
+          "Noise filtering deletes outliers perfectly",
+          "PCA always increases noise",
+          "If noise lies mostly in low-variance directions, PCA can reduce it by dropping those directions",
+          "Noise filtering requires labels"
+        ],
+        "answer": "If noise lies mostly in low-variance directions, PCA can reduce it by dropping those directions"
+      },
+      {
+        "question": "Which option is true about noise filtering? (from the animation, v2)",
+        "options": [
+          "If noise lies mostly in low-variance directions, PCA can reduce it by dropping those directions",
+          "Noise filtering deletes outliers perfectly",
+          "Noise filtering requires labels",
+          "PCA always increases noise"
+        ],
+        "answer": "If noise lies mostly in low-variance directions, PCA can reduce it by dropping those directions"
+      },
+      {
+        "question": "In the visualization, which statement matches noise filtering? (after dragging a point, v3)",
+        "options": [
+          "PCA always increases noise",
+          "Noise filtering deletes outliers perfectly",
+          "Noise filtering requires labels",
+          "If noise lies mostly in low-variance directions, PCA can reduce it by dropping those directions"
+        ],
+        "answer": "If noise lies mostly in low-variance directions, PCA can reduce it by dropping those directions"
+      },
+      {
+        "question": "After changing settings, which statement best explains noise filtering? (after adding noise, v4)",
+        "options": [
+          "Noise filtering deletes outliers perfectly",
+          "Noise filtering requires labels",
+          "PCA always increases noise",
+          "If noise lies mostly in low-variance directions, PCA can reduce it by dropping those directions"
+        ],
+        "answer": "If noise lies mostly in low-variance directions, PCA can reduce it by dropping those directions"
+      },
+      {
+        "question": "Which choice most accurately defines noise filtering? (after changing the slider, v5)",
+        "options": [
+          "Noise filtering deletes outliers perfectly",
+          "PCA always increases noise",
+          "Noise filtering requires labels",
+          "If noise lies mostly in low-variance directions, PCA can reduce it by dropping those directions"
+        ],
+        "answer": "If noise lies mostly in low-variance directions, PCA can reduce it by dropping those directions"
+      },
+      {
+        "question": "What best describes noise filtering? (after toggling a setting, v6)",
+        "options": [
+          "Noise filtering requires labels",
+          "Noise filtering deletes outliers perfectly",
+          "PCA always increases noise",
+          "If noise lies mostly in low-variance directions, PCA can reduce it by dropping those directions"
+        ],
+        "answer": "If noise lies mostly in low-variance directions, PCA can reduce it by dropping those directions"
+      },
+      {
+        "question": "Which option is true about noise filtering? (using the shown curve, v7)",
+        "options": [
+          "If noise lies mostly in low-variance directions, PCA can reduce it by dropping those directions",
+          "Noise filtering requires labels",
+          "PCA always increases noise",
+          "Noise filtering deletes outliers perfectly"
+        ],
+        "answer": "If noise lies mostly in low-variance directions, PCA can reduce it by dropping those directions"
+      },
+      {
+        "question": "In the visualization, which statement matches noise filtering? (from the scatter pattern, v8)",
+        "options": [
+          "Noise filtering requires labels",
+          "If noise lies mostly in low-variance directions, PCA can reduce it by dropping those directions",
+          "Noise filtering deletes outliers perfectly",
+          "PCA always increases noise"
+        ],
+        "answer": "If noise lies mostly in low-variance directions, PCA can reduce it by dropping those directions"
+      },
+      {
+        "question": "After changing settings, which statement best explains noise filtering? (based on the plot, v9)",
+        "options": [
+          "PCA always increases noise",
+          "If noise lies mostly in low-variance directions, PCA can reduce it by dropping those directions",
+          "Noise filtering deletes outliers perfectly",
+          "Noise filtering requires labels"
+        ],
+        "answer": "If noise lies mostly in low-variance directions, PCA can reduce it by dropping those directions"
+      },
+      {
+        "question": "Which choice most accurately defines noise filtering? (from the animation, v10)",
+        "options": [
+          "Noise filtering deletes outliers perfectly",
+          "Noise filtering requires labels",
+          "If noise lies mostly in low-variance directions, PCA can reduce it by dropping those directions",
+          "PCA always increases noise"
+        ],
+        "answer": "If noise lies mostly in low-variance directions, PCA can reduce it by dropping those directions"
+      },
+      {
+        "question": "What best describes noise filtering? (after dragging a point, v11)",
+        "options": [
+          "Noise filtering requires labels",
+          "Noise filtering deletes outliers perfectly",
+          "PCA always increases noise",
+          "If noise lies mostly in low-variance directions, PCA can reduce it by dropping those directions"
+        ],
+        "answer": "If noise lies mostly in low-variance directions, PCA can reduce it by dropping those directions"
+      },
+      {
+        "question": "Which option is true about noise filtering? (after adding noise, v12)",
+        "options": [
+          "If noise lies mostly in low-variance directions, PCA can reduce it by dropping those directions",
+          "Noise filtering deletes outliers perfectly",
+          "Noise filtering requires labels",
+          "PCA always increases noise"
+        ],
+        "answer": "If noise lies mostly in low-variance directions, PCA can reduce it by dropping those directions"
+      },
+      {
+        "question": "In the visualization, which statement matches noise filtering? (after changing the slider, v13)",
+        "options": [
+          "Noise filtering requires labels",
+          "If noise lies mostly in low-variance directions, PCA can reduce it by dropping those directions",
+          "PCA always increases noise",
+          "Noise filtering deletes outliers perfectly"
+        ],
+        "answer": "If noise lies mostly in low-variance directions, PCA can reduce it by dropping those directions"
+      },
+      {
+        "question": "After changing settings, which statement best explains noise filtering? (after toggling a setting, v14)",
+        "options": [
+          "Noise filtering requires labels",
+          "Noise filtering deletes outliers perfectly",
+          "PCA always increases noise",
+          "If noise lies mostly in low-variance directions, PCA can reduce it by dropping those directions"
+        ],
+        "answer": "If noise lies mostly in low-variance directions, PCA can reduce it by dropping those directions"
+      },
+      {
+        "question": "Which choice most accurately defines noise filtering? (using the shown curve, v15)",
+        "options": [
+          "Noise filtering requires labels",
+          "PCA always increases noise",
+          "Noise filtering deletes outliers perfectly",
+          "If noise lies mostly in low-variance directions, PCA can reduce it by dropping those directions"
+        ],
+        "answer": "If noise lies mostly in low-variance directions, PCA can reduce it by dropping those directions"
+      },
+      {
+        "question": "What best describes noise filtering? (from the scatter pattern, v16)",
+        "options": [
+          "Noise filtering requires labels",
+          "Noise filtering deletes outliers perfectly",
+          "PCA always increases noise",
+          "If noise lies mostly in low-variance directions, PCA can reduce it by dropping those directions"
+        ],
+        "answer": "If noise lies mostly in low-variance directions, PCA can reduce it by dropping those directions"
+      },
+      {
+        "question": "Which option is true about noise filtering? (based on the plot, v17)",
+        "options": [
+          "PCA always increases noise",
+          "If noise lies mostly in low-variance directions, PCA can reduce it by dropping those directions",
+          "Noise filtering requires labels",
+          "Noise filtering deletes outliers perfectly"
+        ],
+        "answer": "If noise lies mostly in low-variance directions, PCA can reduce it by dropping those directions"
+      },
+      {
+        "question": "In the visualization, which statement matches noise filtering? (from the animation, v18)",
+        "options": [
+          "If noise lies mostly in low-variance directions, PCA can reduce it by dropping those directions",
+          "Noise filtering requires labels",
+          "Noise filtering deletes outliers perfectly",
+          "PCA always increases noise"
+        ],
+        "answer": "If noise lies mostly in low-variance directions, PCA can reduce it by dropping those directions"
+      },
+      {
+        "question": "After changing settings, which statement best explains noise filtering? (after dragging a point, v19)",
+        "options": [
+          "PCA always increases noise",
+          "If noise lies mostly in low-variance directions, PCA can reduce it by dropping those directions",
+          "Noise filtering requires labels",
+          "Noise filtering deletes outliers perfectly"
+        ],
+        "answer": "If noise lies mostly in low-variance directions, PCA can reduce it by dropping those directions"
+      },
+      {
+        "question": "Which choice most accurately defines noise filtering? (after adding noise, v20)",
+        "options": [
+          "PCA always increases noise",
+          "If noise lies mostly in low-variance directions, PCA can reduce it by dropping those directions",
+          "Noise filtering deletes outliers perfectly",
+          "Noise filtering requires labels"
+        ],
+        "answer": "If noise lies mostly in low-variance directions, PCA can reduce it by dropping those directions"
+      },
+      {
+        "question": "What best describes interpretability? (based on the plot, v1)",
+        "options": [
+          "Interpretability is irrelevant in ML",
+          "Reduced components can be harder to interpret than original features",
+          "PCA keeps feature names unchanged",
+          "Interpretability always increases"
+        ],
+        "answer": "Reduced components can be harder to interpret than original features"
+      },
+      {
+        "question": "Which option is true about interpretability? (from the animation, v2)",
+        "options": [
+          "Reduced components can be harder to interpret than original features",
+          "Interpretability always increases",
+          "Interpretability is irrelevant in ML",
+          "PCA keeps feature names unchanged"
+        ],
+        "answer": "Reduced components can be harder to interpret than original features"
+      },
+      {
+        "question": "In the visualization, which statement matches interpretability? (after dragging a point, v3)",
+        "options": [
+          "PCA keeps feature names unchanged",
+          "Interpretability is irrelevant in ML",
+          "Interpretability always increases",
+          "Reduced components can be harder to interpret than original features"
+        ],
+        "answer": "Reduced components can be harder to interpret than original features"
+      },
+      {
+        "question": "After changing settings, which statement best explains interpretability? (after adding noise, v4)",
+        "options": [
+          "Interpretability is irrelevant in ML",
+          "Reduced components can be harder to interpret than original features",
+          "PCA keeps feature names unchanged",
+          "Interpretability always increases"
+        ],
+        "answer": "Reduced components can be harder to interpret than original features"
+      },
+      {
+        "question": "Which choice most accurately defines interpretability? (after changing the slider, v5)",
+        "options": [
+          "Interpretability always increases",
+          "Interpretability is irrelevant in ML",
+          "PCA keeps feature names unchanged",
+          "Reduced components can be harder to interpret than original features"
+        ],
+        "answer": "Reduced components can be harder to interpret than original features"
+      },
+      {
+        "question": "What best describes interpretability? (after toggling a setting, v6)",
+        "options": [
+          "PCA keeps feature names unchanged",
+          "Interpretability always increases",
+          "Interpretability is irrelevant in ML",
+          "Reduced components can be harder to interpret than original features"
+        ],
+        "answer": "Reduced components can be harder to interpret than original features"
+      },
+      {
+        "question": "Which option is true about interpretability? (using the shown curve, v7)",
+        "options": [
+          "PCA keeps feature names unchanged",
+          "Interpretability is irrelevant in ML",
+          "Reduced components can be harder to interpret than original features",
+          "Interpretability always increases"
+        ],
+        "answer": "Reduced components can be harder to interpret than original features"
+      },
+      {
+        "question": "In the visualization, which statement matches interpretability? (from the scatter pattern, v8)",
+        "options": [
+          "Interpretability is irrelevant in ML",
+          "Interpretability always increases",
+          "Reduced components can be harder to interpret than original features",
+          "PCA keeps feature names unchanged"
+        ],
+        "answer": "Reduced components can be harder to interpret than original features"
+      },
+      {
+        "question": "After changing settings, which statement best explains interpretability? (based on the plot, v9)",
+        "options": [
+          "Interpretability is irrelevant in ML",
+          "Reduced components can be harder to interpret than original features",
+          "PCA keeps feature names unchanged",
+          "Interpretability always increases"
+        ],
+        "answer": "Reduced components can be harder to interpret than original features"
+      },
+      {
+        "question": "Which choice most accurately defines interpretability? (from the animation, v10)",
+        "options": [
+          "Interpretability always increases",
+          "PCA keeps feature names unchanged",
+          "Interpretability is irrelevant in ML",
+          "Reduced components can be harder to interpret than original features"
+        ],
+        "answer": "Reduced components can be harder to interpret than original features"
+      },
+      {
+        "question": "What best describes interpretability? (after dragging a point, v11)",
+        "options": [
+          "PCA keeps feature names unchanged",
+          "Reduced components can be harder to interpret than original features",
+          "Interpretability always increases",
+          "Interpretability is irrelevant in ML"
+        ],
+        "answer": "Reduced components can be harder to interpret than original features"
+      },
+      {
+        "question": "Which option is true about interpretability? (after adding noise, v12)",
+        "options": [
+          "PCA keeps feature names unchanged",
+          "Interpretability always increases",
+          "Interpretability is irrelevant in ML",
+          "Reduced components can be harder to interpret than original features"
+        ],
+        "answer": "Reduced components can be harder to interpret than original features"
+      },
+      {
+        "question": "In the visualization, which statement matches interpretability? (after changing the slider, v13)",
+        "options": [
+          "PCA keeps feature names unchanged",
+          "Interpretability always increases",
+          "Interpretability is irrelevant in ML",
+          "Reduced components can be harder to interpret than original features"
+        ],
+        "answer": "Reduced components can be harder to interpret than original features"
+      },
+      {
+        "question": "After changing settings, which statement best explains interpretability? (after toggling a setting, v14)",
+        "options": [
+          "Interpretability is irrelevant in ML",
+          "Reduced components can be harder to interpret than original features",
+          "Interpretability always increases",
+          "PCA keeps feature names unchanged"
+        ],
+        "answer": "Reduced components can be harder to interpret than original features"
+      },
+      {
+        "question": "Which choice most accurately defines interpretability? (using the shown curve, v15)",
+        "options": [
+          "Reduced components can be harder to interpret than original features",
+          "PCA keeps feature names unchanged",
+          "Interpretability is irrelevant in ML",
+          "Interpretability always increases"
+        ],
+        "answer": "Reduced components can be harder to interpret than original features"
+      },
+      {
+        "question": "What best describes interpretability? (from the scatter pattern, v16)",
+        "options": [
+          "Interpretability always increases",
+          "Reduced components can be harder to interpret than original features",
+          "PCA keeps feature names unchanged",
+          "Interpretability is irrelevant in ML"
+        ],
+        "answer": "Reduced components can be harder to interpret than original features"
+      },
+      {
+        "question": "Which option is true about interpretability? (based on the plot, v17)",
+        "options": [
+          "PCA keeps feature names unchanged",
+          "Reduced components can be harder to interpret than original features",
+          "Interpretability is irrelevant in ML",
+          "Interpretability always increases"
+        ],
+        "answer": "Reduced components can be harder to interpret than original features"
+      },
+      {
+        "question": "In the visualization, which statement matches interpretability? (from the animation, v18)",
+        "options": [
+          "Interpretability is irrelevant in ML",
+          "Interpretability always increases",
+          "Reduced components can be harder to interpret than original features",
+          "PCA keeps feature names unchanged"
+        ],
+        "answer": "Reduced components can be harder to interpret than original features"
+      },
+      {
+        "question": "After changing settings, which statement best explains interpretability? (after dragging a point, v19)",
+        "options": [
+          "Interpretability always increases",
+          "PCA keeps feature names unchanged",
+          "Interpretability is irrelevant in ML",
+          "Reduced components can be harder to interpret than original features"
+        ],
+        "answer": "Reduced components can be harder to interpret than original features"
+      },
+      {
+        "question": "Which choice most accurately defines interpretability? (after adding noise, v20)",
+        "options": [
+          "Interpretability is irrelevant in ML",
+          "Interpretability always increases",
+          "PCA keeps feature names unchanged",
+          "Reduced components can be harder to interpret than original features"
+        ],
+        "answer": "Reduced components can be harder to interpret than original features"
+      }
+    ]
+  }
+}

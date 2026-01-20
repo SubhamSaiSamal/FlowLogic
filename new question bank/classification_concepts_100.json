@@ -1,0 +1,1006 @@
+{
+  "Classification Concepts": {
+    "questions": [
+      {
+        "question": "What best describes confusion matrix? (based on the plot, v1)",
+        "options": [
+          "A clustering algorithm",
+          "A table of TP, FP, TN, FN counts summarizing classification outcomes",
+          "A plot of loss vs iterations",
+          "A list of features"
+        ],
+        "answer": "A table of TP, FP, TN, FN counts summarizing classification outcomes"
+      },
+      {
+        "question": "Which option is true about confusion matrix? (from the animation, v2)",
+        "options": [
+          "A table of TP, FP, TN, FN counts summarizing classification outcomes",
+          "A list of features",
+          "A clustering algorithm",
+          "A plot of loss vs iterations"
+        ],
+        "answer": "A table of TP, FP, TN, FN counts summarizing classification outcomes"
+      },
+      {
+        "question": "In the visualization, which statement matches confusion matrix? (after dragging a point, v3)",
+        "options": [
+          "A clustering algorithm",
+          "A plot of loss vs iterations",
+          "A table of TP, FP, TN, FN counts summarizing classification outcomes",
+          "A list of features"
+        ],
+        "answer": "A table of TP, FP, TN, FN counts summarizing classification outcomes"
+      },
+      {
+        "question": "After changing settings, which statement best explains confusion matrix? (after adding noise, v4)",
+        "options": [
+          "A clustering algorithm",
+          "A list of features",
+          "A plot of loss vs iterations",
+          "A table of TP, FP, TN, FN counts summarizing classification outcomes"
+        ],
+        "answer": "A table of TP, FP, TN, FN counts summarizing classification outcomes"
+      },
+      {
+        "question": "Which choice most accurately defines confusion matrix? (after changing the slider, v5)",
+        "options": [
+          "A list of features",
+          "A clustering algorithm",
+          "A table of TP, FP, TN, FN counts summarizing classification outcomes",
+          "A plot of loss vs iterations"
+        ],
+        "answer": "A table of TP, FP, TN, FN counts summarizing classification outcomes"
+      },
+      {
+        "question": "What best describes confusion matrix? (after toggling a setting, v6)",
+        "options": [
+          "A clustering algorithm",
+          "A table of TP, FP, TN, FN counts summarizing classification outcomes",
+          "A list of features",
+          "A plot of loss vs iterations"
+        ],
+        "answer": "A table of TP, FP, TN, FN counts summarizing classification outcomes"
+      },
+      {
+        "question": "Which option is true about confusion matrix? (using the shown curve, v7)",
+        "options": [
+          "A plot of loss vs iterations",
+          "A list of features",
+          "A clustering algorithm",
+          "A table of TP, FP, TN, FN counts summarizing classification outcomes"
+        ],
+        "answer": "A table of TP, FP, TN, FN counts summarizing classification outcomes"
+      },
+      {
+        "question": "In the visualization, which statement matches confusion matrix? (from the scatter pattern, v8)",
+        "options": [
+          "A plot of loss vs iterations",
+          "A list of features",
+          "A table of TP, FP, TN, FN counts summarizing classification outcomes",
+          "A clustering algorithm"
+        ],
+        "answer": "A table of TP, FP, TN, FN counts summarizing classification outcomes"
+      },
+      {
+        "question": "After changing settings, which statement best explains confusion matrix? (based on the plot, v9)",
+        "options": [
+          "A list of features",
+          "A table of TP, FP, TN, FN counts summarizing classification outcomes",
+          "A plot of loss vs iterations",
+          "A clustering algorithm"
+        ],
+        "answer": "A table of TP, FP, TN, FN counts summarizing classification outcomes"
+      },
+      {
+        "question": "Which choice most accurately defines confusion matrix? (from the animation, v10)",
+        "options": [
+          "A plot of loss vs iterations",
+          "A clustering algorithm",
+          "A table of TP, FP, TN, FN counts summarizing classification outcomes",
+          "A list of features"
+        ],
+        "answer": "A table of TP, FP, TN, FN counts summarizing classification outcomes"
+      },
+      {
+        "question": "What best describes confusion matrix? (after dragging a point, v11)",
+        "options": [
+          "A table of TP, FP, TN, FN counts summarizing classification outcomes",
+          "A plot of loss vs iterations",
+          "A list of features",
+          "A clustering algorithm"
+        ],
+        "answer": "A table of TP, FP, TN, FN counts summarizing classification outcomes"
+      },
+      {
+        "question": "Which option is true about confusion matrix? (after adding noise, v12)",
+        "options": [
+          "A plot of loss vs iterations",
+          "A list of features",
+          "A table of TP, FP, TN, FN counts summarizing classification outcomes",
+          "A clustering algorithm"
+        ],
+        "answer": "A table of TP, FP, TN, FN counts summarizing classification outcomes"
+      },
+      {
+        "question": "In the visualization, which statement matches confusion matrix? (after changing the slider, v13)",
+        "options": [
+          "A list of features",
+          "A plot of loss vs iterations",
+          "A clustering algorithm",
+          "A table of TP, FP, TN, FN counts summarizing classification outcomes"
+        ],
+        "answer": "A table of TP, FP, TN, FN counts summarizing classification outcomes"
+      },
+      {
+        "question": "After changing settings, which statement best explains confusion matrix? (after toggling a setting, v14)",
+        "options": [
+          "A plot of loss vs iterations",
+          "A table of TP, FP, TN, FN counts summarizing classification outcomes",
+          "A list of features",
+          "A clustering algorithm"
+        ],
+        "answer": "A table of TP, FP, TN, FN counts summarizing classification outcomes"
+      },
+      {
+        "question": "Which choice most accurately defines confusion matrix? (using the shown curve, v15)",
+        "options": [
+          "A table of TP, FP, TN, FN counts summarizing classification outcomes",
+          "A plot of loss vs iterations",
+          "A list of features",
+          "A clustering algorithm"
+        ],
+        "answer": "A table of TP, FP, TN, FN counts summarizing classification outcomes"
+      },
+      {
+        "question": "What best describes confusion matrix? (from the scatter pattern, v16)",
+        "options": [
+          "A plot of loss vs iterations",
+          "A clustering algorithm",
+          "A list of features",
+          "A table of TP, FP, TN, FN counts summarizing classification outcomes"
+        ],
+        "answer": "A table of TP, FP, TN, FN counts summarizing classification outcomes"
+      },
+      {
+        "question": "Which option is true about confusion matrix? (based on the plot, v17)",
+        "options": [
+          "A table of TP, FP, TN, FN counts summarizing classification outcomes",
+          "A list of features",
+          "A plot of loss vs iterations",
+          "A clustering algorithm"
+        ],
+        "answer": "A table of TP, FP, TN, FN counts summarizing classification outcomes"
+      },
+      {
+        "question": "In the visualization, which statement matches confusion matrix? (from the animation, v18)",
+        "options": [
+          "A list of features",
+          "A plot of loss vs iterations",
+          "A clustering algorithm",
+          "A table of TP, FP, TN, FN counts summarizing classification outcomes"
+        ],
+        "answer": "A table of TP, FP, TN, FN counts summarizing classification outcomes"
+      },
+      {
+        "question": "After changing settings, which statement best explains confusion matrix? (after dragging a point, v19)",
+        "options": [
+          "A clustering algorithm",
+          "A plot of loss vs iterations",
+          "A list of features",
+          "A table of TP, FP, TN, FN counts summarizing classification outcomes"
+        ],
+        "answer": "A table of TP, FP, TN, FN counts summarizing classification outcomes"
+      },
+      {
+        "question": "Which choice most accurately defines confusion matrix? (after adding noise, v20)",
+        "options": [
+          "A plot of loss vs iterations",
+          "A table of TP, FP, TN, FN counts summarizing classification outcomes",
+          "A clustering algorithm",
+          "A list of features"
+        ],
+        "answer": "A table of TP, FP, TN, FN counts summarizing classification outcomes"
+      },
+      {
+        "question": "What best describes precision & recall? (based on the plot, v1)",
+        "options": [
+          "Precision = TP/(TP+FP); Recall = TP/(TP+FN)",
+          "Recall = TN/(TN+FP) always",
+          "Precision = TP/(TP+FN) always",
+          "Both are identical to accuracy"
+        ],
+        "answer": "Precision = TP/(TP+FP); Recall = TP/(TP+FN)"
+      },
+      {
+        "question": "Which option is true about precision & recall? (from the animation, v2)",
+        "options": [
+          "Both are identical to accuracy",
+          "Precision = TP/(TP+FN) always",
+          "Recall = TN/(TN+FP) always",
+          "Precision = TP/(TP+FP); Recall = TP/(TP+FN)"
+        ],
+        "answer": "Precision = TP/(TP+FP); Recall = TP/(TP+FN)"
+      },
+      {
+        "question": "In the visualization, which statement matches precision & recall? (after dragging a point, v3)",
+        "options": [
+          "Both are identical to accuracy",
+          "Precision = TP/(TP+FN) always",
+          "Precision = TP/(TP+FP); Recall = TP/(TP+FN)",
+          "Recall = TN/(TN+FP) always"
+        ],
+        "answer": "Precision = TP/(TP+FP); Recall = TP/(TP+FN)"
+      },
+      {
+        "question": "After changing settings, which statement best explains precision & recall? (after adding noise, v4)",
+        "options": [
+          "Both are identical to accuracy",
+          "Precision = TP/(TP+FN) always",
+          "Precision = TP/(TP+FP); Recall = TP/(TP+FN)",
+          "Recall = TN/(TN+FP) always"
+        ],
+        "answer": "Precision = TP/(TP+FP); Recall = TP/(TP+FN)"
+      },
+      {
+        "question": "Which choice most accurately defines precision & recall? (after changing the slider, v5)",
+        "options": [
+          "Both are identical to accuracy",
+          "Recall = TN/(TN+FP) always",
+          "Precision = TP/(TP+FP); Recall = TP/(TP+FN)",
+          "Precision = TP/(TP+FN) always"
+        ],
+        "answer": "Precision = TP/(TP+FP); Recall = TP/(TP+FN)"
+      },
+      {
+        "question": "What best describes precision & recall? (after toggling a setting, v6)",
+        "options": [
+          "Precision = TP/(TP+FP); Recall = TP/(TP+FN)",
+          "Recall = TN/(TN+FP) always",
+          "Precision = TP/(TP+FN) always",
+          "Both are identical to accuracy"
+        ],
+        "answer": "Precision = TP/(TP+FP); Recall = TP/(TP+FN)"
+      },
+      {
+        "question": "Which option is true about precision & recall? (using the shown curve, v7)",
+        "options": [
+          "Both are identical to accuracy",
+          "Recall = TN/(TN+FP) always",
+          "Precision = TP/(TP+FN) always",
+          "Precision = TP/(TP+FP); Recall = TP/(TP+FN)"
+        ],
+        "answer": "Precision = TP/(TP+FP); Recall = TP/(TP+FN)"
+      },
+      {
+        "question": "In the visualization, which statement matches precision & recall? (from the scatter pattern, v8)",
+        "options": [
+          "Recall = TN/(TN+FP) always",
+          "Precision = TP/(TP+FN) always",
+          "Precision = TP/(TP+FP); Recall = TP/(TP+FN)",
+          "Both are identical to accuracy"
+        ],
+        "answer": "Precision = TP/(TP+FP); Recall = TP/(TP+FN)"
+      },
+      {
+        "question": "After changing settings, which statement best explains precision & recall? (based on the plot, v9)",
+        "options": [
+          "Recall = TN/(TN+FP) always",
+          "Precision = TP/(TP+FN) always",
+          "Both are identical to accuracy",
+          "Precision = TP/(TP+FP); Recall = TP/(TP+FN)"
+        ],
+        "answer": "Precision = TP/(TP+FP); Recall = TP/(TP+FN)"
+      },
+      {
+        "question": "Which choice most accurately defines precision & recall? (from the animation, v10)",
+        "options": [
+          "Both are identical to accuracy",
+          "Recall = TN/(TN+FP) always",
+          "Precision = TP/(TP+FP); Recall = TP/(TP+FN)",
+          "Precision = TP/(TP+FN) always"
+        ],
+        "answer": "Precision = TP/(TP+FP); Recall = TP/(TP+FN)"
+      },
+      {
+        "question": "What best describes precision & recall? (after dragging a point, v11)",
+        "options": [
+          "Precision = TP/(TP+FN) always",
+          "Precision = TP/(TP+FP); Recall = TP/(TP+FN)",
+          "Both are identical to accuracy",
+          "Recall = TN/(TN+FP) always"
+        ],
+        "answer": "Precision = TP/(TP+FP); Recall = TP/(TP+FN)"
+      },
+      {
+        "question": "Which option is true about precision & recall? (after adding noise, v12)",
+        "options": [
+          "Precision = TP/(TP+FN) always",
+          "Both are identical to accuracy",
+          "Recall = TN/(TN+FP) always",
+          "Precision = TP/(TP+FP); Recall = TP/(TP+FN)"
+        ],
+        "answer": "Precision = TP/(TP+FP); Recall = TP/(TP+FN)"
+      },
+      {
+        "question": "In the visualization, which statement matches precision & recall? (after changing the slider, v13)",
+        "options": [
+          "Precision = TP/(TP+FP); Recall = TP/(TP+FN)",
+          "Both are identical to accuracy",
+          "Recall = TN/(TN+FP) always",
+          "Precision = TP/(TP+FN) always"
+        ],
+        "answer": "Precision = TP/(TP+FP); Recall = TP/(TP+FN)"
+      },
+      {
+        "question": "After changing settings, which statement best explains precision & recall? (after toggling a setting, v14)",
+        "options": [
+          "Recall = TN/(TN+FP) always",
+          "Precision = TP/(TP+FP); Recall = TP/(TP+FN)",
+          "Both are identical to accuracy",
+          "Precision = TP/(TP+FN) always"
+        ],
+        "answer": "Precision = TP/(TP+FP); Recall = TP/(TP+FN)"
+      },
+      {
+        "question": "Which choice most accurately defines precision & recall? (using the shown curve, v15)",
+        "options": [
+          "Both are identical to accuracy",
+          "Precision = TP/(TP+FP); Recall = TP/(TP+FN)",
+          "Recall = TN/(TN+FP) always",
+          "Precision = TP/(TP+FN) always"
+        ],
+        "answer": "Precision = TP/(TP+FP); Recall = TP/(TP+FN)"
+      },
+      {
+        "question": "What best describes precision & recall? (from the scatter pattern, v16)",
+        "options": [
+          "Precision = TP/(TP+FP); Recall = TP/(TP+FN)",
+          "Both are identical to accuracy",
+          "Recall = TN/(TN+FP) always",
+          "Precision = TP/(TP+FN) always"
+        ],
+        "answer": "Precision = TP/(TP+FP); Recall = TP/(TP+FN)"
+      },
+      {
+        "question": "Which option is true about precision & recall? (based on the plot, v17)",
+        "options": [
+          "Precision = TP/(TP+FN) always",
+          "Recall = TN/(TN+FP) always",
+          "Both are identical to accuracy",
+          "Precision = TP/(TP+FP); Recall = TP/(TP+FN)"
+        ],
+        "answer": "Precision = TP/(TP+FP); Recall = TP/(TP+FN)"
+      },
+      {
+        "question": "In the visualization, which statement matches precision & recall? (from the animation, v18)",
+        "options": [
+          "Recall = TN/(TN+FP) always",
+          "Both are identical to accuracy",
+          "Precision = TP/(TP+FN) always",
+          "Precision = TP/(TP+FP); Recall = TP/(TP+FN)"
+        ],
+        "answer": "Precision = TP/(TP+FP); Recall = TP/(TP+FN)"
+      },
+      {
+        "question": "After changing settings, which statement best explains precision & recall? (after dragging a point, v19)",
+        "options": [
+          "Both are identical to accuracy",
+          "Precision = TP/(TP+FN) always",
+          "Precision = TP/(TP+FP); Recall = TP/(TP+FN)",
+          "Recall = TN/(TN+FP) always"
+        ],
+        "answer": "Precision = TP/(TP+FP); Recall = TP/(TP+FN)"
+      },
+      {
+        "question": "Which choice most accurately defines precision & recall? (after adding noise, v20)",
+        "options": [
+          "Recall = TN/(TN+FP) always",
+          "Precision = TP/(TP+FN) always",
+          "Precision = TP/(TP+FP); Recall = TP/(TP+FN)",
+          "Both are identical to accuracy"
+        ],
+        "answer": "Precision = TP/(TP+FP); Recall = TP/(TP+FN)"
+      },
+      {
+        "question": "What best describes thresholding? (based on the plot, v1)",
+        "options": [
+          "Threshold only affects training",
+          "Threshold changes labels in data",
+          "Changing threshold trades precision and recall by changing what counts as positive",
+          "Threshold has no effect on predictions"
+        ],
+        "answer": "Changing threshold trades precision and recall by changing what counts as positive"
+      },
+      {
+        "question": "Which option is true about thresholding? (from the animation, v2)",
+        "options": [
+          "Threshold only affects training",
+          "Changing threshold trades precision and recall by changing what counts as positive",
+          "Threshold has no effect on predictions",
+          "Threshold changes labels in data"
+        ],
+        "answer": "Changing threshold trades precision and recall by changing what counts as positive"
+      },
+      {
+        "question": "In the visualization, which statement matches thresholding? (after dragging a point, v3)",
+        "options": [
+          "Changing threshold trades precision and recall by changing what counts as positive",
+          "Threshold has no effect on predictions",
+          "Threshold only affects training",
+          "Threshold changes labels in data"
+        ],
+        "answer": "Changing threshold trades precision and recall by changing what counts as positive"
+      },
+      {
+        "question": "After changing settings, which statement best explains thresholding? (after adding noise, v4)",
+        "options": [
+          "Threshold changes labels in data",
+          "Changing threshold trades precision and recall by changing what counts as positive",
+          "Threshold has no effect on predictions",
+          "Threshold only affects training"
+        ],
+        "answer": "Changing threshold trades precision and recall by changing what counts as positive"
+      },
+      {
+        "question": "Which choice most accurately defines thresholding? (after changing the slider, v5)",
+        "options": [
+          "Threshold changes labels in data",
+          "Threshold has no effect on predictions",
+          "Threshold only affects training",
+          "Changing threshold trades precision and recall by changing what counts as positive"
+        ],
+        "answer": "Changing threshold trades precision and recall by changing what counts as positive"
+      },
+      {
+        "question": "What best describes thresholding? (after toggling a setting, v6)",
+        "options": [
+          "Threshold only affects training",
+          "Changing threshold trades precision and recall by changing what counts as positive",
+          "Threshold has no effect on predictions",
+          "Threshold changes labels in data"
+        ],
+        "answer": "Changing threshold trades precision and recall by changing what counts as positive"
+      },
+      {
+        "question": "Which option is true about thresholding? (using the shown curve, v7)",
+        "options": [
+          "Changing threshold trades precision and recall by changing what counts as positive",
+          "Threshold has no effect on predictions",
+          "Threshold changes labels in data",
+          "Threshold only affects training"
+        ],
+        "answer": "Changing threshold trades precision and recall by changing what counts as positive"
+      },
+      {
+        "question": "In the visualization, which statement matches thresholding? (from the scatter pattern, v8)",
+        "options": [
+          "Threshold only affects training",
+          "Threshold changes labels in data",
+          "Changing threshold trades precision and recall by changing what counts as positive",
+          "Threshold has no effect on predictions"
+        ],
+        "answer": "Changing threshold trades precision and recall by changing what counts as positive"
+      },
+      {
+        "question": "After changing settings, which statement best explains thresholding? (based on the plot, v9)",
+        "options": [
+          "Threshold changes labels in data",
+          "Threshold only affects training",
+          "Changing threshold trades precision and recall by changing what counts as positive",
+          "Threshold has no effect on predictions"
+        ],
+        "answer": "Changing threshold trades precision and recall by changing what counts as positive"
+      },
+      {
+        "question": "Which choice most accurately defines thresholding? (from the animation, v10)",
+        "options": [
+          "Threshold has no effect on predictions",
+          "Changing threshold trades precision and recall by changing what counts as positive",
+          "Threshold only affects training",
+          "Threshold changes labels in data"
+        ],
+        "answer": "Changing threshold trades precision and recall by changing what counts as positive"
+      },
+      {
+        "question": "What best describes thresholding? (after dragging a point, v11)",
+        "options": [
+          "Threshold changes labels in data",
+          "Changing threshold trades precision and recall by changing what counts as positive",
+          "Threshold has no effect on predictions",
+          "Threshold only affects training"
+        ],
+        "answer": "Changing threshold trades precision and recall by changing what counts as positive"
+      },
+      {
+        "question": "Which option is true about thresholding? (after adding noise, v12)",
+        "options": [
+          "Threshold has no effect on predictions",
+          "Threshold changes labels in data",
+          "Changing threshold trades precision and recall by changing what counts as positive",
+          "Threshold only affects training"
+        ],
+        "answer": "Changing threshold trades precision and recall by changing what counts as positive"
+      },
+      {
+        "question": "In the visualization, which statement matches thresholding? (after changing the slider, v13)",
+        "options": [
+          "Threshold changes labels in data",
+          "Threshold only affects training",
+          "Threshold has no effect on predictions",
+          "Changing threshold trades precision and recall by changing what counts as positive"
+        ],
+        "answer": "Changing threshold trades precision and recall by changing what counts as positive"
+      },
+      {
+        "question": "After changing settings, which statement best explains thresholding? (after toggling a setting, v14)",
+        "options": [
+          "Threshold changes labels in data",
+          "Threshold only affects training",
+          "Changing threshold trades precision and recall by changing what counts as positive",
+          "Threshold has no effect on predictions"
+        ],
+        "answer": "Changing threshold trades precision and recall by changing what counts as positive"
+      },
+      {
+        "question": "Which choice most accurately defines thresholding? (using the shown curve, v15)",
+        "options": [
+          "Threshold has no effect on predictions",
+          "Changing threshold trades precision and recall by changing what counts as positive",
+          "Threshold changes labels in data",
+          "Threshold only affects training"
+        ],
+        "answer": "Changing threshold trades precision and recall by changing what counts as positive"
+      },
+      {
+        "question": "What best describes thresholding? (from the scatter pattern, v16)",
+        "options": [
+          "Threshold has no effect on predictions",
+          "Threshold only affects training",
+          "Threshold changes labels in data",
+          "Changing threshold trades precision and recall by changing what counts as positive"
+        ],
+        "answer": "Changing threshold trades precision and recall by changing what counts as positive"
+      },
+      {
+        "question": "Which option is true about thresholding? (based on the plot, v17)",
+        "options": [
+          "Threshold only affects training",
+          "Threshold changes labels in data",
+          "Changing threshold trades precision and recall by changing what counts as positive",
+          "Threshold has no effect on predictions"
+        ],
+        "answer": "Changing threshold trades precision and recall by changing what counts as positive"
+      },
+      {
+        "question": "In the visualization, which statement matches thresholding? (from the animation, v18)",
+        "options": [
+          "Threshold changes labels in data",
+          "Threshold has no effect on predictions",
+          "Changing threshold trades precision and recall by changing what counts as positive",
+          "Threshold only affects training"
+        ],
+        "answer": "Changing threshold trades precision and recall by changing what counts as positive"
+      },
+      {
+        "question": "After changing settings, which statement best explains thresholding? (after dragging a point, v19)",
+        "options": [
+          "Threshold changes labels in data",
+          "Threshold only affects training",
+          "Threshold has no effect on predictions",
+          "Changing threshold trades precision and recall by changing what counts as positive"
+        ],
+        "answer": "Changing threshold trades precision and recall by changing what counts as positive"
+      },
+      {
+        "question": "Which choice most accurately defines thresholding? (after adding noise, v20)",
+        "options": [
+          "Threshold only affects training",
+          "Threshold has no effect on predictions",
+          "Threshold changes labels in data",
+          "Changing threshold trades precision and recall by changing what counts as positive"
+        ],
+        "answer": "Changing threshold trades precision and recall by changing what counts as positive"
+      },
+      {
+        "question": "What best describes class imbalance? (based on the plot, v1)",
+        "options": [
+          "Imbalance is fixed by shuffling rows",
+          "Imbalance only affects regression",
+          "Imbalance improves accuracy always",
+          "Imbalanced classes can make accuracy misleading; use F1/PR curves or class weights"
+        ],
+        "answer": "Imbalanced classes can make accuracy misleading; use F1/PR curves or class weights"
+      },
+      {
+        "question": "Which option is true about class imbalance? (from the animation, v2)",
+        "options": [
+          "Imbalance only affects regression",
+          "Imbalance is fixed by shuffling rows",
+          "Imbalanced classes can make accuracy misleading; use F1/PR curves or class weights",
+          "Imbalance improves accuracy always"
+        ],
+        "answer": "Imbalanced classes can make accuracy misleading; use F1/PR curves or class weights"
+      },
+      {
+        "question": "In the visualization, which statement matches class imbalance? (after dragging a point, v3)",
+        "options": [
+          "Imbalance is fixed by shuffling rows",
+          "Imbalance only affects regression",
+          "Imbalanced classes can make accuracy misleading; use F1/PR curves or class weights",
+          "Imbalance improves accuracy always"
+        ],
+        "answer": "Imbalanced classes can make accuracy misleading; use F1/PR curves or class weights"
+      },
+      {
+        "question": "After changing settings, which statement best explains class imbalance? (after adding noise, v4)",
+        "options": [
+          "Imbalanced classes can make accuracy misleading; use F1/PR curves or class weights",
+          "Imbalance is fixed by shuffling rows",
+          "Imbalance only affects regression",
+          "Imbalance improves accuracy always"
+        ],
+        "answer": "Imbalanced classes can make accuracy misleading; use F1/PR curves or class weights"
+      },
+      {
+        "question": "Which choice most accurately defines class imbalance? (after changing the slider, v5)",
+        "options": [
+          "Imbalanced classes can make accuracy misleading; use F1/PR curves or class weights",
+          "Imbalance is fixed by shuffling rows",
+          "Imbalance improves accuracy always",
+          "Imbalance only affects regression"
+        ],
+        "answer": "Imbalanced classes can make accuracy misleading; use F1/PR curves or class weights"
+      },
+      {
+        "question": "What best describes class imbalance? (after toggling a setting, v6)",
+        "options": [
+          "Imbalanced classes can make accuracy misleading; use F1/PR curves or class weights",
+          "Imbalance is fixed by shuffling rows",
+          "Imbalance improves accuracy always",
+          "Imbalance only affects regression"
+        ],
+        "answer": "Imbalanced classes can make accuracy misleading; use F1/PR curves or class weights"
+      },
+      {
+        "question": "Which option is true about class imbalance? (using the shown curve, v7)",
+        "options": [
+          "Imbalance improves accuracy always",
+          "Imbalanced classes can make accuracy misleading; use F1/PR curves or class weights",
+          "Imbalance only affects regression",
+          "Imbalance is fixed by shuffling rows"
+        ],
+        "answer": "Imbalanced classes can make accuracy misleading; use F1/PR curves or class weights"
+      },
+      {
+        "question": "In the visualization, which statement matches class imbalance? (from the scatter pattern, v8)",
+        "options": [
+          "Imbalance only affects regression",
+          "Imbalance improves accuracy always",
+          "Imbalanced classes can make accuracy misleading; use F1/PR curves or class weights",
+          "Imbalance is fixed by shuffling rows"
+        ],
+        "answer": "Imbalanced classes can make accuracy misleading; use F1/PR curves or class weights"
+      },
+      {
+        "question": "After changing settings, which statement best explains class imbalance? (based on the plot, v9)",
+        "options": [
+          "Imbalance improves accuracy always",
+          "Imbalance only affects regression",
+          "Imbalanced classes can make accuracy misleading; use F1/PR curves or class weights",
+          "Imbalance is fixed by shuffling rows"
+        ],
+        "answer": "Imbalanced classes can make accuracy misleading; use F1/PR curves or class weights"
+      },
+      {
+        "question": "Which choice most accurately defines class imbalance? (from the animation, v10)",
+        "options": [
+          "Imbalanced classes can make accuracy misleading; use F1/PR curves or class weights",
+          "Imbalance only affects regression",
+          "Imbalance is fixed by shuffling rows",
+          "Imbalance improves accuracy always"
+        ],
+        "answer": "Imbalanced classes can make accuracy misleading; use F1/PR curves or class weights"
+      },
+      {
+        "question": "What best describes class imbalance? (after dragging a point, v11)",
+        "options": [
+          "Imbalance improves accuracy always",
+          "Imbalance is fixed by shuffling rows",
+          "Imbalanced classes can make accuracy misleading; use F1/PR curves or class weights",
+          "Imbalance only affects regression"
+        ],
+        "answer": "Imbalanced classes can make accuracy misleading; use F1/PR curves or class weights"
+      },
+      {
+        "question": "Which option is true about class imbalance? (after adding noise, v12)",
+        "options": [
+          "Imbalance improves accuracy always",
+          "Imbalance only affects regression",
+          "Imbalanced classes can make accuracy misleading; use F1/PR curves or class weights",
+          "Imbalance is fixed by shuffling rows"
+        ],
+        "answer": "Imbalanced classes can make accuracy misleading; use F1/PR curves or class weights"
+      },
+      {
+        "question": "In the visualization, which statement matches class imbalance? (after changing the slider, v13)",
+        "options": [
+          "Imbalance is fixed by shuffling rows",
+          "Imbalanced classes can make accuracy misleading; use F1/PR curves or class weights",
+          "Imbalance improves accuracy always",
+          "Imbalance only affects regression"
+        ],
+        "answer": "Imbalanced classes can make accuracy misleading; use F1/PR curves or class weights"
+      },
+      {
+        "question": "After changing settings, which statement best explains class imbalance? (after toggling a setting, v14)",
+        "options": [
+          "Imbalance is fixed by shuffling rows",
+          "Imbalance improves accuracy always",
+          "Imbalanced classes can make accuracy misleading; use F1/PR curves or class weights",
+          "Imbalance only affects regression"
+        ],
+        "answer": "Imbalanced classes can make accuracy misleading; use F1/PR curves or class weights"
+      },
+      {
+        "question": "Which choice most accurately defines class imbalance? (using the shown curve, v15)",
+        "options": [
+          "Imbalanced classes can make accuracy misleading; use F1/PR curves or class weights",
+          "Imbalance improves accuracy always",
+          "Imbalance is fixed by shuffling rows",
+          "Imbalance only affects regression"
+        ],
+        "answer": "Imbalanced classes can make accuracy misleading; use F1/PR curves or class weights"
+      },
+      {
+        "question": "What best describes class imbalance? (from the scatter pattern, v16)",
+        "options": [
+          "Imbalance improves accuracy always",
+          "Imbalanced classes can make accuracy misleading; use F1/PR curves or class weights",
+          "Imbalance is fixed by shuffling rows",
+          "Imbalance only affects regression"
+        ],
+        "answer": "Imbalanced classes can make accuracy misleading; use F1/PR curves or class weights"
+      },
+      {
+        "question": "Which option is true about class imbalance? (based on the plot, v17)",
+        "options": [
+          "Imbalance is fixed by shuffling rows",
+          "Imbalance only affects regression",
+          "Imbalance improves accuracy always",
+          "Imbalanced classes can make accuracy misleading; use F1/PR curves or class weights"
+        ],
+        "answer": "Imbalanced classes can make accuracy misleading; use F1/PR curves or class weights"
+      },
+      {
+        "question": "In the visualization, which statement matches class imbalance? (from the animation, v18)",
+        "options": [
+          "Imbalance improves accuracy always",
+          "Imbalanced classes can make accuracy misleading; use F1/PR curves or class weights",
+          "Imbalance only affects regression",
+          "Imbalance is fixed by shuffling rows"
+        ],
+        "answer": "Imbalanced classes can make accuracy misleading; use F1/PR curves or class weights"
+      },
+      {
+        "question": "After changing settings, which statement best explains class imbalance? (after dragging a point, v19)",
+        "options": [
+          "Imbalance improves accuracy always",
+          "Imbalance is fixed by shuffling rows",
+          "Imbalance only affects regression",
+          "Imbalanced classes can make accuracy misleading; use F1/PR curves or class weights"
+        ],
+        "answer": "Imbalanced classes can make accuracy misleading; use F1/PR curves or class weights"
+      },
+      {
+        "question": "Which choice most accurately defines class imbalance? (after adding noise, v20)",
+        "options": [
+          "Imbalance improves accuracy always",
+          "Imbalance is fixed by shuffling rows",
+          "Imbalanced classes can make accuracy misleading; use F1/PR curves or class weights",
+          "Imbalance only affects regression"
+        ],
+        "answer": "Imbalanced classes can make accuracy misleading; use F1/PR curves or class weights"
+      },
+      {
+        "question": "What best describes robustness? (based on the plot, v1)",
+        "options": [
+          "Robustness guarantees zero error",
+          "Robustness means higher learning rate",
+          "Robust models are less sensitive to small input perturbations/noise",
+          "Robustness means more features"
+        ],
+        "answer": "Robust models are less sensitive to small input perturbations/noise"
+      },
+      {
+        "question": "Which option is true about robustness? (from the animation, v2)",
+        "options": [
+          "Robust models are less sensitive to small input perturbations/noise",
+          "Robustness means more features",
+          "Robustness guarantees zero error",
+          "Robustness means higher learning rate"
+        ],
+        "answer": "Robust models are less sensitive to small input perturbations/noise"
+      },
+      {
+        "question": "In the visualization, which statement matches robustness? (after dragging a point, v3)",
+        "options": [
+          "Robustness means more features",
+          "Robust models are less sensitive to small input perturbations/noise",
+          "Robustness guarantees zero error",
+          "Robustness means higher learning rate"
+        ],
+        "answer": "Robust models are less sensitive to small input perturbations/noise"
+      },
+      {
+        "question": "After changing settings, which statement best explains robustness? (after adding noise, v4)",
+        "options": [
+          "Robust models are less sensitive to small input perturbations/noise",
+          "Robustness guarantees zero error",
+          "Robustness means higher learning rate",
+          "Robustness means more features"
+        ],
+        "answer": "Robust models are less sensitive to small input perturbations/noise"
+      },
+      {
+        "question": "Which choice most accurately defines robustness? (after changing the slider, v5)",
+        "options": [
+          "Robustness guarantees zero error",
+          "Robustness means higher learning rate",
+          "Robustness means more features",
+          "Robust models are less sensitive to small input perturbations/noise"
+        ],
+        "answer": "Robust models are less sensitive to small input perturbations/noise"
+      },
+      {
+        "question": "What best describes robustness? (after toggling a setting, v6)",
+        "options": [
+          "Robustness means more features",
+          "Robustness means higher learning rate",
+          "Robust models are less sensitive to small input perturbations/noise",
+          "Robustness guarantees zero error"
+        ],
+        "answer": "Robust models are less sensitive to small input perturbations/noise"
+      },
+      {
+        "question": "Which option is true about robustness? (using the shown curve, v7)",
+        "options": [
+          "Robustness means more features",
+          "Robust models are less sensitive to small input perturbations/noise",
+          "Robustness means higher learning rate",
+          "Robustness guarantees zero error"
+        ],
+        "answer": "Robust models are less sensitive to small input perturbations/noise"
+      },
+      {
+        "question": "In the visualization, which statement matches robustness? (from the scatter pattern, v8)",
+        "options": [
+          "Robust models are less sensitive to small input perturbations/noise",
+          "Robustness means more features",
+          "Robustness means higher learning rate",
+          "Robustness guarantees zero error"
+        ],
+        "answer": "Robust models are less sensitive to small input perturbations/noise"
+      },
+      {
+        "question": "After changing settings, which statement best explains robustness? (based on the plot, v9)",
+        "options": [
+          "Robustness means more features",
+          "Robust models are less sensitive to small input perturbations/noise",
+          "Robustness means higher learning rate",
+          "Robustness guarantees zero error"
+        ],
+        "answer": "Robust models are less sensitive to small input perturbations/noise"
+      },
+      {
+        "question": "Which choice most accurately defines robustness? (from the animation, v10)",
+        "options": [
+          "Robustness means higher learning rate",
+          "Robustness guarantees zero error",
+          "Robustness means more features",
+          "Robust models are less sensitive to small input perturbations/noise"
+        ],
+        "answer": "Robust models are less sensitive to small input perturbations/noise"
+      },
+      {
+        "question": "What best describes robustness? (after dragging a point, v11)",
+        "options": [
+          "Robustness guarantees zero error",
+          "Robust models are less sensitive to small input perturbations/noise",
+          "Robustness means more features",
+          "Robustness means higher learning rate"
+        ],
+        "answer": "Robust models are less sensitive to small input perturbations/noise"
+      },
+      {
+        "question": "Which option is true about robustness? (after adding noise, v12)",
+        "options": [
+          "Robustness guarantees zero error",
+          "Robust models are less sensitive to small input perturbations/noise",
+          "Robustness means higher learning rate",
+          "Robustness means more features"
+        ],
+        "answer": "Robust models are less sensitive to small input perturbations/noise"
+      },
+      {
+        "question": "In the visualization, which statement matches robustness? (after changing the slider, v13)",
+        "options": [
+          "Robustness means higher learning rate",
+          "Robust models are less sensitive to small input perturbations/noise",
+          "Robustness means more features",
+          "Robustness guarantees zero error"
+        ],
+        "answer": "Robust models are less sensitive to small input perturbations/noise"
+      },
+      {
+        "question": "After changing settings, which statement best explains robustness? (after toggling a setting, v14)",
+        "options": [
+          "Robust models are less sensitive to small input perturbations/noise",
+          "Robustness means more features",
+          "Robustness guarantees zero error",
+          "Robustness means higher learning rate"
+        ],
+        "answer": "Robust models are less sensitive to small input perturbations/noise"
+      },
+      {
+        "question": "Which choice most accurately defines robustness? (using the shown curve, v15)",
+        "options": [
+          "Robust models are less sensitive to small input perturbations/noise",
+          "Robustness means higher learning rate",
+          "Robustness guarantees zero error",
+          "Robustness means more features"
+        ],
+        "answer": "Robust models are less sensitive to small input perturbations/noise"
+      },
+      {
+        "question": "What best describes robustness? (from the scatter pattern, v16)",
+        "options": [
+          "Robustness guarantees zero error",
+          "Robustness means more features",
+          "Robust models are less sensitive to small input perturbations/noise",
+          "Robustness means higher learning rate"
+        ],
+        "answer": "Robust models are less sensitive to small input perturbations/noise"
+      },
+      {
+        "question": "Which option is true about robustness? (based on the plot, v17)",
+        "options": [
+          "Robustness guarantees zero error",
+          "Robust models are less sensitive to small input perturbations/noise",
+          "Robustness means more features",
+          "Robustness means higher learning rate"
+        ],
+        "answer": "Robust models are less sensitive to small input perturbations/noise"
+      },
+      {
+        "question": "In the visualization, which statement matches robustness? (from the animation, v18)",
+        "options": [
+          "Robustness guarantees zero error",
+          "Robustness means higher learning rate",
+          "Robustness means more features",
+          "Robust models are less sensitive to small input perturbations/noise"
+        ],
+        "answer": "Robust models are less sensitive to small input perturbations/noise"
+      },
+      {
+        "question": "After changing settings, which statement best explains robustness? (after dragging a point, v19)",
+        "options": [
+          "Robust models are less sensitive to small input perturbations/noise",
+          "Robustness means higher learning rate",
+          "Robustness means more features",
+          "Robustness guarantees zero error"
+        ],
+        "answer": "Robust models are less sensitive to small input perturbations/noise"
+      },
+      {
+        "question": "Which choice most accurately defines robustness? (after adding noise, v20)",
+        "options": [
+          "Robustness means higher learning rate",
+          "Robustness means more features",
+          "Robust models are less sensitive to small input perturbations/noise",
+          "Robustness guarantees zero error"
+        ],
+        "answer": "Robust models are less sensitive to small input perturbations/noise"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1006 @@
+{
+  "Introduction to Machine Learning": {
+    "questions": [
+      {
+        "question": "What best describes goal of ML? (based on the plot, v1)",
+        "options": [
+          "Enable systems to learn patterns from data and improve performance on a task",
+          "Encrypt files for security",
+          "Manually hard-code rules for every case",
+          "Store data without learning"
+        ],
+        "answer": "Enable systems to learn patterns from data and improve performance on a task"
+      },
+      {
+        "question": "Which option is true about goal of ML? (from the animation, v2)",
+        "options": [
+          "Enable systems to learn patterns from data and improve performance on a task",
+          "Store data without learning",
+          "Manually hard-code rules for every case",
+          "Encrypt files for security"
+        ],
+        "answer": "Enable systems to learn patterns from data and improve performance on a task"
+      },
+      {
+        "question": "In the visualization, which statement matches goal of ML? (after dragging a point, v3)",
+        "options": [
+          "Encrypt files for security",
+          "Store data without learning",
+          "Enable systems to learn patterns from data and improve performance on a task",
+          "Manually hard-code rules for every case"
+        ],
+        "answer": "Enable systems to learn patterns from data and improve performance on a task"
+      },
+      {
+        "question": "After changing settings, which statement best explains goal of ML? (after adding noise, v4)",
+        "options": [
+          "Store data without learning",
+          "Enable systems to learn patterns from data and improve performance on a task",
+          "Manually hard-code rules for every case",
+          "Encrypt files for security"
+        ],
+        "answer": "Enable systems to learn patterns from data and improve performance on a task"
+      },
+      {
+        "question": "Which choice most accurately defines goal of ML? (after changing the slider, v5)",
+        "options": [
+          "Manually hard-code rules for every case",
+          "Enable systems to learn patterns from data and improve performance on a task",
+          "Encrypt files for security",
+          "Store data without learning"
+        ],
+        "answer": "Enable systems to learn patterns from data and improve performance on a task"
+      },
+      {
+        "question": "What best describes goal of ML? (after toggling a setting, v6)",
+        "options": [
+          "Store data without learning",
+          "Manually hard-code rules for every case",
+          "Encrypt files for security",
+          "Enable systems to learn patterns from data and improve performance on a task"
+        ],
+        "answer": "Enable systems to learn patterns from data and improve performance on a task"
+      },
+      {
+        "question": "Which option is true about goal of ML? (using the shown curve, v7)",
+        "options": [
+          "Manually hard-code rules for every case",
+          "Enable systems to learn patterns from data and improve performance on a task",
+          "Store data without learning",
+          "Encrypt files for security"
+        ],
+        "answer": "Enable systems to learn patterns from data and improve performance on a task"
+      },
+      {
+        "question": "In the visualization, which statement matches goal of ML? (from the scatter pattern, v8)",
+        "options": [
+          "Enable systems to learn patterns from data and improve performance on a task",
+          "Manually hard-code rules for every case",
+          "Encrypt files for security",
+          "Store data without learning"
+        ],
+        "answer": "Enable systems to learn patterns from data and improve performance on a task"
+      },
+      {
+        "question": "After changing settings, which statement best explains goal of ML? (based on the plot, v9)",
+        "options": [
+          "Enable systems to learn patterns from data and improve performance on a task",
+          "Store data without learning",
+          "Manually hard-code rules for every case",
+          "Encrypt files for security"
+        ],
+        "answer": "Enable systems to learn patterns from data and improve performance on a task"
+      },
+      {
+        "question": "Which choice most accurately defines goal of ML? (from the animation, v10)",
+        "options": [
+          "Store data without learning",
+          "Manually hard-code rules for every case",
+          "Enable systems to learn patterns from data and improve performance on a task",
+          "Encrypt files for security"
+        ],
+        "answer": "Enable systems to learn patterns from data and improve performance on a task"
+      },
+      {
+        "question": "What best describes goal of ML? (after dragging a point, v11)",
+        "options": [
+          "Manually hard-code rules for every case",
+          "Store data without learning",
+          "Enable systems to learn patterns from data and improve performance on a task",
+          "Encrypt files for security"
+        ],
+        "answer": "Enable systems to learn patterns from data and improve performance on a task"
+      },
+      {
+        "question": "Which option is true about goal of ML? (after adding noise, v12)",
+        "options": [
+          "Encrypt files for security",
+          "Enable systems to learn patterns from data and improve performance on a task",
+          "Manually hard-code rules for every case",
+          "Store data without learning"
+        ],
+        "answer": "Enable systems to learn patterns from data and improve performance on a task"
+      },
+      {
+        "question": "In the visualization, which statement matches goal of ML? (after changing the slider, v13)",
+        "options": [
+          "Enable systems to learn patterns from data and improve performance on a task",
+          "Encrypt files for security",
+          "Store data without learning",
+          "Manually hard-code rules for every case"
+        ],
+        "answer": "Enable systems to learn patterns from data and improve performance on a task"
+      },
+      {
+        "question": "After changing settings, which statement best explains goal of ML? (after toggling a setting, v14)",
+        "options": [
+          "Enable systems to learn patterns from data and improve performance on a task",
+          "Encrypt files for security",
+          "Store data without learning",
+          "Manually hard-code rules for every case"
+        ],
+        "answer": "Enable systems to learn patterns from data and improve performance on a task"
+      },
+      {
+        "question": "Which choice most accurately defines goal of ML? (using the shown curve, v15)",
+        "options": [
+          "Enable systems to learn patterns from data and improve performance on a task",
+          "Store data without learning",
+          "Encrypt files for security",
+          "Manually hard-code rules for every case"
+        ],
+        "answer": "Enable systems to learn patterns from data and improve performance on a task"
+      },
+      {
+        "question": "What best describes goal of ML? (from the scatter pattern, v16)",
+        "options": [
+          "Manually hard-code rules for every case",
+          "Store data without learning",
+          "Encrypt files for security",
+          "Enable systems to learn patterns from data and improve performance on a task"
+        ],
+        "answer": "Enable systems to learn patterns from data and improve performance on a task"
+      },
+      {
+        "question": "Which option is true about goal of ML? (based on the plot, v17)",
+        "options": [
+          "Store data without learning",
+          "Encrypt files for security",
+          "Manually hard-code rules for every case",
+          "Enable systems to learn patterns from data and improve performance on a task"
+        ],
+        "answer": "Enable systems to learn patterns from data and improve performance on a task"
+      },
+      {
+        "question": "In the visualization, which statement matches goal of ML? (from the animation, v18)",
+        "options": [
+          "Manually hard-code rules for every case",
+          "Enable systems to learn patterns from data and improve performance on a task",
+          "Encrypt files for security",
+          "Store data without learning"
+        ],
+        "answer": "Enable systems to learn patterns from data and improve performance on a task"
+      },
+      {
+        "question": "After changing settings, which statement best explains goal of ML? (after dragging a point, v19)",
+        "options": [
+          "Manually hard-code rules for every case",
+          "Enable systems to learn patterns from data and improve performance on a task",
+          "Encrypt files for security",
+          "Store data without learning"
+        ],
+        "answer": "Enable systems to learn patterns from data and improve performance on a task"
+      },
+      {
+        "question": "Which choice most accurately defines goal of ML? (after adding noise, v20)",
+        "options": [
+          "Encrypt files for security",
+          "Manually hard-code rules for every case",
+          "Enable systems to learn patterns from data and improve performance on a task",
+          "Store data without learning"
+        ],
+        "answer": "Enable systems to learn patterns from data and improve performance on a task"
+      },
+      {
+        "question": "What best describes types of learning? (based on the plot, v1)",
+        "options": [
+          "Only supervised learning exists",
+          "Learning always requires rewards",
+          "Cloud, networked, and automated learning",
+          "Supervised, unsupervised, and reinforcement learning are common paradigms"
+        ],
+        "answer": "Supervised, unsupervised, and reinforcement learning are common paradigms"
+      },
+      {
+        "question": "Which option is true about types of learning? (from the animation, v2)",
+        "options": [
+          "Cloud, networked, and automated learning",
+          "Supervised, unsupervised, and reinforcement learning are common paradigms",
+          "Only supervised learning exists",
+          "Learning always requires rewards"
+        ],
+        "answer": "Supervised, unsupervised, and reinforcement learning are common paradigms"
+      },
+      {
+        "question": "In the visualization, which statement matches types of learning? (after dragging a point, v3)",
+        "options": [
+          "Cloud, networked, and automated learning",
+          "Learning always requires rewards",
+          "Only supervised learning exists",
+          "Supervised, unsupervised, and reinforcement learning are common paradigms"
+        ],
+        "answer": "Supervised, unsupervised, and reinforcement learning are common paradigms"
+      },
+      {
+        "question": "After changing settings, which statement best explains types of learning? (after adding noise, v4)",
+        "options": [
+          "Cloud, networked, and automated learning",
+          "Learning always requires rewards",
+          "Only supervised learning exists",
+          "Supervised, unsupervised, and reinforcement learning are common paradigms"
+        ],
+        "answer": "Supervised, unsupervised, and reinforcement learning are common paradigms"
+      },
+      {
+        "question": "Which choice most accurately defines types of learning? (after changing the slider, v5)",
+        "options": [
+          "Cloud, networked, and automated learning",
+          "Supervised, unsupervised, and reinforcement learning are common paradigms",
+          "Only supervised learning exists",
+          "Learning always requires rewards"
+        ],
+        "answer": "Supervised, unsupervised, and reinforcement learning are common paradigms"
+      },
+      {
+        "question": "What best describes types of learning? (after toggling a setting, v6)",
+        "options": [
+          "Only supervised learning exists",
+          "Cloud, networked, and automated learning",
+          "Learning always requires rewards",
+          "Supervised, unsupervised, and reinforcement learning are common paradigms"
+        ],
+        "answer": "Supervised, unsupervised, and reinforcement learning are common paradigms"
+      },
+      {
+        "question": "Which option is true about types of learning? (using the shown curve, v7)",
+        "options": [
+          "Cloud, networked, and automated learning",
+          "Supervised, unsupervised, and reinforcement learning are common paradigms",
+          "Only supervised learning exists",
+          "Learning always requires rewards"
+        ],
+        "answer": "Supervised, unsupervised, and reinforcement learning are common paradigms"
+      },
+      {
+        "question": "In the visualization, which statement matches types of learning? (from the scatter pattern, v8)",
+        "options": [
+          "Only supervised learning exists",
+          "Learning always requires rewards",
+          "Cloud, networked, and automated learning",
+          "Supervised, unsupervised, and reinforcement learning are common paradigms"
+        ],
+        "answer": "Supervised, unsupervised, and reinforcement learning are common paradigms"
+      },
+      {
+        "question": "After changing settings, which statement best explains types of learning? (based on the plot, v9)",
+        "options": [
+          "Learning always requires rewards",
+          "Only supervised learning exists",
+          "Cloud, networked, and automated learning",
+          "Supervised, unsupervised, and reinforcement learning are common paradigms"
+        ],
+        "answer": "Supervised, unsupervised, and reinforcement learning are common paradigms"
+      },
+      {
+        "question": "Which choice most accurately defines types of learning? (from the animation, v10)",
+        "options": [
+          "Cloud, networked, and automated learning",
+          "Only supervised learning exists",
+          "Supervised, unsupervised, and reinforcement learning are common paradigms",
+          "Learning always requires rewards"
+        ],
+        "answer": "Supervised, unsupervised, and reinforcement learning are common paradigms"
+      },
+      {
+        "question": "What best describes types of learning? (after dragging a point, v11)",
+        "options": [
+          "Learning always requires rewards",
+          "Supervised, unsupervised, and reinforcement learning are common paradigms",
+          "Only supervised learning exists",
+          "Cloud, networked, and automated learning"
+        ],
+        "answer": "Supervised, unsupervised, and reinforcement learning are common paradigms"
+      },
+      {
+        "question": "Which option is true about types of learning? (after adding noise, v12)",
+        "options": [
+          "Learning always requires rewards",
+          "Only supervised learning exists",
+          "Supervised, unsupervised, and reinforcement learning are common paradigms",
+          "Cloud, networked, and automated learning"
+        ],
+        "answer": "Supervised, unsupervised, and reinforcement learning are common paradigms"
+      },
+      {
+        "question": "In the visualization, which statement matches types of learning? (after changing the slider, v13)",
+        "options": [
+          "Only supervised learning exists",
+          "Learning always requires rewards",
+          "Cloud, networked, and automated learning",
+          "Supervised, unsupervised, and reinforcement learning are common paradigms"
+        ],
+        "answer": "Supervised, unsupervised, and reinforcement learning are common paradigms"
+      },
+      {
+        "question": "After changing settings, which statement best explains types of learning? (after toggling a setting, v14)",
+        "options": [
+          "Learning always requires rewards",
+          "Only supervised learning exists",
+          "Cloud, networked, and automated learning",
+          "Supervised, unsupervised, and reinforcement learning are common paradigms"
+        ],
+        "answer": "Supervised, unsupervised, and reinforcement learning are common paradigms"
+      },
+      {
+        "question": "Which choice most accurately defines types of learning? (using the shown curve, v15)",
+        "options": [
+          "Supervised, unsupervised, and reinforcement learning are common paradigms",
+          "Learning always requires rewards",
+          "Only supervised learning exists",
+          "Cloud, networked, and automated learning"
+        ],
+        "answer": "Supervised, unsupervised, and reinforcement learning are common paradigms"
+      },
+      {
+        "question": "What best describes types of learning? (from the scatter pattern, v16)",
+        "options": [
+          "Cloud, networked, and automated learning",
+          "Learning always requires rewards",
+          "Only supervised learning exists",
+          "Supervised, unsupervised, and reinforcement learning are common paradigms"
+        ],
+        "answer": "Supervised, unsupervised, and reinforcement learning are common paradigms"
+      },
+      {
+        "question": "Which option is true about types of learning? (based on the plot, v17)",
+        "options": [
+          "Supervised, unsupervised, and reinforcement learning are common paradigms",
+          "Cloud, networked, and automated learning",
+          "Learning always requires rewards",
+          "Only supervised learning exists"
+        ],
+        "answer": "Supervised, unsupervised, and reinforcement learning are common paradigms"
+      },
+      {
+        "question": "In the visualization, which statement matches types of learning? (from the animation, v18)",
+        "options": [
+          "Cloud, networked, and automated learning",
+          "Only supervised learning exists",
+          "Learning always requires rewards",
+          "Supervised, unsupervised, and reinforcement learning are common paradigms"
+        ],
+        "answer": "Supervised, unsupervised, and reinforcement learning are common paradigms"
+      },
+      {
+        "question": "After changing settings, which statement best explains types of learning? (after dragging a point, v19)",
+        "options": [
+          "Cloud, networked, and automated learning",
+          "Only supervised learning exists",
+          "Learning always requires rewards",
+          "Supervised, unsupervised, and reinforcement learning are common paradigms"
+        ],
+        "answer": "Supervised, unsupervised, and reinforcement learning are common paradigms"
+      },
+      {
+        "question": "Which choice most accurately defines types of learning? (after adding noise, v20)",
+        "options": [
+          "Cloud, networked, and automated learning",
+          "Learning always requires rewards",
+          "Only supervised learning exists",
+          "Supervised, unsupervised, and reinforcement learning are common paradigms"
+        ],
+        "answer": "Supervised, unsupervised, and reinforcement learning are common paradigms"
+      },
+      {
+        "question": "What best describes training vs testing? (based on the plot, v1)",
+        "options": [
+          "Training is only for plotting graphs",
+          "Validation replaces training",
+          "Testing is used to tune hyperparameters repeatedly",
+          "Training fits parameters; testing evaluates final performance on unseen data"
+        ],
+        "answer": "Training fits parameters; testing evaluates final performance on unseen data"
+      },
+      {
+        "question": "Which option is true about training vs testing? (from the animation, v2)",
+        "options": [
+          "Training is only for plotting graphs",
+          "Training fits parameters; testing evaluates final performance on unseen data",
+          "Testing is used to tune hyperparameters repeatedly",
+          "Validation replaces training"
+        ],
+        "answer": "Training fits parameters; testing evaluates final performance on unseen data"
+      },
+      {
+        "question": "In the visualization, which statement matches training vs testing? (after dragging a point, v3)",
+        "options": [
+          "Validation replaces training",
+          "Testing is used to tune hyperparameters repeatedly",
+          "Training is only for plotting graphs",
+          "Training fits parameters; testing evaluates final performance on unseen data"
+        ],
+        "answer": "Training fits parameters; testing evaluates final performance on unseen data"
+      },
+      {
+        "question": "After changing settings, which statement best explains training vs testing? (after adding noise, v4)",
+        "options": [
+          "Testing is used to tune hyperparameters repeatedly",
+          "Training is only for plotting graphs",
+          "Validation replaces training",
+          "Training fits parameters; testing evaluates final performance on unseen data"
+        ],
+        "answer": "Training fits parameters; testing evaluates final performance on unseen data"
+      },
+      {
+        "question": "Which choice most accurately defines training vs testing? (after changing the slider, v5)",
+        "options": [
+          "Training is only for plotting graphs",
+          "Testing is used to tune hyperparameters repeatedly",
+          "Training fits parameters; testing evaluates final performance on unseen data",
+          "Validation replaces training"
+        ],
+        "answer": "Training fits parameters; testing evaluates final performance on unseen data"
+      },
+      {
+        "question": "What best describes training vs testing? (after toggling a setting, v6)",
+        "options": [
+          "Validation replaces training",
+          "Training fits parameters; testing evaluates final performance on unseen data",
+          "Training is only for plotting graphs",
+          "Testing is used to tune hyperparameters repeatedly"
+        ],
+        "answer": "Training fits parameters; testing evaluates final performance on unseen data"
+      },
+      {
+        "question": "Which option is true about training vs testing? (using the shown curve, v7)",
+        "options": [
+          "Testing is used to tune hyperparameters repeatedly",
+          "Training fits parameters; testing evaluates final performance on unseen data",
+          "Validation replaces training",
+          "Training is only for plotting graphs"
+        ],
+        "answer": "Training fits parameters; testing evaluates final performance on unseen data"
+      },
+      {
+        "question": "In the visualization, which statement matches training vs testing? (from the scatter pattern, v8)",
+        "options": [
+          "Training fits parameters; testing evaluates final performance on unseen data",
+          "Testing is used to tune hyperparameters repeatedly",
+          "Training is only for plotting graphs",
+          "Validation replaces training"
+        ],
+        "answer": "Training fits parameters; testing evaluates final performance on unseen data"
+      },
+      {
+        "question": "After changing settings, which statement best explains training vs testing? (based on the plot, v9)",
+        "options": [
+          "Validation replaces training",
+          "Testing is used to tune hyperparameters repeatedly",
+          "Training is only for plotting graphs",
+          "Training fits parameters; testing evaluates final performance on unseen data"
+        ],
+        "answer": "Training fits parameters; testing evaluates final performance on unseen data"
+      },
+      {
+        "question": "Which choice most accurately defines training vs testing? (from the animation, v10)",
+        "options": [
+          "Validation replaces training",
+          "Testing is used to tune hyperparameters repeatedly",
+          "Training fits parameters; testing evaluates final performance on unseen data",
+          "Training is only for plotting graphs"
+        ],
+        "answer": "Training fits parameters; testing evaluates final performance on unseen data"
+      },
+      {
+        "question": "What best describes training vs testing? (after dragging a point, v11)",
+        "options": [
+          "Testing is used to tune hyperparameters repeatedly",
+          "Training fits parameters; testing evaluates final performance on unseen data",
+          "Training is only for plotting graphs",
+          "Validation replaces training"
+        ],
+        "answer": "Training fits parameters; testing evaluates final performance on unseen data"
+      },
+      {
+        "question": "Which option is true about training vs testing? (after adding noise, v12)",
+        "options": [
+          "Training fits parameters; testing evaluates final performance on unseen data",
+          "Testing is used to tune hyperparameters repeatedly",
+          "Training is only for plotting graphs",
+          "Validation replaces training"
+        ],
+        "answer": "Training fits parameters; testing evaluates final performance on unseen data"
+      },
+      {
+        "question": "In the visualization, which statement matches training vs testing? (after changing the slider, v13)",
+        "options": [
+          "Testing is used to tune hyperparameters repeatedly",
+          "Training fits parameters; testing evaluates final performance on unseen data",
+          "Training is only for plotting graphs",
+          "Validation replaces training"
+        ],
+        "answer": "Training fits parameters; testing evaluates final performance on unseen data"
+      },
+      {
+        "question": "After changing settings, which statement best explains training vs testing? (after toggling a setting, v14)",
+        "options": [
+          "Testing is used to tune hyperparameters repeatedly",
+          "Validation replaces training",
+          "Training fits parameters; testing evaluates final performance on unseen data",
+          "Training is only for plotting graphs"
+        ],
+        "answer": "Training fits parameters; testing evaluates final performance on unseen data"
+      },
+      {
+        "question": "Which choice most accurately defines training vs testing? (using the shown curve, v15)",
+        "options": [
+          "Training is only for plotting graphs",
+          "Validation replaces training",
+          "Testing is used to tune hyperparameters repeatedly",
+          "Training fits parameters; testing evaluates final performance on unseen data"
+        ],
+        "answer": "Training fits parameters; testing evaluates final performance on unseen data"
+      },
+      {
+        "question": "What best describes training vs testing? (from the scatter pattern, v16)",
+        "options": [
+          "Training fits parameters; testing evaluates final performance on unseen data",
+          "Testing is used to tune hyperparameters repeatedly",
+          "Validation replaces training",
+          "Training is only for plotting graphs"
+        ],
+        "answer": "Training fits parameters; testing evaluates final performance on unseen data"
+      },
+      {
+        "question": "Which option is true about training vs testing? (based on the plot, v17)",
+        "options": [
+          "Training is only for plotting graphs",
+          "Training fits parameters; testing evaluates final performance on unseen data",
+          "Validation replaces training",
+          "Testing is used to tune hyperparameters repeatedly"
+        ],
+        "answer": "Training fits parameters; testing evaluates final performance on unseen data"
+      },
+      {
+        "question": "In the visualization, which statement matches training vs testing? (from the animation, v18)",
+        "options": [
+          "Validation replaces training",
+          "Training fits parameters; testing evaluates final performance on unseen data",
+          "Training is only for plotting graphs",
+          "Testing is used to tune hyperparameters repeatedly"
+        ],
+        "answer": "Training fits parameters; testing evaluates final performance on unseen data"
+      },
+      {
+        "question": "After changing settings, which statement best explains training vs testing? (after dragging a point, v19)",
+        "options": [
+          "Training fits parameters; testing evaluates final performance on unseen data",
+          "Validation replaces training",
+          "Training is only for plotting graphs",
+          "Testing is used to tune hyperparameters repeatedly"
+        ],
+        "answer": "Training fits parameters; testing evaluates final performance on unseen data"
+      },
+      {
+        "question": "Which choice most accurately defines training vs testing? (after adding noise, v20)",
+        "options": [
+          "Training is only for plotting graphs",
+          "Testing is used to tune hyperparameters repeatedly",
+          "Validation replaces training",
+          "Training fits parameters; testing evaluates final performance on unseen data"
+        ],
+        "answer": "Training fits parameters; testing evaluates final performance on unseen data"
+      },
+      {
+        "question": "What best describes features vs labels? (based on the plot, v1)",
+        "options": [
+          "Labels are input columns",
+          "Targets are the model weights",
+          "Features are inputs; labels/targets are outputs to predict in supervised learning",
+          "Features are always categorical"
+        ],
+        "answer": "Features are inputs; labels/targets are outputs to predict in supervised learning"
+      },
+      {
+        "question": "Which option is true about features vs labels? (from the animation, v2)",
+        "options": [
+          "Features are always categorical",
+          "Targets are the model weights",
+          "Features are inputs; labels/targets are outputs to predict in supervised learning",
+          "Labels are input columns"
+        ],
+        "answer": "Features are inputs; labels/targets are outputs to predict in supervised learning"
+      },
+      {
+        "question": "In the visualization, which statement matches features vs labels? (after dragging a point, v3)",
+        "options": [
+          "Features are always categorical",
+          "Targets are the model weights",
+          "Features are inputs; labels/targets are outputs to predict in supervised learning",
+          "Labels are input columns"
+        ],
+        "answer": "Features are inputs; labels/targets are outputs to predict in supervised learning"
+      },
+      {
+        "question": "After changing settings, which statement best explains features vs labels? (after adding noise, v4)",
+        "options": [
+          "Labels are input columns",
+          "Features are inputs; labels/targets are outputs to predict in supervised learning",
+          "Targets are the model weights",
+          "Features are always categorical"
+        ],
+        "answer": "Features are inputs; labels/targets are outputs to predict in supervised learning"
+      },
+      {
+        "question": "Which choice most accurately defines features vs labels? (after changing the slider, v5)",
+        "options": [
+          "Targets are the model weights",
+          "Features are inputs; labels/targets are outputs to predict in supervised learning",
+          "Features are always categorical",
+          "Labels are input columns"
+        ],
+        "answer": "Features are inputs; labels/targets are outputs to predict in supervised learning"
+      },
+      {
+        "question": "What best describes features vs labels? (after toggling a setting, v6)",
+        "options": [
+          "Targets are the model weights",
+          "Features are inputs; labels/targets are outputs to predict in supervised learning",
+          "Features are always categorical",
+          "Labels are input columns"
+        ],
+        "answer": "Features are inputs; labels/targets are outputs to predict in supervised learning"
+      },
+      {
+        "question": "Which option is true about features vs labels? (using the shown curve, v7)",
+        "options": [
+          "Features are inputs; labels/targets are outputs to predict in supervised learning",
+          "Features are always categorical",
+          "Labels are input columns",
+          "Targets are the model weights"
+        ],
+        "answer": "Features are inputs; labels/targets are outputs to predict in supervised learning"
+      },
+      {
+        "question": "In the visualization, which statement matches features vs labels? (from the scatter pattern, v8)",
+        "options": [
+          "Targets are the model weights",
+          "Labels are input columns",
+          "Features are always categorical",
+          "Features are inputs; labels/targets are outputs to predict in supervised learning"
+        ],
+        "answer": "Features are inputs; labels/targets are outputs to predict in supervised learning"
+      },
+      {
+        "question": "After changing settings, which statement best explains features vs labels? (based on the plot, v9)",
+        "options": [
+          "Labels are input columns",
+          "Features are always categorical",
+          "Targets are the model weights",
+          "Features are inputs; labels/targets are outputs to predict in supervised learning"
+        ],
+        "answer": "Features are inputs; labels/targets are outputs to predict in supervised learning"
+      },
+      {
+        "question": "Which choice most accurately defines features vs labels? (from the animation, v10)",
+        "options": [
+          "Features are always categorical",
+          "Features are inputs; labels/targets are outputs to predict in supervised learning",
+          "Labels are input columns",
+          "Targets are the model weights"
+        ],
+        "answer": "Features are inputs; labels/targets are outputs to predict in supervised learning"
+      },
+      {
+        "question": "What best describes features vs labels? (after dragging a point, v11)",
+        "options": [
+          "Features are always categorical",
+          "Targets are the model weights",
+          "Labels are input columns",
+          "Features are inputs; labels/targets are outputs to predict in supervised learning"
+        ],
+        "answer": "Features are inputs; labels/targets are outputs to predict in supervised learning"
+      },
+      {
+        "question": "Which option is true about features vs labels? (after adding noise, v12)",
+        "options": [
+          "Targets are the model weights",
+          "Labels are input columns",
+          "Features are inputs; labels/targets are outputs to predict in supervised learning",
+          "Features are always categorical"
+        ],
+        "answer": "Features are inputs; labels/targets are outputs to predict in supervised learning"
+      },
+      {
+        "question": "In the visualization, which statement matches features vs labels? (after changing the slider, v13)",
+        "options": [
+          "Features are always categorical",
+          "Features are inputs; labels/targets are outputs to predict in supervised learning",
+          "Labels are input columns",
+          "Targets are the model weights"
+        ],
+        "answer": "Features are inputs; labels/targets are outputs to predict in supervised learning"
+      },
+      {
+        "question": "After changing settings, which statement best explains features vs labels? (after toggling a setting, v14)",
+        "options": [
+          "Labels are input columns",
+          "Features are always categorical",
+          "Targets are the model weights",
+          "Features are inputs; labels/targets are outputs to predict in supervised learning"
+        ],
+        "answer": "Features are inputs; labels/targets are outputs to predict in supervised learning"
+      },
+      {
+        "question": "Which choice most accurately defines features vs labels? (using the shown curve, v15)",
+        "options": [
+          "Labels are input columns",
+          "Features are inputs; labels/targets are outputs to predict in supervised learning",
+          "Features are always categorical",
+          "Targets are the model weights"
+        ],
+        "answer": "Features are inputs; labels/targets are outputs to predict in supervised learning"
+      },
+      {
+        "question": "What best describes features vs labels? (from the scatter pattern, v16)",
+        "options": [
+          "Targets are the model weights",
+          "Features are inputs; labels/targets are outputs to predict in supervised learning",
+          "Features are always categorical",
+          "Labels are input columns"
+        ],
+        "answer": "Features are inputs; labels/targets are outputs to predict in supervised learning"
+      },
+      {
+        "question": "Which option is true about features vs labels? (based on the plot, v17)",
+        "options": [
+          "Labels are input columns",
+          "Features are inputs; labels/targets are outputs to predict in supervised learning",
+          "Features are always categorical",
+          "Targets are the model weights"
+        ],
+        "answer": "Features are inputs; labels/targets are outputs to predict in supervised learning"
+      },
+      {
+        "question": "In the visualization, which statement matches features vs labels? (from the animation, v18)",
+        "options": [
+          "Features are inputs; labels/targets are outputs to predict in supervised learning",
+          "Targets are the model weights",
+          "Features are always categorical",
+          "Labels are input columns"
+        ],
+        "answer": "Features are inputs; labels/targets are outputs to predict in supervised learning"
+      },
+      {
+        "question": "After changing settings, which statement best explains features vs labels? (after dragging a point, v19)",
+        "options": [
+          "Targets are the model weights",
+          "Features are inputs; labels/targets are outputs to predict in supervised learning",
+          "Labels are input columns",
+          "Features are always categorical"
+        ],
+        "answer": "Features are inputs; labels/targets are outputs to predict in supervised learning"
+      },
+      {
+        "question": "Which choice most accurately defines features vs labels? (after adding noise, v20)",
+        "options": [
+          "Labels are input columns",
+          "Features are inputs; labels/targets are outputs to predict in supervised learning",
+          "Features are always categorical",
+          "Targets are the model weights"
+        ],
+        "answer": "Features are inputs; labels/targets are outputs to predict in supervised learning"
+      },
+      {
+        "question": "What best describes generalization? (based on the plot, v1)",
+        "options": [
+          "Generalization is performing well on unseen data from the same distribution",
+          "Generalization means zero training error",
+          "Generalization means memorizing the dataset",
+          "Generalization removes the need for data"
+        ],
+        "answer": "Generalization is performing well on unseen data from the same distribution"
+      },
+      {
+        "question": "Which option is true about generalization? (from the animation, v2)",
+        "options": [
+          "Generalization means memorizing the dataset",
+          "Generalization removes the need for data",
+          "Generalization means zero training error",
+          "Generalization is performing well on unseen data from the same distribution"
+        ],
+        "answer": "Generalization is performing well on unseen data from the same distribution"
+      },
+      {
+        "question": "In the visualization, which statement matches generalization? (after dragging a point, v3)",
+        "options": [
+          "Generalization is performing well on unseen data from the same distribution",
+          "Generalization means memorizing the dataset",
+          "Generalization means zero training error",
+          "Generalization removes the need for data"
+        ],
+        "answer": "Generalization is performing well on unseen data from the same distribution"
+      },
+      {
+        "question": "After changing settings, which statement best explains generalization? (after adding noise, v4)",
+        "options": [
+          "Generalization means zero training error",
+          "Generalization removes the need for data",
+          "Generalization means memorizing the dataset",
+          "Generalization is performing well on unseen data from the same distribution"
+        ],
+        "answer": "Generalization is performing well on unseen data from the same distribution"
+      },
+      {
+        "question": "Which choice most accurately defines generalization? (after changing the slider, v5)",
+        "options": [
+          "Generalization is performing well on unseen data from the same distribution",
+          "Generalization removes the need for data",
+          "Generalization means zero training error",
+          "Generalization means memorizing the dataset"
+        ],
+        "answer": "Generalization is performing well on unseen data from the same distribution"
+      },
+      {
+        "question": "What best describes generalization? (after toggling a setting, v6)",
+        "options": [
+          "Generalization means zero training error",
+          "Generalization removes the need for data",
+          "Generalization is performing well on unseen data from the same distribution",
+          "Generalization means memorizing the dataset"
+        ],
+        "answer": "Generalization is performing well on unseen data from the same distribution"
+      },
+      {
+        "question": "Which option is true about generalization? (using the shown curve, v7)",
+        "options": [
+          "Generalization means zero training error",
+          "Generalization means memorizing the dataset",
+          "Generalization removes the need for data",
+          "Generalization is performing well on unseen data from the same distribution"
+        ],
+        "answer": "Generalization is performing well on unseen data from the same distribution"
+      },
+      {
+        "question": "In the visualization, which statement matches generalization? (from the scatter pattern, v8)",
+        "options": [
+          "Generalization means memorizing the dataset",
+          "Generalization means zero training error",
+          "Generalization removes the need for data",
+          "Generalization is performing well on unseen data from the same distribution"
+        ],
+        "answer": "Generalization is performing well on unseen data from the same distribution"
+      },
+      {
+        "question": "After changing settings, which statement best explains generalization? (based on the plot, v9)",
+        "options": [
+          "Generalization is performing well on unseen data from the same distribution",
+          "Generalization means zero training error",
+          "Generalization means memorizing the dataset",
+          "Generalization removes the need for data"
+        ],
+        "answer": "Generalization is performing well on unseen data from the same distribution"
+      },
+      {
+        "question": "Which choice most accurately defines generalization? (from the animation, v10)",
+        "options": [
+          "Generalization removes the need for data",
+          "Generalization means memorizing the dataset",
+          "Generalization means zero training error",
+          "Generalization is performing well on unseen data from the same distribution"
+        ],
+        "answer": "Generalization is performing well on unseen data from the same distribution"
+      },
+      {
+        "question": "What best describes generalization? (after dragging a point, v11)",
+        "options": [
+          "Generalization means memorizing the dataset",
+          "Generalization removes the need for data",
+          "Generalization is performing well on unseen data from the same distribution",
+          "Generalization means zero training error"
+        ],
+        "answer": "Generalization is performing well on unseen data from the same distribution"
+      },
+      {
+        "question": "Which option is true about generalization? (after adding noise, v12)",
+        "options": [
+          "Generalization means zero training error",
+          "Generalization is performing well on unseen data from the same distribution",
+          "Generalization removes the need for data",
+          "Generalization means memorizing the dataset"
+        ],
+        "answer": "Generalization is performing well on unseen data from the same distribution"
+      },
+      {
+        "question": "In the visualization, which statement matches generalization? (after changing the slider, v13)",
+        "options": [
+          "Generalization means memorizing the dataset",
+          "Generalization means zero training error",
+          "Generalization is performing well on unseen data from the same distribution",
+          "Generalization removes the need for data"
+        ],
+        "answer": "Generalization is performing well on unseen data from the same distribution"
+      },
+      {
+        "question": "After changing settings, which statement best explains generalization? (after toggling a setting, v14)",
+        "options": [
+          "Generalization removes the need for data",
+          "Generalization means memorizing the dataset",
+          "Generalization means zero training error",
+          "Generalization is performing well on unseen data from the same distribution"
+        ],
+        "answer": "Generalization is performing well on unseen data from the same distribution"
+      },
+      {
+        "question": "Which choice most accurately defines generalization? (using the shown curve, v15)",
+        "options": [
+          "Generalization means memorizing the dataset",
+          "Generalization means zero training error",
+          "Generalization removes the need for data",
+          "Generalization is performing well on unseen data from the same distribution"
+        ],
+        "answer": "Generalization is performing well on unseen data from the same distribution"
+      },
+      {
+        "question": "What best describes generalization? (from the scatter pattern, v16)",
+        "options": [
+          "Generalization removes the need for data",
+          "Generalization means memorizing the dataset",
+          "Generalization means zero training error",
+          "Generalization is performing well on unseen data from the same distribution"
+        ],
+        "answer": "Generalization is performing well on unseen data from the same distribution"
+      },
+      {
+        "question": "Which option is true about generalization? (based on the plot, v17)",
+        "options": [
+          "Generalization means memorizing the dataset",
+          "Generalization means zero training error",
+          "Generalization is performing well on unseen data from the same distribution",
+          "Generalization removes the need for data"
+        ],
+        "answer": "Generalization is performing well on unseen data from the same distribution"
+      },
+      {
+        "question": "In the visualization, which statement matches generalization? (from the animation, v18)",
+        "options": [
+          "Generalization means zero training error",
+          "Generalization means memorizing the dataset",
+          "Generalization removes the need for data",
+          "Generalization is performing well on unseen data from the same distribution"
+        ],
+        "answer": "Generalization is performing well on unseen data from the same distribution"
+      },
+      {
+        "question": "After changing settings, which statement best explains generalization? (after dragging a point, v19)",
+        "options": [
+          "Generalization means memorizing the dataset",
+          "Generalization means zero training error",
+          "Generalization removes the need for data",
+          "Generalization is performing well on unseen data from the same distribution"
+        ],
+        "answer": "Generalization is performing well on unseen data from the same distribution"
+      },
+      {
+        "question": "Which choice most accurately defines generalization? (after adding noise, v20)",
+        "options": [
+          "Generalization means memorizing the dataset",
+          "Generalization removes the need for data",
+          "Generalization is performing well on unseen data from the same distribution",
+          "Generalization means zero training error"
+        ],
+        "answer": "Generalization is performing well on unseen data from the same distribution"
+      }
+    ]
+  }
+}

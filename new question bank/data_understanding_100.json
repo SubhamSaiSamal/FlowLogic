@@ -1,0 +1,1006 @@
+{
+  "Data Understanding": {
+    "questions": [
+      {
+        "question": "What best describes outliers? (based on the plot, v1)",
+        "options": [
+          "A data point that deviates strongly from the bulk of observations",
+          "A perfectly average value",
+          "A missing value",
+          "The most frequent value"
+        ],
+        "answer": "A data point that deviates strongly from the bulk of observations"
+      },
+      {
+        "question": "Which option is true about outliers? (from the animation, v2)",
+        "options": [
+          "A data point that deviates strongly from the bulk of observations",
+          "A perfectly average value",
+          "The most frequent value",
+          "A missing value"
+        ],
+        "answer": "A data point that deviates strongly from the bulk of observations"
+      },
+      {
+        "question": "In the visualization, which statement matches outliers? (after dragging a point, v3)",
+        "options": [
+          "A data point that deviates strongly from the bulk of observations",
+          "The most frequent value",
+          "A perfectly average value",
+          "A missing value"
+        ],
+        "answer": "A data point that deviates strongly from the bulk of observations"
+      },
+      {
+        "question": "After changing settings, which statement best explains outliers? (after adding noise, v4)",
+        "options": [
+          "A data point that deviates strongly from the bulk of observations",
+          "A perfectly average value",
+          "A missing value",
+          "The most frequent value"
+        ],
+        "answer": "A data point that deviates strongly from the bulk of observations"
+      },
+      {
+        "question": "Which choice most accurately defines outliers? (after changing the slider, v5)",
+        "options": [
+          "The most frequent value",
+          "A data point that deviates strongly from the bulk of observations",
+          "A perfectly average value",
+          "A missing value"
+        ],
+        "answer": "A data point that deviates strongly from the bulk of observations"
+      },
+      {
+        "question": "What best describes outliers? (after toggling a setting, v6)",
+        "options": [
+          "A perfectly average value",
+          "A missing value",
+          "The most frequent value",
+          "A data point that deviates strongly from the bulk of observations"
+        ],
+        "answer": "A data point that deviates strongly from the bulk of observations"
+      },
+      {
+        "question": "Which option is true about outliers? (using the shown curve, v7)",
+        "options": [
+          "A data point that deviates strongly from the bulk of observations",
+          "The most frequent value",
+          "A missing value",
+          "A perfectly average value"
+        ],
+        "answer": "A data point that deviates strongly from the bulk of observations"
+      },
+      {
+        "question": "In the visualization, which statement matches outliers? (from the scatter pattern, v8)",
+        "options": [
+          "A missing value",
+          "The most frequent value",
+          "A data point that deviates strongly from the bulk of observations",
+          "A perfectly average value"
+        ],
+        "answer": "A data point that deviates strongly from the bulk of observations"
+      },
+      {
+        "question": "After changing settings, which statement best explains outliers? (based on the plot, v9)",
+        "options": [
+          "A perfectly average value",
+          "A missing value",
+          "A data point that deviates strongly from the bulk of observations",
+          "The most frequent value"
+        ],
+        "answer": "A data point that deviates strongly from the bulk of observations"
+      },
+      {
+        "question": "Which choice most accurately defines outliers? (from the animation, v10)",
+        "options": [
+          "A missing value",
+          "The most frequent value",
+          "A data point that deviates strongly from the bulk of observations",
+          "A perfectly average value"
+        ],
+        "answer": "A data point that deviates strongly from the bulk of observations"
+      },
+      {
+        "question": "What best describes outliers? (after dragging a point, v11)",
+        "options": [
+          "A data point that deviates strongly from the bulk of observations",
+          "A perfectly average value",
+          "The most frequent value",
+          "A missing value"
+        ],
+        "answer": "A data point that deviates strongly from the bulk of observations"
+      },
+      {
+        "question": "Which option is true about outliers? (after adding noise, v12)",
+        "options": [
+          "A perfectly average value",
+          "A missing value",
+          "The most frequent value",
+          "A data point that deviates strongly from the bulk of observations"
+        ],
+        "answer": "A data point that deviates strongly from the bulk of observations"
+      },
+      {
+        "question": "In the visualization, which statement matches outliers? (after changing the slider, v13)",
+        "options": [
+          "The most frequent value",
+          "A data point that deviates strongly from the bulk of observations",
+          "A perfectly average value",
+          "A missing value"
+        ],
+        "answer": "A data point that deviates strongly from the bulk of observations"
+      },
+      {
+        "question": "After changing settings, which statement best explains outliers? (after toggling a setting, v14)",
+        "options": [
+          "The most frequent value",
+          "A missing value",
+          "A perfectly average value",
+          "A data point that deviates strongly from the bulk of observations"
+        ],
+        "answer": "A data point that deviates strongly from the bulk of observations"
+      },
+      {
+        "question": "Which choice most accurately defines outliers? (using the shown curve, v15)",
+        "options": [
+          "A data point that deviates strongly from the bulk of observations",
+          "A missing value",
+          "The most frequent value",
+          "A perfectly average value"
+        ],
+        "answer": "A data point that deviates strongly from the bulk of observations"
+      },
+      {
+        "question": "What best describes outliers? (from the scatter pattern, v16)",
+        "options": [
+          "A missing value",
+          "A perfectly average value",
+          "The most frequent value",
+          "A data point that deviates strongly from the bulk of observations"
+        ],
+        "answer": "A data point that deviates strongly from the bulk of observations"
+      },
+      {
+        "question": "Which option is true about outliers? (based on the plot, v17)",
+        "options": [
+          "A data point that deviates strongly from the bulk of observations",
+          "The most frequent value",
+          "A missing value",
+          "A perfectly average value"
+        ],
+        "answer": "A data point that deviates strongly from the bulk of observations"
+      },
+      {
+        "question": "In the visualization, which statement matches outliers? (from the animation, v18)",
+        "options": [
+          "A perfectly average value",
+          "The most frequent value",
+          "A missing value",
+          "A data point that deviates strongly from the bulk of observations"
+        ],
+        "answer": "A data point that deviates strongly from the bulk of observations"
+      },
+      {
+        "question": "After changing settings, which statement best explains outliers? (after dragging a point, v19)",
+        "options": [
+          "A data point that deviates strongly from the bulk of observations",
+          "A perfectly average value",
+          "A missing value",
+          "The most frequent value"
+        ],
+        "answer": "A data point that deviates strongly from the bulk of observations"
+      },
+      {
+        "question": "Which choice most accurately defines outliers? (after adding noise, v20)",
+        "options": [
+          "A perfectly average value",
+          "The most frequent value",
+          "A missing value",
+          "A data point that deviates strongly from the bulk of observations"
+        ],
+        "answer": "A data point that deviates strongly from the bulk of observations"
+      },
+      {
+        "question": "What best describes central tendency? (based on the plot, v1)",
+        "options": [
+          "Variance measures the center",
+          "Correlation is a center metric",
+          "Standard deviation is a center metric",
+          "Mean/median/mode summarize the center of a distribution"
+        ],
+        "answer": "Mean/median/mode summarize the center of a distribution"
+      },
+      {
+        "question": "Which option is true about central tendency? (from the animation, v2)",
+        "options": [
+          "Mean/median/mode summarize the center of a distribution",
+          "Correlation is a center metric",
+          "Variance measures the center",
+          "Standard deviation is a center metric"
+        ],
+        "answer": "Mean/median/mode summarize the center of a distribution"
+      },
+      {
+        "question": "In the visualization, which statement matches central tendency? (after dragging a point, v3)",
+        "options": [
+          "Variance measures the center",
+          "Standard deviation is a center metric",
+          "Mean/median/mode summarize the center of a distribution",
+          "Correlation is a center metric"
+        ],
+        "answer": "Mean/median/mode summarize the center of a distribution"
+      },
+      {
+        "question": "After changing settings, which statement best explains central tendency? (after adding noise, v4)",
+        "options": [
+          "Standard deviation is a center metric",
+          "Variance measures the center",
+          "Correlation is a center metric",
+          "Mean/median/mode summarize the center of a distribution"
+        ],
+        "answer": "Mean/median/mode summarize the center of a distribution"
+      },
+      {
+        "question": "Which choice most accurately defines central tendency? (after changing the slider, v5)",
+        "options": [
+          "Mean/median/mode summarize the center of a distribution",
+          "Standard deviation is a center metric",
+          "Variance measures the center",
+          "Correlation is a center metric"
+        ],
+        "answer": "Mean/median/mode summarize the center of a distribution"
+      },
+      {
+        "question": "What best describes central tendency? (after toggling a setting, v6)",
+        "options": [
+          "Standard deviation is a center metric",
+          "Mean/median/mode summarize the center of a distribution",
+          "Variance measures the center",
+          "Correlation is a center metric"
+        ],
+        "answer": "Mean/median/mode summarize the center of a distribution"
+      },
+      {
+        "question": "Which option is true about central tendency? (using the shown curve, v7)",
+        "options": [
+          "Variance measures the center",
+          "Standard deviation is a center metric",
+          "Mean/median/mode summarize the center of a distribution",
+          "Correlation is a center metric"
+        ],
+        "answer": "Mean/median/mode summarize the center of a distribution"
+      },
+      {
+        "question": "In the visualization, which statement matches central tendency? (from the scatter pattern, v8)",
+        "options": [
+          "Mean/median/mode summarize the center of a distribution",
+          "Correlation is a center metric",
+          "Variance measures the center",
+          "Standard deviation is a center metric"
+        ],
+        "answer": "Mean/median/mode summarize the center of a distribution"
+      },
+      {
+        "question": "After changing settings, which statement best explains central tendency? (based on the plot, v9)",
+        "options": [
+          "Variance measures the center",
+          "Standard deviation is a center metric",
+          "Mean/median/mode summarize the center of a distribution",
+          "Correlation is a center metric"
+        ],
+        "answer": "Mean/median/mode summarize the center of a distribution"
+      },
+      {
+        "question": "Which choice most accurately defines central tendency? (from the animation, v10)",
+        "options": [
+          "Mean/median/mode summarize the center of a distribution",
+          "Variance measures the center",
+          "Standard deviation is a center metric",
+          "Correlation is a center metric"
+        ],
+        "answer": "Mean/median/mode summarize the center of a distribution"
+      },
+      {
+        "question": "What best describes central tendency? (after dragging a point, v11)",
+        "options": [
+          "Correlation is a center metric",
+          "Variance measures the center",
+          "Standard deviation is a center metric",
+          "Mean/median/mode summarize the center of a distribution"
+        ],
+        "answer": "Mean/median/mode summarize the center of a distribution"
+      },
+      {
+        "question": "Which option is true about central tendency? (after adding noise, v12)",
+        "options": [
+          "Mean/median/mode summarize the center of a distribution",
+          "Standard deviation is a center metric",
+          "Correlation is a center metric",
+          "Variance measures the center"
+        ],
+        "answer": "Mean/median/mode summarize the center of a distribution"
+      },
+      {
+        "question": "In the visualization, which statement matches central tendency? (after changing the slider, v13)",
+        "options": [
+          "Variance measures the center",
+          "Mean/median/mode summarize the center of a distribution",
+          "Correlation is a center metric",
+          "Standard deviation is a center metric"
+        ],
+        "answer": "Mean/median/mode summarize the center of a distribution"
+      },
+      {
+        "question": "After changing settings, which statement best explains central tendency? (after toggling a setting, v14)",
+        "options": [
+          "Standard deviation is a center metric",
+          "Mean/median/mode summarize the center of a distribution",
+          "Correlation is a center metric",
+          "Variance measures the center"
+        ],
+        "answer": "Mean/median/mode summarize the center of a distribution"
+      },
+      {
+        "question": "Which choice most accurately defines central tendency? (using the shown curve, v15)",
+        "options": [
+          "Mean/median/mode summarize the center of a distribution",
+          "Correlation is a center metric",
+          "Standard deviation is a center metric",
+          "Variance measures the center"
+        ],
+        "answer": "Mean/median/mode summarize the center of a distribution"
+      },
+      {
+        "question": "What best describes central tendency? (from the scatter pattern, v16)",
+        "options": [
+          "Mean/median/mode summarize the center of a distribution",
+          "Correlation is a center metric",
+          "Standard deviation is a center metric",
+          "Variance measures the center"
+        ],
+        "answer": "Mean/median/mode summarize the center of a distribution"
+      },
+      {
+        "question": "Which option is true about central tendency? (based on the plot, v17)",
+        "options": [
+          "Correlation is a center metric",
+          "Standard deviation is a center metric",
+          "Mean/median/mode summarize the center of a distribution",
+          "Variance measures the center"
+        ],
+        "answer": "Mean/median/mode summarize the center of a distribution"
+      },
+      {
+        "question": "In the visualization, which statement matches central tendency? (from the animation, v18)",
+        "options": [
+          "Standard deviation is a center metric",
+          "Mean/median/mode summarize the center of a distribution",
+          "Correlation is a center metric",
+          "Variance measures the center"
+        ],
+        "answer": "Mean/median/mode summarize the center of a distribution"
+      },
+      {
+        "question": "After changing settings, which statement best explains central tendency? (after dragging a point, v19)",
+        "options": [
+          "Variance measures the center",
+          "Standard deviation is a center metric",
+          "Correlation is a center metric",
+          "Mean/median/mode summarize the center of a distribution"
+        ],
+        "answer": "Mean/median/mode summarize the center of a distribution"
+      },
+      {
+        "question": "Which choice most accurately defines central tendency? (after adding noise, v20)",
+        "options": [
+          "Standard deviation is a center metric",
+          "Variance measures the center",
+          "Mean/median/mode summarize the center of a distribution",
+          "Correlation is a center metric"
+        ],
+        "answer": "Mean/median/mode summarize the center of a distribution"
+      },
+      {
+        "question": "What best describes spread/variance? (based on the plot, v1)",
+        "options": [
+          "Variance/standard deviation quantify how spread out the data is",
+          "They measure label balance",
+          "They measure the dataset size",
+          "They measure feature names"
+        ],
+        "answer": "Variance/standard deviation quantify how spread out the data is"
+      },
+      {
+        "question": "Which option is true about spread/variance? (from the animation, v2)",
+        "options": [
+          "They measure label balance",
+          "They measure the dataset size",
+          "Variance/standard deviation quantify how spread out the data is",
+          "They measure feature names"
+        ],
+        "answer": "Variance/standard deviation quantify how spread out the data is"
+      },
+      {
+        "question": "In the visualization, which statement matches spread/variance? (after dragging a point, v3)",
+        "options": [
+          "They measure feature names",
+          "They measure label balance",
+          "They measure the dataset size",
+          "Variance/standard deviation quantify how spread out the data is"
+        ],
+        "answer": "Variance/standard deviation quantify how spread out the data is"
+      },
+      {
+        "question": "After changing settings, which statement best explains spread/variance? (after adding noise, v4)",
+        "options": [
+          "They measure feature names",
+          "Variance/standard deviation quantify how spread out the data is",
+          "They measure label balance",
+          "They measure the dataset size"
+        ],
+        "answer": "Variance/standard deviation quantify how spread out the data is"
+      },
+      {
+        "question": "Which choice most accurately defines spread/variance? (after changing the slider, v5)",
+        "options": [
+          "They measure feature names",
+          "They measure the dataset size",
+          "They measure label balance",
+          "Variance/standard deviation quantify how spread out the data is"
+        ],
+        "answer": "Variance/standard deviation quantify how spread out the data is"
+      },
+      {
+        "question": "What best describes spread/variance? (after toggling a setting, v6)",
+        "options": [
+          "They measure label balance",
+          "They measure feature names",
+          "They measure the dataset size",
+          "Variance/standard deviation quantify how spread out the data is"
+        ],
+        "answer": "Variance/standard deviation quantify how spread out the data is"
+      },
+      {
+        "question": "Which option is true about spread/variance? (using the shown curve, v7)",
+        "options": [
+          "They measure the dataset size",
+          "Variance/standard deviation quantify how spread out the data is",
+          "They measure feature names",
+          "They measure label balance"
+        ],
+        "answer": "Variance/standard deviation quantify how spread out the data is"
+      },
+      {
+        "question": "In the visualization, which statement matches spread/variance? (from the scatter pattern, v8)",
+        "options": [
+          "Variance/standard deviation quantify how spread out the data is",
+          "They measure label balance",
+          "They measure the dataset size",
+          "They measure feature names"
+        ],
+        "answer": "Variance/standard deviation quantify how spread out the data is"
+      },
+      {
+        "question": "After changing settings, which statement best explains spread/variance? (based on the plot, v9)",
+        "options": [
+          "They measure feature names",
+          "Variance/standard deviation quantify how spread out the data is",
+          "They measure the dataset size",
+          "They measure label balance"
+        ],
+        "answer": "Variance/standard deviation quantify how spread out the data is"
+      },
+      {
+        "question": "Which choice most accurately defines spread/variance? (from the animation, v10)",
+        "options": [
+          "Variance/standard deviation quantify how spread out the data is",
+          "They measure feature names",
+          "They measure the dataset size",
+          "They measure label balance"
+        ],
+        "answer": "Variance/standard deviation quantify how spread out the data is"
+      },
+      {
+        "question": "What best describes spread/variance? (after dragging a point, v11)",
+        "options": [
+          "They measure label balance",
+          "Variance/standard deviation quantify how spread out the data is",
+          "They measure feature names",
+          "They measure the dataset size"
+        ],
+        "answer": "Variance/standard deviation quantify how spread out the data is"
+      },
+      {
+        "question": "Which option is true about spread/variance? (after adding noise, v12)",
+        "options": [
+          "They measure the dataset size",
+          "Variance/standard deviation quantify how spread out the data is",
+          "They measure label balance",
+          "They measure feature names"
+        ],
+        "answer": "Variance/standard deviation quantify how spread out the data is"
+      },
+      {
+        "question": "In the visualization, which statement matches spread/variance? (after changing the slider, v13)",
+        "options": [
+          "They measure the dataset size",
+          "They measure feature names",
+          "Variance/standard deviation quantify how spread out the data is",
+          "They measure label balance"
+        ],
+        "answer": "Variance/standard deviation quantify how spread out the data is"
+      },
+      {
+        "question": "After changing settings, which statement best explains spread/variance? (after toggling a setting, v14)",
+        "options": [
+          "They measure the dataset size",
+          "They measure feature names",
+          "Variance/standard deviation quantify how spread out the data is",
+          "They measure label balance"
+        ],
+        "answer": "Variance/standard deviation quantify how spread out the data is"
+      },
+      {
+        "question": "Which choice most accurately defines spread/variance? (using the shown curve, v15)",
+        "options": [
+          "They measure label balance",
+          "Variance/standard deviation quantify how spread out the data is",
+          "They measure feature names",
+          "They measure the dataset size"
+        ],
+        "answer": "Variance/standard deviation quantify how spread out the data is"
+      },
+      {
+        "question": "What best describes spread/variance? (from the scatter pattern, v16)",
+        "options": [
+          "They measure the dataset size",
+          "They measure label balance",
+          "Variance/standard deviation quantify how spread out the data is",
+          "They measure feature names"
+        ],
+        "answer": "Variance/standard deviation quantify how spread out the data is"
+      },
+      {
+        "question": "Which option is true about spread/variance? (based on the plot, v17)",
+        "options": [
+          "They measure feature names",
+          "They measure label balance",
+          "They measure the dataset size",
+          "Variance/standard deviation quantify how spread out the data is"
+        ],
+        "answer": "Variance/standard deviation quantify how spread out the data is"
+      },
+      {
+        "question": "In the visualization, which statement matches spread/variance? (from the animation, v18)",
+        "options": [
+          "Variance/standard deviation quantify how spread out the data is",
+          "They measure label balance",
+          "They measure feature names",
+          "They measure the dataset size"
+        ],
+        "answer": "Variance/standard deviation quantify how spread out the data is"
+      },
+      {
+        "question": "After changing settings, which statement best explains spread/variance? (after dragging a point, v19)",
+        "options": [
+          "They measure feature names",
+          "They measure the dataset size",
+          "Variance/standard deviation quantify how spread out the data is",
+          "They measure label balance"
+        ],
+        "answer": "Variance/standard deviation quantify how spread out the data is"
+      },
+      {
+        "question": "Which choice most accurately defines spread/variance? (after adding noise, v20)",
+        "options": [
+          "They measure the dataset size",
+          "They measure label balance",
+          "They measure feature names",
+          "Variance/standard deviation quantify how spread out the data is"
+        ],
+        "answer": "Variance/standard deviation quantify how spread out the data is"
+      },
+      {
+        "question": "What best describes missing data? (based on the plot, v1)",
+        "options": [
+          "Increase learning rate to fix it",
+          "Always delete the entire dataset",
+          "Missing values can be handled via imputation (mean/median/model-based) or careful removal",
+          "Replace with random strings"
+        ],
+        "answer": "Missing values can be handled via imputation (mean/median/model-based) or careful removal"
+      },
+      {
+        "question": "Which option is true about missing data? (from the animation, v2)",
+        "options": [
+          "Missing values can be handled via imputation (mean/median/model-based) or careful removal",
+          "Increase learning rate to fix it",
+          "Replace with random strings",
+          "Always delete the entire dataset"
+        ],
+        "answer": "Missing values can be handled via imputation (mean/median/model-based) or careful removal"
+      },
+      {
+        "question": "In the visualization, which statement matches missing data? (after dragging a point, v3)",
+        "options": [
+          "Missing values can be handled via imputation (mean/median/model-based) or careful removal",
+          "Replace with random strings",
+          "Increase learning rate to fix it",
+          "Always delete the entire dataset"
+        ],
+        "answer": "Missing values can be handled via imputation (mean/median/model-based) or careful removal"
+      },
+      {
+        "question": "After changing settings, which statement best explains missing data? (after adding noise, v4)",
+        "options": [
+          "Increase learning rate to fix it",
+          "Always delete the entire dataset",
+          "Replace with random strings",
+          "Missing values can be handled via imputation (mean/median/model-based) or careful removal"
+        ],
+        "answer": "Missing values can be handled via imputation (mean/median/model-based) or careful removal"
+      },
+      {
+        "question": "Which choice most accurately defines missing data? (after changing the slider, v5)",
+        "options": [
+          "Missing values can be handled via imputation (mean/median/model-based) or careful removal",
+          "Always delete the entire dataset",
+          "Replace with random strings",
+          "Increase learning rate to fix it"
+        ],
+        "answer": "Missing values can be handled via imputation (mean/median/model-based) or careful removal"
+      },
+      {
+        "question": "What best describes missing data? (after toggling a setting, v6)",
+        "options": [
+          "Increase learning rate to fix it",
+          "Replace with random strings",
+          "Always delete the entire dataset",
+          "Missing values can be handled via imputation (mean/median/model-based) or careful removal"
+        ],
+        "answer": "Missing values can be handled via imputation (mean/median/model-based) or careful removal"
+      },
+      {
+        "question": "Which option is true about missing data? (using the shown curve, v7)",
+        "options": [
+          "Missing values can be handled via imputation (mean/median/model-based) or careful removal",
+          "Replace with random strings",
+          "Always delete the entire dataset",
+          "Increase learning rate to fix it"
+        ],
+        "answer": "Missing values can be handled via imputation (mean/median/model-based) or careful removal"
+      },
+      {
+        "question": "In the visualization, which statement matches missing data? (from the scatter pattern, v8)",
+        "options": [
+          "Increase learning rate to fix it",
+          "Always delete the entire dataset",
+          "Missing values can be handled via imputation (mean/median/model-based) or careful removal",
+          "Replace with random strings"
+        ],
+        "answer": "Missing values can be handled via imputation (mean/median/model-based) or careful removal"
+      },
+      {
+        "question": "After changing settings, which statement best explains missing data? (based on the plot, v9)",
+        "options": [
+          "Missing values can be handled via imputation (mean/median/model-based) or careful removal",
+          "Always delete the entire dataset",
+          "Replace with random strings",
+          "Increase learning rate to fix it"
+        ],
+        "answer": "Missing values can be handled via imputation (mean/median/model-based) or careful removal"
+      },
+      {
+        "question": "Which choice most accurately defines missing data? (from the animation, v10)",
+        "options": [
+          "Missing values can be handled via imputation (mean/median/model-based) or careful removal",
+          "Always delete the entire dataset",
+          "Increase learning rate to fix it",
+          "Replace with random strings"
+        ],
+        "answer": "Missing values can be handled via imputation (mean/median/model-based) or careful removal"
+      },
+      {
+        "question": "What best describes missing data? (after dragging a point, v11)",
+        "options": [
+          "Increase learning rate to fix it",
+          "Replace with random strings",
+          "Missing values can be handled via imputation (mean/median/model-based) or careful removal",
+          "Always delete the entire dataset"
+        ],
+        "answer": "Missing values can be handled via imputation (mean/median/model-based) or careful removal"
+      },
+      {
+        "question": "Which option is true about missing data? (after adding noise, v12)",
+        "options": [
+          "Increase learning rate to fix it",
+          "Missing values can be handled via imputation (mean/median/model-based) or careful removal",
+          "Always delete the entire dataset",
+          "Replace with random strings"
+        ],
+        "answer": "Missing values can be handled via imputation (mean/median/model-based) or careful removal"
+      },
+      {
+        "question": "In the visualization, which statement matches missing data? (after changing the slider, v13)",
+        "options": [
+          "Increase learning rate to fix it",
+          "Replace with random strings",
+          "Missing values can be handled via imputation (mean/median/model-based) or careful removal",
+          "Always delete the entire dataset"
+        ],
+        "answer": "Missing values can be handled via imputation (mean/median/model-based) or careful removal"
+      },
+      {
+        "question": "After changing settings, which statement best explains missing data? (after toggling a setting, v14)",
+        "options": [
+          "Missing values can be handled via imputation (mean/median/model-based) or careful removal",
+          "Always delete the entire dataset",
+          "Increase learning rate to fix it",
+          "Replace with random strings"
+        ],
+        "answer": "Missing values can be handled via imputation (mean/median/model-based) or careful removal"
+      },
+      {
+        "question": "Which choice most accurately defines missing data? (using the shown curve, v15)",
+        "options": [
+          "Missing values can be handled via imputation (mean/median/model-based) or careful removal",
+          "Always delete the entire dataset",
+          "Increase learning rate to fix it",
+          "Replace with random strings"
+        ],
+        "answer": "Missing values can be handled via imputation (mean/median/model-based) or careful removal"
+      },
+      {
+        "question": "What best describes missing data? (from the scatter pattern, v16)",
+        "options": [
+          "Missing values can be handled via imputation (mean/median/model-based) or careful removal",
+          "Increase learning rate to fix it",
+          "Always delete the entire dataset",
+          "Replace with random strings"
+        ],
+        "answer": "Missing values can be handled via imputation (mean/median/model-based) or careful removal"
+      },
+      {
+        "question": "Which option is true about missing data? (based on the plot, v17)",
+        "options": [
+          "Increase learning rate to fix it",
+          "Always delete the entire dataset",
+          "Missing values can be handled via imputation (mean/median/model-based) or careful removal",
+          "Replace with random strings"
+        ],
+        "answer": "Missing values can be handled via imputation (mean/median/model-based) or careful removal"
+      },
+      {
+        "question": "In the visualization, which statement matches missing data? (from the animation, v18)",
+        "options": [
+          "Missing values can be handled via imputation (mean/median/model-based) or careful removal",
+          "Increase learning rate to fix it",
+          "Replace with random strings",
+          "Always delete the entire dataset"
+        ],
+        "answer": "Missing values can be handled via imputation (mean/median/model-based) or careful removal"
+      },
+      {
+        "question": "After changing settings, which statement best explains missing data? (after dragging a point, v19)",
+        "options": [
+          "Always delete the entire dataset",
+          "Increase learning rate to fix it",
+          "Replace with random strings",
+          "Missing values can be handled via imputation (mean/median/model-based) or careful removal"
+        ],
+        "answer": "Missing values can be handled via imputation (mean/median/model-based) or careful removal"
+      },
+      {
+        "question": "Which choice most accurately defines missing data? (after adding noise, v20)",
+        "options": [
+          "Replace with random strings",
+          "Missing values can be handled via imputation (mean/median/model-based) or careful removal",
+          "Always delete the entire dataset",
+          "Increase learning rate to fix it"
+        ],
+        "answer": "Missing values can be handled via imputation (mean/median/model-based) or careful removal"
+      },
+      {
+        "question": "What best describes data types/encoding? (based on the plot, v1)",
+        "options": [
+          "Categorical variables can be encoded (e.g., one-hot) so models can use them",
+          "Encoding increases label noise",
+          "Categorical data can’t be modeled",
+          "One-hot encoding removes outliers"
+        ],
+        "answer": "Categorical variables can be encoded (e.g., one-hot) so models can use them"
+      },
+      {
+        "question": "Which option is true about data types/encoding? (from the animation, v2)",
+        "options": [
+          "Encoding increases label noise",
+          "One-hot encoding removes outliers",
+          "Categorical variables can be encoded (e.g., one-hot) so models can use them",
+          "Categorical data can’t be modeled"
+        ],
+        "answer": "Categorical variables can be encoded (e.g., one-hot) so models can use them"
+      },
+      {
+        "question": "In the visualization, which statement matches data types/encoding? (after dragging a point, v3)",
+        "options": [
+          "Categorical data can’t be modeled",
+          "One-hot encoding removes outliers",
+          "Encoding increases label noise",
+          "Categorical variables can be encoded (e.g., one-hot) so models can use them"
+        ],
+        "answer": "Categorical variables can be encoded (e.g., one-hot) so models can use them"
+      },
+      {
+        "question": "After changing settings, which statement best explains data types/encoding? (after adding noise, v4)",
+        "options": [
+          "Encoding increases label noise",
+          "Categorical variables can be encoded (e.g., one-hot) so models can use them",
+          "One-hot encoding removes outliers",
+          "Categorical data can’t be modeled"
+        ],
+        "answer": "Categorical variables can be encoded (e.g., one-hot) so models can use them"
+      },
+      {
+        "question": "Which choice most accurately defines data types/encoding? (after changing the slider, v5)",
+        "options": [
+          "Encoding increases label noise",
+          "One-hot encoding removes outliers",
+          "Categorical variables can be encoded (e.g., one-hot) so models can use them",
+          "Categorical data can’t be modeled"
+        ],
+        "answer": "Categorical variables can be encoded (e.g., one-hot) so models can use them"
+      },
+      {
+        "question": "What best describes data types/encoding? (after toggling a setting, v6)",
+        "options": [
+          "Categorical data can’t be modeled",
+          "One-hot encoding removes outliers",
+          "Categorical variables can be encoded (e.g., one-hot) so models can use them",
+          "Encoding increases label noise"
+        ],
+        "answer": "Categorical variables can be encoded (e.g., one-hot) so models can use them"
+      },
+      {
+        "question": "Which option is true about data types/encoding? (using the shown curve, v7)",
+        "options": [
+          "Categorical data can’t be modeled",
+          "Categorical variables can be encoded (e.g., one-hot) so models can use them",
+          "Encoding increases label noise",
+          "One-hot encoding removes outliers"
+        ],
+        "answer": "Categorical variables can be encoded (e.g., one-hot) so models can use them"
+      },
+      {
+        "question": "In the visualization, which statement matches data types/encoding? (from the scatter pattern, v8)",
+        "options": [
+          "One-hot encoding removes outliers",
+          "Categorical data can’t be modeled",
+          "Encoding increases label noise",
+          "Categorical variables can be encoded (e.g., one-hot) so models can use them"
+        ],
+        "answer": "Categorical variables can be encoded (e.g., one-hot) so models can use them"
+      },
+      {
+        "question": "After changing settings, which statement best explains data types/encoding? (based on the plot, v9)",
+        "options": [
+          "One-hot encoding removes outliers",
+          "Categorical data can’t be modeled",
+          "Encoding increases label noise",
+          "Categorical variables can be encoded (e.g., one-hot) so models can use them"
+        ],
+        "answer": "Categorical variables can be encoded (e.g., one-hot) so models can use them"
+      },
+      {
+        "question": "Which choice most accurately defines data types/encoding? (from the animation, v10)",
+        "options": [
+          "Categorical data can’t be modeled",
+          "Categorical variables can be encoded (e.g., one-hot) so models can use them",
+          "One-hot encoding removes outliers",
+          "Encoding increases label noise"
+        ],
+        "answer": "Categorical variables can be encoded (e.g., one-hot) so models can use them"
+      },
+      {
+        "question": "What best describes data types/encoding? (after dragging a point, v11)",
+        "options": [
+          "Encoding increases label noise",
+          "Categorical data can’t be modeled",
+          "Categorical variables can be encoded (e.g., one-hot) so models can use them",
+          "One-hot encoding removes outliers"
+        ],
+        "answer": "Categorical variables can be encoded (e.g., one-hot) so models can use them"
+      },
+      {
+        "question": "Which option is true about data types/encoding? (after adding noise, v12)",
+        "options": [
+          "Encoding increases label noise",
+          "One-hot encoding removes outliers",
+          "Categorical data can’t be modeled",
+          "Categorical variables can be encoded (e.g., one-hot) so models can use them"
+        ],
+        "answer": "Categorical variables can be encoded (e.g., one-hot) so models can use them"
+      },
+      {
+        "question": "In the visualization, which statement matches data types/encoding? (after changing the slider, v13)",
+        "options": [
+          "Categorical data can’t be modeled",
+          "Encoding increases label noise",
+          "One-hot encoding removes outliers",
+          "Categorical variables can be encoded (e.g., one-hot) so models can use them"
+        ],
+        "answer": "Categorical variables can be encoded (e.g., one-hot) so models can use them"
+      },
+      {
+        "question": "After changing settings, which statement best explains data types/encoding? (after toggling a setting, v14)",
+        "options": [
+          "One-hot encoding removes outliers",
+          "Categorical variables can be encoded (e.g., one-hot) so models can use them",
+          "Categorical data can’t be modeled",
+          "Encoding increases label noise"
+        ],
+        "answer": "Categorical variables can be encoded (e.g., one-hot) so models can use them"
+      },
+      {
+        "question": "Which choice most accurately defines data types/encoding? (using the shown curve, v15)",
+        "options": [
+          "Categorical data can’t be modeled",
+          "Categorical variables can be encoded (e.g., one-hot) so models can use them",
+          "Encoding increases label noise",
+          "One-hot encoding removes outliers"
+        ],
+        "answer": "Categorical variables can be encoded (e.g., one-hot) so models can use them"
+      },
+      {
+        "question": "What best describes data types/encoding? (from the scatter pattern, v16)",
+        "options": [
+          "Encoding increases label noise",
+          "Categorical data can’t be modeled",
+          "One-hot encoding removes outliers",
+          "Categorical variables can be encoded (e.g., one-hot) so models can use them"
+        ],
+        "answer": "Categorical variables can be encoded (e.g., one-hot) so models can use them"
+      },
+      {
+        "question": "Which option is true about data types/encoding? (based on the plot, v17)",
+        "options": [
+          "Categorical data can’t be modeled",
+          "One-hot encoding removes outliers",
+          "Categorical variables can be encoded (e.g., one-hot) so models can use them",
+          "Encoding increases label noise"
+        ],
+        "answer": "Categorical variables can be encoded (e.g., one-hot) so models can use them"
+      },
+      {
+        "question": "In the visualization, which statement matches data types/encoding? (from the animation, v18)",
+        "options": [
+          "Categorical data can’t be modeled",
+          "One-hot encoding removes outliers",
+          "Categorical variables can be encoded (e.g., one-hot) so models can use them",
+          "Encoding increases label noise"
+        ],
+        "answer": "Categorical variables can be encoded (e.g., one-hot) so models can use them"
+      },
+      {
+        "question": "After changing settings, which statement best explains data types/encoding? (after dragging a point, v19)",
+        "options": [
+          "Encoding increases label noise",
+          "One-hot encoding removes outliers",
+          "Categorical data can’t be modeled",
+          "Categorical variables can be encoded (e.g., one-hot) so models can use them"
+        ],
+        "answer": "Categorical variables can be encoded (e.g., one-hot) so models can use them"
+      },
+      {
+        "question": "Which choice most accurately defines data types/encoding? (after adding noise, v20)",
+        "options": [
+          "Categorical data can’t be modeled",
+          "One-hot encoding removes outliers",
+          "Categorical variables can be encoded (e.g., one-hot) so models can use them",
+          "Encoding increases label noise"
+        ],
+        "answer": "Categorical variables can be encoded (e.g., one-hot) so models can use them"
+      }
+    ]
+  }
+}

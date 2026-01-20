@@ -1,0 +1,1006 @@
+{
+  "Clustering Concepts": {
+    "questions": [
+      {
+        "question": "What best describes K choice? (based on the plot, v1)",
+        "options": [
+          "K is the learning rate",
+          "Choosing K sets how many clusters the algorithm will form",
+          "K is the test set size",
+          "K is the number of features"
+        ],
+        "answer": "Choosing K sets how many clusters the algorithm will form"
+      },
+      {
+        "question": "Which option is true about K choice? (from the animation, v2)",
+        "options": [
+          "Choosing K sets how many clusters the algorithm will form",
+          "K is the learning rate",
+          "K is the test set size",
+          "K is the number of features"
+        ],
+        "answer": "Choosing K sets how many clusters the algorithm will form"
+      },
+      {
+        "question": "In the visualization, which statement matches K choice? (after dragging a point, v3)",
+        "options": [
+          "K is the number of features",
+          "K is the learning rate",
+          "K is the test set size",
+          "Choosing K sets how many clusters the algorithm will form"
+        ],
+        "answer": "Choosing K sets how many clusters the algorithm will form"
+      },
+      {
+        "question": "After changing settings, which statement best explains K choice? (after adding noise, v4)",
+        "options": [
+          "K is the number of features",
+          "K is the learning rate",
+          "K is the test set size",
+          "Choosing K sets how many clusters the algorithm will form"
+        ],
+        "answer": "Choosing K sets how many clusters the algorithm will form"
+      },
+      {
+        "question": "Which choice most accurately defines K choice? (after changing the slider, v5)",
+        "options": [
+          "Choosing K sets how many clusters the algorithm will form",
+          "K is the learning rate",
+          "K is the number of features",
+          "K is the test set size"
+        ],
+        "answer": "Choosing K sets how many clusters the algorithm will form"
+      },
+      {
+        "question": "What best describes K choice? (after toggling a setting, v6)",
+        "options": [
+          "K is the test set size",
+          "K is the learning rate",
+          "Choosing K sets how many clusters the algorithm will form",
+          "K is the number of features"
+        ],
+        "answer": "Choosing K sets how many clusters the algorithm will form"
+      },
+      {
+        "question": "Which option is true about K choice? (using the shown curve, v7)",
+        "options": [
+          "K is the test set size",
+          "K is the learning rate",
+          "Choosing K sets how many clusters the algorithm will form",
+          "K is the number of features"
+        ],
+        "answer": "Choosing K sets how many clusters the algorithm will form"
+      },
+      {
+        "question": "In the visualization, which statement matches K choice? (from the scatter pattern, v8)",
+        "options": [
+          "K is the number of features",
+          "K is the learning rate",
+          "K is the test set size",
+          "Choosing K sets how many clusters the algorithm will form"
+        ],
+        "answer": "Choosing K sets how many clusters the algorithm will form"
+      },
+      {
+        "question": "After changing settings, which statement best explains K choice? (based on the plot, v9)",
+        "options": [
+          "K is the test set size",
+          "Choosing K sets how many clusters the algorithm will form",
+          "K is the number of features",
+          "K is the learning rate"
+        ],
+        "answer": "Choosing K sets how many clusters the algorithm will form"
+      },
+      {
+        "question": "Which choice most accurately defines K choice? (from the animation, v10)",
+        "options": [
+          "K is the test set size",
+          "K is the number of features",
+          "K is the learning rate",
+          "Choosing K sets how many clusters the algorithm will form"
+        ],
+        "answer": "Choosing K sets how many clusters the algorithm will form"
+      },
+      {
+        "question": "What best describes K choice? (after dragging a point, v11)",
+        "options": [
+          "Choosing K sets how many clusters the algorithm will form",
+          "K is the number of features",
+          "K is the test set size",
+          "K is the learning rate"
+        ],
+        "answer": "Choosing K sets how many clusters the algorithm will form"
+      },
+      {
+        "question": "Which option is true about K choice? (after adding noise, v12)",
+        "options": [
+          "K is the test set size",
+          "K is the learning rate",
+          "Choosing K sets how many clusters the algorithm will form",
+          "K is the number of features"
+        ],
+        "answer": "Choosing K sets how many clusters the algorithm will form"
+      },
+      {
+        "question": "In the visualization, which statement matches K choice? (after changing the slider, v13)",
+        "options": [
+          "K is the learning rate",
+          "K is the number of features",
+          "Choosing K sets how many clusters the algorithm will form",
+          "K is the test set size"
+        ],
+        "answer": "Choosing K sets how many clusters the algorithm will form"
+      },
+      {
+        "question": "After changing settings, which statement best explains K choice? (after toggling a setting, v14)",
+        "options": [
+          "K is the test set size",
+          "Choosing K sets how many clusters the algorithm will form",
+          "K is the learning rate",
+          "K is the number of features"
+        ],
+        "answer": "Choosing K sets how many clusters the algorithm will form"
+      },
+      {
+        "question": "Which choice most accurately defines K choice? (using the shown curve, v15)",
+        "options": [
+          "K is the number of features",
+          "K is the test set size",
+          "K is the learning rate",
+          "Choosing K sets how many clusters the algorithm will form"
+        ],
+        "answer": "Choosing K sets how many clusters the algorithm will form"
+      },
+      {
+        "question": "What best describes K choice? (from the scatter pattern, v16)",
+        "options": [
+          "K is the learning rate",
+          "Choosing K sets how many clusters the algorithm will form",
+          "K is the number of features",
+          "K is the test set size"
+        ],
+        "answer": "Choosing K sets how many clusters the algorithm will form"
+      },
+      {
+        "question": "Which option is true about K choice? (based on the plot, v17)",
+        "options": [
+          "K is the number of features",
+          "K is the learning rate",
+          "K is the test set size",
+          "Choosing K sets how many clusters the algorithm will form"
+        ],
+        "answer": "Choosing K sets how many clusters the algorithm will form"
+      },
+      {
+        "question": "In the visualization, which statement matches K choice? (from the animation, v18)",
+        "options": [
+          "K is the learning rate",
+          "K is the test set size",
+          "K is the number of features",
+          "Choosing K sets how many clusters the algorithm will form"
+        ],
+        "answer": "Choosing K sets how many clusters the algorithm will form"
+      },
+      {
+        "question": "After changing settings, which statement best explains K choice? (after dragging a point, v19)",
+        "options": [
+          "K is the test set size",
+          "K is the learning rate",
+          "Choosing K sets how many clusters the algorithm will form",
+          "K is the number of features"
+        ],
+        "answer": "Choosing K sets how many clusters the algorithm will form"
+      },
+      {
+        "question": "Which choice most accurately defines K choice? (after adding noise, v20)",
+        "options": [
+          "K is the number of features",
+          "K is the learning rate",
+          "K is the test set size",
+          "Choosing K sets how many clusters the algorithm will form"
+        ],
+        "answer": "Choosing K sets how many clusters the algorithm will form"
+      },
+      {
+        "question": "What best describes centroids? (based on the plot, v1)",
+        "options": [
+          "Centroids are cluster centers; points are assigned to nearest centroid in K-means",
+          "Centroids are decision boundaries",
+          "Centroids are residuals",
+          "Centroids are labels"
+        ],
+        "answer": "Centroids are cluster centers; points are assigned to nearest centroid in K-means"
+      },
+      {
+        "question": "Which option is true about centroids? (from the animation, v2)",
+        "options": [
+          "Centroids are decision boundaries",
+          "Centroids are residuals",
+          "Centroids are cluster centers; points are assigned to nearest centroid in K-means",
+          "Centroids are labels"
+        ],
+        "answer": "Centroids are cluster centers; points are assigned to nearest centroid in K-means"
+      },
+      {
+        "question": "In the visualization, which statement matches centroids? (after dragging a point, v3)",
+        "options": [
+          "Centroids are decision boundaries",
+          "Centroids are labels",
+          "Centroids are cluster centers; points are assigned to nearest centroid in K-means",
+          "Centroids are residuals"
+        ],
+        "answer": "Centroids are cluster centers; points are assigned to nearest centroid in K-means"
+      },
+      {
+        "question": "After changing settings, which statement best explains centroids? (after adding noise, v4)",
+        "options": [
+          "Centroids are decision boundaries",
+          "Centroids are cluster centers; points are assigned to nearest centroid in K-means",
+          "Centroids are residuals",
+          "Centroids are labels"
+        ],
+        "answer": "Centroids are cluster centers; points are assigned to nearest centroid in K-means"
+      },
+      {
+        "question": "Which choice most accurately defines centroids? (after changing the slider, v5)",
+        "options": [
+          "Centroids are cluster centers; points are assigned to nearest centroid in K-means",
+          "Centroids are labels",
+          "Centroids are residuals",
+          "Centroids are decision boundaries"
+        ],
+        "answer": "Centroids are cluster centers; points are assigned to nearest centroid in K-means"
+      },
+      {
+        "question": "What best describes centroids? (after toggling a setting, v6)",
+        "options": [
+          "Centroids are residuals",
+          "Centroids are decision boundaries",
+          "Centroids are labels",
+          "Centroids are cluster centers; points are assigned to nearest centroid in K-means"
+        ],
+        "answer": "Centroids are cluster centers; points are assigned to nearest centroid in K-means"
+      },
+      {
+        "question": "Which option is true about centroids? (using the shown curve, v7)",
+        "options": [
+          "Centroids are decision boundaries",
+          "Centroids are residuals",
+          "Centroids are cluster centers; points are assigned to nearest centroid in K-means",
+          "Centroids are labels"
+        ],
+        "answer": "Centroids are cluster centers; points are assigned to nearest centroid in K-means"
+      },
+      {
+        "question": "In the visualization, which statement matches centroids? (from the scatter pattern, v8)",
+        "options": [
+          "Centroids are labels",
+          "Centroids are decision boundaries",
+          "Centroids are cluster centers; points are assigned to nearest centroid in K-means",
+          "Centroids are residuals"
+        ],
+        "answer": "Centroids are cluster centers; points are assigned to nearest centroid in K-means"
+      },
+      {
+        "question": "After changing settings, which statement best explains centroids? (based on the plot, v9)",
+        "options": [
+          "Centroids are decision boundaries",
+          "Centroids are labels",
+          "Centroids are cluster centers; points are assigned to nearest centroid in K-means",
+          "Centroids are residuals"
+        ],
+        "answer": "Centroids are cluster centers; points are assigned to nearest centroid in K-means"
+      },
+      {
+        "question": "Which choice most accurately defines centroids? (from the animation, v10)",
+        "options": [
+          "Centroids are cluster centers; points are assigned to nearest centroid in K-means",
+          "Centroids are decision boundaries",
+          "Centroids are residuals",
+          "Centroids are labels"
+        ],
+        "answer": "Centroids are cluster centers; points are assigned to nearest centroid in K-means"
+      },
+      {
+        "question": "What best describes centroids? (after dragging a point, v11)",
+        "options": [
+          "Centroids are labels",
+          "Centroids are residuals",
+          "Centroids are decision boundaries",
+          "Centroids are cluster centers; points are assigned to nearest centroid in K-means"
+        ],
+        "answer": "Centroids are cluster centers; points are assigned to nearest centroid in K-means"
+      },
+      {
+        "question": "Which option is true about centroids? (after adding noise, v12)",
+        "options": [
+          "Centroids are cluster centers; points are assigned to nearest centroid in K-means",
+          "Centroids are residuals",
+          "Centroids are decision boundaries",
+          "Centroids are labels"
+        ],
+        "answer": "Centroids are cluster centers; points are assigned to nearest centroid in K-means"
+      },
+      {
+        "question": "In the visualization, which statement matches centroids? (after changing the slider, v13)",
+        "options": [
+          "Centroids are decision boundaries",
+          "Centroids are residuals",
+          "Centroids are labels",
+          "Centroids are cluster centers; points are assigned to nearest centroid in K-means"
+        ],
+        "answer": "Centroids are cluster centers; points are assigned to nearest centroid in K-means"
+      },
+      {
+        "question": "After changing settings, which statement best explains centroids? (after toggling a setting, v14)",
+        "options": [
+          "Centroids are labels",
+          "Centroids are residuals",
+          "Centroids are decision boundaries",
+          "Centroids are cluster centers; points are assigned to nearest centroid in K-means"
+        ],
+        "answer": "Centroids are cluster centers; points are assigned to nearest centroid in K-means"
+      },
+      {
+        "question": "Which choice most accurately defines centroids? (using the shown curve, v15)",
+        "options": [
+          "Centroids are labels",
+          "Centroids are decision boundaries",
+          "Centroids are cluster centers; points are assigned to nearest centroid in K-means",
+          "Centroids are residuals"
+        ],
+        "answer": "Centroids are cluster centers; points are assigned to nearest centroid in K-means"
+      },
+      {
+        "question": "What best describes centroids? (from the scatter pattern, v16)",
+        "options": [
+          "Centroids are residuals",
+          "Centroids are decision boundaries",
+          "Centroids are cluster centers; points are assigned to nearest centroid in K-means",
+          "Centroids are labels"
+        ],
+        "answer": "Centroids are cluster centers; points are assigned to nearest centroid in K-means"
+      },
+      {
+        "question": "Which option is true about centroids? (based on the plot, v17)",
+        "options": [
+          "Centroids are residuals",
+          "Centroids are cluster centers; points are assigned to nearest centroid in K-means",
+          "Centroids are labels",
+          "Centroids are decision boundaries"
+        ],
+        "answer": "Centroids are cluster centers; points are assigned to nearest centroid in K-means"
+      },
+      {
+        "question": "In the visualization, which statement matches centroids? (from the animation, v18)",
+        "options": [
+          "Centroids are residuals",
+          "Centroids are cluster centers; points are assigned to nearest centroid in K-means",
+          "Centroids are decision boundaries",
+          "Centroids are labels"
+        ],
+        "answer": "Centroids are cluster centers; points are assigned to nearest centroid in K-means"
+      },
+      {
+        "question": "After changing settings, which statement best explains centroids? (after dragging a point, v19)",
+        "options": [
+          "Centroids are residuals",
+          "Centroids are labels",
+          "Centroids are decision boundaries",
+          "Centroids are cluster centers; points are assigned to nearest centroid in K-means"
+        ],
+        "answer": "Centroids are cluster centers; points are assigned to nearest centroid in K-means"
+      },
+      {
+        "question": "Which choice most accurately defines centroids? (after adding noise, v20)",
+        "options": [
+          "Centroids are residuals",
+          "Centroids are cluster centers; points are assigned to nearest centroid in K-means",
+          "Centroids are decision boundaries",
+          "Centroids are labels"
+        ],
+        "answer": "Centroids are cluster centers; points are assigned to nearest centroid in K-means"
+      },
+      {
+        "question": "What best describes inertia/elbow? (based on the plot, v1)",
+        "options": [
+          "Inertia is accuracy",
+          "Inertia ignores distances",
+          "Inertia is within-cluster SSE; elbow looks for diminishing returns as K increases",
+          "Elbow finds best learning rate"
+        ],
+        "answer": "Inertia is within-cluster SSE; elbow looks for diminishing returns as K increases"
+      },
+      {
+        "question": "Which option is true about inertia/elbow? (from the animation, v2)",
+        "options": [
+          "Inertia is within-cluster SSE; elbow looks for diminishing returns as K increases",
+          "Elbow finds best learning rate",
+          "Inertia is accuracy",
+          "Inertia ignores distances"
+        ],
+        "answer": "Inertia is within-cluster SSE; elbow looks for diminishing returns as K increases"
+      },
+      {
+        "question": "In the visualization, which statement matches inertia/elbow? (after dragging a point, v3)",
+        "options": [
+          "Inertia ignores distances",
+          "Inertia is within-cluster SSE; elbow looks for diminishing returns as K increases",
+          "Elbow finds best learning rate",
+          "Inertia is accuracy"
+        ],
+        "answer": "Inertia is within-cluster SSE; elbow looks for diminishing returns as K increases"
+      },
+      {
+        "question": "After changing settings, which statement best explains inertia/elbow? (after adding noise, v4)",
+        "options": [
+          "Inertia is accuracy",
+          "Inertia ignores distances",
+          "Elbow finds best learning rate",
+          "Inertia is within-cluster SSE; elbow looks for diminishing returns as K increases"
+        ],
+        "answer": "Inertia is within-cluster SSE; elbow looks for diminishing returns as K increases"
+      },
+      {
+        "question": "Which choice most accurately defines inertia/elbow? (after changing the slider, v5)",
+        "options": [
+          "Inertia is accuracy",
+          "Elbow finds best learning rate",
+          "Inertia is within-cluster SSE; elbow looks for diminishing returns as K increases",
+          "Inertia ignores distances"
+        ],
+        "answer": "Inertia is within-cluster SSE; elbow looks for diminishing returns as K increases"
+      },
+      {
+        "question": "What best describes inertia/elbow? (after toggling a setting, v6)",
+        "options": [
+          "Inertia ignores distances",
+          "Elbow finds best learning rate",
+          "Inertia is within-cluster SSE; elbow looks for diminishing returns as K increases",
+          "Inertia is accuracy"
+        ],
+        "answer": "Inertia is within-cluster SSE; elbow looks for diminishing returns as K increases"
+      },
+      {
+        "question": "Which option is true about inertia/elbow? (using the shown curve, v7)",
+        "options": [
+          "Inertia is accuracy",
+          "Inertia is within-cluster SSE; elbow looks for diminishing returns as K increases",
+          "Elbow finds best learning rate",
+          "Inertia ignores distances"
+        ],
+        "answer": "Inertia is within-cluster SSE; elbow looks for diminishing returns as K increases"
+      },
+      {
+        "question": "In the visualization, which statement matches inertia/elbow? (from the scatter pattern, v8)",
+        "options": [
+          "Elbow finds best learning rate",
+          "Inertia is within-cluster SSE; elbow looks for diminishing returns as K increases",
+          "Inertia ignores distances",
+          "Inertia is accuracy"
+        ],
+        "answer": "Inertia is within-cluster SSE; elbow looks for diminishing returns as K increases"
+      },
+      {
+        "question": "After changing settings, which statement best explains inertia/elbow? (based on the plot, v9)",
+        "options": [
+          "Elbow finds best learning rate",
+          "Inertia ignores distances",
+          "Inertia is accuracy",
+          "Inertia is within-cluster SSE; elbow looks for diminishing returns as K increases"
+        ],
+        "answer": "Inertia is within-cluster SSE; elbow looks for diminishing returns as K increases"
+      },
+      {
+        "question": "Which choice most accurately defines inertia/elbow? (from the animation, v10)",
+        "options": [
+          "Elbow finds best learning rate",
+          "Inertia ignores distances",
+          "Inertia is accuracy",
+          "Inertia is within-cluster SSE; elbow looks for diminishing returns as K increases"
+        ],
+        "answer": "Inertia is within-cluster SSE; elbow looks for diminishing returns as K increases"
+      },
+      {
+        "question": "What best describes inertia/elbow? (after dragging a point, v11)",
+        "options": [
+          "Inertia is accuracy",
+          "Inertia ignores distances",
+          "Elbow finds best learning rate",
+          "Inertia is within-cluster SSE; elbow looks for diminishing returns as K increases"
+        ],
+        "answer": "Inertia is within-cluster SSE; elbow looks for diminishing returns as K increases"
+      },
+      {
+        "question": "Which option is true about inertia/elbow? (after adding noise, v12)",
+        "options": [
+          "Elbow finds best learning rate",
+          "Inertia ignores distances",
+          "Inertia is accuracy",
+          "Inertia is within-cluster SSE; elbow looks for diminishing returns as K increases"
+        ],
+        "answer": "Inertia is within-cluster SSE; elbow looks for diminishing returns as K increases"
+      },
+      {
+        "question": "In the visualization, which statement matches inertia/elbow? (after changing the slider, v13)",
+        "options": [
+          "Inertia is within-cluster SSE; elbow looks for diminishing returns as K increases",
+          "Elbow finds best learning rate",
+          "Inertia is accuracy",
+          "Inertia ignores distances"
+        ],
+        "answer": "Inertia is within-cluster SSE; elbow looks for diminishing returns as K increases"
+      },
+      {
+        "question": "After changing settings, which statement best explains inertia/elbow? (after toggling a setting, v14)",
+        "options": [
+          "Elbow finds best learning rate",
+          "Inertia ignores distances",
+          "Inertia is within-cluster SSE; elbow looks for diminishing returns as K increases",
+          "Inertia is accuracy"
+        ],
+        "answer": "Inertia is within-cluster SSE; elbow looks for diminishing returns as K increases"
+      },
+      {
+        "question": "Which choice most accurately defines inertia/elbow? (using the shown curve, v15)",
+        "options": [
+          "Inertia ignores distances",
+          "Inertia is within-cluster SSE; elbow looks for diminishing returns as K increases",
+          "Elbow finds best learning rate",
+          "Inertia is accuracy"
+        ],
+        "answer": "Inertia is within-cluster SSE; elbow looks for diminishing returns as K increases"
+      },
+      {
+        "question": "What best describes inertia/elbow? (from the scatter pattern, v16)",
+        "options": [
+          "Elbow finds best learning rate",
+          "Inertia is within-cluster SSE; elbow looks for diminishing returns as K increases",
+          "Inertia ignores distances",
+          "Inertia is accuracy"
+        ],
+        "answer": "Inertia is within-cluster SSE; elbow looks for diminishing returns as K increases"
+      },
+      {
+        "question": "Which option is true about inertia/elbow? (based on the plot, v17)",
+        "options": [
+          "Inertia is accuracy",
+          "Inertia is within-cluster SSE; elbow looks for diminishing returns as K increases",
+          "Elbow finds best learning rate",
+          "Inertia ignores distances"
+        ],
+        "answer": "Inertia is within-cluster SSE; elbow looks for diminishing returns as K increases"
+      },
+      {
+        "question": "In the visualization, which statement matches inertia/elbow? (from the animation, v18)",
+        "options": [
+          "Inertia ignores distances",
+          "Inertia is accuracy",
+          "Elbow finds best learning rate",
+          "Inertia is within-cluster SSE; elbow looks for diminishing returns as K increases"
+        ],
+        "answer": "Inertia is within-cluster SSE; elbow looks for diminishing returns as K increases"
+      },
+      {
+        "question": "After changing settings, which statement best explains inertia/elbow? (after dragging a point, v19)",
+        "options": [
+          "Inertia is within-cluster SSE; elbow looks for diminishing returns as K increases",
+          "Inertia ignores distances",
+          "Inertia is accuracy",
+          "Elbow finds best learning rate"
+        ],
+        "answer": "Inertia is within-cluster SSE; elbow looks for diminishing returns as K increases"
+      },
+      {
+        "question": "Which choice most accurately defines inertia/elbow? (after adding noise, v20)",
+        "options": [
+          "Inertia is accuracy",
+          "Inertia is within-cluster SSE; elbow looks for diminishing returns as K increases",
+          "Inertia ignores distances",
+          "Elbow finds best learning rate"
+        ],
+        "answer": "Inertia is within-cluster SSE; elbow looks for diminishing returns as K increases"
+      },
+      {
+        "question": "What best describes initialization? (based on the plot, v1)",
+        "options": [
+          "Initialization fixes imbalance",
+          "Initialization never matters",
+          "Initialization only affects PCA",
+          "K-means can converge to different results depending on centroid initialization"
+        ],
+        "answer": "K-means can converge to different results depending on centroid initialization"
+      },
+      {
+        "question": "Which option is true about initialization? (from the animation, v2)",
+        "options": [
+          "Initialization fixes imbalance",
+          "K-means can converge to different results depending on centroid initialization",
+          "Initialization never matters",
+          "Initialization only affects PCA"
+        ],
+        "answer": "K-means can converge to different results depending on centroid initialization"
+      },
+      {
+        "question": "In the visualization, which statement matches initialization? (after dragging a point, v3)",
+        "options": [
+          "Initialization never matters",
+          "Initialization only affects PCA",
+          "Initialization fixes imbalance",
+          "K-means can converge to different results depending on centroid initialization"
+        ],
+        "answer": "K-means can converge to different results depending on centroid initialization"
+      },
+      {
+        "question": "After changing settings, which statement best explains initialization? (after adding noise, v4)",
+        "options": [
+          "K-means can converge to different results depending on centroid initialization",
+          "Initialization never matters",
+          "Initialization only affects PCA",
+          "Initialization fixes imbalance"
+        ],
+        "answer": "K-means can converge to different results depending on centroid initialization"
+      },
+      {
+        "question": "Which choice most accurately defines initialization? (after changing the slider, v5)",
+        "options": [
+          "Initialization fixes imbalance",
+          "Initialization only affects PCA",
+          "K-means can converge to different results depending on centroid initialization",
+          "Initialization never matters"
+        ],
+        "answer": "K-means can converge to different results depending on centroid initialization"
+      },
+      {
+        "question": "What best describes initialization? (after toggling a setting, v6)",
+        "options": [
+          "Initialization fixes imbalance",
+          "K-means can converge to different results depending on centroid initialization",
+          "Initialization never matters",
+          "Initialization only affects PCA"
+        ],
+        "answer": "K-means can converge to different results depending on centroid initialization"
+      },
+      {
+        "question": "Which option is true about initialization? (using the shown curve, v7)",
+        "options": [
+          "Initialization only affects PCA",
+          "K-means can converge to different results depending on centroid initialization",
+          "Initialization never matters",
+          "Initialization fixes imbalance"
+        ],
+        "answer": "K-means can converge to different results depending on centroid initialization"
+      },
+      {
+        "question": "In the visualization, which statement matches initialization? (from the scatter pattern, v8)",
+        "options": [
+          "Initialization fixes imbalance",
+          "Initialization only affects PCA",
+          "K-means can converge to different results depending on centroid initialization",
+          "Initialization never matters"
+        ],
+        "answer": "K-means can converge to different results depending on centroid initialization"
+      },
+      {
+        "question": "After changing settings, which statement best explains initialization? (based on the plot, v9)",
+        "options": [
+          "K-means can converge to different results depending on centroid initialization",
+          "Initialization never matters",
+          "Initialization fixes imbalance",
+          "Initialization only affects PCA"
+        ],
+        "answer": "K-means can converge to different results depending on centroid initialization"
+      },
+      {
+        "question": "Which choice most accurately defines initialization? (from the animation, v10)",
+        "options": [
+          "Initialization only affects PCA",
+          "Initialization never matters",
+          "Initialization fixes imbalance",
+          "K-means can converge to different results depending on centroid initialization"
+        ],
+        "answer": "K-means can converge to different results depending on centroid initialization"
+      },
+      {
+        "question": "What best describes initialization? (after dragging a point, v11)",
+        "options": [
+          "K-means can converge to different results depending on centroid initialization",
+          "Initialization never matters",
+          "Initialization fixes imbalance",
+          "Initialization only affects PCA"
+        ],
+        "answer": "K-means can converge to different results depending on centroid initialization"
+      },
+      {
+        "question": "Which option is true about initialization? (after adding noise, v12)",
+        "options": [
+          "Initialization never matters",
+          "K-means can converge to different results depending on centroid initialization",
+          "Initialization fixes imbalance",
+          "Initialization only affects PCA"
+        ],
+        "answer": "K-means can converge to different results depending on centroid initialization"
+      },
+      {
+        "question": "In the visualization, which statement matches initialization? (after changing the slider, v13)",
+        "options": [
+          "Initialization fixes imbalance",
+          "Initialization only affects PCA",
+          "Initialization never matters",
+          "K-means can converge to different results depending on centroid initialization"
+        ],
+        "answer": "K-means can converge to different results depending on centroid initialization"
+      },
+      {
+        "question": "After changing settings, which statement best explains initialization? (after toggling a setting, v14)",
+        "options": [
+          "K-means can converge to different results depending on centroid initialization",
+          "Initialization fixes imbalance",
+          "Initialization only affects PCA",
+          "Initialization never matters"
+        ],
+        "answer": "K-means can converge to different results depending on centroid initialization"
+      },
+      {
+        "question": "Which choice most accurately defines initialization? (using the shown curve, v15)",
+        "options": [
+          "Initialization never matters",
+          "K-means can converge to different results depending on centroid initialization",
+          "Initialization only affects PCA",
+          "Initialization fixes imbalance"
+        ],
+        "answer": "K-means can converge to different results depending on centroid initialization"
+      },
+      {
+        "question": "What best describes initialization? (from the scatter pattern, v16)",
+        "options": [
+          "Initialization only affects PCA",
+          "Initialization fixes imbalance",
+          "K-means can converge to different results depending on centroid initialization",
+          "Initialization never matters"
+        ],
+        "answer": "K-means can converge to different results depending on centroid initialization"
+      },
+      {
+        "question": "Which option is true about initialization? (based on the plot, v17)",
+        "options": [
+          "Initialization never matters",
+          "K-means can converge to different results depending on centroid initialization",
+          "Initialization fixes imbalance",
+          "Initialization only affects PCA"
+        ],
+        "answer": "K-means can converge to different results depending on centroid initialization"
+      },
+      {
+        "question": "In the visualization, which statement matches initialization? (from the animation, v18)",
+        "options": [
+          "K-means can converge to different results depending on centroid initialization",
+          "Initialization never matters",
+          "Initialization fixes imbalance",
+          "Initialization only affects PCA"
+        ],
+        "answer": "K-means can converge to different results depending on centroid initialization"
+      },
+      {
+        "question": "After changing settings, which statement best explains initialization? (after dragging a point, v19)",
+        "options": [
+          "Initialization never matters",
+          "K-means can converge to different results depending on centroid initialization",
+          "Initialization fixes imbalance",
+          "Initialization only affects PCA"
+        ],
+        "answer": "K-means can converge to different results depending on centroid initialization"
+      },
+      {
+        "question": "Which choice most accurately defines initialization? (after adding noise, v20)",
+        "options": [
+          "K-means can converge to different results depending on centroid initialization",
+          "Initialization fixes imbalance",
+          "Initialization never matters",
+          "Initialization only affects PCA"
+        ],
+        "answer": "K-means can converge to different results depending on centroid initialization"
+      },
+      {
+        "question": "What best describes cluster shapes? (based on the plot, v1)",
+        "options": [
+          "K-means always finds true clusters",
+          "K-means requires labels",
+          "K-means struggles with non-spherical clusters (e.g., moons) because it uses distance to centroids",
+          "K-means is best for moons"
+        ],
+        "answer": "K-means struggles with non-spherical clusters (e.g., moons) because it uses distance to centroids"
+      },
+      {
+        "question": "Which option is true about cluster shapes? (from the animation, v2)",
+        "options": [
+          "K-means is best for moons",
+          "K-means always finds true clusters",
+          "K-means struggles with non-spherical clusters (e.g., moons) because it uses distance to centroids",
+          "K-means requires labels"
+        ],
+        "answer": "K-means struggles with non-spherical clusters (e.g., moons) because it uses distance to centroids"
+      },
+      {
+        "question": "In the visualization, which statement matches cluster shapes? (after dragging a point, v3)",
+        "options": [
+          "K-means is best for moons",
+          "K-means requires labels",
+          "K-means struggles with non-spherical clusters (e.g., moons) because it uses distance to centroids",
+          "K-means always finds true clusters"
+        ],
+        "answer": "K-means struggles with non-spherical clusters (e.g., moons) because it uses distance to centroids"
+      },
+      {
+        "question": "After changing settings, which statement best explains cluster shapes? (after adding noise, v4)",
+        "options": [
+          "K-means always finds true clusters",
+          "K-means is best for moons",
+          "K-means struggles with non-spherical clusters (e.g., moons) because it uses distance to centroids",
+          "K-means requires labels"
+        ],
+        "answer": "K-means struggles with non-spherical clusters (e.g., moons) because it uses distance to centroids"
+      },
+      {
+        "question": "Which choice most accurately defines cluster shapes? (after changing the slider, v5)",
+        "options": [
+          "K-means struggles with non-spherical clusters (e.g., moons) because it uses distance to centroids",
+          "K-means always finds true clusters",
+          "K-means is best for moons",
+          "K-means requires labels"
+        ],
+        "answer": "K-means struggles with non-spherical clusters (e.g., moons) because it uses distance to centroids"
+      },
+      {
+        "question": "What best describes cluster shapes? (after toggling a setting, v6)",
+        "options": [
+          "K-means struggles with non-spherical clusters (e.g., moons) because it uses distance to centroids",
+          "K-means requires labels",
+          "K-means always finds true clusters",
+          "K-means is best for moons"
+        ],
+        "answer": "K-means struggles with non-spherical clusters (e.g., moons) because it uses distance to centroids"
+      },
+      {
+        "question": "Which option is true about cluster shapes? (using the shown curve, v7)",
+        "options": [
+          "K-means requires labels",
+          "K-means struggles with non-spherical clusters (e.g., moons) because it uses distance to centroids",
+          "K-means is best for moons",
+          "K-means always finds true clusters"
+        ],
+        "answer": "K-means struggles with non-spherical clusters (e.g., moons) because it uses distance to centroids"
+      },
+      {
+        "question": "In the visualization, which statement matches cluster shapes? (from the scatter pattern, v8)",
+        "options": [
+          "K-means always finds true clusters",
+          "K-means struggles with non-spherical clusters (e.g., moons) because it uses distance to centroids",
+          "K-means is best for moons",
+          "K-means requires labels"
+        ],
+        "answer": "K-means struggles with non-spherical clusters (e.g., moons) because it uses distance to centroids"
+      },
+      {
+        "question": "After changing settings, which statement best explains cluster shapes? (based on the plot, v9)",
+        "options": [
+          "K-means requires labels",
+          "K-means struggles with non-spherical clusters (e.g., moons) because it uses distance to centroids",
+          "K-means always finds true clusters",
+          "K-means is best for moons"
+        ],
+        "answer": "K-means struggles with non-spherical clusters (e.g., moons) because it uses distance to centroids"
+      },
+      {
+        "question": "Which choice most accurately defines cluster shapes? (from the animation, v10)",
+        "options": [
+          "K-means is best for moons",
+          "K-means requires labels",
+          "K-means always finds true clusters",
+          "K-means struggles with non-spherical clusters (e.g., moons) because it uses distance to centroids"
+        ],
+        "answer": "K-means struggles with non-spherical clusters (e.g., moons) because it uses distance to centroids"
+      },
+      {
+        "question": "What best describes cluster shapes? (after dragging a point, v11)",
+        "options": [
+          "K-means is best for moons",
+          "K-means always finds true clusters",
+          "K-means struggles with non-spherical clusters (e.g., moons) because it uses distance to centroids",
+          "K-means requires labels"
+        ],
+        "answer": "K-means struggles with non-spherical clusters (e.g., moons) because it uses distance to centroids"
+      },
+      {
+        "question": "Which option is true about cluster shapes? (after adding noise, v12)",
+        "options": [
+          "K-means struggles with non-spherical clusters (e.g., moons) because it uses distance to centroids",
+          "K-means requires labels",
+          "K-means is best for moons",
+          "K-means always finds true clusters"
+        ],
+        "answer": "K-means struggles with non-spherical clusters (e.g., moons) because it uses distance to centroids"
+      },
+      {
+        "question": "In the visualization, which statement matches cluster shapes? (after changing the slider, v13)",
+        "options": [
+          "K-means always finds true clusters",
+          "K-means struggles with non-spherical clusters (e.g., moons) because it uses distance to centroids",
+          "K-means requires labels",
+          "K-means is best for moons"
+        ],
+        "answer": "K-means struggles with non-spherical clusters (e.g., moons) because it uses distance to centroids"
+      },
+      {
+        "question": "After changing settings, which statement best explains cluster shapes? (after toggling a setting, v14)",
+        "options": [
+          "K-means is best for moons",
+          "K-means always finds true clusters",
+          "K-means requires labels",
+          "K-means struggles with non-spherical clusters (e.g., moons) because it uses distance to centroids"
+        ],
+        "answer": "K-means struggles with non-spherical clusters (e.g., moons) because it uses distance to centroids"
+      },
+      {
+        "question": "Which choice most accurately defines cluster shapes? (using the shown curve, v15)",
+        "options": [
+          "K-means always finds true clusters",
+          "K-means requires labels",
+          "K-means is best for moons",
+          "K-means struggles with non-spherical clusters (e.g., moons) because it uses distance to centroids"
+        ],
+        "answer": "K-means struggles with non-spherical clusters (e.g., moons) because it uses distance to centroids"
+      },
+      {
+        "question": "What best describes cluster shapes? (from the scatter pattern, v16)",
+        "options": [
+          "K-means always finds true clusters",
+          "K-means struggles with non-spherical clusters (e.g., moons) because it uses distance to centroids",
+          "K-means is best for moons",
+          "K-means requires labels"
+        ],
+        "answer": "K-means struggles with non-spherical clusters (e.g., moons) because it uses distance to centroids"
+      },
+      {
+        "question": "Which option is true about cluster shapes? (based on the plot, v17)",
+        "options": [
+          "K-means is best for moons",
+          "K-means struggles with non-spherical clusters (e.g., moons) because it uses distance to centroids",
+          "K-means always finds true clusters",
+          "K-means requires labels"
+        ],
+        "answer": "K-means struggles with non-spherical clusters (e.g., moons) because it uses distance to centroids"
+      },
+      {
+        "question": "In the visualization, which statement matches cluster shapes? (from the animation, v18)",
+        "options": [
+          "K-means is best for moons",
+          "K-means struggles with non-spherical clusters (e.g., moons) because it uses distance to centroids",
+          "K-means always finds true clusters",
+          "K-means requires labels"
+        ],
+        "answer": "K-means struggles with non-spherical clusters (e.g., moons) because it uses distance to centroids"
+      },
+      {
+        "question": "After changing settings, which statement best explains cluster shapes? (after dragging a point, v19)",
+        "options": [
+          "K-means struggles with non-spherical clusters (e.g., moons) because it uses distance to centroids",
+          "K-means is best for moons",
+          "K-means always finds true clusters",
+          "K-means requires labels"
+        ],
+        "answer": "K-means struggles with non-spherical clusters (e.g., moons) because it uses distance to centroids"
+      },
+      {
+        "question": "Which choice most accurately defines cluster shapes? (after adding noise, v20)",
+        "options": [
+          "K-means is best for moons",
+          "K-means always finds true clusters",
+          "K-means struggles with non-spherical clusters (e.g., moons) because it uses distance to centroids",
+          "K-means requires labels"
+        ],
+        "answer": "K-means struggles with non-spherical clusters (e.g., moons) because it uses distance to centroids"
+      }
+    ]
+  }
+}

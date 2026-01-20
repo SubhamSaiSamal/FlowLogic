@@ -1,0 +1,1006 @@
+{
+  "Decision Boundaries": {
+    "questions": [
+      {
+        "question": "What best describes boundary shape? (based on the plot, v1)",
+        "options": [
+          "All boundaries are circular",
+          "A linear boundary is a straight line/hyperplane; nonlinear boundaries curve",
+          "Boundaries are the same as centroids",
+          "Boundary shape is irrelevant"
+        ],
+        "answer": "A linear boundary is a straight line/hyperplane; nonlinear boundaries curve"
+      },
+      {
+        "question": "Which option is true about boundary shape? (from the animation, v2)",
+        "options": [
+          "All boundaries are circular",
+          "A linear boundary is a straight line/hyperplane; nonlinear boundaries curve",
+          "Boundaries are the same as centroids",
+          "Boundary shape is irrelevant"
+        ],
+        "answer": "A linear boundary is a straight line/hyperplane; nonlinear boundaries curve"
+      },
+      {
+        "question": "In the visualization, which statement matches boundary shape? (after dragging a point, v3)",
+        "options": [
+          "A linear boundary is a straight line/hyperplane; nonlinear boundaries curve",
+          "Boundary shape is irrelevant",
+          "Boundaries are the same as centroids",
+          "All boundaries are circular"
+        ],
+        "answer": "A linear boundary is a straight line/hyperplane; nonlinear boundaries curve"
+      },
+      {
+        "question": "After changing settings, which statement best explains boundary shape? (after adding noise, v4)",
+        "options": [
+          "A linear boundary is a straight line/hyperplane; nonlinear boundaries curve",
+          "All boundaries are circular",
+          "Boundaries are the same as centroids",
+          "Boundary shape is irrelevant"
+        ],
+        "answer": "A linear boundary is a straight line/hyperplane; nonlinear boundaries curve"
+      },
+      {
+        "question": "Which choice most accurately defines boundary shape? (after changing the slider, v5)",
+        "options": [
+          "Boundary shape is irrelevant",
+          "Boundaries are the same as centroids",
+          "A linear boundary is a straight line/hyperplane; nonlinear boundaries curve",
+          "All boundaries are circular"
+        ],
+        "answer": "A linear boundary is a straight line/hyperplane; nonlinear boundaries curve"
+      },
+      {
+        "question": "What best describes boundary shape? (after toggling a setting, v6)",
+        "options": [
+          "Boundaries are the same as centroids",
+          "Boundary shape is irrelevant",
+          "All boundaries are circular",
+          "A linear boundary is a straight line/hyperplane; nonlinear boundaries curve"
+        ],
+        "answer": "A linear boundary is a straight line/hyperplane; nonlinear boundaries curve"
+      },
+      {
+        "question": "Which option is true about boundary shape? (using the shown curve, v7)",
+        "options": [
+          "A linear boundary is a straight line/hyperplane; nonlinear boundaries curve",
+          "Boundary shape is irrelevant",
+          "All boundaries are circular",
+          "Boundaries are the same as centroids"
+        ],
+        "answer": "A linear boundary is a straight line/hyperplane; nonlinear boundaries curve"
+      },
+      {
+        "question": "In the visualization, which statement matches boundary shape? (from the scatter pattern, v8)",
+        "options": [
+          "All boundaries are circular",
+          "A linear boundary is a straight line/hyperplane; nonlinear boundaries curve",
+          "Boundary shape is irrelevant",
+          "Boundaries are the same as centroids"
+        ],
+        "answer": "A linear boundary is a straight line/hyperplane; nonlinear boundaries curve"
+      },
+      {
+        "question": "After changing settings, which statement best explains boundary shape? (based on the plot, v9)",
+        "options": [
+          "Boundaries are the same as centroids",
+          "Boundary shape is irrelevant",
+          "A linear boundary is a straight line/hyperplane; nonlinear boundaries curve",
+          "All boundaries are circular"
+        ],
+        "answer": "A linear boundary is a straight line/hyperplane; nonlinear boundaries curve"
+      },
+      {
+        "question": "Which choice most accurately defines boundary shape? (from the animation, v10)",
+        "options": [
+          "A linear boundary is a straight line/hyperplane; nonlinear boundaries curve",
+          "Boundaries are the same as centroids",
+          "All boundaries are circular",
+          "Boundary shape is irrelevant"
+        ],
+        "answer": "A linear boundary is a straight line/hyperplane; nonlinear boundaries curve"
+      },
+      {
+        "question": "What best describes boundary shape? (after dragging a point, v11)",
+        "options": [
+          "All boundaries are circular",
+          "Boundaries are the same as centroids",
+          "Boundary shape is irrelevant",
+          "A linear boundary is a straight line/hyperplane; nonlinear boundaries curve"
+        ],
+        "answer": "A linear boundary is a straight line/hyperplane; nonlinear boundaries curve"
+      },
+      {
+        "question": "Which option is true about boundary shape? (after adding noise, v12)",
+        "options": [
+          "All boundaries are circular",
+          "A linear boundary is a straight line/hyperplane; nonlinear boundaries curve",
+          "Boundary shape is irrelevant",
+          "Boundaries are the same as centroids"
+        ],
+        "answer": "A linear boundary is a straight line/hyperplane; nonlinear boundaries curve"
+      },
+      {
+        "question": "In the visualization, which statement matches boundary shape? (after changing the slider, v13)",
+        "options": [
+          "Boundaries are the same as centroids",
+          "Boundary shape is irrelevant",
+          "All boundaries are circular",
+          "A linear boundary is a straight line/hyperplane; nonlinear boundaries curve"
+        ],
+        "answer": "A linear boundary is a straight line/hyperplane; nonlinear boundaries curve"
+      },
+      {
+        "question": "After changing settings, which statement best explains boundary shape? (after toggling a setting, v14)",
+        "options": [
+          "A linear boundary is a straight line/hyperplane; nonlinear boundaries curve",
+          "Boundaries are the same as centroids",
+          "All boundaries are circular",
+          "Boundary shape is irrelevant"
+        ],
+        "answer": "A linear boundary is a straight line/hyperplane; nonlinear boundaries curve"
+      },
+      {
+        "question": "Which choice most accurately defines boundary shape? (using the shown curve, v15)",
+        "options": [
+          "All boundaries are circular",
+          "Boundaries are the same as centroids",
+          "A linear boundary is a straight line/hyperplane; nonlinear boundaries curve",
+          "Boundary shape is irrelevant"
+        ],
+        "answer": "A linear boundary is a straight line/hyperplane; nonlinear boundaries curve"
+      },
+      {
+        "question": "What best describes boundary shape? (from the scatter pattern, v16)",
+        "options": [
+          "Boundaries are the same as centroids",
+          "A linear boundary is a straight line/hyperplane; nonlinear boundaries curve",
+          "Boundary shape is irrelevant",
+          "All boundaries are circular"
+        ],
+        "answer": "A linear boundary is a straight line/hyperplane; nonlinear boundaries curve"
+      },
+      {
+        "question": "Which option is true about boundary shape? (based on the plot, v17)",
+        "options": [
+          "A linear boundary is a straight line/hyperplane; nonlinear boundaries curve",
+          "Boundary shape is irrelevant",
+          "All boundaries are circular",
+          "Boundaries are the same as centroids"
+        ],
+        "answer": "A linear boundary is a straight line/hyperplane; nonlinear boundaries curve"
+      },
+      {
+        "question": "In the visualization, which statement matches boundary shape? (from the animation, v18)",
+        "options": [
+          "Boundary shape is irrelevant",
+          "Boundaries are the same as centroids",
+          "A linear boundary is a straight line/hyperplane; nonlinear boundaries curve",
+          "All boundaries are circular"
+        ],
+        "answer": "A linear boundary is a straight line/hyperplane; nonlinear boundaries curve"
+      },
+      {
+        "question": "After changing settings, which statement best explains boundary shape? (after dragging a point, v19)",
+        "options": [
+          "Boundaries are the same as centroids",
+          "All boundaries are circular",
+          "A linear boundary is a straight line/hyperplane; nonlinear boundaries curve",
+          "Boundary shape is irrelevant"
+        ],
+        "answer": "A linear boundary is a straight line/hyperplane; nonlinear boundaries curve"
+      },
+      {
+        "question": "Which choice most accurately defines boundary shape? (after adding noise, v20)",
+        "options": [
+          "Boundary shape is irrelevant",
+          "A linear boundary is a straight line/hyperplane; nonlinear boundaries curve",
+          "All boundaries are circular",
+          "Boundaries are the same as centroids"
+        ],
+        "answer": "A linear boundary is a straight line/hyperplane; nonlinear boundaries curve"
+      },
+      {
+        "question": "What best describes complexity? (based on the plot, v1)",
+        "options": [
+          "More complex boundaries can fit training data better but may overfit",
+          "Complexity eliminates noise",
+          "Complexity removes bias",
+          "Complexity always improves test score"
+        ],
+        "answer": "More complex boundaries can fit training data better but may overfit"
+      },
+      {
+        "question": "Which option is true about complexity? (from the animation, v2)",
+        "options": [
+          "Complexity always improves test score",
+          "More complex boundaries can fit training data better but may overfit",
+          "Complexity eliminates noise",
+          "Complexity removes bias"
+        ],
+        "answer": "More complex boundaries can fit training data better but may overfit"
+      },
+      {
+        "question": "In the visualization, which statement matches complexity? (after dragging a point, v3)",
+        "options": [
+          "Complexity always improves test score",
+          "More complex boundaries can fit training data better but may overfit",
+          "Complexity removes bias",
+          "Complexity eliminates noise"
+        ],
+        "answer": "More complex boundaries can fit training data better but may overfit"
+      },
+      {
+        "question": "After changing settings, which statement best explains complexity? (after adding noise, v4)",
+        "options": [
+          "Complexity removes bias",
+          "Complexity eliminates noise",
+          "More complex boundaries can fit training data better but may overfit",
+          "Complexity always improves test score"
+        ],
+        "answer": "More complex boundaries can fit training data better but may overfit"
+      },
+      {
+        "question": "Which choice most accurately defines complexity? (after changing the slider, v5)",
+        "options": [
+          "Complexity removes bias",
+          "More complex boundaries can fit training data better but may overfit",
+          "Complexity eliminates noise",
+          "Complexity always improves test score"
+        ],
+        "answer": "More complex boundaries can fit training data better but may overfit"
+      },
+      {
+        "question": "What best describes complexity? (after toggling a setting, v6)",
+        "options": [
+          "More complex boundaries can fit training data better but may overfit",
+          "Complexity eliminates noise",
+          "Complexity removes bias",
+          "Complexity always improves test score"
+        ],
+        "answer": "More complex boundaries can fit training data better but may overfit"
+      },
+      {
+        "question": "Which option is true about complexity? (using the shown curve, v7)",
+        "options": [
+          "Complexity eliminates noise",
+          "Complexity always improves test score",
+          "More complex boundaries can fit training data better but may overfit",
+          "Complexity removes bias"
+        ],
+        "answer": "More complex boundaries can fit training data better but may overfit"
+      },
+      {
+        "question": "In the visualization, which statement matches complexity? (from the scatter pattern, v8)",
+        "options": [
+          "Complexity removes bias",
+          "Complexity eliminates noise",
+          "More complex boundaries can fit training data better but may overfit",
+          "Complexity always improves test score"
+        ],
+        "answer": "More complex boundaries can fit training data better but may overfit"
+      },
+      {
+        "question": "After changing settings, which statement best explains complexity? (based on the plot, v9)",
+        "options": [
+          "Complexity eliminates noise",
+          "More complex boundaries can fit training data better but may overfit",
+          "Complexity always improves test score",
+          "Complexity removes bias"
+        ],
+        "answer": "More complex boundaries can fit training data better but may overfit"
+      },
+      {
+        "question": "Which choice most accurately defines complexity? (from the animation, v10)",
+        "options": [
+          "Complexity eliminates noise",
+          "Complexity always improves test score",
+          "Complexity removes bias",
+          "More complex boundaries can fit training data better but may overfit"
+        ],
+        "answer": "More complex boundaries can fit training data better but may overfit"
+      },
+      {
+        "question": "What best describes complexity? (after dragging a point, v11)",
+        "options": [
+          "Complexity eliminates noise",
+          "Complexity removes bias",
+          "Complexity always improves test score",
+          "More complex boundaries can fit training data better but may overfit"
+        ],
+        "answer": "More complex boundaries can fit training data better but may overfit"
+      },
+      {
+        "question": "Which option is true about complexity? (after adding noise, v12)",
+        "options": [
+          "More complex boundaries can fit training data better but may overfit",
+          "Complexity always improves test score",
+          "Complexity eliminates noise",
+          "Complexity removes bias"
+        ],
+        "answer": "More complex boundaries can fit training data better but may overfit"
+      },
+      {
+        "question": "In the visualization, which statement matches complexity? (after changing the slider, v13)",
+        "options": [
+          "Complexity eliminates noise",
+          "Complexity removes bias",
+          "More complex boundaries can fit training data better but may overfit",
+          "Complexity always improves test score"
+        ],
+        "answer": "More complex boundaries can fit training data better but may overfit"
+      },
+      {
+        "question": "After changing settings, which statement best explains complexity? (after toggling a setting, v14)",
+        "options": [
+          "Complexity removes bias",
+          "More complex boundaries can fit training data better but may overfit",
+          "Complexity always improves test score",
+          "Complexity eliminates noise"
+        ],
+        "answer": "More complex boundaries can fit training data better but may overfit"
+      },
+      {
+        "question": "Which choice most accurately defines complexity? (using the shown curve, v15)",
+        "options": [
+          "Complexity removes bias",
+          "Complexity always improves test score",
+          "Complexity eliminates noise",
+          "More complex boundaries can fit training data better but may overfit"
+        ],
+        "answer": "More complex boundaries can fit training data better but may overfit"
+      },
+      {
+        "question": "What best describes complexity? (from the scatter pattern, v16)",
+        "options": [
+          "Complexity always improves test score",
+          "Complexity eliminates noise",
+          "Complexity removes bias",
+          "More complex boundaries can fit training data better but may overfit"
+        ],
+        "answer": "More complex boundaries can fit training data better but may overfit"
+      },
+      {
+        "question": "Which option is true about complexity? (based on the plot, v17)",
+        "options": [
+          "Complexity removes bias",
+          "More complex boundaries can fit training data better but may overfit",
+          "Complexity eliminates noise",
+          "Complexity always improves test score"
+        ],
+        "answer": "More complex boundaries can fit training data better but may overfit"
+      },
+      {
+        "question": "In the visualization, which statement matches complexity? (from the animation, v18)",
+        "options": [
+          "Complexity always improves test score",
+          "Complexity removes bias",
+          "More complex boundaries can fit training data better but may overfit",
+          "Complexity eliminates noise"
+        ],
+        "answer": "More complex boundaries can fit training data better but may overfit"
+      },
+      {
+        "question": "After changing settings, which statement best explains complexity? (after dragging a point, v19)",
+        "options": [
+          "More complex boundaries can fit training data better but may overfit",
+          "Complexity eliminates noise",
+          "Complexity removes bias",
+          "Complexity always improves test score"
+        ],
+        "answer": "More complex boundaries can fit training data better but may overfit"
+      },
+      {
+        "question": "Which choice most accurately defines complexity? (after adding noise, v20)",
+        "options": [
+          "Complexity eliminates noise",
+          "More complex boundaries can fit training data better but may overfit",
+          "Complexity removes bias",
+          "Complexity always improves test score"
+        ],
+        "answer": "More complex boundaries can fit training data better but may overfit"
+      },
+      {
+        "question": "What best describes margin? (based on the plot, v1)",
+        "options": [
+          "Margin equals training loss",
+          "Margin is only for regression",
+          "Larger margin typically improves robustness to small perturbations",
+          "Margin reduces precision always"
+        ],
+        "answer": "Larger margin typically improves robustness to small perturbations"
+      },
+      {
+        "question": "Which option is true about margin? (from the animation, v2)",
+        "options": [
+          "Margin reduces precision always",
+          "Larger margin typically improves robustness to small perturbations",
+          "Margin is only for regression",
+          "Margin equals training loss"
+        ],
+        "answer": "Larger margin typically improves robustness to small perturbations"
+      },
+      {
+        "question": "In the visualization, which statement matches margin? (after dragging a point, v3)",
+        "options": [
+          "Larger margin typically improves robustness to small perturbations",
+          "Margin is only for regression",
+          "Margin equals training loss",
+          "Margin reduces precision always"
+        ],
+        "answer": "Larger margin typically improves robustness to small perturbations"
+      },
+      {
+        "question": "After changing settings, which statement best explains margin? (after adding noise, v4)",
+        "options": [
+          "Margin reduces precision always",
+          "Margin is only for regression",
+          "Larger margin typically improves robustness to small perturbations",
+          "Margin equals training loss"
+        ],
+        "answer": "Larger margin typically improves robustness to small perturbations"
+      },
+      {
+        "question": "Which choice most accurately defines margin? (after changing the slider, v5)",
+        "options": [
+          "Margin is only for regression",
+          "Margin reduces precision always",
+          "Margin equals training loss",
+          "Larger margin typically improves robustness to small perturbations"
+        ],
+        "answer": "Larger margin typically improves robustness to small perturbations"
+      },
+      {
+        "question": "What best describes margin? (after toggling a setting, v6)",
+        "options": [
+          "Margin reduces precision always",
+          "Margin is only for regression",
+          "Margin equals training loss",
+          "Larger margin typically improves robustness to small perturbations"
+        ],
+        "answer": "Larger margin typically improves robustness to small perturbations"
+      },
+      {
+        "question": "Which option is true about margin? (using the shown curve, v7)",
+        "options": [
+          "Margin reduces precision always",
+          "Larger margin typically improves robustness to small perturbations",
+          "Margin is only for regression",
+          "Margin equals training loss"
+        ],
+        "answer": "Larger margin typically improves robustness to small perturbations"
+      },
+      {
+        "question": "In the visualization, which statement matches margin? (from the scatter pattern, v8)",
+        "options": [
+          "Larger margin typically improves robustness to small perturbations",
+          "Margin reduces precision always",
+          "Margin is only for regression",
+          "Margin equals training loss"
+        ],
+        "answer": "Larger margin typically improves robustness to small perturbations"
+      },
+      {
+        "question": "After changing settings, which statement best explains margin? (based on the plot, v9)",
+        "options": [
+          "Margin equals training loss",
+          "Larger margin typically improves robustness to small perturbations",
+          "Margin is only for regression",
+          "Margin reduces precision always"
+        ],
+        "answer": "Larger margin typically improves robustness to small perturbations"
+      },
+      {
+        "question": "Which choice most accurately defines margin? (from the animation, v10)",
+        "options": [
+          "Margin is only for regression",
+          "Larger margin typically improves robustness to small perturbations",
+          "Margin reduces precision always",
+          "Margin equals training loss"
+        ],
+        "answer": "Larger margin typically improves robustness to small perturbations"
+      },
+      {
+        "question": "What best describes margin? (after dragging a point, v11)",
+        "options": [
+          "Margin is only for regression",
+          "Larger margin typically improves robustness to small perturbations",
+          "Margin reduces precision always",
+          "Margin equals training loss"
+        ],
+        "answer": "Larger margin typically improves robustness to small perturbations"
+      },
+      {
+        "question": "Which option is true about margin? (after adding noise, v12)",
+        "options": [
+          "Margin equals training loss",
+          "Larger margin typically improves robustness to small perturbations",
+          "Margin reduces precision always",
+          "Margin is only for regression"
+        ],
+        "answer": "Larger margin typically improves robustness to small perturbations"
+      },
+      {
+        "question": "In the visualization, which statement matches margin? (after changing the slider, v13)",
+        "options": [
+          "Margin is only for regression",
+          "Margin reduces precision always",
+          "Larger margin typically improves robustness to small perturbations",
+          "Margin equals training loss"
+        ],
+        "answer": "Larger margin typically improves robustness to small perturbations"
+      },
+      {
+        "question": "After changing settings, which statement best explains margin? (after toggling a setting, v14)",
+        "options": [
+          "Margin is only for regression",
+          "Margin equals training loss",
+          "Margin reduces precision always",
+          "Larger margin typically improves robustness to small perturbations"
+        ],
+        "answer": "Larger margin typically improves robustness to small perturbations"
+      },
+      {
+        "question": "Which choice most accurately defines margin? (using the shown curve, v15)",
+        "options": [
+          "Margin reduces precision always",
+          "Margin is only for regression",
+          "Larger margin typically improves robustness to small perturbations",
+          "Margin equals training loss"
+        ],
+        "answer": "Larger margin typically improves robustness to small perturbations"
+      },
+      {
+        "question": "What best describes margin? (from the scatter pattern, v16)",
+        "options": [
+          "Larger margin typically improves robustness to small perturbations",
+          "Margin is only for regression",
+          "Margin reduces precision always",
+          "Margin equals training loss"
+        ],
+        "answer": "Larger margin typically improves robustness to small perturbations"
+      },
+      {
+        "question": "Which option is true about margin? (based on the plot, v17)",
+        "options": [
+          "Margin reduces precision always",
+          "Larger margin typically improves robustness to small perturbations",
+          "Margin is only for regression",
+          "Margin equals training loss"
+        ],
+        "answer": "Larger margin typically improves robustness to small perturbations"
+      },
+      {
+        "question": "In the visualization, which statement matches margin? (from the animation, v18)",
+        "options": [
+          "Margin is only for regression",
+          "Larger margin typically improves robustness to small perturbations",
+          "Margin reduces precision always",
+          "Margin equals training loss"
+        ],
+        "answer": "Larger margin typically improves robustness to small perturbations"
+      },
+      {
+        "question": "After changing settings, which statement best explains margin? (after dragging a point, v19)",
+        "options": [
+          "Larger margin typically improves robustness to small perturbations",
+          "Margin is only for regression",
+          "Margin reduces precision always",
+          "Margin equals training loss"
+        ],
+        "answer": "Larger margin typically improves robustness to small perturbations"
+      },
+      {
+        "question": "Which choice most accurately defines margin? (after adding noise, v20)",
+        "options": [
+          "Margin is only for regression",
+          "Margin equals training loss",
+          "Larger margin typically improves robustness to small perturbations",
+          "Margin reduces precision always"
+        ],
+        "answer": "Larger margin typically improves robustness to small perturbations"
+      },
+      {
+        "question": "What best describes sensitivity? (based on the plot, v1)",
+        "options": [
+          "Sensitivity means fewer features",
+          "High sensitivity means small changes in data can drastically change the boundary",
+          "Sensitivity means better calibration",
+          "Sensitivity means no variance"
+        ],
+        "answer": "High sensitivity means small changes in data can drastically change the boundary"
+      },
+      {
+        "question": "Which option is true about sensitivity? (from the animation, v2)",
+        "options": [
+          "High sensitivity means small changes in data can drastically change the boundary",
+          "Sensitivity means fewer features",
+          "Sensitivity means better calibration",
+          "Sensitivity means no variance"
+        ],
+        "answer": "High sensitivity means small changes in data can drastically change the boundary"
+      },
+      {
+        "question": "In the visualization, which statement matches sensitivity? (after dragging a point, v3)",
+        "options": [
+          "Sensitivity means no variance",
+          "Sensitivity means fewer features",
+          "Sensitivity means better calibration",
+          "High sensitivity means small changes in data can drastically change the boundary"
+        ],
+        "answer": "High sensitivity means small changes in data can drastically change the boundary"
+      },
+      {
+        "question": "After changing settings, which statement best explains sensitivity? (after adding noise, v4)",
+        "options": [
+          "Sensitivity means no variance",
+          "Sensitivity means fewer features",
+          "High sensitivity means small changes in data can drastically change the boundary",
+          "Sensitivity means better calibration"
+        ],
+        "answer": "High sensitivity means small changes in data can drastically change the boundary"
+      },
+      {
+        "question": "Which choice most accurately defines sensitivity? (after changing the slider, v5)",
+        "options": [
+          "High sensitivity means small changes in data can drastically change the boundary",
+          "Sensitivity means no variance",
+          "Sensitivity means fewer features",
+          "Sensitivity means better calibration"
+        ],
+        "answer": "High sensitivity means small changes in data can drastically change the boundary"
+      },
+      {
+        "question": "What best describes sensitivity? (after toggling a setting, v6)",
+        "options": [
+          "Sensitivity means fewer features",
+          "Sensitivity means better calibration",
+          "High sensitivity means small changes in data can drastically change the boundary",
+          "Sensitivity means no variance"
+        ],
+        "answer": "High sensitivity means small changes in data can drastically change the boundary"
+      },
+      {
+        "question": "Which option is true about sensitivity? (using the shown curve, v7)",
+        "options": [
+          "Sensitivity means better calibration",
+          "Sensitivity means no variance",
+          "Sensitivity means fewer features",
+          "High sensitivity means small changes in data can drastically change the boundary"
+        ],
+        "answer": "High sensitivity means small changes in data can drastically change the boundary"
+      },
+      {
+        "question": "In the visualization, which statement matches sensitivity? (from the scatter pattern, v8)",
+        "options": [
+          "High sensitivity means small changes in data can drastically change the boundary",
+          "Sensitivity means fewer features",
+          "Sensitivity means no variance",
+          "Sensitivity means better calibration"
+        ],
+        "answer": "High sensitivity means small changes in data can drastically change the boundary"
+      },
+      {
+        "question": "After changing settings, which statement best explains sensitivity? (based on the plot, v9)",
+        "options": [
+          "High sensitivity means small changes in data can drastically change the boundary",
+          "Sensitivity means better calibration",
+          "Sensitivity means fewer features",
+          "Sensitivity means no variance"
+        ],
+        "answer": "High sensitivity means small changes in data can drastically change the boundary"
+      },
+      {
+        "question": "Which choice most accurately defines sensitivity? (from the animation, v10)",
+        "options": [
+          "High sensitivity means small changes in data can drastically change the boundary",
+          "Sensitivity means fewer features",
+          "Sensitivity means better calibration",
+          "Sensitivity means no variance"
+        ],
+        "answer": "High sensitivity means small changes in data can drastically change the boundary"
+      },
+      {
+        "question": "What best describes sensitivity? (after dragging a point, v11)",
+        "options": [
+          "High sensitivity means small changes in data can drastically change the boundary",
+          "Sensitivity means fewer features",
+          "Sensitivity means better calibration",
+          "Sensitivity means no variance"
+        ],
+        "answer": "High sensitivity means small changes in data can drastically change the boundary"
+      },
+      {
+        "question": "Which option is true about sensitivity? (after adding noise, v12)",
+        "options": [
+          "Sensitivity means fewer features",
+          "High sensitivity means small changes in data can drastically change the boundary",
+          "Sensitivity means better calibration",
+          "Sensitivity means no variance"
+        ],
+        "answer": "High sensitivity means small changes in data can drastically change the boundary"
+      },
+      {
+        "question": "In the visualization, which statement matches sensitivity? (after changing the slider, v13)",
+        "options": [
+          "Sensitivity means fewer features",
+          "Sensitivity means better calibration",
+          "High sensitivity means small changes in data can drastically change the boundary",
+          "Sensitivity means no variance"
+        ],
+        "answer": "High sensitivity means small changes in data can drastically change the boundary"
+      },
+      {
+        "question": "After changing settings, which statement best explains sensitivity? (after toggling a setting, v14)",
+        "options": [
+          "Sensitivity means no variance",
+          "Sensitivity means better calibration",
+          "Sensitivity means fewer features",
+          "High sensitivity means small changes in data can drastically change the boundary"
+        ],
+        "answer": "High sensitivity means small changes in data can drastically change the boundary"
+      },
+      {
+        "question": "Which choice most accurately defines sensitivity? (using the shown curve, v15)",
+        "options": [
+          "Sensitivity means better calibration",
+          "Sensitivity means no variance",
+          "Sensitivity means fewer features",
+          "High sensitivity means small changes in data can drastically change the boundary"
+        ],
+        "answer": "High sensitivity means small changes in data can drastically change the boundary"
+      },
+      {
+        "question": "What best describes sensitivity? (from the scatter pattern, v16)",
+        "options": [
+          "Sensitivity means no variance",
+          "High sensitivity means small changes in data can drastically change the boundary",
+          "Sensitivity means fewer features",
+          "Sensitivity means better calibration"
+        ],
+        "answer": "High sensitivity means small changes in data can drastically change the boundary"
+      },
+      {
+        "question": "Which option is true about sensitivity? (based on the plot, v17)",
+        "options": [
+          "Sensitivity means no variance",
+          "Sensitivity means better calibration",
+          "High sensitivity means small changes in data can drastically change the boundary",
+          "Sensitivity means fewer features"
+        ],
+        "answer": "High sensitivity means small changes in data can drastically change the boundary"
+      },
+      {
+        "question": "In the visualization, which statement matches sensitivity? (from the animation, v18)",
+        "options": [
+          "Sensitivity means better calibration",
+          "Sensitivity means no variance",
+          "Sensitivity means fewer features",
+          "High sensitivity means small changes in data can drastically change the boundary"
+        ],
+        "answer": "High sensitivity means small changes in data can drastically change the boundary"
+      },
+      {
+        "question": "After changing settings, which statement best explains sensitivity? (after dragging a point, v19)",
+        "options": [
+          "Sensitivity means better calibration",
+          "High sensitivity means small changes in data can drastically change the boundary",
+          "Sensitivity means fewer features",
+          "Sensitivity means no variance"
+        ],
+        "answer": "High sensitivity means small changes in data can drastically change the boundary"
+      },
+      {
+        "question": "Which choice most accurately defines sensitivity? (after adding noise, v20)",
+        "options": [
+          "Sensitivity means fewer features",
+          "High sensitivity means small changes in data can drastically change the boundary",
+          "Sensitivity means no variance",
+          "Sensitivity means better calibration"
+        ],
+        "answer": "High sensitivity means small changes in data can drastically change the boundary"
+      },
+      {
+        "question": "What best describes regularization effect? (based on the plot, v1)",
+        "options": [
+          "Regularization increases missing data",
+          "Regularization makes boundaries jagged",
+          "Regularization makes labels disappear",
+          "Regularization generally smooths/simplifies decision boundaries"
+        ],
+        "answer": "Regularization generally smooths/simplifies decision boundaries"
+      },
+      {
+        "question": "Which option is true about regularization effect? (from the animation, v2)",
+        "options": [
+          "Regularization increases missing data",
+          "Regularization generally smooths/simplifies decision boundaries",
+          "Regularization makes boundaries jagged",
+          "Regularization makes labels disappear"
+        ],
+        "answer": "Regularization generally smooths/simplifies decision boundaries"
+      },
+      {
+        "question": "In the visualization, which statement matches regularization effect? (after dragging a point, v3)",
+        "options": [
+          "Regularization generally smooths/simplifies decision boundaries",
+          "Regularization increases missing data",
+          "Regularization makes boundaries jagged",
+          "Regularization makes labels disappear"
+        ],
+        "answer": "Regularization generally smooths/simplifies decision boundaries"
+      },
+      {
+        "question": "After changing settings, which statement best explains regularization effect? (after adding noise, v4)",
+        "options": [
+          "Regularization makes boundaries jagged",
+          "Regularization increases missing data",
+          "Regularization generally smooths/simplifies decision boundaries",
+          "Regularization makes labels disappear"
+        ],
+        "answer": "Regularization generally smooths/simplifies decision boundaries"
+      },
+      {
+        "question": "Which choice most accurately defines regularization effect? (after changing the slider, v5)",
+        "options": [
+          "Regularization increases missing data",
+          "Regularization makes boundaries jagged",
+          "Regularization makes labels disappear",
+          "Regularization generally smooths/simplifies decision boundaries"
+        ],
+        "answer": "Regularization generally smooths/simplifies decision boundaries"
+      },
+      {
+        "question": "What best describes regularization effect? (after toggling a setting, v6)",
+        "options": [
+          "Regularization makes boundaries jagged",
+          "Regularization makes labels disappear",
+          "Regularization increases missing data",
+          "Regularization generally smooths/simplifies decision boundaries"
+        ],
+        "answer": "Regularization generally smooths/simplifies decision boundaries"
+      },
+      {
+        "question": "Which option is true about regularization effect? (using the shown curve, v7)",
+        "options": [
+          "Regularization makes labels disappear",
+          "Regularization generally smooths/simplifies decision boundaries",
+          "Regularization increases missing data",
+          "Regularization makes boundaries jagged"
+        ],
+        "answer": "Regularization generally smooths/simplifies decision boundaries"
+      },
+      {
+        "question": "In the visualization, which statement matches regularization effect? (from the scatter pattern, v8)",
+        "options": [
+          "Regularization increases missing data",
+          "Regularization generally smooths/simplifies decision boundaries",
+          "Regularization makes labels disappear",
+          "Regularization makes boundaries jagged"
+        ],
+        "answer": "Regularization generally smooths/simplifies decision boundaries"
+      },
+      {
+        "question": "After changing settings, which statement best explains regularization effect? (based on the plot, v9)",
+        "options": [
+          "Regularization generally smooths/simplifies decision boundaries",
+          "Regularization makes boundaries jagged",
+          "Regularization increases missing data",
+          "Regularization makes labels disappear"
+        ],
+        "answer": "Regularization generally smooths/simplifies decision boundaries"
+      },
+      {
+        "question": "Which choice most accurately defines regularization effect? (from the animation, v10)",
+        "options": [
+          "Regularization makes labels disappear",
+          "Regularization increases missing data",
+          "Regularization generally smooths/simplifies decision boundaries",
+          "Regularization makes boundaries jagged"
+        ],
+        "answer": "Regularization generally smooths/simplifies decision boundaries"
+      },
+      {
+        "question": "What best describes regularization effect? (after dragging a point, v11)",
+        "options": [
+          "Regularization makes labels disappear",
+          "Regularization generally smooths/simplifies decision boundaries",
+          "Regularization makes boundaries jagged",
+          "Regularization increases missing data"
+        ],
+        "answer": "Regularization generally smooths/simplifies decision boundaries"
+      },
+      {
+        "question": "Which option is true about regularization effect? (after adding noise, v12)",
+        "options": [
+          "Regularization makes boundaries jagged",
+          "Regularization generally smooths/simplifies decision boundaries",
+          "Regularization increases missing data",
+          "Regularization makes labels disappear"
+        ],
+        "answer": "Regularization generally smooths/simplifies decision boundaries"
+      },
+      {
+        "question": "In the visualization, which statement matches regularization effect? (after changing the slider, v13)",
+        "options": [
+          "Regularization makes boundaries jagged",
+          "Regularization increases missing data",
+          "Regularization generally smooths/simplifies decision boundaries",
+          "Regularization makes labels disappear"
+        ],
+        "answer": "Regularization generally smooths/simplifies decision boundaries"
+      },
+      {
+        "question": "After changing settings, which statement best explains regularization effect? (after toggling a setting, v14)",
+        "options": [
+          "Regularization makes boundaries jagged",
+          "Regularization generally smooths/simplifies decision boundaries",
+          "Regularization increases missing data",
+          "Regularization makes labels disappear"
+        ],
+        "answer": "Regularization generally smooths/simplifies decision boundaries"
+      },
+      {
+        "question": "Which choice most accurately defines regularization effect? (using the shown curve, v15)",
+        "options": [
+          "Regularization generally smooths/simplifies decision boundaries",
+          "Regularization makes labels disappear",
+          "Regularization makes boundaries jagged",
+          "Regularization increases missing data"
+        ],
+        "answer": "Regularization generally smooths/simplifies decision boundaries"
+      },
+      {
+        "question": "What best describes regularization effect? (from the scatter pattern, v16)",
+        "options": [
+          "Regularization generally smooths/simplifies decision boundaries",
+          "Regularization makes boundaries jagged",
+          "Regularization increases missing data",
+          "Regularization makes labels disappear"
+        ],
+        "answer": "Regularization generally smooths/simplifies decision boundaries"
+      },
+      {
+        "question": "Which option is true about regularization effect? (based on the plot, v17)",
+        "options": [
+          "Regularization generally smooths/simplifies decision boundaries",
+          "Regularization increases missing data",
+          "Regularization makes boundaries jagged",
+          "Regularization makes labels disappear"
+        ],
+        "answer": "Regularization generally smooths/simplifies decision boundaries"
+      },
+      {
+        "question": "In the visualization, which statement matches regularization effect? (from the animation, v18)",
+        "options": [
+          "Regularization generally smooths/simplifies decision boundaries",
+          "Regularization increases missing data",
+          "Regularization makes boundaries jagged",
+          "Regularization makes labels disappear"
+        ],
+        "answer": "Regularization generally smooths/simplifies decision boundaries"
+      },
+      {
+        "question": "After changing settings, which statement best explains regularization effect? (after dragging a point, v19)",
+        "options": [
+          "Regularization makes labels disappear",
+          "Regularization generally smooths/simplifies decision boundaries",
+          "Regularization increases missing data",
+          "Regularization makes boundaries jagged"
+        ],
+        "answer": "Regularization generally smooths/simplifies decision boundaries"
+      },
+      {
+        "question": "Which choice most accurately defines regularization effect? (after adding noise, v20)",
+        "options": [
+          "Regularization makes boundaries jagged",
+          "Regularization makes labels disappear",
+          "Regularization increases missing data",
+          "Regularization generally smooths/simplifies decision boundaries"
+        ],
+        "answer": "Regularization generally smooths/simplifies decision boundaries"
+      }
+    ]
+  }
+}
