@@ -1,5 +1,5 @@
 """
-Flowlogic 2.0 — Gemini AI Client with Function Calling
+subgrad 2.0 — Gemini AI Client with Function Calling
 ========================================================
 
 This module bridges the Gemini LLM and the deterministic SymPy math engine.
@@ -18,9 +18,9 @@ to perform any mathematical operation. This module:
   2. Dispatches tool calls to the real SymPy engine
   3. Manages the multi-turn conversation loop with automatic tool execution
 
-Ref: Flowlogic-Architecture-Guide.md §2, §4
-     Flowlogic-2.0-Master-PRD.md §3 (Zero-Hallucination), §4.A (Socratic Dialogue)
-     Flowlogic-2.0-Master-PRD.md §5 (Data Flow steps 3–6)
+Ref: subgrad-Architecture-Guide.md §2, §4
+     subgrad-2.0-Master-PRD.md §3 (Zero-Hallucination), §4.A (Socratic Dialogue)
+     subgrad-2.0-Master-PRD.md §5 (Data Flow steps 3–6)
 """
 
 import json
@@ -58,8 +58,8 @@ _TOOL_DECLARATIONS = [
             description=(
                 "Compute the n-th derivative of a mathematical expression with respect "
                 "to a given variable. MUST be called for ANY differentiation — the tutor "
-                "is prohibited from computing derivatives in prose. Returns the derivative "
-                "in both string and LaTeX forms."
+                "is prohibited from computing derivatives in prose. Supports partial derivatives. "
+                "Returns the derivative in both string and LaTeX forms."
             ),
             parameters=types.Schema(
                 type=types.Type.OBJECT,
@@ -71,9 +71,9 @@ _TOOL_DECLARATIONS = [
                             "e.g., 'x**2 + sin(x)', 'x*cos(x)', 'exp(-x**2)'."
                         ),
                     ),
-                    "variable": types.Schema(
+                    "respect_to": types.Schema(
                         type=types.Type.STRING,
-                        description="The variable to differentiate with respect to. Default: 'x'.",
+                        description="The variable to compute the partial derivative with respect to. Default: 'x'.",
                     ),
                     "order": types.Schema(
                         type=types.Type.INTEGER,
@@ -156,8 +156,44 @@ _TOOL_DECLARATIONS = [
                 required=["expression"],
             ),
         ),
+        types.FunctionDeclaration(
+            name="record_outcome",
+            description=(
+                "Record the pedagogical outcome of the user's current step or answer. "
+                "Call this EXACTLY ONCE per user submission that you have judged as "
+                "correct or incorrect using check_equivalence/compute_derivative/"
+                "compute_integral — never judge by inspection, and never call this "
+                "for clarifying questions where the user hasn't submitted an answer "
+                "yet. This drives hint escalation and progress tracking; it does NOT "
+                "change how you should respond — keep composing your Socratic reply "
+                "exactly as the system prompt instructs."
+            ),
+            parameters=types.Schema(
+                type=types.Type.OBJECT,
+                properties={
+                    "is_correct": types.Schema(
+                        type=types.Type.BOOLEAN,
+                        description="Whether the user's step/answer was correct.",
+                    ),
+                    "error_category": types.Schema(
+                        type=types.Type.STRING,
+                        description=(
+                            "Required when is_correct is false: one of 'syntax', "
+                            "'arithmetic', 'conceptual'. Omit when is_correct is true."
+                        ),
+                    ),
+                },
+                required=["is_correct"],
+            ),
+        ),
     ]),
 ]
+
+# Tools that mutate pedagogical session state rather than performing math —
+# handled directly in the send_message loop (they need `session`) and
+# deliberately excluded from `tools_used`, which the frontend treats as
+# "a SymPy verification ran this turn" (drives the trust badge + streak/XP).
+_SESSION_STATE_TOOLS = {"record_outcome"}
 
 
 # ── Tool Dispatch ─────────────────────────────────────────────────────────────
@@ -176,11 +212,13 @@ def _dispatch_tool_call(function_name: str, arguments: dict) -> dict:
     Returns:
         A dictionary containing the tool result.
     """
+    print(f"\n[SYMPY ENGINE] [*] Tool called: {function_name} | Args: {arguments}\n")
+
     try:
         if function_name == "compute_derivative":
             return compute_derivative(
                 expr_str=arguments["expression"],
-                variable=arguments.get("variable", "x"),
+                respect_to=arguments.get("respect_to", "x"),
                 order=arguments.get("order", 1),
             )
 
@@ -254,7 +292,7 @@ class GeminiSocraticTutor:
         self,
         user_message: str,
         session: Session,
-    ) -> str:
+    ) -> tuple[str, list[str], Optional[dict]]:
         """
         Send a user message and get a Socratic tutor response.
 
@@ -273,7 +311,9 @@ class GeminiSocraticTutor:
             session: The current Session object with conversation history.
 
         Returns:
-            The tutor's text response (Socratic, with LaTeX).
+            (tutor_response_text, sympy_tools_used, outcome) where outcome is
+            {"is_correct": bool, "error_category": str|None} if Gemini called
+            record_outcome this turn, else None.
         """
         # Record the user message
         session.add_message(MessageRole.USER, user_message)
@@ -283,6 +323,11 @@ class GeminiSocraticTutor:
 
         # Build the conversation contents from session history
         contents = self._build_contents(session)
+
+        # Track which SymPy tools were invoked during this turn, and any
+        # pedagogical outcome Gemini recorded (see _SESSION_STATE_TOOLS).
+        tools_used = []
+        outcome: Optional[dict] = None
 
         # Configure generation
         config = types.GenerateContentConfig(
@@ -319,11 +364,23 @@ class GeminiSocraticTutor:
                 tool_results = []
                 for part in function_calls:
                     fc = part.function_call
-                    logger.info(
-                        f"Tool call: {fc.name}({json.dumps(dict(fc.args), default=str)})"
-                    )
+                    args = dict(fc.args)
+                    logger.info(f"Tool call: {fc.name}({json.dumps(args, default=str)})")
 
-                    result = _dispatch_tool_call(fc.name, dict(fc.args))
+                    if fc.name in _SESSION_STATE_TOOLS:
+                        # Mutates pedagogical session state directly — not a math
+                        # tool, so it never enters `tools_used`.
+                        is_correct = bool(args.get("is_correct"))
+                        category = args.get("error_category")
+                        if is_correct:
+                            session.record_correct()
+                        else:
+                            session.record_error(category or "conceptual")
+                        outcome = {"is_correct": is_correct, "error_category": None if is_correct else (category or "conceptual")}
+                        result = {"recorded": True}
+                    else:
+                        result = _dispatch_tool_call(fc.name, args)
+                        tools_used.append(fc.name)
 
                     logger.info(f"Tool result for {fc.name}: {json.dumps(result, default=str)[:200]}")
 
@@ -356,17 +413,21 @@ class GeminiSocraticTutor:
             # Record the tutor's response in session history
             session.add_message(MessageRole.TUTOR, final_text)
 
-            return final_text
+            return final_text, tools_used, outcome
 
         except Exception as e:
             logger.error(f"Gemini API call failed: {e}", exc_info=True)
-            error_msg = (
-                "I encountered a technical issue connecting to my reasoning engine. "
-                "Please try your question again. If this persists, check that the "
-                "API key is configured correctly."
-            )
-            session.add_message(MessageRole.SYSTEM, f"ERROR: {str(e)}")
-            return error_msg
+            error_str = str(e)
+            if "429" in error_str or "RESOURCE_EXHAUSTED" in error_str:
+                error_msg = "Whoa there, speedster. We hit the free-tier speed limit. Give me about 60 seconds to catch my breath before the next math problem."
+            else:
+                error_msg = (
+                    "I encountered a technical issue connecting to my reasoning engine. "
+                    "Please try your question again. If this persists, check that the "
+                    "API key is configured correctly."
+                )
+            session.add_message(MessageRole.SYSTEM, f"ERROR: {error_str}")
+            return error_msg, [], None
 
     def _build_system_instruction(self, session: Session) -> str:
         """

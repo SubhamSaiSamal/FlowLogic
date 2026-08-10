@@ -1,11 +1,11 @@
-# Flowlogic 2.0: Master Product Requirements Document (PRD)
+# subgrad 2.0: Master Product Requirements Document (PRD)
 
 ---
 
 ## 1. Executive Summary & Product Vision
 The current landscape of mathematical and machine learning education is fundamentally broken. Traditional platforms emphasize rote memorization and symbol manipulation without providing the geometric intuition necessary to actually build and debug neural networks. On the other end of the spectrum, naive LLM wrappers simply act as answer engines, hallucinating complex integration steps and depriving users of the productive struggle required for genuine learning. 
 
-Flowlogic 2.0 is designed to bridge this gap. It is an interactive, AI-driven learning environment meticulously engineered to teach Calculus and Machine Learning through guided discovery. The primary mandate of this platform is to act as an "Intuition Engine." We are engineering this for high-level rigor—the kind of logic you need to survive INAIO and ZCO. Flowlogic will not just show a user the formula for gradient descent; it will force them to manipulate the geometry of a loss surface, compute the partial derivatives step-by-step through a deterministic verifier, and engage in Socratic dialogue with an AI tutor that strictly refuses to hand over the final answer.
+subgrad 2.0 is designed to bridge this gap. It is an interactive, AI-driven learning environment meticulously engineered to teach Calculus and Machine Learning through guided discovery. The primary mandate of this platform is to act as an "Intuition Engine." We are engineering this for high-level rigor—the kind of logic you need to survive INAIO and ZCO. subgrad will not just show a user the formula for gradient descent; it will force them to manipulate the geometry of a loss surface, compute the partial derivatives step-by-step through a deterministic verifier, and engage in Socratic dialogue with an AI tutor that strictly refuses to hand over the final answer.
 
 ## 2. Target Audience & User Personas
 To maintain a razor-sharp product focus over the next 100 hours of development, we must design for highly specific personas rather than a generalized audience.
@@ -15,7 +15,7 @@ To maintain a razor-sharp product focus over the next 100 hours of development, 
 *   **The Pragmatic Developer:** A software engineer transitioning into machine learning who needs to understand the math behind the APIs (PyTorch, TensorFlow) they are calling. They care about practical application over pure academic theory.
 
 ## 3. Core Architectural Tenets (The Rules of Engagement)
-Flowlogic 2.0 operates on a strict decoupling of probabilistic generation and deterministic logic. 
+subgrad 2.0 operates on a strict decoupling of probabilistic generation and deterministic logic. 
 
 1.  **The Zero-Hallucination Mandate:** The AI (LLM) is strictly prohibited from executing mathematical operations. It cannot integrate, differentiate, or perform matrix multiplication. All mathematical claims must be generated, verified, and validated by a dedicated, deterministic backend engine (e.g., Python's SymPy or NumPy).
 2.  **Socratic Strictness:** The AI agent's system prompt must enforce a pedagogical framework. If a user asks, "What is the derivative of $f(x) = x^2 \sin(x)$?", the system will not provide the answer. Instead, it will identify that the product rule is required and prompt the user to state the rule or identify the component functions.
@@ -89,7 +89,7 @@ Flowlogic 2.0 operates on a strict decoupling of probabilistic generation and de
 *   Finalize documentation and prepare for deployment.
 
 ## 7. Success Metrics & Telemetry
-To objectively measure if Flowlogic 2.0 is successful, we will track the following:
+To objectively measure if subgrad 2.0 is successful, we will track the following:
 *   **Zero-Hallucination Rate:** 100% of mathematical claims made by the system must be backed by the SymPy engine.
 *   **Concept Mastery Time:** The average time it takes a user to successfully complete a guided derivation without asking for the final answer.
 *   **Widget Engagement:** The frequency and duration of user interaction with the 3D and 2D visual modules compared to the text-based chat.

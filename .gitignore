@@ -1,0 +1,48 @@
+# ── Secrets ──────────────────────────────────────────────────────────────────
+# Never commit these. backend/.env holds a live GEMINI_API_KEY.
+.env
+.env.*
+*.env
+!.env.example
+!*.env.example
+
+# Local agent/tooling config — .gemini/settings.json carries a live API key
+# in an MCP request header, so this directory must never be published.
+.gemini/
+.claude/settings.local.json
+
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+.coverage
+htmlcov/
+
+# Virtualenvs
+venv/
+.venv/
+env/
+ENV/
+
+# ── Node / frontend ──────────────────────────────────────────────────────────
+node_modules/
+dist/
+dist-ssr/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ── Editors / OS ─────────────────────────────────────────────────────────────
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo

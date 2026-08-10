@@ -1,7 +1,7 @@
-# Flowlogic 2.0: Core Architecture & Agent Guardrails
+# subgrad 2.0: Core Architecture & Agent Guardrails
 
 ## 1. Project Philosophy
-Flowlogic is a premium, interactive educational platform designed to teach Calculus and Machine Learning. The primary directive is to build intuition, not just push symbols. 
+subgrad is a premium, interactive educational platform designed to teach Calculus and Machine Learning. The primary directive is to build intuition, not just push symbols. 
 
 ## 2. The Golden Rule of Math (Zero Hallucination Policy)
 - **LLMs DO NOT DO MATH.** - The AI agent must never calculate derivatives, integrals, or matrix multiplications on the fly. 

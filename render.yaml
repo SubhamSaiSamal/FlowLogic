@@ -1,0 +1,21 @@
+# Render Blueprint — deploys the subgrad FastAPI backend.
+# In the Render dashboard: New > Blueprint > connect this repo > it auto-detects
+# this file. Set GEMINI_API_KEY and CORS_ORIGINS as secrets when prompted
+# (left blank here on purpose — `sync: false` means "ask at deploy time").
+services:
+  - type: web
+    name: subgrad-backend
+    runtime: python
+    rootDir: backend
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: GEMINI_MODEL
+        value: gemini-2.5-flash
+      - key: CORS_ORIGINS
+        sync: false
+      - key: DEBUG
+        value: "false"
