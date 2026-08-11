@@ -109,12 +109,14 @@ export default function HeroMiniCompiler() {
 
   return (
     <motion.div
-      className="overflow-hidden rounded-lg border bg-slate-900 shadow-2xl ring-1 ring-white/5"
+      /* panel-dark keeps this editor dark on the light landing page —
+         see the scoped theme in index.css. */
+      className="panel-dark overflow-hidden rounded-lg border bg-slate-900 shadow-2xl ring-1 ring-black/5"
       animate={{
-        borderColor: valid ? "rgba(52,173,112,0.35)" : "rgb(30,41,59)",
+        borderColor: valid ? "rgba(52,173,112,0.35)" : "rgb(41,37,36)",
         boxShadow: valid
-          ? "0 25px 50px -12px rgba(0,0,0,0.5), 0 0 40px -12px rgba(52,173,112,0.4)"
-          : "0 25px 50px -12px rgba(0,0,0,0.5)",
+          ? "0 24px 48px -20px rgba(27,23,20,0.45), 0 0 40px -14px rgba(52,173,112,0.35)"
+          : "0 24px 48px -20px rgba(27,23,20,0.45)",
       }}
       transition={{ duration: 0.4 }}
     >

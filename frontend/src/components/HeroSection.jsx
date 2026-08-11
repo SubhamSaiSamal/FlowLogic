@@ -49,21 +49,22 @@ export default function HeroSection({ onStart, onLabs }) {
       onPointerLeave={onPointerLeave}
       className="relative min-h-[calc(100vh-4rem)] w-full overflow-hidden bg-slate-950 text-slate-300 font-sans"
     >
-      {/* Graph-paper dot grid */}
+      {/* Graph-paper dot grid — darker ink than the dark-mode version,
+          since a 4%-alpha dot is invisible on paper. */}
       <div
         className="pointer-events-none absolute inset-0"
         style={{
-          backgroundImage: "radial-gradient(rgba(52,173,112,0.045) 1px, transparent 1px)",
+          backgroundImage: "radial-gradient(rgba(27,23,20,0.10) 1px, transparent 1px)",
           backgroundSize: "32px 32px",
         }}
       />
-      {/* Spring-tracked emerald glow (GPU transform only) */}
+      {/* Spring-tracked cursor wash. On a light page a blurred green
+          blob reads as a smudge, so this is a soft warm-white lift
+          rather than the dark-mode glow. */}
       <motion.div
         style={{ x, y, opacity: glowOpacity }}
-        className="pointer-events-none absolute left-0 top-0 h-[600px] w-[600px] rounded-full bg-emerald-500/[0.08] blur-[120px] will-change-transform"
+        className="pointer-events-none absolute left-0 top-0 h-[600px] w-[600px] rounded-full bg-white/50 blur-[120px] will-change-transform"
       />
-      {/* Static emerald wash behind the visual */}
-      <div className="pointer-events-none absolute right-0 top-1/4 h-[480px] w-[480px] rounded-full bg-emerald-500/[0.05] blur-[120px]" />
 
       {/* ── Hero body ── */}
       <div className="relative mx-auto grid max-w-7xl grid-cols-1 items-center gap-12 px-6 py-16 lg:grid-cols-[52fr_48fr] lg:py-24">
