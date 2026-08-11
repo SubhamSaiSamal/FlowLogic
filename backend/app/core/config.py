@@ -51,8 +51,15 @@ class Settings(BaseSettings):
         return v
 
     # ── Gemini AI (Phase 2 — Socratic Tutor) ────────────────────────────────
+    # gemini-2.5-flash was retired for new API keys/projects (still works for
+    # older grandfathered ones, which is why this stayed hidden in dev — see
+    # MVP_SPRINT_LOG.md). gemini-3.6-flash is the current stable (non-preview)
+    # flash-tier model as of Aug 2026, confirmed available to a freshly-created
+    # key: cheaper output tokens than 2.5-flash was, and explicitly built for
+    # agentic/tool-calling workloads, which is exactly what the Socratic
+    # function-calling loop in gemini_client.py needs.
     GEMINI_API_KEY: str = ""
-    GEMINI_MODEL: str = "gemini-2.5-flash"
+    GEMINI_MODEL: str = "gemini-3.6-flash"
 
 
 # Singleton — import this everywhere
