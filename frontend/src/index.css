@@ -1,9 +1,40 @@
 @import "tailwindcss";
 
 @theme {
-  --color-slate-850: #141b2d;
-  --color-slate-900: #0f172a;
-  --color-slate-950: #020617;
+  /* ── Neutrals ────────────────────────────────────────────────
+     Warm charcoal, not blue-black. The stock slate-950 (#020617)
+     + mint-emerald combo is the single most recognisable
+     AI-generated palette going right now; warming the neutrals is
+     what actually kills that read. Overriding the scale here means
+     every existing `slate-*` class shifts at once — no hunting
+     hex codes through 30 components, and the app stays consistent
+     with the landing page for free. */
+  --color-slate-100: #f4f1f0;
+  --color-slate-200: #e7e3e1;
+  --color-slate-300: #d2ccc9;
+  --color-slate-400: #a39c98;
+  --color-slate-500: #78706c;
+  --color-slate-600: #5a5350;
+  --color-slate-700: #443f3d;
+  --color-slate-800: #292524;
+  --color-slate-850: #201d1c;
+  --color-slate-900: #171514;
+  --color-slate-950: #0b0a0a;
+
+  /* ── Accent ──────────────────────────────────────────────────
+     Kept green because it carries real meaning here (a verified
+     step, a valid shape) — amber would read as a warning next to
+     the red error states. But shifted off Tailwind's stock mint
+     toward a deeper leaf-green that sits properly on warm
+     neutrals instead of glowing off them. */
+  --color-emerald-300: #86d9a0;
+  --color-emerald-400: #52c98a;
+  --color-emerald-500: #34ad70;
+  --color-emerald-600: #268a58;
+  --color-emerald-700: #1f6b46;
+  --color-emerald-800: #1d4a33;
+  --color-emerald-900: #143026;
+
   --color-zinc-900: #18181b;
   --color-zinc-950: #09090b;
 
@@ -58,8 +89,8 @@
 }
 
 @keyframes heroDotPulse {
-  0%, 100% { opacity: 1;   box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.55); }
-  50%      { opacity: 0.55; box-shadow: 0 0 0 5px rgba(16, 185, 129, 0); }
+  0%, 100% { opacity: 1;   box-shadow: 0 0 0 0 rgba(52, 173, 112, 0.55); }
+  50%      { opacity: 0.55; box-shadow: 0 0 0 5px rgba(52, 173, 112, 0); }
 }
 
 @keyframes heroCaret {
@@ -93,8 +124,8 @@
 .edge-flow-ok { animation: edgeDashFlow 0.7s linear infinite; }
 
 @keyframes ctaPulse {
-  0%, 100% { box-shadow: 0 0 18px rgba(16, 185, 129, 0.35), 0 0 0 0 rgba(16, 185, 129, 0.45); }
-  50%      { box-shadow: 0 0 28px rgba(16, 185, 129, 0.6), 0 0 0 6px rgba(16, 185, 129, 0); }
+  0%, 100% { box-shadow: 0 0 18px rgba(52, 173, 112, 0.35), 0 0 0 0 rgba(52, 173, 112, 0.45); }
+  50%      { box-shadow: 0 0 28px rgba(52, 173, 112, 0.6), 0 0 0 6px rgba(52, 173, 112, 0); }
 }
 .cta-pulse { animation: ctaPulse 2.4s ease-in-out infinite; }
 

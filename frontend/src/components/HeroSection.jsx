@@ -3,11 +3,16 @@ import HeroMiniCompiler from "./landing/HeroMiniCompiler";
 import { container, fadeUp, EASE } from "./landing/motion";
 
 /* ──────────────────────────────────────────────────────────
-   FlowLogic — Hero / landing section
-   Dark terminal aesthetic · emerald accent · sharp corners.
+   subgrad — Hero / landing section
+   Warm-charcoal terminal aesthetic · leaf-green accent · sharp corners.
    Staggered framer-motion entrance + a spring-tracked mouse glow.
-   The right pane is an interactive Mini-Compiler that lets the
-   visitor heal a real nn.Linear shape mismatch — show, don't tell.
+   The right pane is an interactive shape checker that lets the
+   visitor fix a real nn.Linear mismatch — show, don't tell.
+
+   Copy leads with the LABS, not the tutor. The Show HN base rates
+   are lopsided on this: ~25 "AI tutor" posts landed at 1-5 points,
+   while interactive-explorable framing cleared 119+. Lead with the
+   thing nobody else has.
    ────────────────────────────────────────────────────────── */
 
 function ProofBadge({ children }) {
@@ -48,7 +53,7 @@ export default function HeroSection({ onStart, onLabs }) {
       <div
         className="pointer-events-none absolute inset-0"
         style={{
-          backgroundImage: "radial-gradient(rgba(16,185,129,0.045) 1px, transparent 1px)",
+          backgroundImage: "radial-gradient(rgba(52,173,112,0.045) 1px, transparent 1px)",
           backgroundSize: "32px 32px",
         }}
       />
@@ -75,7 +80,7 @@ export default function HeroSection({ onStart, onLabs }) {
           >
             <span className="hero-dot-pulse h-1.5 w-1.5 bg-emerald-400" />
             <span className="font-mono text-[10px] uppercase tracking-[0.14em] text-emerald-300">
-              In-Browser Compiler · Socratic Method · Zero-Hallucination
+              Four interactive labs · Runs in the browser · No signup
             </span>
           </motion.div>
 
@@ -92,32 +97,33 @@ export default function HeroSection({ onStart, onLabs }) {
             variants={fadeUp}
             className="mt-6 max-w-lg text-base leading-relaxed text-slate-400 md:text-lg"
           >
-            FlowLogic is a visual, in-browser PyTorch dimension compiler and Socratic ML
-            tutor. Catch tensor shape mismatches before the stack trace does, decode the
-            notation, and build the intuition that survives production — not just the exam.
+            subgrad is four interactive labs for the parts of ML that never click from
+            reading — gradient descent, backprop, outliers, tensor shapes. Break them on
+            purpose and watch what actually happens. The maths is computed by SymPy, not
+            guessed by a model.
           </motion.p>
 
           <motion.div variants={fadeUp} className="mt-8 flex flex-wrap items-center gap-3">
             <motion.button
               type="button"
-              onClick={onStart}
-              whileHover={{ y: -2, boxShadow: "0 0 22px rgba(16,185,129,0.45)" }}
+              onClick={onLabs ?? onStart}
+              whileHover={{ y: -2, boxShadow: "0 0 22px rgba(52,173,112,0.45)" }}
               whileTap={{ scale: 0.97 }}
               transition={{ duration: 0.2, ease: EASE }}
               className="group inline-flex items-center gap-2 bg-emerald-500 px-6 py-3 font-mono text-sm font-semibold uppercase tracking-wide text-slate-950 hover:bg-emerald-400"
             >
-              Start a Session
+              Open the Labs
               <span className="transition-transform group-hover:translate-x-0.5">→</span>
             </motion.button>
             <motion.button
               type="button"
-              onClick={onLabs ?? onStart}
-              whileHover={{ y: -2, borderColor: "rgb(100,116,139)" }}
+              onClick={onStart}
+              whileHover={{ y: -2, borderColor: "rgb(90,83,80)" }}
               whileTap={{ scale: 0.97 }}
               transition={{ duration: 0.2, ease: EASE }}
               className="inline-flex items-center border border-slate-700 bg-transparent px-6 py-3 font-mono text-sm uppercase tracking-wide text-slate-300 hover:text-slate-100"
             >
-              Open the Labs
+              Start a Session
             </motion.button>
           </motion.div>
 
@@ -125,9 +131,12 @@ export default function HeroSection({ onStart, onLabs }) {
             variants={container(0.08, 0.1)}
             className="mt-7 flex flex-wrap items-center gap-x-6 gap-y-2"
           >
-            <ProofBadge>AST Shape Parser</ProofBadge>
-            <ProofBadge>Notation Bridge</ProofBadge>
-            <ProofBadge>Auto-Heal Patcher</ProofBadge>
+            {/* Honest labels. It's a regex-based shape checker, not an AST parser —
+                see pseudoCompilerStore.js. Overclaiming here is exactly the sort of
+                thing HN checks and dunks on. */}
+            <ProofBadge>Static shape checker</ProofBadge>
+            <ProofBadge>Notation decoder</ProofBadge>
+            <ProofBadge>SymPy-backed maths</ProofBadge>
           </motion.div>
         </motion.div>
 

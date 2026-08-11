@@ -82,9 +82,9 @@ const PILLARS = [
   {
     n: "01",
     kicker: "The Engine",
-    title: "Real-time AST Parsing",
+    title: "Shapes checked as you type",
     body:
-      "A live shape parser walks your layer definitions as you type, capturing every dimension before the runtime ever gets a chance to throw.",
+      "Paste a model definition and it walks the layers, propagating dimensions to find where a shape first stops matching — not where the runtime finally throws. Straight-line MLP and conv stacks; it gives up on dynamic control flow.",
     Visual: ASTVisual,
   },
   {
@@ -97,10 +97,10 @@ const PILLARS = [
   },
   {
     n: "03",
-    kicker: "The Surgeon",
-    title: "Auto-Heal Patching",
+    kicker: "The Fix",
+    title: "One-click shape fix",
     body:
-      "Don't just get an explanation. Let FlowLogic surgically splice the correct dimensions straight into your file with a one-click diff.",
+      "Once the mismatch is located, patch the correct dimension straight into the code and watch the shape graph go green — without leaving the editor.",
     Visual: PatcherVisual,
   },
 ];
@@ -145,11 +145,11 @@ function TiltCard({ children }) {
           className="absolute inset-0"
           style={{
             background:
-              "radial-gradient(220px circle at var(--sheen-x, 50%) 0%, rgba(16,185,129,0.10), transparent 70%)",
+              "radial-gradient(220px circle at var(--sheen-x, 50%) 0%, rgba(52,173,112,0.10), transparent 70%)",
           }}
         />
       </motion.div>
-      <div className="relative flex h-full flex-col border border-slate-800 bg-slate-900/40 transition-colors duration-300 group-hover:border-emerald-700/50 group-hover:shadow-[0_0_30px_-12px_rgba(16,185,129,0.45)]">
+      <div className="relative flex h-full flex-col border border-slate-800 bg-slate-900/40 transition-colors duration-300 group-hover:border-emerald-700/50 group-hover:shadow-[0_0_30px_-12px_rgba(52,173,112,0.45)]">
         {children}
       </div>
     </motion.div>
@@ -163,7 +163,7 @@ export default function FeaturesSection() {
       <div
         className="pointer-events-none absolute inset-0"
         style={{
-          backgroundImage: "radial-gradient(rgba(16,185,129,0.04) 1px, transparent 1px)",
+          backgroundImage: "radial-gradient(rgba(52,173,112,0.04) 1px, transparent 1px)",
           backgroundSize: "32px 32px",
         }}
       />

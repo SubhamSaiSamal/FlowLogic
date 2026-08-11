@@ -34,9 +34,9 @@ export default function LandingNav({ onStart }) {
             λ
           </div>
           <div className="text-left leading-none">
-            <div className="font-mono text-sm font-semibold text-slate-100">FlowLogic</div>
+            <div className="font-mono text-sm font-semibold text-slate-100">subgrad</div>
             <div className="mt-0.5 font-mono text-[9px] uppercase tracking-[0.2em] text-slate-600">
-              Dimension Compiler
+              Interactive ML Labs
             </div>
           </div>
         </button>
@@ -62,12 +62,12 @@ export default function LandingNav({ onStart }) {
           <motion.button
             type="button"
             onClick={onStart}
-            whileHover={{ scale: 1.04, boxShadow: "0 0 14px rgba(16,185,129,0.35)" }}
+            whileHover={{ scale: 1.04, boxShadow: "0 0 14px rgba(52,173,112,0.35)" }}
             whileTap={{ scale: 0.96 }}
             transition={{ duration: 0.2 }}
             className="group inline-flex items-center gap-2 bg-emerald-500 px-4 py-2 font-mono text-xs font-semibold uppercase tracking-wide text-slate-950 hover:bg-emerald-400"
           >
-            Start Session
+            Open the Labs
             <span className="transition-transform group-hover:translate-x-0.5">→</span>
           </motion.button>
         </div>

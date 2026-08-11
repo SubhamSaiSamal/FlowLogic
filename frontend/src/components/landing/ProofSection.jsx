@@ -21,7 +21,7 @@ export default function ProofSection() {
             <span className="text-emerald-400">Backed by the Hack Club open-source community.</span>
           </h2>
           <p className="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-slate-400">
-            FlowLogic was forged as part of{" "}
+            subgrad was forged as part of{" "}
             <span className="text-slate-200">Hack Club Horizon</span> — by people who actually had
             to debug the size-mismatch at 3am, not a committee writing a roadmap. Developers trust
             tools made by builders who felt the same pain.

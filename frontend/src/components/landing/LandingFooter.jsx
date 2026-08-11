@@ -7,7 +7,7 @@ export default function LandingFooter() {
             λ
           </div>
           <span className="font-mono text-xs text-slate-500">
-            FlowLogic — prove the math, don&apos;t memorize it.
+            subgrad — prove the math, don&apos;t memorize it.
           </span>
         </div>
         <div className="font-mono text-[11px] text-slate-600">

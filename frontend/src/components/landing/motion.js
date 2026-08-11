@@ -1,4 +1,4 @@
-/* Shared framer-motion variants & easing for the FlowLogic landing.
+/* Shared framer-motion variants & easing for the subgrad landing.
    Keeping these in one place so every section choreographs the same
    way — expo-out easing, consistent fade-up distance and stagger. */
 

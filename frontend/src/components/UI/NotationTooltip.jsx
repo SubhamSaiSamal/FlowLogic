@@ -37,10 +37,10 @@ export function NotationTooltip({ termKey, children }) {
         {/* Pointer Triangle */}
         <div className="absolute top-full left-1/2 -translate-x-1/2 -mt-px 
                       border-8 border-transparent border-t-slate-900/80 
-                      drop-shadow-[0_1px_1px_rgba(16,185,129,0.3)]"></div>
+                      drop-shadow-[0_1px_1px_rgba(52,173,112,0.3)]"></div>
 
         <div className="flex items-center gap-3 mb-2">
-          <div className="flex items-center justify-center w-10 h-10 rounded-lg bg-emerald-500/20 border border-emerald-500/50 text-emerald-400 text-xl font-bold font-serif shadow-[0_0_10px_rgba(16,185,129,0.2)]">
+          <div className="flex items-center justify-center w-10 h-10 rounded-lg bg-emerald-500/20 border border-emerald-500/50 text-emerald-400 text-xl font-bold font-serif shadow-[0_0_10px_rgba(52,173,112,0.2)]">
             {data.symbol}
           </div>
           <h4 className="text-emerald-50 text-base font-semibold tracking-wide m-0">

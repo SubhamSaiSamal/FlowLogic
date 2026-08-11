@@ -19,14 +19,14 @@ export default function FinalCTASection({ onStart }) {
           whileInView={{ opacity: 1, y: 0, scale: 1 }}
           viewport={viewportOnce}
           transition={{ duration: 0.7, ease: EASE }}
-          className="overflow-hidden rounded-lg border border-emerald-800/40 bg-slate-900 shadow-[0_0_60px_-15px_rgba(16,185,129,0.35)] ring-1 ring-emerald-500/10"
+          className="overflow-hidden rounded-lg border border-emerald-800/40 bg-slate-900 shadow-[0_0_60px_-15px_rgba(52,173,112,0.35)] ring-1 ring-emerald-500/10"
         >
           {/* terminal chrome */}
           <div className="flex items-center gap-2 border-b border-slate-800 bg-slate-950/60 px-4 py-2.5">
             <span className="h-2.5 w-2.5 rounded-full bg-slate-700" />
             <span className="h-2.5 w-2.5 rounded-full bg-slate-700" />
             <span className="h-2.5 w-2.5 rounded-full bg-emerald-500/70" />
-            <span className="ml-2 font-mono text-[11px] text-slate-500">flowlogic — session</span>
+            <span className="ml-2 font-mono text-[11px] text-slate-500">subgrad — session</span>
           </div>
 
           {/* terminal body */}
@@ -39,7 +39,7 @@ export default function FinalCTASection({ onStart }) {
               className="font-mono text-sm leading-relaxed"
             >
               <motion.div variants={fadeUp} className="text-slate-500">
-                <span className="text-emerald-400">$</span> flowlogic init
+                <span className="text-emerald-400">$</span> subgrad init
               </motion.div>
               <motion.div variants={fadeUp} className="mt-1 text-slate-400">
                 <span className="text-slate-600">&gt;</span> checking architecture...{" "}
@@ -73,13 +73,13 @@ export default function FinalCTASection({ onStart }) {
               initial={{ opacity: 0, y: 12 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={viewportOnce}
-              whileHover={{ scale: 1.03, boxShadow: "0 0 32px rgba(16,185,129,0.65)" }}
+              whileHover={{ scale: 1.03, boxShadow: "0 0 32px rgba(52,173,112,0.65)" }}
               whileTap={{ scale: 0.97 }}
               animate={{
                 boxShadow: [
-                  "0 0 12px rgba(16,185,129,0.3)",
-                  "0 0 26px rgba(16,185,129,0.6)",
-                  "0 0 12px rgba(16,185,129,0.3)",
+                  "0 0 12px rgba(52,173,112,0.3)",
+                  "0 0 26px rgba(52,173,112,0.6)",
+                  "0 0 12px rgba(52,173,112,0.3)",
                 ],
               }}
               transition={{

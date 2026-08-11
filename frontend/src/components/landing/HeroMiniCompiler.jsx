@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { EASE } from "./motion";
 
 /* ──────────────────────────────────────────────────────────
-   FlowLogic — Hero "Mini-Compiler" (interactive, framer-motion)
+   subgrad — Hero shape checker (interactive, framer-motion)
    Two nn.Linear layers wired together. layer1's output (64) feeds
    layer2's input — and when those don't match, the edge glows red
    and the compiler throws. The visitor heals it: click the
@@ -27,7 +27,7 @@ function LayerNode({ name, inDim, outDim, portGlow, highlightIn }) {
           portGlow === "error"
             ? "rgba(239,68,68,0.4)"
             : portGlow === "ok"
-            ? "rgba(16,185,129,0.4)"
+            ? "rgba(52,173,112,0.4)"
             : "rgb(30,41,59)",
       }}
       transition={{ duration: 0.35 }}
@@ -52,14 +52,14 @@ function LayerNode({ name, inDim, outDim, portGlow, highlightIn }) {
                 scale: 1,
                 borderColor: "#6ee7b7",
                 backgroundColor: "#34d399",
-                boxShadow: "0 0 10px 2px rgba(16,185,129,0.7)",
+                boxShadow: "0 0 10px 2px rgba(52,173,112,0.7)",
               }
             : { scale: 1, borderColor: "#475569", backgroundColor: "#334155" }
         }
         transition={portGlow === "error" ? { duration: 1.2, repeat: Infinity } : { duration: 0.3 }}
       />
       {/* output port */}
-      <span className="absolute right-0 top-1/2 h-2.5 w-2.5 -translate-y-1/2 translate-x-[5px] rounded-full border border-emerald-300 bg-emerald-400 shadow-[0_0_8px_1px_rgba(16,185,129,0.55)]" />
+      <span className="absolute right-0 top-1/2 h-2.5 w-2.5 -translate-y-1/2 translate-x-[5px] rounded-full border border-emerald-300 bg-emerald-400 shadow-[0_0_8px_1px_rgba(52,173,112,0.55)]" />
 
       <div className="border-b border-slate-800 px-3 py-1.5 font-mono text-[9px] uppercase tracking-wider text-slate-500">
         {name} · nn.Linear
@@ -111,9 +111,9 @@ export default function HeroMiniCompiler() {
     <motion.div
       className="overflow-hidden rounded-lg border bg-slate-900 shadow-2xl ring-1 ring-white/5"
       animate={{
-        borderColor: valid ? "rgba(16,185,129,0.35)" : "rgb(30,41,59)",
+        borderColor: valid ? "rgba(52,173,112,0.35)" : "rgb(30,41,59)",
         boxShadow: valid
-          ? "0 25px 50px -12px rgba(0,0,0,0.5), 0 0 40px -12px rgba(16,185,129,0.4)"
+          ? "0 25px 50px -12px rgba(0,0,0,0.5), 0 0 40px -12px rgba(52,173,112,0.4)"
           : "0 25px 50px -12px rgba(0,0,0,0.5)",
       }}
       transition={{ duration: 0.4 }}
@@ -124,7 +124,7 @@ export default function HeroMiniCompiler() {
           <span className="flex h-4 w-4 items-center justify-center border border-slate-700 font-mono text-[9px] font-bold leading-none text-emerald-400">
             λ
           </span>
-          <span className="font-mono text-[10px] text-slate-500">flowlogic // compiler</span>
+          <span className="font-mono text-[10px] text-slate-500">subgrad // shape checker</span>
         </div>
         <AnimatePresence mode="wait" initial={false}>
           <motion.span
@@ -169,7 +169,7 @@ export default function HeroMiniCompiler() {
               whileHover={{ scale: 1.08 }}
               whileTap={{ scale: 0.92 }}
               animate={{
-                borderColor: valid ? "rgba(16,185,129,0.7)" : "rgba(239,68,68,0.7)",
+                borderColor: valid ? "rgba(52,173,112,0.7)" : "rgba(239,68,68,0.7)",
                 color: valid ? "#6ee7b7" : "#fca5a5",
                 backgroundColor: valid ? "rgba(6,78,59,0.5)" : "rgba(69,10,10,0.5)",
               }}
@@ -253,7 +253,7 @@ export default function HeroMiniCompiler() {
             {/* shape badge riding the edge */}
             <motion.span
               animate={{
-                borderColor: valid ? "rgba(16,185,129,0.6)" : "rgba(127,29,29,0.7)",
+                borderColor: valid ? "rgba(52,173,112,0.6)" : "rgba(127,29,29,0.7)",
                 color: valid ? "#6ee7b7" : "#fca5a5",
                 boxShadow: valid ? "0 0 0 rgba(0,0,0,0)" : "0 0 12px rgba(239,68,68,0.35)",
               }}
@@ -305,12 +305,12 @@ export default function HeroMiniCompiler() {
           whileTap={{ scale: 0.98 }}
           animate={
             valid
-              ? { boxShadow: "0 0 0px rgba(16,185,129,0)" }
+              ? { boxShadow: "0 0 0px rgba(52,173,112,0)" }
               : {
                   boxShadow: [
-                    "0 0 0px rgba(16,185,129,0)",
-                    "0 0 18px rgba(16,185,129,0.5)",
-                    "0 0 0px rgba(16,185,129,0)",
+                    "0 0 0px rgba(52,173,112,0)",
+                    "0 0 18px rgba(52,173,112,0.5)",
+                    "0 0 0px rgba(52,173,112,0)",
                   ],
                 }
           }
@@ -321,7 +321,7 @@ export default function HeroMiniCompiler() {
               : "border-emerald-500 bg-emerald-500 text-slate-950 hover:bg-emerald-400"
           }`}
         >
-          {valid ? "↺ Reset the bug" : "⚡ Auto-Heal the shape"}
+          {valid ? "↺ Reset the bug" : "Fix the shape"}
         </motion.button>
       </div>
     </motion.div>

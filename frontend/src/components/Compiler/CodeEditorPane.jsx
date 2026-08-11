@@ -50,7 +50,7 @@ export default function CodeEditorPane() {
           </div>
           <span className="text-xs font-mono text-slate-500 ml-2">model.py</span>
         </div>
-        <span className="text-xs font-mono text-slate-600">pseudo-compiler-lite v1.0</span>
+        <span className="text-xs font-mono text-slate-600">shape-checker v1.0</span>
       </div>
 
       {/* Diagnostics Bar */}
