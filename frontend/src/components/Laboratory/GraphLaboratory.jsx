@@ -1,4 +1,3 @@
-import React from 'react';
 import { ReactFlow, Background, Controls } from '@xyflow/react';
 import '@xyflow/react/dist/style.css';
 import { useSharedOptimizerStore } from '../../store/optimizerStore';

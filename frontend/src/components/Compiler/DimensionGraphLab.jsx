@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react';
+import { useMemo } from 'react';
 import { usePseudoCompilerStore } from '../../store/pseudoCompilerStore';
 import DebugAction from './DebugAction';
 
@@ -176,15 +176,6 @@ function EdgeConnector({ x1, y1, x2, y2, error }) {
 export default function DimensionGraphLab() {
   const parsedLayers = usePseudoCompilerStore(state => state.parsedLayers);
   const validationErrors = usePseudoCompilerStore(state => state.validationErrors);
-
-  // Build a fast lookup: "sourceId->targetId" -> error object
-  const errorMap = useMemo(() => {
-    const map = {};
-    validationErrors.forEach(err => {
-      map[`${err.sourceId}->${err.targetId}`] = err;
-    });
-    return map;
-  }, [validationErrors]);
 
   // Pre-compute layout positions for each node
   const nodePositions = useMemo(() => {

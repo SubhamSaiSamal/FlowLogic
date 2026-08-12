@@ -1,5 +1,5 @@
 export function exportSessionToMarkdown(messages, storeState) {
-  const { currentSurface, coordinates, epoch } = storeState;
+  const { coordinates } = storeState;
   
   // Count verified tool invocations
   const verifiedSteps = messages.filter(msg => msg.toolUsed).length;

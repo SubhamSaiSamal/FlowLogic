@@ -1,4 +1,3 @@
-import React from 'react';
 import { supabase } from '../lib/supabaseClient';
 import { useSharedOptimizerStore } from '../store/optimizerStore';
 

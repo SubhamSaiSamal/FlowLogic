@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState, useCallback } from 'react';
+import { useEffect, useRef, useState, useCallback } from 'react';
 import { useDataSandboxStore } from '../../store/dataSandboxStore';
 
 export default function DataPoisoningLab() {

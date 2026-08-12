@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef, useCallback } from 'react';
+import { useState, useEffect, useRef, useCallback } from 'react';
 import { usePseudoCompilerStore } from '../../store/pseudoCompilerStore';
 
 export default function CodeEditorPane() {
@@ -11,10 +11,15 @@ export default function CodeEditorPane() {
   const [localCode, setLocalCode] = useState(rawCode);
   const debounceRef = useRef(null);
 
-  // Sync local state if the store code changes externally (e.g., from an LLM action)
-  useEffect(() => {
+  // Sync local state if the store code changes externally (e.g. an LLM action
+  // patching a shape). Adjusted during render rather than in an effect: doing
+  // it in an effect meant the textarea painted once with the stale buffer
+  // before snapping to the new code.
+  const [prevRawCode, setPrevRawCode] = useState(rawCode);
+  if (rawCode !== prevRawCode) {
+    setPrevRawCode(rawCode);
     setLocalCode(rawCode);
-  }, [rawCode]);
+  }
 
   const handleChange = useCallback((e) => {
     const newCode = e.target.value;

@@ -20,20 +20,19 @@ const LAB_VIEWS = ["surface", "graph", "sandbox", "compiler"];
 // Custom CSS Transition Wrapper for Smooth Layout Morphing
 function LabTransitionWrapper({ activeView }) {
   const [displayView, setDisplayView] = useState(activeView);
-  const [isTransitioning, setIsTransitioning] = useState(false);
+
+  // Derived, not stored. The old version kept isTransitioning in state and set
+  // it synchronously inside the effect, which cost an extra render pass on
+  // every lab switch. "Mid-transition" is simply the window where the
+  // requested view hasn't caught up to the displayed one, so it can be
+  // computed instead — one less state variable and no cascading render.
+  const isTransitioning = activeView !== displayView;
 
   useEffect(() => {
-    if (activeView !== displayView) {
-      // Trigger fade out
-      setIsTransitioning(true);
-      // Wait for fade out, then swap components and fade in
-      const timer = setTimeout(() => {
-        setDisplayView(activeView);
-        // A tiny delay before removing the transition class to ensure DOM has updated
-        requestAnimationFrame(() => setIsTransitioning(false));
-      }, 300);
-      return () => clearTimeout(timer);
-    }
+    if (activeView === displayView) return;
+    // Hold the old lab mounted through the fade-out, then swap.
+    const timer = setTimeout(() => setDisplayView(activeView), 300);
+    return () => clearTimeout(timer);
   }, [activeView, displayView]);
 
   return (
@@ -168,7 +167,7 @@ export default function Workspace() {
     } finally {
       setIsConnecting(false);
     }
-  }, []);
+  }, [createNewSession]);
 
   const handleSessionUpdate = useCallback((newHintLevel, newGoal) => {
     setHintLevel(newHintLevel ?? 1);
@@ -338,7 +337,6 @@ export default function Workspace() {
           }`}>
             <ChatContainer
               sessionId={sessionId}
-              initialMessages={[]}
               onSessionUpdate={handleSessionUpdate}
               isConnecting={isConnecting}
               topic={currentTopic}

@@ -7,7 +7,7 @@ import { SURFACES } from "../constants/surfaces";
 import { exportSessionToMarkdown } from "../utils/exportSession";
 import * as db from "../lib/db";
 
-export default function ChatContainer({ sessionId, initialMessages, onSessionUpdate, isConnecting, topic }) {
+export default function ChatContainer({ sessionId, onSessionUpdate, isConnecting, topic }) {
   const messages = useSharedOptimizerStore(state => state.messages);
   const setMessages = useSharedOptimizerStore(state => state.setMessages);
   const updateSessionTitle = useSharedOptimizerStore(state => state.updateSessionTitle);
@@ -27,10 +27,15 @@ export default function ChatContainer({ sessionId, initialMessages, onSessionUpd
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [messages, isLoading]);
 
-  // Error reset on new session ID
-  useEffect(() => {
+  // Error reset on new session ID. Adjusted during render rather than in an
+  // effect — setting state synchronously in an effect makes React throw the
+  // first render away and re-run, so the stale error was briefly painted
+  // before being cleared.
+  const [prevSessionId, setPrevSessionId] = useState(sessionId);
+  if (sessionId !== prevSessionId) {
+    setPrevSessionId(sessionId);
     setError(null);
-  }, [sessionId]);
+  }
 
   const clearSession = useCallback(() => {
     if (window.confirm("Are you sure you want to clear the session history?")) {
@@ -67,8 +72,12 @@ export default function ChatContainer({ sessionId, initialMessages, onSessionUpd
       return;
     }
 
-    // If this is the first message in the session, generate a title automatically
-    if (messages.length === 0) {
+    // If this is the first message in the session, generate a title automatically.
+    // Read the length off the store at call time rather than closing over
+    // `messages`: the callback deliberately doesn't depend on the array (that
+    // would rebuild it on every incoming message), so a captured `messages`
+    // would go stale and re-fire title generation on later sends.
+    if (useSharedOptimizerStore.getState().messages.length === 0) {
       generateSessionTitle(text).then(title => {
         updateSessionTitle(title);
       }).catch(err => {
@@ -130,7 +139,7 @@ export default function ChatContainer({ sessionId, initialMessages, onSessionUpd
     } finally {
       setIsLoading(false);
     }
-  }, [sessionId, isLoading, onSessionUpdate, simulateStepDown, currentSurfaceId, user, recordVerifiedStepLocal, cloudSessionId, topic]);
+  }, [sessionId, isLoading, onSessionUpdate, simulateStepDown, currentSurfaceId, user, recordVerifiedStepLocal, cloudSessionId, topic, setMessages, triggerBackpropAnimation, updateSessionTitle]);
 
   return (
     <div className="flex flex-col flex-1 h-full relative bg-slate-950">

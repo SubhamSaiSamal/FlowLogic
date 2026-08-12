@@ -1,4 +1,3 @@
-import React from 'react';
 
 const MATH_SYMBOLS = [
   { label: '∫',   latex: '\\int',          id: 'math-btn-integral' },

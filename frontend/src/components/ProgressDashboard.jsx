@@ -17,18 +17,21 @@ function masteryColor(m) {
 export default function ProgressDashboard({ onClose }) {
   const user = useSharedOptimizerStore((state) => state.user);
   const [rows, setRows] = useState([]);
-  const [loading, setLoading] = useState(true);
+  const [fetched, setFetched] = useState(false);
+
+  // Derived rather than stored. Previously the signed-out branch called
+  // setLoading(false) synchronously inside the effect, which triggered a
+  // cascading render on open. There's nothing to wait for without a user, so
+  // "loading" is just: we have a user and their rows haven't landed yet.
+  const loading = !!user?.id && !fetched;
 
   useEffect(() => {
-    if (!user?.id) {
-      setLoading(false);
-      return;
-    }
+    if (!user?.id) return;
     let cancelled = false;
     listProgress(user.id).then((data) => {
       if (!cancelled) {
         setRows(data);
-        setLoading(false);
+        setFetched(true);
       }
     });
     return () => { cancelled = true; };

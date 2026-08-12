@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect, useCallback } from 'react';
+import { useState, useRef, useEffect, useCallback } from 'react';
 import { useChatStore } from '../../store/chatStore';
 import NotationDecoder from './NotationDecoder';
 

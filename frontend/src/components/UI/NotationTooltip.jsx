@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { notationDictionary } from '../../lib/notationDictionary';
 
 export function NotationTooltip({ termKey, children }) {

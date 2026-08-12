@@ -25,10 +25,11 @@ const Sidebar = ({ isConnecting, hintLevel, onNewSession, onSelectSession, onOpe
   const [cloudSessions, setCloudSessions] = useState(null);
 
   const refreshCloudSessions = useCallback(() => {
-    if (!user?.id) {
-      setCloudSessions(null);
-      return;
-    }
+    // Bail without touching state when signed out. Clearing it here ran
+    // synchronously inside the effect below and forced an extra render on
+    // every mount; `showCloud` already gates on the user, so signed-out
+    // visitors never see a stale list regardless.
+    if (!user?.id) return;
     listSessions(user.id).then(setCloudSessions);
   }, [user]);
 

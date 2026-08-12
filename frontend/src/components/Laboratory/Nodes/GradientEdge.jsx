@@ -1,4 +1,3 @@
-import React from 'react';
 import { BaseEdge, EdgeLabelRenderer, getBezierPath } from '@xyflow/react';
 
 export default function GradientEdge({

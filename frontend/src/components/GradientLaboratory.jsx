@@ -1,6 +1,6 @@
-import React, { useState, useMemo, useRef, useEffect, useCallback } from 'react';
-import { Canvas, useFrame } from '@react-three/fiber';
-import { OrbitControls, Line, Html, Grid, Sparkles } from '@react-three/drei';
+import { useState, useMemo, useRef, useEffect, useCallback } from 'react';
+import { Canvas } from '@react-three/fiber';
+import { OrbitControls, Line, Grid, Sparkles } from '@react-three/drei';
 import * as THREE from 'three';
 
 import { SURFACES } from '../constants/surfaces';

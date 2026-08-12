@@ -1,4 +1,3 @@
-import React from 'react';
 import CodeEditorPane from './CodeEditorPane';
 import DimensionGraphLab from './DimensionGraphLab';
 

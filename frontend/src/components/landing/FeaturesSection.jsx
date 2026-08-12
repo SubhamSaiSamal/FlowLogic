@@ -1,5 +1,5 @@
 import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
-import { container, fadeUp, EASE, viewportOnce } from "./motion";
+import { container, fadeUp, viewportOnce } from "./motion";
 
 /* ── Pillar 1 · The Engine: regex/AST catching a dimension shape ── */
 function ASTVisual() {

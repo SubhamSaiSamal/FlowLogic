@@ -1,4 +1,3 @@
-import React from 'react';
 import { usePseudoCompilerStore } from '../../store/pseudoCompilerStore';
 import { useChatStore } from '../../store/chatStore';
 
