@@ -1,5 +1,5 @@
 import { motion, useMotionValue, useSpring } from "framer-motion";
-import HeroMiniCompiler from "./landing/HeroMiniCompiler";
+import HeroLossSurface from "./landing/HeroLossSurface";
 import { container, fadeUp, EASE } from "./landing/motion";
 
 /* ──────────────────────────────────────────────────────────
@@ -140,14 +140,16 @@ export default function HeroSection({ onStart, onLabs }) {
           </motion.div>
         </motion.div>
 
-        {/* Right — interactive Mini-Compiler */}
+        {/* Right — the live loss surface. No card chrome and it bleeds past
+            the grid column on wide screens, so the hero reads as a window
+            into the product rather than two boxes sitting side by side. */}
         <motion.div
-          className="w-full"
-          initial={{ opacity: 0, y: 30, scale: 0.97 }}
-          animate={{ opacity: 1, y: 0, scale: 1 }}
-          transition={{ duration: 0.8, ease: EASE, delay: 0.25 }}
+          className="w-full lg:-mr-24 xl:-mr-40"
+          initial={{ opacity: 0, scale: 0.96 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 1, ease: EASE, delay: 0.2 }}
         >
-          <HeroMiniCompiler />
+          <HeroLossSurface />
         </motion.div>
       </div>
     </section>
