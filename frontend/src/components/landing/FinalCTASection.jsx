@@ -4,18 +4,22 @@ import { container, fadeUp, EASE, viewportOnce } from "./motion";
 export default function FinalCTASection({ onStart }) {
   return (
     <section className="relative scroll-mt-16 border-t border-slate-900 bg-slate-950 py-28">
+      {/* emerald glow behind the terminal */}
+      <motion.div
+        initial={{ opacity: 0, scale: 0.8 }}
+        whileInView={{ opacity: 1, scale: 1 }}
+        viewport={viewportOnce}
+        transition={{ duration: 1, ease: EASE }}
+        className="pointer-events-none absolute left-1/2 top-1/2 h-[360px] w-[640px] max-w-[90vw] -translate-x-1/2 -translate-y-1/2 rounded-full bg-emerald-500/[0.07] blur-[120px]"
+      />
+
       <div className="relative mx-auto max-w-2xl px-6">
         <motion.div
           initial={{ opacity: 0, y: 30, scale: 0.97 }}
           whileInView={{ opacity: 1, y: 0, scale: 1 }}
           viewport={viewportOnce}
           transition={{ duration: 0.7, ease: EASE }}
-          /* panel-dark: a terminal rendered on paper looks wrong. Keeping
-             it dark makes it read as a real shell and gives the light
-             page a deliberate focal point. The dark-mode green glow it
-             used to sit on became a grey smudge on paper, so it's gone —
-             a plain drop shadow does the lifting now. */
-          className="panel-dark overflow-hidden rounded-lg border border-slate-800 bg-slate-900 shadow-[0_28px_60px_-24px_rgba(27,23,20,0.5)]"
+          className="overflow-hidden rounded-lg border border-emerald-800/40 bg-slate-900 shadow-[0_0_60px_-15px_rgba(52,173,112,0.35)] ring-1 ring-emerald-500/10"
         >
           {/* terminal chrome */}
           <div className="flex items-center gap-2 border-b border-slate-800 bg-slate-950/60 px-4 py-2.5">
