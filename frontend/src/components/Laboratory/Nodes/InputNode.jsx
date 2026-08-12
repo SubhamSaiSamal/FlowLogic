@@ -14,7 +14,7 @@ const InputNode = memo(({ data }) => {
   const isEditable = storeKey != null;
 
   return (
-    <div className={`px-3 py-2 shadow-md rounded-md bg-slate-900/80 backdrop-blur border-2 border-slate-600 transition-all min-w-[130px] ${isBackpropActive && data.grad ? 'shadow-[0_0_12px_rgba(56,189,248,0.25)]' : ''}`}>
+    <div className={`px-3 py-2 shadow-md rounded-md bg-slate-900/80 backdrop-blur border-2 border-slate-600 transition-all min-w-[130px] max-w-[180px] overflow-hidden ${isBackpropActive && data.grad ? 'shadow-[0_0_12px_rgba(56,189,248,0.25)]' : ''}`}>
       <Handle type="target" position={Position.Left} className="w-2 h-2 !bg-slate-400" />
 
       <div className="flex flex-col gap-1">
@@ -33,19 +33,28 @@ const InputNode = memo(({ data }) => {
             className="nodrag w-full bg-slate-800 border border-slate-600 text-slate-100 font-mono text-sm px-2 py-1 rounded focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500/30 transition-colors"
           />
         ) : (
-          <div className="text-sm font-mono text-slate-100 px-2 py-1 bg-slate-800 rounded border border-slate-700">
+          // Pred f(x) is this branch — under 'exploding' pathology mode it's
+          // a derived value that can print as a 20+ char e+NNN string with
+          // nowhere to wrap. Truncate it, full value on hover.
+          <div
+            className="truncate text-sm font-mono text-slate-100 px-2 py-1 bg-slate-800 rounded border border-slate-700"
+            title={String(data.value)}
+          >
             {data.value}
           </div>
         )}
 
         {/* Gradient display */}
         {isBackpropActive && data.grad != null && (
-          <div className={`text-[10px] font-mono mt-0.5 pt-1 border-t border-slate-700 ${
-            data.pathologyMode === 'vanishing' ? 'text-slate-500' :
-            data.pathologyMode === 'exploding' ? 'text-red-400' :
-            data.pathologyMode === 'chaotic'   ? 'text-yellow-400' :
-            'text-cyan-400'
-          }`}>
+          <div
+            className={`truncate text-[10px] font-mono mt-0.5 pt-1 border-t border-slate-700 ${
+              data.pathologyMode === 'vanishing' ? 'text-slate-500' :
+              data.pathologyMode === 'exploding' ? 'text-red-400' :
+              data.pathologyMode === 'chaotic'   ? 'text-yellow-400' :
+              'text-cyan-400'
+            }`}
+            title={`∂L/∂pred = ${data.grad}`}
+          >
             ∂L/∂pred = {data.grad}
           </div>
         )}
